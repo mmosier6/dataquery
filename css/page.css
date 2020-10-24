@@ -1,0 +1,64 @@
+body {
+	background-image: (url(
+		/new/image/bg_fade.png));
+	background-position-x: center;
+	background-position-y: top;
+	background-size: initial;
+	background-repeat-x: repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: scroll;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(51, 102, 153) !important;
+}
+#mainContainer{
+	width: 1000px !important;
+	margin: 2px 2px;
+	float: none !important;
+	overflow: hidden;
+}
+
+#go-btn{
+	color: white !important;
+	background: #0057A5 !important;
+	margin: 4px;
+}
+
+#date-pickers i{
+	cursor: pointer;
+}
+
+#results_table {
+	width:100%;
+	border-collapse:collapse;
+}
+
+#total_table {
+	margin-left:auto;
+	margin-right:auto;
+	width: 350px;
+	border-collapse:collapse;
+	border: 1px solid gray;
+}
+
+#consecutive_table {
+	margin-left:auto;
+	margin-right:auto;
+	width: 650px !important;
+	border-collapse:collapse;
+	border: 1px solid gray;
+}
+
+.hidden{
+	display: none;
+}
+
+#downloadJSON{
+	position:relative;
+	left:850px;
+}
+#downloadCSV{
+	position:relative;
+	top:5px;
+	left:855px;
+}

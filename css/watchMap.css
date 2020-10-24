@@ -1,0 +1,182 @@
+.map {
+        position:relative;
+        top:-1px;
+        z-index:0;
+        height: 600px;
+        width: 100%;
+        border:1px solid #000000; 
+        /*
+        border-radius:10px 10px 10px 10px; 
+        -webkit-border-radius:10px 10px 10px 10px;
+        -moz-border-bottom-radius:10px 10px 10px 10px;
+        */
+        float:left;
+      }
+#mapTitle {
+        position: absolute;
+        top:3px;
+        left:42%;
+        padding: 6px 8px;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.8);
+        border-radius: 3px;
+        border:solid 1px black;
+        text-align:center;
+        z-index: 1;
+}
+#info {
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        padding: 3px 4px;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.8);
+        border-radius: 3px;
+        border:solid 1px black;
+        text-align:center;
+        z-index: 1;
+}
+#mapLegend {
+        position: absolute;
+        padding: 3px 4px;
+        font-size: 12px;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.8);
+        border-radius: 3px;
+        border:solid 1px black;
+        text-align:center;
+        z-index: 1;
+}
+#mapSwitcher {
+        position: absolute;
+        left:2px;
+        bottom:2px;
+        width:170px;
+        padding: 6px 0px;
+        font: 15px/21px Arial, Helvetica, sans-serif;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.8);
+        border-radius: 3px;
+        border:solid 1px black;
+        z-index: 1;
+        text-align:left;
+}
+#showMapSwitcher {
+        position: absolute;
+        left:2px;
+        bottom:2px;
+        width: 20px;
+        padding: 2px 0px;
+        font: 10px/14px Arial, Helvetica, sans-serif;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.8);
+        border-radius: 2px;
+        text-align:center;
+        border:solid 1px black;
+        cursor: pointer;
+        z-index: 1;
+}
+#hideMapSwitcher {
+        padding: 3px 4px;
+        font: 10px/14px Arial, Helvetica, sans-serif;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.8);
+        border-radius: 2px;
+        width:20px;
+        position:relative;
+        top:-10px;
+        right:-1px;
+        text-align:center;
+        border:solid 1px black;
+        cursor: pointer;
+}
+#mapLegend i {
+        width:13px;
+        height:13px;
+        float:left;
+        margin-right:1px;
+        border:solid 1px black;
+
+}
+select {
+        text-align: center;
+        }
+option {
+        text-align: center;
+        }
+.ol-popup {
+        position: absolute;
+        background-color: white;
+        -webkit-filter: drop-shadow( 0 1px 4px rgba(0,0,0,0.2));
+        filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid #cccccc;
+        bottom: 12px;
+        left: -50px;
+}
+.ol-popup:after, .ol-popup:before {
+        top: 100%
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+}
+.ol-popup:after {
+        border-top-color: white;
+        border-width: 10px;
+        left: 48px;
+        margin-left: -10px;
+}
+.ol-popup:before {
+        border-top-color: #cccccc;
+        border-width: 11px;
+        left: 48px;
+        margin-left: 11px;
+}
+.ol-popup-closer {
+        text-decoration: none;
+        position: absolute;
+        top: 2px;
+        right: 8px;
+}       
+.ol-popup-closer:after {
+        font: 20px/22px Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        content: "X";
+        border: 1px solid #000000;
+}
+#export-png {
+        position:absolute;
+        bottom:2px;
+        left:30%;
+        border-color:#808080;
+        background: rgba(255,255,255,0.8);
+        z-index:1;
+        cursor: pointer;
+}
+#downloadGeoJSON{
+    position:absolute;
+    bottom:2px;
+    left:50%;
+    border-color:#808080;
+    background: rgba(255,255,255,0.8);
+    z-index:1;
+}
+#all { 
+        margin-left:3px;
+}
+#tornado { 
+        margin-left:3px;
+}
+#severe { 
+        margin-left:3px;
+}
