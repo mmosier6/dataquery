@@ -26,13 +26,21 @@
 #######################################################
 # Page Title
 $pageTitle = "Experimental Data Query Page";
-
+$serverDir = '/Users/mattmosier/Development/spc';
 $srcRoot = $_SERVER['DOCUMENT_ROOT'];
-if ($srcRoot == "") $srcRoot = getcwd()."/web/";
-$srcRoot = getcwd()."/web/";
 
-require("${srcRoot}/cwi/SPCCorporateWebImage-min.php");
-showHeader($pageTitle, $srcRoot);
+if ($srcRoot == ""){		//When running from command line
+	$srcRoot = $serverDir."/dataquery/web";
+}else{									//When running via a server
+	$srcRoot = $srcRoot."/dataquery/web";
+}
+
+$cwiDir = "./web/cwi";
+$newDir = "./web/new";
+
+//require("${srcRoot}/cwi/SPCCorporateWebImage-min.php");
+require("$cwiDir/SPCCorporateWebImage-min.php");
+showHeader($pageTitle, $srcRoot, $cwiDir, $newDir);
 ?>
 
 <!-- ############################################################################## -->
@@ -46,5 +54,5 @@ showHeader($pageTitle, $srcRoot);
 <!-- ############################################################################## -->
 
 <?php
-	showFooter($srcRoot);
+	showFooter($srcRoot, $cwiDir, $newDir);
 ?>

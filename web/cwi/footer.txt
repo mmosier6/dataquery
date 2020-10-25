@@ -4,18 +4,18 @@
    <div class="footer_container">
       <div id="footer">
         <?php
-          include($srcRoot."/new/footer/footer1.html");
+          include("<newDir>/footer/footer1.html");
         ?>
 
         <?php
-         $filename = $srcRoot.'/new/SPCWeatherHeadlines/headlines.php';
+         $filename = '<newDir>/SPCWeatherHeadlines/headlines.php';
          if (file_exists($filename)) {
           echo "Page last modified: " . date ("F d Y H:i T", filemtime($filename));
          }
         ?>
 
         <?php
-          include($srcRoot."/new/footer/footer2.html");
+          include("<newDir>/footer/footer2.html");
         ?>
       </div> <!--footer -->
    </div> <!--footer_container -->

@@ -21,10 +21,10 @@
     	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css" type="text/css">
 
   		<!-- watchMap CSS-->
-		<link rel= "stylesheet" href="/bentley/dev/page/dataquery/css/watchMap.css" text = "text/css" />
+		<link rel= "stylesheet" href="./css/watchMap.css" text = "text/css" />
 
   		<!-- General Page CSS-->
-		<link rel= "stylesheet" href="/bentley/dev/page/dataquery/css/page.css" text = "text/css" />
+		<link rel= "stylesheet" href="./css/page.css" text = "text/css" />
 
 		<!--Bootstrap-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -163,7 +163,7 @@
 		<input id="startDate" type="text" placeholder = "Start Date (mm-dd)">
 		<input id="endYear" type="text" placeholder = "End Date (mm-dd)">
 	</form>
-</div>	
+</div>
 <br>
 			<!--Watch Filters by State/CWA/FIPS-->
 			<div id = "all-watch-filters" class = "hidden">
@@ -278,7 +278,7 @@
 						</td>
 					</tr>
 				</table>
-			</div>		
+			</div>
 
 			<!--Report Filters by Hail Size-->
 			<div id = "hail-report-filters" class = "hidden">
@@ -358,11 +358,11 @@
 			<!--Button to Download Data in JSON-->
 			<button id="downloadJSON" type = "button" class="download btn btn-primary">Download JSON</button>
 			<br>
-			
+
 			<!--Button to Download Data in JSON-->
 			<button id="downloadCSV" type = "button" class="download btn btn-primary">Download CSV</button>
-			
-			<!--Button to toggle total table on/off-->	
+
+			<!--Button to toggle total table on/off-->
 			<div id="total_toggle"></div>
 
 			<!--Table with total data-->
@@ -385,7 +385,7 @@
 
 			<!--Div with the map-->
 			<div id="map" class="map">
-				
+
 				<div id="mapTitle">2019 SPC Watches</div>
 				<div id="info" style="top:3px; right:3px;">Hover For<br>Watch Count</div>
 				<div id="mapLegend"></div>
@@ -439,29 +439,29 @@
    		<script src="https://d3js.org/d3.v5.js"></script>
 
    		<!--Local all local .js files-->
-		<script src="/bentley/dev/page/dataquery/js/page.js"></script>
-		<script src="/bentley/dev/page/dataquery/js/filters.js"></script>
-		<script src="/bentley/dev/page/dataquery/js/calendars.js"></script>
-		<script src="/bentley/dev/page/dataquery/js/errors.js"></script>
-		<script src="/bentley/dev/page/dataquery/js/tables.js"></script>
-		<script src="/bentley/dev/page/dataquery/js/chart.js"></script>
-		<script src="/bentley/dev/page/dataquery/js/jsonh.js"></script>
+		<script src="./js/page.js"></script>
+		<script src="./js/filters.js"></script>
+		<script src="./js/calendars.js"></script>
+		<script src="./js/errors.js"></script>
+		<script src="./js/tables.js"></script>
+		<script src="./js/chart.js"></script>
+		<script src="./js/jsonh.js"></script>
 
 		<!--DataTables Date/Time Plugin for sorting-->
-		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/datetime-moment.js"></script>	
+		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/datetime-moment.js"></script>
 		<!--Helps with sorting in DataTables-->
 		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/natural.js"></script>
 		<!--OpenLayers.js-->
     	<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/build/ol.js"></script>
 
-		<script src="/bentley/dev/page/dataquery/js/watchMap.js"></script>
+		<script src="./js/watchMap.js"></script>
 
 		<script>
 		//format of table so it sorts correctly
   			jQuery.fn.dataTable.moment( 'MM/DD/YYYY HHMM' );
 		</script>
-		
-		<!--Load these scripts on document ready-->												
+
+		<!--Load these scripts on document ready-->
 		<script type="text/javascript">
 			//On document ready
 			jQuery(document).ready(function(){

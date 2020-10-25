@@ -27,7 +27,7 @@ Briefings RSS" href="/products/spcmbrss.xml" />
     <title>|||TITLE||| - NOAA/NWS Storm Prediction Center</title>
 
     <!-- Sitewide css -->
-    <link rel= "stylesheet" href = "/new/css/SPCmain.css" />
+    <link rel= "stylesheet" href = "<newDir>/css/SPCmain.css" />
 
     <style>
     	#midBlock.affix{
@@ -83,12 +83,12 @@ Briefings RSS" href="/products/spcmbrss.xml" />
     </style>
 
     <!--Conflict between prototype.js and jquery, so using jQuery.noConflict()-->
-    <script src="/cwi/cwi-all-min.js"></script>
+    <script src="<cwiDir>/cwi-all-min.js"></script>
 
     <!--[if lt IE 9]>
-	<script src = "/exper/reports/html5shiv/dist/html5shiv.js"></script>
+	   <script src = "/exper/reports/html5shiv/dist/html5shiv.js"></script>
     <![endif]-->
-    <script src="/cwi/affix.min.js"></script>
+    <script src="<cwiDir>/affix.min.js"></script>
     <script>
 
    	jQuery(document).ready(function(){
@@ -116,5 +116,4 @@ Briefings RSS" href="/products/spcmbrss.xml" />
    <div id="SPCMain">
       <div class="SPCMain2">
          <!-- ##### SPC TOP MENU ##### -->
-         <?php
-include($_SERVER['DOCUMENT_ROOT']."/new/MainMenu/topMenu.html"); ?>
+         <?php include("<newDir>/MainMenu/topMenu.html"); ?>

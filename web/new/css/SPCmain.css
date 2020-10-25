@@ -155,7 +155,7 @@
 #banner a{
 	display:block;
 	float:left;
-	display:inline;	
+	display:inline;
 	height:75px;
 }
 
@@ -188,8 +188,8 @@ ul#topnav li a {
 	height: 30px;
 }
 
-ul#topnav li:hover a, ul#topnav li a:hover { 
-	background-position: left bottom; 
+ul#topnav li:hover a, ul#topnav li a:hover {
+	background-position: left bottom;
 	font-weight: bold;
 } /*--Hover State--*/
 
@@ -291,7 +291,7 @@ ul#topnav .home a {
         font-family: Helvetica, Arial, sans-serif;
         font-size: 10px;
 	font-weight: bold;
-        color: #fff; 
+        color: #fff;
         text-indent:0;
         text-decoration:none;
         height: auto;
@@ -329,7 +329,7 @@ ul#topnav .home a:hover, ul#topnav .news a:hover, ul#topnav .products a:hover, u
 	font-weight: bold;
 	color: #FFF001;
 }
-	
+
 #searchBox {
 	width:250px;
         padding-top:4px;
@@ -339,13 +339,13 @@ ul#topnav .home a:hover, ul#topnav .news a:hover, ul#topnav .products a:hover, u
 	position:relative;
 }
 
-#searchForm { 
-	margin: 3px;  
+#searchForm {
+	margin: 3px;
 }
 
 #query-field {
 	font-family: tahoma;
-	font-size: 8pt;		
+	font-size: 8pt;
 	color: #999999;
 	width: 10em;
 	margin-bottom: 2px;
@@ -353,12 +353,12 @@ ul#topnav .home a:hover, ul#topnav .news a:hover, ul#topnav .products a:hover, u
 
 #searchFieldSet {
 	 height:25px;
-	 padding: 0px; 
-	 margin: 0px 10px 0px 10px; 
-	 text-align: left; 
+	 padding: 0px;
+	 margin: 0px 10px 0px 10px;
+	 text-align: left;
 }
 
-.searchOption { 
+.searchOption {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: .7em;
 	color: #0057A5;
@@ -368,8 +368,8 @@ ul#topnav .home a:hover, ul#topnav .news a:hover, ul#topnav .products a:hover, u
 	vertical-align: text-top;
 }
 
-#localSearchOption, #globalSearchOption { 
-	vertical-align:top; 
+#localSearchOption, #globalSearchOption {
+	vertical-align:top;
 }
 
 .SPC_news_rss {
@@ -441,7 +441,7 @@ ul#topnav .home a:hover, ul#topnav .news a:hover, ul#topnav .products a:hover, u
         width: 100%;
         display: block;
         left:-5px;
-           
+
 }
 
 #midBlock2 {
@@ -555,7 +555,7 @@ ul#topnav .home a:hover, ul#topnav .news a:hover, ul#topnav .products a:hover, u
 	letter-spacing: .05em;
 	padding:2px;
 	background: #ffffff;
-	
+
 	-moz-border-radius: 10px;
         -khtml-border-radius: 10px;
         -webkit-border-radius: 0px;
@@ -724,7 +724,7 @@ del {
         color:#d20011;
         text-align: center;
         font: bold 14pt Arial;
-        text-shadow: 1px 1px #aaa; 
+        text-shadow: 1px 1px #aaa;
 }
 
 .SPCWeatherHeadlinesEnh {
@@ -832,7 +832,7 @@ A.awhite:hover {
         font-family: arial;
 }
 
-/*Modification to the Hazard Matrix for consistency with 
+/*Modification to the Hazard Matrix for consistency with
 Convective Outlook colors. CMM - 2/17/2015
 */
 .ac-high { background: #ff81f8; vertical-align: middle; }
@@ -968,7 +968,7 @@ Convective Outlook colors. CMM - 2/17/2015
         font-family: Helvetica, Arial, sans-serif;
         font-size: 12px;
 	border: 1px solid #a2b5cd;
-	background: #d6e4f4; 
+	background: #d6e4f4;
 }
 
 #climoHelp {
@@ -989,7 +989,7 @@ Convective Outlook colors. CMM - 2/17/2015
         color: #0076fa;
         text-decoration:underline;
 }
-	
+
 
 #ClimoTxt {
 	font-family: Helvetica, Arial, sans-serif;
@@ -1005,14 +1005,14 @@ Convective Outlook colors. CMM - 2/17/2015
         font-family: Helvetica, Arial, sans-serif;
         font-size: 13px;
 	text-decoration:none;
-	color: #0076fa; 
+	color: #0076fa;
 }
 
 #ClimoTxt a:hover {
         font-family: Helvetica, Arial, sans-serif;
         font-size: 13px;
         text-decoration:underline;
-        color: #0076fa;      
+        color: #0076fa;
 }
 
 /*******************************/
@@ -1148,7 +1148,7 @@ Convective Outlook colors. CMM - 2/17/2015
 /****************************/
 /*** FORECAST TOOLS CYCLE ***/
 /****************************/
-.slideshow { 
+.slideshow {
 	height: 220px;
         width: 310px;
 }
@@ -1159,9 +1159,9 @@ Convective Outlook colors. CMM - 2/17/2015
 	border: 0px;
 }
 
-.slideshow1 { 
+.slideshow1 {
         height: 220px;
-        width: 310px; 
+        width: 310px;
 }
 .slideshow1 img {
         height: 213px;
@@ -1170,9 +1170,9 @@ Convective Outlook colors. CMM - 2/17/2015
         border: 0px;
 }
 
-.slideshow2 { 
+.slideshow2 {
         height: 220px;
-        width: 310px; 
+        width: 310px;
 }
 .slideshow2 img {
         height: 213px;
@@ -1492,7 +1492,7 @@ ul.tabbernav li.tabberactive a:hover
         font-weight: bold;
         list-style-type: none;
 	padding: 20px 0px 0px 70px;
-}   
+}
 
 .ACbg {
         height: 90px;
