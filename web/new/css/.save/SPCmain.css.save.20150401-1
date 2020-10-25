@@ -1,0 +1,1681 @@
+/* CSS Document for the updated SPC main page - 10/27/2012 */
+
+/***STRUCTURAL DESIGN***/
+
+#SPCWrapper{
+        width:1050px;
+        background-image:url(/new/images/body_bg.png) ;
+        background-repeat:repeat-y;
+        margin:0px auto;
+}
+
+#SPCMain {
+        margin:0px auto;
+        width:960px;
+}
+
+.SPCMain2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 960px;
+        background-color: #FFF;
+}
+
+.RightCol,
+.LeftCol,
+.full_width {
+        display: inline;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+}
+
+.SPCMain2 .full_width {
+        width: 950px;
+}
+
+.SPCMain2 .RightCol {
+        width: 355px;
+        float: right;
+}
+.SPCMain2 .LeftCol {
+        width: 585px;
+}
+
+.feature_container {
+        width: 950px;
+        float: left;
+        margin: 5px;
+}
+
+
+/***END STRUCTURAL DESIGN***/
+/***_________________________________________________________________________***/
+/***BEGIN VERY TOP MENU***/
+
+#PageTop {
+        width: 960px;
+        height: 20px;
+	margin-left:0px;
+	background-image:url(/new/images/PageTop.png) ;
+}
+
+#TopNav {
+	position: relative;
+	width:660px;
+	height:20px;
+	float:right;
+}
+
+#TopNav ul {
+	margin-top: 2px;
+	position: relative;
+	float: right;
+	display: inline;
+	list-style: none outside none;
+}
+
+#TopNav ul li {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #fff;
+	font-weight: bold;
+        float: right;
+        position: relative;
+        display: inline;
+	letter-spacing: 0.1em;
+        padding: 0px 3px;
+	text-decoration: none;
+}
+
+#TopNav ul li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #fff;
+	font-weight: bold;
+        float: right;
+        position: relative;
+        display: inline;
+	letter-spacing: 0.1em;
+        padding: 0px 3px;
+	text-decoration: none;
+}
+
+#TopNav ul li a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #FFF001;
+        font-weight: bold;
+        float: right;
+        position: relative;
+        display: inline;
+        padding: 0px 3px;
+        text-decoration: none;
+}
+
+.UTCclock, .UTCclock SELECT, .UTCclock INPUT {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	margin-top: 1px;
+	background: #AFDDF6;
+	float: left;
+}
+
+
+.UTCclock a {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        color: #0062ae;
+	text-decoration: none;
+}
+
+.UTCclock a:hover {
+        color: #fff001;
+	font-weight: bold;
+        text-decoration: none;
+}
+
+/*** END VERY TOP MENU ***/
+/***________________________________________________________________________***/
+/*** BEGIN BANNER ***/
+
+#banner {
+	border-top: 0px solid #AEDBF4;
+	float: left;
+	width: 960px;
+	height: 75px;
+	background-image: url(/new/images/SPC.png);
+	background-repeat: no-repeat;
+	margin-left:0px;
+}
+
+#banner a{
+	display:block;
+	float:left;
+	display:inline;	
+	height:75px;
+}
+
+/*** END BANNER ***/
+/***________________________________________________________________________***/
+/*** BEGIN MAIN MENU (INCLUDING SEARCH BOX, FACEBOOK, TWITTER, AND RSS) ***/
+
+ul#topnav {
+        padding: 0px;
+        float:left;
+        width: 700px;
+        list-style: none;
+}
+
+ul#topnav li {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #fff;
+        float: left;
+        margin: 0px; padding: 0px;
+        position: relative; /*--Important--*/
+}
+
+ul#topnav li a {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+	font-weight: bold;
+        color: #fff;
+        float: left;
+	height: 30px;
+}
+
+ul#topnav li:hover a, ul#topnav li a:hover { 
+	background-position: left bottom; 
+	font-weight: bold;
+} /*--Hover State--*/
+
+ul#topnav a.about {
+        background: url(nav_imgs/nav_about.png) no-repeat;
+        width: 80px;
+}
+
+ul#topnav li .sub ul.no-links li {
+        width: 100%;
+        border-bottom: none;
+}
+
+ul#topnav li .sub {
+        position: absolute;
+        top: 30px;
+        left: -19px;
+        /* background: #003366 repeat-x; */
+        background: #f5f5f5;
+        padding: 15px 15px 15px;
+        float: left;
+
+        /* ccs3 styles drop shadow */
+    -moz-box-shadow: 0px 2px 5px #444444;
+        -webkit-box-shadow: 0px 2px 5px #444444;
+        box-shadow: 0px 2px 5px #444444;
+        display: none;
+        z-index: 1000;
+        font-size: 9pt;
+        font-weight: bold;
+	border: 4px solid #1a1a1a;
+	-moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+
+ul#topnav li .row {clear: both; float: left; width: 100%; margin-bottom: 10px;}
+
+ul#topnav li .sub ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        width: 240px;
+        float: left;
+	z-index: 99999999;
+}
+
+ul#topnav .sub ul li {
+        width: 95%;
+        color: #003366;
+        border-bottom: 1px dotted #bbbbbb;
+	background: url('/new/images/feature_stories_bullet2.png') no-repeat;
+	padding: 4px 4px 4px 21px;
+
+}
+
+ul#topnav .sub ul li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+	float: none;
+        text-indent: 0; /*--Reset text indent--*/
+        height: auto;
+        padding: 5px 3px 5px 3px;
+        display: block;
+        text-decoration: none;
+        color: #004A82;
+	letter-spacing: 0.1em;
+	z-index: 99999999;
+}
+
+ul#topnav .sub ul li a:hover {
+        color: #4BA3E3;
+}
+
+ul#topnav li.last .sub {
+        margin-left: -106px;
+}
+
+ul#topnav .topMenuNavList {
+        letter-spacing: .05em;
+        margin: 9px 0px 0px 0px;
+        /* padding:0px 44px 0px 0px; */
+        width:auto;
+}
+
+ul#topnav .topMenuNavList a {
+	padding: 0px 10px;
+}
+
+ul#topnav .last {
+        /* float: right;
+        margin-right: 10px; */
+}
+ ul#topnav .last  .topMenuNavList {
+        padding-right: 10px  !important;
+ }
+
+ul#topnav .home a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+	font-weight: bold;
+        color: #fff; 
+        text-indent:0;
+        text-decoration:none;
+        height: auto;
+	border-right:1px solid #52A3DA;
+ }
+
+ul#topnav .news a, ul#topnav .products a, ul#topnav .weather a, ul#topnav .tools a, ul#topnav .research a, ul#topnav .outreach a {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+	font-weight: bold;
+        color: #fff;
+        text-indent:0;
+        height: auto;
+	text-decoration:none;
+	letter-spacing: 0.05em;
+	border-right:1px solid #52A3DA;
+        border-left:1px solid #013F6D;
+}
+
+ul#topnav .ncep a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+	font-weight: bold;
+        color: #fff;
+	text-indent:0;
+        height: auto;
+	letter-spacing: 0.05em;
+        text-decoration:none;
+        border-left:1px solid #013F6D;
+}
+
+ul#topnav .home a:hover, ul#topnav .news a:hover, ul#topnav .products a:hover, ul#topnav .weather a:hover, ul#topnav .tools a:hover,  ul#topnav .research a:hover, ul#topnav .outreach a:hover, ul#topnav .ncep a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+	font-weight: bold;
+	color: #FFF001;
+}
+	
+#searchBox {
+	width:250px;
+        padding-top:4px;
+	height:25px;
+	float: right;
+	top: 0px;
+	position:relative;
+}
+
+#searchForm { 
+	margin: 3px;  
+}
+
+#query-field {
+	font-family: tahoma;
+	font-size: 8pt;		
+	color: #999999;
+	width: 10em;
+	margin-bottom: 2px;
+}
+
+#searchFieldSet {
+	 height:25px;
+	 padding: 0px; 
+	 margin: 0px 10px 0px 10px; 
+	 text-align: left; 
+}
+
+.searchOption { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	color: #0057A5;
+	margin-left: 0px;
+	margin-right: 6px;
+	font-weight: bold;
+	vertical-align: text-top;
+}
+
+#localSearchOption, #globalSearchOption { 
+	vertical-align:top; 
+}
+
+.SPC_news_rss {
+        height:50px;
+        width:50px;
+        display:block;
+        float:right;
+        margin-right:10px;
+        background-image: url(/new/images/rss.png);
+        background-repeat:no-repeat;
+}
+
+.SPC_news_rss:hover {
+        background-position:-50px 0;
+}
+
+.SPC_news_rss_small {
+        height:25px;
+        width:25px;
+        display:block;
+        float:right;
+        background-image: url(/new/images/rss_small_spr2.png);
+        background-repeat:no-repeat;
+        margin:1px 0 0 0;
+}
+
+.SPC_news_rss_small:hover {
+        background-position:-25px 0;
+}
+
+.SPC_facebook {
+        height:25px;
+        width:25px;
+        display:block;
+        float:right;
+        background-image: url(/new/images/facebook_small_spr2.png);
+        background-repeat:no-repeat;
+        margin:1px 0 0 0;
+}
+
+.SPC_facebook:hover {
+        background-position:-25px 0;
+}
+
+.SPC_twitter {
+        height:25px;
+        width:25px;
+        display:block;
+        float:right;
+        background-image: url(/new/images/twitter_small_spr2.png);
+        background-repeat:no-repeat;
+        margin:1px 0 0 0;
+}
+
+.SPC_twitter:hover {
+        background-position:-25px 0;
+}
+
+/*** END MAIN MENU ***/
+/***________________________________________________________________________***/
+/*** BEGIN CONTENT FORMATTING ***/
+
+#midBlock {
+        background-image:url(/new/images/head_bg.gif);
+        background-repeat:repeat-x;
+        background-color: #0057A5;
+        position:relative;
+        height: 30px;
+        width: 100%;
+        display: block;
+        left:-5px;
+           
+}
+
+#midBlock2 {
+        font-family:Arial, Helvetica, sans-serif;
+        color:#FFFFFF;
+        font-size:14px;
+        font-weight:bold;
+        /*background-image:url(/new/images/nav_bar_slate.png);
+        background-repeat:repeat-x;*/
+        background: #494949;
+        height: 30px;
+        position:relative;
+        display: block;
+        padding: 5px 0 5px 0px;
+        /*text-shadow:.5px .5px 1px #000;*/
+        -moz-border-radius: 10px;
+        -khtml-border-radius: 10px;
+        -webkit-border-radius: 0px;
+        border-radius: 10px;
+        -moz-border-radius-bottomleft: 0px;
+        -webkit-border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        -moz-border-radius-bottomright: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+}
+
+.content_container {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .9em;
+        padding:2px;
+	margin-bottom:20px;
+}
+
+.content_container_prods {
+        height:470px;
+	padding:2px;
+        margin-bottom:20px;
+}
+
+.container_head_text {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	/*background-image:url(/new/images/nav_bar_slate.png);
+	background-repeat:repeat-x;*/
+        background: #0062ae;
+	text-align:center;
+	padding: 5px 0 5px 0px;
+        /*text-shadow:.5px .5px 1px #000;*/
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 0px;
+	border-radius: 10px;
+	-moz-border-radius-bottomleft: 0px;
+        -webkit-border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+}
+
+.container_head_alert {
+        font-family:Arial, Helvetica, sans-serif;
+        color:#FFFFFF;
+        font-size:14px;
+        font-weight:bold;
+       /* background-image:url(/new/images/alert.png);
+        background-repeat:repeat-x; */
+	background: #ff0000;
+        text-align:center;
+        padding: 5px 0 5px 0px;
+        /*text-shadow:.5px .5px 1px #000;*/
+        -moz-border-radius: 10px;
+        -khtml-border-radius: 10px;
+        -webkit-border-radius: 0px;
+        border-radius: 10px;
+        -moz-border-radius-bottomleft: 0px;
+        -webkit-border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        -moz-border-radius-bottomright: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+}
+
+.container_body {
+	border: solid 1px #ccc;
+}
+
+.container_content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	color: #000000;
+	padding-bottom:6px;
+	margin-left:7px;
+	margin-right:7px;
+	margin-top:2px;
+}
+
+.headline_container {
+        padding:5px 0px 5px 0px;
+}
+
+.container_content2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: .05em;
+	padding:2px;
+	background: #ffffff;
+	
+	-moz-border-radius: 10px;
+        -khtml-border-radius: 10px;
+        -webkit-border-radius: 0px;
+        border-radius: 10px;
+        -moz-border-radius-bottomleft: 0px;
+        -webkit-border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        -moz-border-radius-bottomright: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+}
+
+/***********************/
+/*** MISC FORMATTING ***/
+/***********************/
+
+.clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+}
+
+.clearfix:after {
+        clear: both;
+        content: ' ';
+        display: block;
+        font-size: 0;
+        line-height: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+}
+
+/*
+        The following zoom:1 rule is specifically for IE6 + IE7.
+        Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+* html .clearfix,
+*:first-child+html .clearfix {
+        zoom: 1;
+}
+
+/* Reset Content */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        background: transparent;
+        vertical-align: baseline;
+}
+body {
+        background:url(/new/images/bg_fade.png) repeat-x scroll center top #336699;
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+        outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+        text-decoration: none;
+}
+del {
+        text-decoration: line-through;
+}
+
+.Tyellow { color: #FF3; margins 2px 2px 2px 2px;}
+.Twhite  { color: #FFF; margins 2px 2px 2px 2px;}
+
+
+/*****************/
+/*** HEADLINES ***/
+/*****************/
+
+.SPCWeatherHeadlinesBoxHigh {
+        border: 2px solid #FF00FF;
+        background-color:#FFE5FF;
+        width: 99%;
+        margin: 5px auto 5px auto;
+	padding: 2px;
+        border-radius: 6px;:q
+}
+
+.SPCWeatherHeadlinesBoxMdt {
+        border: 2px solid #800000;
+        background-color:#FCC;
+        width: 99%;
+        margin: 5px auto 5px auto;
+        padding: 2px;
+        border-radius: 6px;:q
+}
+
+.SPCWeatherHeadlinesBoxEnh {
+        border: 2px solid #e69600;
+	background-color:#ffe2d1;
+	width: 99%;
+	margin: 5px auto 5px auto;
+	padding: 2px;
+	border-radius: 6px;:q
+}
+
+.SPCWeatherHeadlinesBoxSlgt {
+        border: 2px solid #FFA000;
+        background-color:#FFEFD5;
+        width: 99%;
+        margin: 5px auto 5px auto;
+        padding: 2px;
+        border-radius: 6px;:q
+}
+
+.SPCWeatherHeadlinesBoxMrgl {
+        border: 2px solid #fcdc09;
+	background-color:#fff8cb;
+	width: 99%;
+	margin: 5px auto 5px auto;
+	padding: 2px;
+	border-radius: 6px;:q
+}
+
+.SPCWeatherHeadlinesBoxNull {
+        border: 2px solid #0057a5;
+        background-color:#afddf6;
+        width: 99%;
+        margin: 5px auto 5px auto;
+        padding: 2px;
+	border-radius: 6px;:q
+}
+
+.SPCWeatherHeadlinesHigh {
+        color:#FF00FF;
+        text-align: center;
+        font: bold 14pt Arial;
+	text-shadow: 1px 1px #aaa;
+}
+
+.SPCWeatherHeadlinesMdt {
+        color:#ff0000;
+        text-align: center;
+        font: bold 14pt Arial;
+        text-shadow: 1px 1px #aaa; 
+}
+
+.SPCWeatherHeadlinesEnh {
+        color:#ff4301;
+	text-align: center;
+	font: bold 14pt Arial;
+	text-shadow: 1px 1px #aaa;
+}
+
+.SPCWeatherHeadlinesSlgt {
+        color:#ff6400;
+        text-align: center;
+        font: bold 14pt Arial;
+        text-shadow: 1px 1px #aaa;
+}
+
+.SPCWeatherHeadlinesMrgl {
+        color:#eab600;
+	text-align: center;
+	font: bold 14pt Arial;
+	text-shadow: 1px 1px #aaa;
+}
+
+.SPCWeatherHeadlinesNull {
+        color:#0057a5;
+        text-align: center;
+        font: bold 14pt Arial;
+	text-shadow: 1px 1px #aaa;
+}
+
+.SPCWeatherHeadlinesBody {
+        color: #000;
+        padding-left: 15px;
+        padding-right: 15px;
+        font: 10pt Arial;
+}
+.SPCWeatherHeadlinesBody a {
+	color: #004A82;
+}
+
+.SPCWeatherHeadlinesBody a:hover {
+	color: #4BA3E3
+}
+/********************************/
+/*** HAZARDOUS WEATHER MATRIX ***/
+/********************************/
+
+td.off {
+background:#91b8ff;
+}
+td.on {
+background:#003399;
+}
+
+.matrix {
+        font-size: 8pt;
+        font-family: arial;
+}
+A.black:link {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:visited {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:active {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:hover {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: underline;
+        font-family: arial;
+}
+A.awhite:link {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:visited {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:active {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:hover {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: underline;
+        font-family: arial;
+}
+
+/*Modification to the Hazard Matrix for consistency with 
+Convective Outlook colors. CMM - 2/17/2015
+*/
+.ac-high { background: #ff4fff; vertical-align: middle; }
+.ac-mod { background: #ff4f4f; vertical-align: middle; }
+.ac-enh { background: #ffac08; vertical-align: middle; }
+/*.ac-slight { background: #ffa000; vertical-align: middle; }*/
+.ac-slight { background: #f6f600; vertical-align: middle; }
+/*.ac-mrgl { background: #fcdc09; vertical-align: middle; }*/
+.ac-mrgl { background: #00c500; vertical-align: middle; }
+.ac-seetext { background: #fcde0a; vertical-align: middle; }
+.ac-nosevere { background: #d2ffa6; vertical-align: middle; }
+/*.ac-nothunder { background: #7efe00; vertical-align: middle; }*/
+.ac-nothunder { background: #afddf6; vertical-align: middle; }
+.mx-unknown { background: #ffffff; vertical-align: middle; }
+.mx-inprogress { background: #ffffff; vertical-align: middle; }
+.ac48-sig { background: #ff0000; vertical-align: middle; }
+.ac48-severe { background: #ffa000; vertical-align: middle; }
+.ac48-uncertain { background: #fbf58c; vertical-align: middle; }
+.ac48-noarea { background: #e7e7e7; vertical-align: middle; }
+.ac48-unknown { background: #ffffff; vertical-align: middle; }
+/*.ac48-15p { background: #ffa000; vertical-align: middle; }*/
+.ac48-15p { background: #f6f600; vertical-align: middle; }
+.ac48-30p { background: #ffac08; vertical-align: middle; }
+.fw12-extreme { background: #ff4fff; vertical-align: middle; }
+.fw12-critical { background: #ff4f4f; vertical-align: middle; }
+/*.fw12-seetext { background: #fcde0a; vertical-align: middle; }*/
+.fw12-seetext { background: #ffac08; vertical-align: middle; }
+.fw12-low { background: #d2ffa6; vertical-align: middle; }
+.fw38-critical { background: #ff4f4f; vertical-align: middle; }
+.fw38-uncertain { background: #fbf58c; vertical-align: middle; }
+.fw38-noarea { background: #e7e7e7; vertical-align: middle; }
+
+/***********************/
+/*** SEVERE WX CLIMO ***/
+/***********************/
+
+#formTbl {
+	background:#eee;
+	border:1px solid #d5d5d5;
+}
+#formCell {
+	vertical-align: middle;
+	padding: 1px 1px 1px 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	vertical-align: middle;
+}
+
+#formTxt {
+	font-size: 11px;
+}
+
+.imgwrapper
+{       position: relative;
+        display: block }
+
+.mapbutton {
+        font: 11px arial;
+}
+
+.maptext {
+        font: 11px arial;
+}
+
+.maintbl
+{
+        border: 1px solid black;
+        background: #FFFFFF;
+        width: 935px;
+
+}
+
+.menuTbl {
+        background: #fff;
+        border-spacing: 5px 0;
+}
+
+.menuTbl td {
+        background:#444444;
+        text-align: center;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid white;
+}
+
+.menuTbl td a, a:visited {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-decoration:none;
+        color:#fff;
+        line-height: 1.2em;
+}
+
+.menuTbl td:hover {
+        background: #222222;
+}
+
+.menuTbl td a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-decoration:underline;
+        color:#fff;
+        line-height: 1.2em;
+}
+
+.formTbl {
+        border: 1px solid black;
+}
+
+#climoTab {
+	background: #a2b5cd;
+	padding: 2px;
+	text-align: center;
+	border:1px solid #556c85;
+	-moz-border-radius: 10px;
+        -khtml-border-radius: 10px;
+        -webkit-border-radius: 0px;
+        border-radius: 10px;
+        -moz-border-radius-bottomleft: 0px;
+        -webkit-border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        -moz-border-radius-bottomright: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+}
+
+#climoTab a, a:visited {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+	color: #3f556d;
+        text-decoration:none;
+}
+
+#climoTbl td:hover {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+	border: 1px solid #a2b5cd;
+	background: #d6e4f4; 
+}
+
+#climoHelp {
+	float: right;
+	margin: 0;
+	}
+
+#climoHelp a, a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+	color: #666;
+	text-decoration:none;
+}
+
+#climoHelp a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #0076fa;
+        text-decoration:underline;
+}
+	
+
+#ClimoTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.2em;
+	margin: 0 10px 2px 10px;
+	padding: 5px;
+	background: #fff;
+	border: 1px solid #eee;
+}
+
+#ClimoTxt a, a:visited {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+	text-decoration:none;
+	color: #0076fa; 
+}
+
+#ClimoTxt a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-decoration:underline;
+        color: #0076fa;      
+}
+
+/*******************************/
+/*** SVR CLIMO -- FRONT PAGE ***/
+/*******************************/
+
+#example {
+        width:300px;
+        height:213px;
+        position:relative;
+}
+
+#ribbon {
+        position:absolute;
+        top:-3px;
+        left:-15px;
+        z-index:500;
+}
+
+#frame {
+        position:absolute;
+        z-index:0;
+        width:300px;
+        height:213px;
+        top:-3px;
+        left:-80px;
+}
+
+/*
+        Slideshow
+*/
+
+#slides,
+#slides1,
+#slides2 {
+        position:relative;
+        top:0px;
+        left:4px;
+        z-index:100;
+}
+
+/*
+        Slides container
+        Important:
+        Set the width of your slides container
+        Set to display none, prevents content flash
+*/
+
+.slides_container {
+        width:300px;
+        overflow:hidden;
+        position:relative;
+        display:none;
+}
+
+/*
+        Each slide
+        Important:
+        Set the width of your slides
+        If height not specified height will be set by the slide content
+        Set to display block
+*/
+
+.slides_container div.slide {
+        width:300px;
+        height:213px;
+        display:block;
+}
+
+
+/*
+        Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+        position:relative;
+        top:107px;
+        left:-39px;
+        width:24px;
+        height:43px;
+        display:block;
+        z-index:101;
+}
+
+#slides .next {
+        left:585px;
+}
+/*
+        Pagination
+*/
+
+.pagination {
+        margin:0px auto 0;
+        width:100px;
+}
+
+.pagination li {
+        float:left;
+        margin:0 1px;
+        list-style:none;
+}
+
+.pagination li a {
+        display:block;
+        width:12px;
+        height:0;
+        padding-top:12px;
+        background-image:url(/new/images/pagination.png);
+        background-position:0 0;
+        float:left;
+        overflow:hidden;
+}
+
+.pagination li.current a {
+        background-position:0 -12px;
+}
+
+.caption {
+        z-index:500;
+        position:absolute;
+        top:188px;
+        left:0px;
+        height:20px;
+        padding:2px 20px 2px 0px;
+        width:298px;
+	background: #fff;
+        font-size:14px;
+        line-height:1.33;
+        color:#000;
+	text-shadow: 1px 1px #ccc;
+}
+
+/****************************/
+/*** FORECAST TOOLS CYCLE ***/
+/****************************/
+.slideshow { 
+	height: 220px;
+        width: 310px;
+}
+.slideshow img {
+	height: 213px;
+        width: 300px;
+	padding: 0px;
+	border: 0px;
+}
+
+.slideshow1 { 
+        height: 220px;
+        width: 310px; 
+}
+.slideshow1 img {
+        height: 213px;
+        width: 300px;
+        padding: 0px;
+        border: 0px;
+}
+
+.slideshow2 { 
+        height: 220px;
+        width: 310px; 
+}
+.slideshow2 img {
+        height: 213px;
+        width: 300px;
+        padding: 0px;
+        border: 0px;
+}
+
+
+/*************************/
+/*** FLOT REPORT PLOTS ***/
+/*************************/
+
+#placeholder > div.legend > table {
+	border: 1px solid #ccc;
+	padding: 1px;
+	background: #fff;
+}
+
+#rptNav {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 1.2em;
+        margin: 0 10px 2px 10px;
+        padding: 5px;
+        background: #fff;
+}
+
+#rptNav a, a:visited {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-decoration:none;
+        color: #0076fa;
+}
+
+#rptNav a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-decoration:underline;
+        color: #0076fa;
+}
+
+#rptLabel {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+	font-weight: bold;
+        line-height: 1.2em;
+        margin: 0 10px 2px 10px;
+        padding: 5px;
+        background: #fff;
+}
+
+#noRPT {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 1.3em;
+	background: #fff;
+}
+
+/************************/
+/*** SOCIETAL IMPACTS ***/
+/************************/
+
+td.off {
+background:#91b8ff;
+}
+td.on {
+background:#003399;
+}
+
+.impacts {
+        font-size: 8pt;
+        font-weight: bold;
+        font-family: arial;
+        vertical-align: middle;
+}
+
+.cities_high { background: #ff7fff; vertical-align: middle; }
+.cities_mdt { background: #e67f7f; vertical-align: middle;}
+.cities_enh { background: #e6c27f; vertical-align: middle; }
+.cities_slgt { background: #f6f67f; vertical-align: middle; }
+.cities_mrgl { background: #7fc57f; vertical-align: middle; }
+
+/***************************/
+/*** HIGHLIGHTS 4-PANEL ***/
+/**************************/
+
+#HighlightContainer {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+	color: #000000;
+}
+
+#HighlightContainer a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #0062ae;
+}
+
+#HighlightContainer a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #4ba3e3;
+}
+
+#HighlightTitle {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000;
+	text-align: center;
+	text-shadow: 1px 1px #ccc;
+}
+
+#TopicContainer {
+	border: 1px solid #ccc;
+	padding: 0px;
+	-moz-border-radius: 10px;
+        -khtml-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+}
+/****************/
+/*** RESEARCH ***/
+/***************/
+
+.SPCResearchList {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #aedbf4;
+        background: #fffff0;
+}
+.SPCResearchList li {
+        background: url('/new/images/feature_stories_bullet2.png') no-repeat;
+        padding: 4px 4px 4px 21px;
+	line-height: 1.2em;
+	border-bottom: 1px dotted #ccc;
+}
+.SPCResearchList li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+        color: #0062ae;
+}
+.SPCResearchList li a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+        text-decoration: underline;
+        color: #4ba3e3;
+}
+
+/********************/
+/*** PRODUCT TABS ***/
+/********************/
+
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+.tabber {
+}
+
+ul.tabbernav
+{
+ margin:0;
+ padding: 3px 0;
+ border-bottom: 1px solid #778;
+ font: bold 12px Verdana, sans-serif;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 0;
+ display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ background: #afddf6;
+ text-decoration: none;
+}
+
+ul.tabbernav li a:link { color: #111; }
+ul.tabbernav li a:visited { color: #111; }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #4ca4e3;
+ border-color: #0062ae;
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background-color: #fff;
+ border-bottom: 1px solid #fff;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+ color: #000;
+ background: white;
+ border-bottom: 1px solid white;
+}
+
+.tabberlive .tabbertab {
+ width:348px;
+ padding:1px;
+ border:1px solid #aaa;
+ border-top:0;
+
+}
+
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:300px;
+ overflow:auto;
+}
+
+/**************************/
+/*** SPC PRODUCT ALERTS ***/
+/**************************/
+
+.SPCProducts {
+        width: 348px;
+	height: 460px;
+	padding: 0px;
+        overflow: auto;
+}
+.SPCProductsNew {
+        list-style-type: none;
+        padding-left: 0px;
+        margin: 0px;
+        border: 1px dotted #ff0000;
+        line-height: 1.2em;
+        background: #ffffef;
+}
+
+.SPCProductsOld {
+        list-style-type: none;
+        padding-left: 0px;
+        margin: 0px;
+        border: 1px dotted #DDDDDD;
+        line-height: 1.2em;
+        background: #f5ffff;
+}
+
+.SPCProductsOld td {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #000;
+	line-height: 1.2em;
+}
+
+.SPCProductsNew td {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #000;
+	line-height: 1.2em;
+}
+
+.SPCProductsNew a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-decoration: underline;
+        color: #0062ae;
+	line-height: 1.2em;
+}
+
+.SPCProductsOld a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-decoration: underline;
+        color: #0062ae;
+	line-height: 1.2em;
+}
+
+.SPCProductsNoMD {
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	list-style-type: none;
+        padding: 20px 0px 0px 20px;
+}
+.SPCProductsNoWW {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        font-weight: bold;
+        list-style-type: none;
+	padding: 20px 0px 0px 70px;
+}   
+
+.ACbg {
+        height: 90px;
+        width: 125px;
+        }
+.ACsm {
+        height: 75px;
+        width: 100px;
+        }
+
+.WWbg {
+        height: 90px;
+        width: 125px;
+        }
+.WWsm {
+        height: 75px;
+        width: 100px;
+        }
+
+.MDbg {
+        height: 90px;
+        width: 125px;
+        }
+.MDsm {
+        height: 75px;
+        width: 100px;
+        }
+
+
+/******************************/
+/*** SPC Case Study Archive ***/
+/******************************/
+
+#CaseArchive {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: #ebf3ff;
+}
+#CaseArchive a {
+        font: bold 12px Arial, Helvetica, sans-serif;
+        color: #0062ae;
+}
+#CaseArchive a:hover {
+        font: bold 12px Arial, Helvetica, sans-serif;
+        color: #4ba3e3;
+}
+
+/**********************/
+/*** SPC QUICK VIEW ***/
+/**********************/
+
+.SPCQuickView {
+        background: #0062ae;
+        position:relative;
+        height: 20px;
+        width:582px;
+        display: block;
+        vertical-align: middle;
+        padding: 5px 0 5px 0px;
+        /*text-shadow:.5px .5px 1px #000;*/
+        -moz-border-radius: 10px;
+        -khtml-border-radius: 10px;
+        -webkit-border-radius: 0px;
+        border-radius: 10px;
+        -moz-border-radius-bottomleft: 0px;
+        -webkit-border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        -moz-border-radius-bottomright: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+}
+
+.SPCQuickView ul {
+        padding-left: 0px;
+        margin-left: 10px;
+        display: inline;
+        z-index: 1 ;
+}
+
+.SPCQuickViewTab {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        padding-left: 5px;
+        margin-right: 5px;
+        display: inline;
+        border-left:1px solid #43adff;
+        background-position: left bottom;
+}
+
+.SPCQuickViewTabFirst {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        padding-left: 5px;
+        margin-right: 5px;
+        display: inline;
+        border-left:none
+        background-position: left bottom;
+}
+
+.SPCQuickViewTabLast {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        padding-left: 5px;
+        margin-right: 5px;
+        display: inline;
+        border-left:1px solid #43adff;
+        background-position: left bottom;
+}
+
+.SPCQuickViewTab a, .SPCQuickViewTabFirst a, .SPCQuickViewTabLast a {
+        color: #FFF;
+        text-decoration: none;
+        padding-left: 2px;
+}
+
+
+/*** END CONTENT FORMATTING ***/
+/***________________________________________________________________________***/
+/*** BEGIN FOOTER ***/
+
+.footer_container {
+	border: solid 1px #cccccc;
+	width: 950px;
+	float: left;
+	margin: 5px;
+}
+
+#footer  {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color:#000000;
+	background: #f5f5f5;
+	line-height: 1.2em;
+}
+
+#footer a {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color:#0062ae;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color:#4ba3e3;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#bottom {
+         width:1050px; height:30px;
+          background-image:url(/new/images/nesdis_body_bottom.png);
+         background-repeat:no-repeat;
+         margin:-5px auto 0px auto;
+}
+
+/*** END FOOTER ***/
+/***________________________________________________________________________***/
+/*** BEGIN ShortenText ***/
+
+.comment {
+  margin: 0px;
+}
+
+a.morelink {
+  text-decoration:none;
+  outline: none;
+}
+
+.morecontent span {
+  display: none;
+}
+
+/*** END FOOTER ***/
+/***________________________________________________________________________***/
+/***________________________________________________________________________***/
+/*** BEGIN BOXED ***/
+.boxed-disabled {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+/*** END BOXED ***/

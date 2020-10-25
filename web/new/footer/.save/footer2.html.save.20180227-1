@@ -1,0 +1,25 @@
+      <td>
+        <a href="http://www.weather.gov/disclaimer" target="_blank">
+          <span class="gray">Disclaimer</span></a><br />
+        <a href="http://www.cio.noaa.gov/services_programs/info_quality.html" target="_blank">
+          <span class="gray">Information Quality</span></a><br />
+        <a href="http://www.weather.gov/help" target="_blank">
+          <span class="grey">Help</span></a><br />
+        <a href="http://www.weather.gov/glossary" target="_blank">
+          <span class="gray">Glossary</span></a>
+      </td>
+      <td align="right">
+        <a href="http://www.weather.gov/privacy" target="_blank">
+          <span class="gray">Privacy Policy</span></a><br />
+        <a href="http://www.rdc.noaa.gov/%7Efoia/" target="_blank">
+          <span class="gray">Freedom of Information Act (FOIA)</span></a><br />
+        <a href="http://www.weather.gov/about" target="_blank">
+          <span class="gray">About Us</span></a><br />
+        <a href="http://www.weather.gov/careers" target="_blank">
+          <span class="gray">Career Opportunities</span></a>
+      </td>
+    </tr>
+  </table>
+  <script id="_fed_an_js_tag" type="text/javascript" src="/misc/GA/Federated-Analytics.js?agency=DOC&sub­agency=NOAA&pua=UA-52727918-1"></script>
+  <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC"></script>
+

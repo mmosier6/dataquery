@@ -1,0 +1,22 @@
+      <td>
+        <a href="http://www.weather.gov/disclaimer.php">
+          <span class="gray">Disclaimer</span></a><br />
+        <a href="http://www.cio.noaa.gov/Policy_Programs/info_quality.html">
+          <span class="gray">Information Quality</span></a><br />
+        <a href="http://www.weather.gov/credits.php">
+          <span class="gray">Credits</span></a><br />
+        <a href="http://www.weather.gov/glossary/">
+          <span class="gray">Glossary</span></a>
+      </td>
+      <td align="right">
+        <a href="http://www.weather.gov/privacy.php">
+          <span class="gray">Privacy Policy</span></a><br />
+        <a href="http://www.rdc.noaa.gov/%7Efoia/">
+          <span class="gray">Freedom of Information Act (FOIA)</span></a><br />
+        <a href="http://www.weather.gov/admin.php">
+          <span class="gray">About Us</span></a><br />
+        <a href="http://www.weather.gov/careers.php">
+          <span class="gray">Career Opportunities</span></a>
+      </td>
+    </tr>
+  </table>

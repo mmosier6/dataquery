@@ -1,0 +1,7 @@
+<strong><font color="#ff0000">New:&nbsp;</font></strong>
+The SPC <a href="/exper/mesoanalysis/">Mesoanalysis Page</a> now has an option to incorporate the experimental ESRL
+Rapid Refresh version 2 (RAPv2) model as background input for the mesoanalysis fields, in addition to the current
+operational NCEP Rapid Refresh (RAP) model.
+The RAPv2 is being developed by ESRL as the next version of the RAP.
+More details about the RAP and RAPv2 are found at: <a href="http://rapidrefresh.noaa.gov/" target="_blank">rapidrefresh.noaa.gov</a>.
+(Updated: April 30 2013)

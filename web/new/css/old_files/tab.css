@@ -1,0 +1,64 @@
+pre {text-indent: 30px} 
+
+#tabmenu { 
+	color: #000; 
+	border-bottom: 
+	1px solid black; 
+	margin: 12px 0px 0px 0px; 
+	padding: 0px; z-index: 1; 
+	padding-left: 10px 
+} 
+
+#tabmenu li { 
+	display: inline; 
+	overflow: hidden; 
+	list-style-type: none; 
+} 
+
+#tabmenu a, a.active { 
+	color: #000000; 
+	background: #ffffff; 
+	font: normal 1em Arial, Helvetica, sans-serif; 
+	padding: 2px 5px 0px 5px; 
+	margin: 0px; 
+	text-decoration: none; 
+	cursor:hand; 
+} 
+
+#tabmenu a.active {
+	font: normal 1em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0062ae; 
+	background: #f5f5f5; 
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 3px solid #f5f5f5; 
+} 
+
+#tabmenu a:hover { 
+	font: normal 1em Arial, Helvetica, sans-serif;
+	color: #0062ae; 
+	background: #f5f5f5; 
+} 
+
+#tabmenu a:visited { 
+	font: normal 1em Arial, Helvetica, sans-serif;
+	color: #000000; 
+} 
+
+#tabmenu a.active:hover { 
+	font: bold 1em Arial, Helvetica, sans-serif;
+	background: #f5f5f5; 
+	color: #0062ae; 
+} 
+
+#content {
+	text-align: justify; 
+	background: #f5f5f5; 
+	padding: 2px; 
+	border: 1px solid black; 
+	border-top: none; 
+	z-index: 2; 
+} 
+

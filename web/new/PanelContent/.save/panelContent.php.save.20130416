@@ -1,0 +1,216 @@
+<?php
+
+//////////////////////////////////////////////////////////////////////////
+// This script creates the main page panel content, which resides below
+// The overview graphic(s) and the current product listing.  The only 
+// change in content occurs when storm reports have been received for the
+// current convective day.  In that case, the upper-middle panel displays
+// the storm report trend graph, pushing the watch summaries into a 
+// jQuery loop immediately below.
+// CMM 03/2013
+// Modified to use relative paths instead of absolute paths
+// Jay Liang, Tue Feb 26 16:49:23 UTC 2013
+// Added $_SERVER['DOCUMENT_ROOT']. to the path to convert path to absolute
+// path to support porting.  Jay Liang, March 4, 2013
+//////////////////////////////////////////////////////////////////////////
+
+//Define date variables to determine whether any storm reports have been 
+//received today.
+
+$cyear = strftime("%Y");
+$cdate = strftime("%Y%m%d");
+$cHHmm = strftime("%H%M");
+//need to make sure of the right date if time >0z and <12z
+if (($cHHmm >= 1200) && ($cHHmm <= 2359)) {
+  $YY = substr($cdate, 0, 4);
+  $MM = substr($cdate, 4, 2);
+  $DD = substr($cdate, 6, 2);
+  $ctime = mktime(0, 0, 0, $MM, $DD, $YY);
+} elseif (($cHHmm >= 0000) && ($cHHmm <= 1159)) {
+  $YY = substr($cdate, 0, 4);
+  $MM = substr($cdate, 4, 2);
+  $DD = substr($cdate, 6, 2);
+  $ctim = mktime(0, 0, 0, $MM, $DD, $YY);
+  $ctime = strftime("%s", $ctim - (24*60*60));
+}
+
+$tdyEpoch = $ctime;
+$tmrwEpoch = $tdyEpoch + 86400;
+$tdyLabel = strftime("%m-%d-%Y", $ctime);
+$tmrwLabel = strftime("%m-%d-%Y", $ctime + (24*60*60));
+$ydyNav = strftime("%Y%m%d", $ctime - (24*60*60));
+$tmrwNav = strftime("%Y%m%d", $ctime + (24*60*60));
+$rptDate = strftime("%y%m%d", $ctime);
+
+$tornfile = file($_SERVER['DOCUMENT_ROOT']."/climo/reports/${rptDate}_rpts_torn.csv");
+$windfile = file($_SERVER['DOCUMENT_ROOT']."/climo/reports/${rptDate}_rpts_wind.csv");
+$hailfile = file($_SERVER['DOCUMENT_ROOT']."/climo/reports/${rptDate}_rpts_hail.csv");
+
+//remove the header from the arrays
+$tornFile = array_shift($tornfile);
+$windFile = array_shift($windfile);
+$hailFile = array_shift($hailfile);
+
+//check to see if any reports have been received
+$tornSize = count($tornfile);
+$windSize = count($windfile);
+$hailSize = count($hailfile);
+
+?>
+ 
+<div id="HighlightContainer">
+    <table>
+     <tr>
+      <td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+          <tr><td id="HighlightTitle">Severe Weather Climatology (1982-2011)</td></tr>
+          <tr><td align="center">
+          <?php include($_SERVER['DOCUMENT_ROOT']."/new/SVRclimo/climoSlides.php"); ?>
+	  </td></tr>
+	  <tr><td align="left"><br>More severe weather climatology data <a href="/new/SVRclimo/climo.php?parm=anySvr"> here</a>.</td></tr>
+        </table>
+      </td>
+
+<?php
+//logic to account for inclusion of the storm reports trend graph 
+if (($tornSize < 2) && ($windSize < 2) && ($hailSize < 2)) {
+  print "<td valign='top' width='33%' id='TopicContainer'>\n";
+  print "<table summary='layout' border='0'>\n";
+  print "<tr><td id='HighlightTitle'>$cyear Tornado Watch Summary</td></tr>\n";
+  print "<tr><td align='center'><a href='/wcm/${YY}_torww_to_date.png'><img src='/wcm/thumbs/${YY}_torww_to_date_sm.png'></a></td></tr>\n";
+
+  $filename = $_SERVER['DOCUMENT_ROOT'].'/wcm/${YY}_torww_to_date.png';
+  if (file_exists($filename)) {
+    print "<tr><td align='left'>Page last modified: " . date ("F d Y H:i T", filemtime($filename)) . "</td></tr>\n";
+  }
+
+  print "</table></td>\n";
+
+} else {
+  print "<td valign='top' width='33%' id='TopicContainer'>\n";
+  print "<table summary='layout' border='0'>\n";
+  print "<tr><td id='HighlightTitle'>Today's Storm Report Trend</td></tr>\n";
+  print "<tr><td align='center'>\n";
+  include($_SERVER['DOCUMENT_ROOT']."/new/ReportPlot/reportPlot_sm.php"); 
+  print "</td></tr>\n";
+  print "<tr><td align='left'><br><br>Full-size plot <a href='/new/ReportPlot/reportPlot.php'>here</a>.</td></tr>\n";
+  print "</table></td>\n";
+}
+?>
+
+	<td valign='top' width='33%' id='TopicContainer'>
+         <table summary="layout" border="0" background="#eee">
+	  <tr><td id='HighlightTitle'>Public Awareness</td></tr>
+          <tr><td align="center"><a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.youtube.com/watch?v=x3V3HZBs1Y4" target="YouTube Clip"><img src="/new/images/WatchWarn.png"/></a></td></tr>
+          <tr><td align="left"><br>Find out the difference between a severe weather <b><i>Watch</i></b> and <b><i>Warning </i></b><a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.youtube.com/watch?v=x3V3HZBs1Y4">here</a>.</td></tr>
+         </table>
+        </td></tr>
+        <tr>
+
+        <td valign='top' width='33%' id='TopicContainer'>
+	<table summary='layout' border='0'>
+        <tr><td id='HighlightTitle'>Forecast Tools</td></tr>
+        <tr><td align='center'>
+	
+	<script type="text/javascript">
+	var $j = jQuery.noConflict();
+	$j(window).ready(function() {
+	  $j('#slideshow').cycle({fx: 'fade', timeout:5000, speed:1000});
+	  $j('#slideshow img').click(function () {
+	    // document.location.href=$j(this).attr('rel');
+            var blankWindow = window.open('','_blank');
+	    blankWindow.location.href=$j(this).attr('rel');
+	  }).css('cursor','pointer');
+	});
+	</script>
+
+	<div id="slideshow">
+	  <img src="/new/images/sseo_sm.png" alt="SSEO" rel="/exper/sseo/" width="300" height="213" />
+	  <img src="/new/images/sref_sm.png" alt="SREF" rel="/exper/sref/" width="300" height="213" />
+	  <img src="/new/images/meso_sm.png" alt="Meso Analysis" rel="/exper/mesoanalysis/new/" width="300" height="213" />
+	  <img src="/new/images/sndg_sm.png" alt="Sounding" rel="/exper/soundings/" width="300" height="213" />
+	  <img src="/new/images/torenv_sm.png" alt="Tornado Environment" rel="/exper/envbrowser/" width="300" height="213" />
+	  <img src="/new/images/ua_sm.png" alt="Upper Air" rel="/obswx/maps/" width="300" height="213" />
+	</div>
+	</td></tr>
+        </table></td>
+        
+<?php
+//logic to account for inclusion of the storm reports trend graph
+if (($tornSize < 2) && ($windSize < 2) && ($hailSize < 2)) {
+?>
+
+	<td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+          <tr><td id="HighlightTitle"><?php print $cyear; ?> Severe Tstm Watch Summary</td></tr>
+        <tr><td align='center'><a href='/wcm/<?php print $cyear; ?>_svrww_to_date.png'><img src='/wcm/thumbs/<?php print $cyear; ?>_svrww_to_date_sm.png'></a></td></tr>
+
+<?php
+         $filename = $_SERVER['DOCUMENT_ROOT'].'/wcm/'.${cyear}.'_svrww_to_date.png';
+         if (file_exists($filename)) {
+           print "<tr><td align='left'>Page last modified: " . date ("F d Y H:i T", filemtime($filename)) . "</td></tr>\n";
+         }
+?>
+
+        </table></td>
+
+<?php } else { ?>
+
+	<td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+        <tr><td id="HighlightTitle"><?php print $cyear; ?> Watch Summaries</td></tr>
+	<tr><td align='center'>
+
+        <script type="text/javascript">
+        var $j = jQuery.noConflict();
+        $j(document).ready(function() {
+          $j('#slideshow2').cycle({fx: 'fade', timeout:5000, speed:2000});
+          $j('#slideshow2 img').click(function (){
+            var blankWindow = window.open('','_blank');
+	    blankWindow.location.href=$j(this).attr('rel');
+            // document.location.href=$j(this).attr('rel');
+          }).css('cursor','pointer');
+        });
+        </script>
+
+        <div id="slideshow2">
+	<img src="/wcm/thumbs/<?php print $cyear; ?>_torww_to_date_sm.png" alt="" rel="/wcm/<?php print $cyear; ?>_torww_to_date.png" width="300" height="200" />
+	<img src="/wcm/thumbs/<?php print $cyear; ?>_svrww_to_date_sm.png" alt="" rel="/wcm/<?php print $cyear; ?>_svrww_to_date.png" width="300" height="200" />
+	</div>
+        </td></tr>
+
+<?php
+         $filename = $_SERVER['DOCUMENT_ROOT'].'/wcm/'.${cyear}.'_svrww_to_date.png';
+         if (file_exists($filename)) {
+           print "<tr><td align='left'>Page last modified: " . date ("F d Y H:i T", filemtime($filename)) . "</td></tr>\n";
+         }
+?>
+
+        </table></td>
+<?php } ?>
+
+	<td valign="top" width="33%" id="TopicContainer">
+         <table summary="layout" border="0">
+	 <tr><td id='HighlightTitle'>Public Awareness</td></tr>
+          <tr><td align="center"><a href="/faq/tornado/#Safety"><img src="/new/images/TornSafety.png"></a></td></tr>
+          <tr><td align="left">Tornado Safety <a href="/faq/tornado/#Safety">Tips</a>.</td></tr>
+         </table>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2" valign="top" width="66%" id="TopicContainer">
+	<div id="HighlightTitle">Latest SPC Publications</div>
+        <?php include($_SERVER['DOCUMENT_ROOT']."/new/SPCResearch/research.html"); ?>
+        </td>
+        <td valign="top" width="33%" id="TopicContainer">  
+	<div id="HighlightTitle">Latest SPC Case Archive</div>
+        <?php include($_SERVER['DOCUMENT_ROOT']."/new/SPCCaseArchive/casestudy.html"); ?>
+        </td>
+       </tr>
+
+     </table>
+   </td>
+  </tr>
+</table>
+</div><!--end HighlightContainer-->
+<!--End 9-panel-->

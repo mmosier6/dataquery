@@ -1,0 +1,163 @@
+
+
+<script type="text/javascript">
+
+/* Optional: Temporarily hide the "tabber" class so it does not "flash"
+   on the page as plain HTML. After tabber runs, the class is changed
+   to "tabberlive" and it will appear. */
+
+document.write('<style type="text/css">.tabber{display:none;}<\/style>');
+
+var tabberOptions = {
+
+  'onClick': function(argsObj) {
+
+    var t = argsObj.tabber; /* Tabber object */
+    var i = argsObj.index; /* Which tab was clicked (0..n) */
+    var div = this.tabs[i].div; /* The tab content div */
+
+    /* Display a loading message */
+    div.innerHTML = "<p>Loading...<\/p>";
+
+    /* Fetch some html depending on which tab was clicked */
+    var url = '/new/SPCProducts/validProducts.php?content=' +i;
+    var pars = 'foo=bar&foo2=bar2'; /* just for example */
+    var myAjax = new Ajax.Updater(div, url, {method:'get',parameters:pars});
+  },
+
+  'onLoad': function(argsObj) {
+    /* Load the first tab */
+    argsObj.index = 0;
+    this.onClick(argsObj);
+  }
+
+}
+</script>
+
+
+
+<script type="text/javascript" src="/new/js/tabber.js"></script>
+
+
+<style>
+
+<?php
+//first open valid products file to determine operational mode of mainpage
+$prodFile = file("/local/spcwebsite/new/SPCProducts/validProducts.txt");
+
+foreach($prodFile as $line) {
+        $tline = trim($line);
+        $data = explode("|",$tline);
+        $prodType = $data[0];
+	//check for valid WWs
+        $strCheck = substr($prodType,0,2);
+        if ($strCheck == "WW") {
+                $ww = substr($prodType,0,2);
+                $wwNum = substr($prodType,2,4);
+                if ($wwNum != "none") {
+			$validWW = 1;
+?> 
+                 	ul.tabbernav li a#prodsnav2 {
+                   	  padding: 3px 0.5em;
+                   	  margin-left: 3px;
+                   	  border: 1px solid #778;
+                   	  border-bottom: none;
+                   	  color: #800000;
+                   	  background: #ffcccc;
+                   	  text-decoration: none;
+                 	}
+                 	ul.tabbernav li a#prodsnav2:hover {
+                   	  background: #ff9b9b;
+                 	}
+<?php
+		}
+        	else { 
+			$validWW = 0;
+?> 
+			ul.tabbernav li a#prodsnav2 {
+                          padding: 3px 0.5em;
+                          margin-left: 3px;
+                          border: 1px solid #778;
+                          border-bottom: none;
+                          color: #387200;
+                          background: #d2ffa6;
+                          text-decoration: none;
+                        }
+                        ul.tabbernav li a#prodsnav2:hover {
+                          background: #84fe0c;
+         		}
+<?php
+        	}
+	}
+	//check for valid MCDs
+	$strCheck = substr($prodType,0,3);
+	if ($strCheck == "MCD") {
+        $md = substr($prodType,0,3);
+        $mdNum = substr($prodType,3,4);
+                if ($mdNum != "none") {
+                        $validMD = 1;
+?>
+                        ul.tabbernav li a#prodsnav3 {
+                          padding: 3px 0.5em;
+                          margin-left: 3px;
+                          border: 1px solid #778;
+                          border-bottom: none;
+                          color: #800000;
+                          background: #ffcccc;
+                          text-decoration: none;
+                        }
+                        ul.tabbernav li a#prodsnav3:hover {
+                          background: #ff9b9b;
+                        }
+<?php    
+                }
+                else { 
+                        $validMD = 0; 
+?>
+                        ul.tabbernav li a#prodsnav3 {
+                          padding: 3px 0.5em;
+                          margin-left: 3px;
+                          border: 1px solid #778;
+                          border-bottom: none;
+                          color: #387200;
+                          background: #d2ffa6;
+                          text-decoration: none;
+                        }
+                        ul.tabbernav li a#prodsnav3:hover {
+                          background: #84fe0c;
+                        }
+<?php
+                }
+
+	}
+}
+
+?>
+
+</style>
+
+<div class="tabber" id="prods">
+
+     <div class="tabbertab">
+	  <h2>All Products</h2>
+     </div>
+
+
+     <div class="tabbertab">
+	  <h2>Watches</h2>
+     </div>
+
+
+     <div class="tabbertab">
+	  <h2>MDs</h2>
+     </div>
+
+     <div class="tabbertab">
+          <h2>Outlooks</h2>
+     </div>
+
+     <div class="tabbertab">
+          <h2>Fire</h2>
+     </div>
+
+</div>

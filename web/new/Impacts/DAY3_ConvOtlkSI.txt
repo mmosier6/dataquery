@@ -1,0 +1,4 @@
+HIGH,0,0,0.0,0.0,0.0
+MODERATE,0,0,0.0,0.0,0.0
+SLIGHT,85305,1790782,21.1,2.8,0.4
+SLIGHT,Little Rock, AR,Jonesboro, AR,Mountain Home, AR,Brinkley, AR,Danville, AR,

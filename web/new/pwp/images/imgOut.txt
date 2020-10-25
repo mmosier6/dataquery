@@ -1,0 +1,6 @@
+TSTM = True
+MRGL = True
+SLGT = True
+ENH = False
+MDT = False
+HIGH = False

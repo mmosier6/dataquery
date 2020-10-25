@@ -1,0 +1,89 @@
+<?php
+
+$YYYY = `date -u +%Y`;
+$MM = `date -u +%b`;
+$DD = `date -u +%d`;
+$date = $DD . " " . $MM . " " . $YYYY;
+
+$julian = `date -u +%j`;
+$file = $julian . ".png";
+
+?>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="./slides.min.jquery.js"></script>
+<script>
+	var $j = jQuery.noConflict();
+	$j(function(){
+		$j('#slides').slides({
+			fadeSpeed: 1000,
+			crossfade: true,
+			effect: 'fade',
+			preload: true,
+			preloadImage: '/new/SVRclimo/loading.gif',
+			play: 7000,
+			pause: 2500,
+			hoverPause: true,
+			animationStart: function(current){
+				$j('.caption').animate({
+					bottom:-35
+				},100);
+				if (window.console && console.log) {
+					// example return of current slide number
+					console.log('animationStart on slide: ', current);
+				};
+			},
+			animationComplete: function(current){
+				$j('.caption').animate({
+					bottom:0
+				},200);
+				if (window.console && console.log) {
+					// example return of current slide number
+					console.log('animationComplete on slide: ', current);
+				};
+			},
+			slidesLoaded: function() {
+				$j('.caption').animate({
+					bottom:0
+				},200);
+			}
+		});
+	});
+</script>
+
+<div id="spc1">
+   <div id="example">
+      <div id="slides">
+	 <div class="slides_container">
+	    <div class="slide">
+	       <a href="/misc/climographics/any_severe/<?php print "$file";?>" target="_blank"><img src="/misc/climographics/any_severe/<?php print "$file";?>" width="240" height="170" alt="Slide 1"></a>
+	       <div class="caption" style="bottom:0"><p>Any Severe for <?php print "$date";?>.</p></div>
+	    </div>
+	    <div class="slide">
+	       <a href="/misc/climographics/all_torn/<?php print "$file";?>" target="_blank"><img src="/misc/climographics/all_torn/<?php print "$file";?>" width="240" height="170" alt="Slide 1"></a>
+	       <div class="caption" style="bottom:0"><p>All tornadoes for <?php print "$date";?>.</p></div>
+	    </div>
+	    <div class="slide">
+               <a href="/misc/climographics/all_wind/<?php print "$file";?>" target="_blank"><img src="/misc/climographics/all_wind/<?php print "$file";?>" width="240" height="170" alt="Slide 1"></a>
+               <div class="caption" style="bottom:0"><p>All damaging wind for <?php print "$date";?>.</p></div>
+            </div>
+            <div class="slide">
+               <a href="/misc/climographics/all_hail/<?php print "$file";?>" target="_blank"><img src="/misc/climographics/all_hail/<?php print "$file";?>" width="240" height="170" alt="Slide 1"></a>
+               <div class="caption" style="bottom:0"><p>All hail for <?php print "$date";?>.</p></div>
+	    </div>
+	    <div class="slide">
+               <a href="/misc/climographics/sig_torn/<?php print "$file";?>" target="_blank"><img src="/misc/climographics/sig_torn/<?php print "$file";?>" width="240" height="170" alt="Slide 1"></a>
+               <div class="caption" style="bottom:0"><p>All F/EF2+ tornadoes for <?php print "$date";?>.</p></div>
+            </div>
+            <div class="slide">
+               <a href="/misc/climographics/sig_wind/<?php print "$file";?>" target="_blank"><img src="/misc/climographics/sig_wind/<?php print "$file";?>" width="240" height="170" alt="Slide 1"></a>
+               <div class="caption" style="bottom:0"><p>All sig wind for <?php print "$date";?>.</p></div>
+            </div>
+            <div class="slide">
+               <a href="/misc/climographics/sig_hail/<?php print "$file";?>" target="_blank"><img src="/misc/climographics/sig_hail/<?php print "$file";?>" width="240" height="170" alt="Slide 1"></a>
+               <div class="caption" style="bottom:0"><p>All sig hail for <?php print "$date";?>.</p></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

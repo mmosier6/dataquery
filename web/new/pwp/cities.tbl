@@ -1,0 +1,4177 @@
+New York,NY,40.71,-74.01
+Los Angeles,CA,34.05,-118.24
+Chicago,IL,41.85,-87.65
+Houston,TX,29.76,-95.36
+Philadelphia,PA,39.95,-75.16
+Phoenix,AZ,33.45,-112.07
+San Diego,CA,32.72,-117.16
+San Antonio,TX,29.42,-98.49
+Dallas,TX,32.78,-96.80
+San Jose,CA,37.34,-121.89
+Detroit,MI,42.33,-83.05
+Jacksonville,FL,30.33,-81.66
+Indianapolis,IN,39.77,-86.16
+Columbus,OH,39.96,-83.00
+San Francisco,CA,37.77,-122.42
+Austin,TX,30.27,-97.74
+Memphis,TN,35.15,-90.05
+Fort Worth,TX,32.73,-97.32
+Baltimore,MD,39.29,-76.61
+Charlotte,NC,35.23,-80.84
+El Paso,TX,31.76,-106.49
+Milwaukee,WI,43.04,-87.91
+Boston,MA,42.36,-71.06
+Seattle,WA,47.61,-122.33
+Denver,CO,39.74,-104.98
+Washington,DC,38.90,-77.04
+Portland,OR,45.52,-122.67
+Las Vegas,NV,36.17,-115.14
+Oklahoma City,OK,35.47,-97.52
+Nashville,TN,36.17,-86.78
+Tucson,AZ,32.22,-110.93
+Albuquerque,NM,35.08,-106.65
+Long Beach,CA,33.77,-118.19
+Sacramento,CA,38.58,-121.49
+Kansas City,MO,39.10,-94.58
+Fresno,CA,36.75,-119.77
+New Orleans,LA,29.95,-90.08
+Mesa,AZ,33.42,-111.82
+Cleveland,OH,41.50,-81.70
+Virginia Beach,VA,36.85,-75.98
+Atlanta,GA,33.75,-84.39
+San Juan,PR,18.47,-66.11
+Omaha,NE,41.26,-95.94
+Oakland,CA,37.80,-122.27
+Honolulu,HI,21.31,-157.86
+Miami,FL,25.77,-80.19
+Tulsa,OK,36.15,-95.99
+Colorado Springs,CO,38.83,-104.82
+Minneapolis,MN,44.98,-93.26
+Arlington,TX,32.74,-97.11
+Wichita,KS,37.69,-97.34
+Santa Ana,CA,33.75,-117.87
+Raleigh,NC,35.77,-78.64
+Anaheim,CA,33.84,-117.91
+Tampa,FL,27.95,-82.46
+St. Louis,MO,38.63,-90.20
+Pittsburgh,PA,40.44,-80.00
+Toledo,OH,41.66,-83.56
+Cincinnati,OH,39.16,-84.46
+Aurora,CO,39.73,-104.83
+Riverside,CA,33.95,-117.40
+Bakersfield,CA,35.37,-119.02
+Stockton,CA,37.96,-121.29
+Corpus Christi,TX,27.80,-97.40
+Newark,NJ,40.74,-74.17
+Buffalo,NY,42.89,-78.88
+Anchorage,AK,61.22,-149.90
+St. Paul,MN,44.94,-93.09
+Lexington-Fayette,KY,38.05,-84.46
+Plano,TX,33.02,-96.70
+St. Petersburg,FL,27.77,-82.68
+Norfolk,VA,36.85,-76.29
+Louisville,KY,38.25,-85.76
+Lincoln,NE,40.80,-96.67
+Glendale,AZ,33.54,-112.19
+Henderson,NV,36.04,-114.98
+Jersey City,NJ,40.73,-74.08
+Chandler,AZ,33.31,-111.84
+Greensboro,NC,36.07,-79.79
+Birmingham,AL,33.52,-86.80
+Fort Wayne,IN,41.13,-85.13
+Scottsdale,AZ,33.51,-111.90
+Hialeah,FL,25.86,-80.28
+Madison,WI,43.07,-89.40
+Baton Rouge,LA,30.45,-91.15
+Chesapeake,VA,36.82,-76.28
+Garland,TX,32.91,-96.64
+Modesto,CA,37.64,-121.00
+Paradise,NV,36.10,-115.15
+Chula Vista,CA,32.64,-117.08
+Lubbock,TX,33.58,-101.85
+Rochester,NY,43.15,-77.62
+Laredo,TX,27.51,-99.51
+Akron,OH,41.08,-81.52
+Orlando,FL,28.54,-81.38
+Durham,NC,35.99,-78.90
+Glendale,CA,34.14,-118.25
+Fremont,CA,37.55,-121.99
+San Bernardino,CA,34.11,-117.29
+Reno,NV,39.53,-119.81
+Montgomery,AL,32.37,-86.30
+Yonkers,NY,40.93,-73.90
+Spokane,WA,47.66,-117.42
+Shreveport,LA,32.52,-93.75
+Tacoma,WA,47.25,-122.44
+Huntington Beach,CA,33.66,-118.00
+Grand Rapids,MI,42.96,-85.67
+Irving,TX,32.81,-96.95
+Winston-Salem,NC,36.10,-80.24
+Des Moines,IA,41.60,-93.61
+Richmond,VA,37.55,-77.46
+Mobile,AL,30.69,-88.04
+Irvine,CA,33.67,-117.82
+Sunrise Manor,NV,36.21,-115.07
+Oxnard,CA,34.20,-119.18
+Arlington,VA,38.89,-77.08
+Columbus,GA,32.46,-84.99
+Little Rock,AR,34.75,-92.29
+Newport News,VA,36.98,-76.43
+Amarillo,TX,35.22,-101.83
+Salt Lake City,UT,40.76,-111.89
+Providence,RI,41.82,-71.41
+Worcester,MA,42.26,-71.80
+Jackson,MS,32.30,-90.18
+Aurora,IL,41.76,-88.32
+Ontario,CA,34.06,-117.65
+Knoxville,TN,35.96,-83.92
+Gilbert,AZ,33.35,-111.79
+Fort Lauderdale,FL,26.12,-80.14
+Carolina,PR,18.38,-65.96
+Oceanside,CA,33.20,-117.38
+Fontana,CA,34.09,-117.43
+Santa Clarita,CA,34.39,-118.54
+Moreno Valley,CA,33.94,-117.23
+Rancho Cucamonga,CA,34.11,-117.59
+Brownsville,TX,25.90,-97.50
+Huntsville,AL,34.73,-86.59
+Garden Grove,CA,33.77,-117.94
+Overland Park,KS,38.98,-94.67
+North Las Vegas,NV,36.20,-115.12
+Spring Valley,NV,36.11,-115.24
+Dayton,OH,39.76,-84.19
+Tempe,AZ,33.41,-111.91
+Vancouver,WA,45.64,-122.66
+Pomona,CA,34.06,-117.75
+Pembroke Pines,FL,26.00,-80.22
+Santa Rosa,CA,38.44,-122.71
+Chattanooga,TN,35.05,-85.31
+Tallahassee,FL,30.44,-84.28
+Corona,CA,33.88,-117.57
+Rockford,IL,42.27,-89.09
+Ponce,PR,18.01,-66.61
+Springfield,MA,42.10,-72.59
+Paterson,NJ,40.92,-74.17
+Springfield,MO,37.22,-93.30
+Salinas,CA,36.68,-121.65
+Hampton,VA,37.03,-76.35
+Salem,OR,44.94,-123.03
+Kansas City,KS,39.11,-94.63
+Eugene,OR,44.05,-123.09
+Torrance,CA,33.84,-118.34
+Hollywood,FL,26.01,-80.15
+Pasadena,TX,29.69,-95.21
+Pasadena,CA,34.15,-118.14
+Naperville,IL,41.79,-88.15
+Metairie,LA,29.98,-90.15
+Syracuse,NY,43.05,-76.15
+Grand Prairie,TX,32.75,-97.00
+Lakewood,CO,39.70,-105.08
+Hayward,CA,37.67,-122.08
+Sioux Falls,SD,43.55,-96.70
+Peoria,AZ,33.58,-112.24
+Bridgeport,CT,41.17,-73.21
+Escondido,CA,33.12,-117.09
+Fullerton,CA,33.87,-117.92
+Palmdale,CA,34.58,-118.12
+Joliet,IL,41.52,-88.08
+Orange,CA,33.79,-117.85
+Warren,MI,42.48,-83.03
+Coral Springs,FL,26.27,-80.27
+Mesquite,TX,32.77,-96.60
+Cape Coral,FL,26.56,-81.95
+Lancaster,CA,34.70,-118.14
+Fort Collins,CO,40.59,-105.08
+Thousand Oaks,CA,34.17,-118.84
+Alexandria,VA,38.80,-77.05
+Sterling Heights,MI,42.58,-83.03
+Sunnyvale,CA,37.37,-122.04
+Savannah,GA,32.08,-81.10
+Gainesville,FL,29.65,-82.33
+Concord,CA,37.98,-122.03
+El Monte,CA,34.07,-118.03
+East Los Angeles,CA,34.02,-118.17
+New Haven,CT,41.31,-72.93
+Fayetteville,NC,35.05,-78.88
+Hartford,CT,41.76,-72.69
+Elizabeth,NJ,40.66,-74.21
+Cedar Rapids,IA,42.01,-91.64
+Topeka,KS,39.05,-95.68
+Stamford,CT,41.05,-73.54
+Carrollton,TX,32.95,-96.89
+Vallejo,CA,38.10,-122.26
+Simi Valley,CA,34.27,-118.78
+Port St. Lucie,FL,27.29,-80.35
+Toms River,NJ,39.95,-74.20
+Waco,TX,31.55,-97.15
+Columbia,SC,34.00,-81.03
+Lansing,MI,42.73,-84.56
+Flint,MI,43.01,-83.69
+Inglewood,CA,33.96,-118.35
+Springfield,IL,39.80,-89.64
+Evansville,IN,37.97,-87.56
+Abilene,TX,32.45,-99.73
+Ann Arbor,MI,42.27,-83.73
+Olathe,KS,38.88,-94.82
+West Valley City,UT,40.69,-112.00
+Peoria,IL,40.69,-89.59
+Miramar,FL,25.99,-80.23
+Roseville,CA,38.75,-121.29
+Lafayette,LA,30.22,-92.02
+Bellevue,WA,47.61,-122.20
+Downey,CA,33.94,-118.13
+Clarksville,TN,36.53,-87.36
+Beaumont,TX,30.09,-94.10
+Independence,MO,39.09,-94.42
+Manchester,NH,43.00,-71.46
+West Covina,CA,34.07,-117.94
+Costa Mesa,CA,33.64,-117.92
+Norwalk,CA,33.90,-118.08
+Waterbury,CT,41.56,-73.05
+Clearwater,FL,27.97,-82.80
+Visalia,CA,36.33,-119.29
+Antioch,CA,38.01,-121.80
+Provo,UT,40.23,-111.66
+Fairfield,CA,38.25,-122.04
+Allentown,PA,40.61,-75.49
+Richardson,TX,32.95,-96.73
+Charleston,SC,32.78,-79.93
+Burbank,CA,34.18,-118.31
+Thornton,CO,39.87,-104.97
+Pueblo,CO,38.25,-104.61
+Westminster,CO,39.84,-105.04
+Cary,NC,35.79,-78.78
+South Bend,IN,41.68,-86.25
+Lowell,MA,42.63,-71.32
+Richmond,CA,37.94,-122.35
+Killeen,TX,31.12,-97.73
+Edison,NJ,40.52,-74.41
+Santa Clara,CA,37.35,-121.95
+Norman,OK,35.22,-97.44
+Arvada,CO,39.80,-105.09
+Highlands Ranch,CO,39.55,-104.97
+Rialto,CA,34.11,-117.37
+Cambridge,MA,42.38,-71.11
+Wichita Falls,TX,33.91,-98.49
+West Jordan,UT,40.61,-111.94
+Green Bay,WI,44.52,-88.02
+Denton,TX,33.21,-97.13
+Berkeley,CA,37.87,-122.27
+South Gate,CA,33.95,-118.21
+Erie,PA,42.13,-80.09
+Billings,MT,45.78,-108.50
+Portsmouth,VA,36.84,-76.30
+Daly City,CA,37.71,-122.46
+Gresham,OR,45.50,-122.43
+Elgin,IL,42.04,-88.28
+Livonia,MI,42.37,-83.35
+Gary,IN,41.59,-87.35
+Midland,TX,32.00,-102.08
+Everett,WA,47.98,-122.20
+Davenport,IA,41.52,-90.58
+Centennial,CO,39.58,-104.88
+Spring Hill,FL,28.56,-82.45
+Compton,CA,33.90,-118.22
+Vacaville,CA,38.36,-121.99
+Rochester,MN,44.02,-92.47
+Mission Viejo,CA,33.60,-117.67
+Columbia,MD,39.24,-76.84
+Carson,CA,33.83,-118.28
+Dearborn,MI,42.32,-83.18
+Brockton,MA,42.08,-71.02
+El Cajon,CA,32.79,-116.96
+Sandy Springs,GA,33.92,-84.38
+Elk Grove,CA,38.41,-121.37
+High Point,NC,35.96,-80.01
+Macon,GA,32.84,-83.63
+New Bedford,MA,41.64,-70.93
+Kenosha,WI,42.58,-87.82
+Lewisville,TX,33.05,-96.99
+Albany,NY,42.65,-73.76
+West Palm Beach,FL,26.71,-80.05
+Orem,UT,40.30,-111.69
+Fall River,MA,41.70,-71.16
+Vista,CA,33.20,-117.24
+Waukegan,IL,42.36,-87.84
+Wilmington,NC,34.23,-77.94
+Fargo,ND,46.88,-96.79
+Lawton,OK,34.61,-98.39
+Redding,CA,40.59,-122.39
+Boulder,CO,40.02,-105.27
+Columbia,MO,38.95,-92.33
+Odessa,TX,31.85,-102.37
+Roanoke,VA,37.27,-79.94
+Carlsbad,CA,33.16,-117.35
+Sunrise,FL,26.13,-80.11
+Tyler,TX,32.35,-95.30
+Lakeland,FL,28.04,-81.95
+Plymouth,MA,41.96,-70.67
+Brandon,FL,27.94,-82.29
+San Mateo,CA,37.56,-122.32
+Westminster,CA,33.76,-118.01
+Pompano Beach,FL,26.24,-80.12
+Lynn,MA,42.47,-70.95
+Citrus Heights,CA,38.71,-121.28
+Miami Beach,FL,25.79,-80.13
+Quincy,MA,42.25,-71.00
+Palm Bay,FL,28.03,-80.59
+Murrieta,CA,33.55,-117.21
+Round Rock,TX,30.51,-97.68
+Yakima,WA,46.60,-120.50
+Alhambra,CA,34.10,-118.13
+Santa Monica,CA,34.02,-118.49
+San Angelo,TX,31.46,-100.44
+Warwick,RI,41.70,-71.42
+Hawthorne,CA,33.92,-118.35
+Nashua,NH,42.77,-71.47
+Greeley,CO,40.42,-104.71
+Canton,MI,42.31,-83.48
+Caguas,PR,18.24,-66.05
+Santa Barbara,CA,34.42,-119.70
+Clovis,CA,36.83,-119.70
+Whittier,CA,33.98,-118.03
+Plantation,FL,26.13,-80.23
+Broken Arrow,OK,36.05,-95.79
+Santa Maria,CA,34.95,-120.43
+Temecula,CA,33.49,-117.15
+Newton,MA,42.34,-71.21
+Trenton,NJ,40.22,-74.74
+Westland,MI,42.32,-83.40
+Duluth,MN,46.78,-92.11
+Murfreesboro,TN,35.85,-86.39
+Sparks,NV,39.53,-119.75
+Norwalk,CT,41.12,-73.41
+Yuma,AZ,32.73,-114.62
+Victorville,CA,34.54,-117.29
+Lawrence,KS,38.97,-95.23
+Longmont,CO,40.17,-105.10
+Sioux City,IA,42.50,-96.40
+Tracy,CA,37.74,-121.42
+Kendall,FL,25.68,-80.32
+Cranston,RI,41.78,-71.44
+North Charleston,SC,32.85,-79.97
+Beaverton,OR,45.49,-122.80
+Davie,FL,26.06,-80.23
+Parma,OH,41.40,-81.72
+Hillsboro,OR,45.52,-122.99
+Kent,WA,47.38,-122.23
+Lakewood,CA,33.85,-118.13
+Deltona,FL,28.90,-81.26
+Fort Smith,AR,35.39,-94.40
+Bloomington,MN,44.84,-93.30
+Guaynabo,PR,18.36,-66.11
+Troy,MI,42.61,-83.15
+Cicero,IL,41.85,-87.75
+Federal Way,WA,47.32,-122.31
+Suffolk,VA,36.73,-76.58
+Boca Raton,FL,26.36,-80.08
+Baldwin Park,CA,34.09,-117.96
+Camden,NJ,39.93,-75.12
+Livermore,CA,37.68,-121.77
+Clifton,NJ,40.86,-74.16
+Las Cruces,NM,32.31,-106.78
+Farmington Hills,MI,42.49,-83.38
+San Leandro,CA,37.73,-122.16
+Tuscaloosa,AL,33.21,-87.57
+Reading,PA,40.34,-75.93
+Racine,WI,42.73,-87.78
+Buena Park,CA,33.87,-118.00
+Hammond,IN,41.58,-87.50
+Newport Beach,CA,33.62,-117.93
+Danbury,CT,41.39,-73.45
+College Station,TX,30.63,-96.33
+Ogden,UT,41.22,-111.97
+Chino Hills,CA,33.89,-117.73
+Canton,OH,40.80,-81.38
+Silver Spring,MD,38.99,-77.03
+Casas Adobes,AZ,32.32,-110.99
+Decatur,IL,39.84,-88.95
+Youngstown,OH,41.10,-80.65
+Cheektowaga,NY,42.90,-78.75
+Roswell,GA,34.02,-84.36
+Napa,CA,38.30,-122.28
+Southfield,MI,42.47,-83.22
+Lake Forest,CA,33.65,-117.69
+Mayaguez,PR,18.20,-67.14
+Melbourne,FL,28.08,-80.61
+Longview,TX,32.50,-94.74
+Allen,TX,33.10,-96.67
+Bellflower,CA,33.88,-118.12
+Albany,GA,31.58,-84.16
+Sugar Land,TX,29.62,-95.63
+Waterford,MI,42.70,-83.40
+Champaign,IL,40.12,-88.24
+The Woodlands,TX,30.16,-95.49
+Chino,CA,34.01,-117.69
+Evanston,IL,42.04,-87.69
+Somerville,MA,42.39,-71.10
+Arlington Heights,IL,42.09,-87.98
+Pawtucket,RI,41.88,-71.38
+Upland,CA,34.10,-117.65
+Kalamazoo,MI,42.29,-85.59
+Edmond,OK,35.65,-97.48
+Bethlehem,PA,40.63,-75.37
+Hesperia,CA,34.43,-117.30
+Bellingham,WA,48.76,-122.49
+Schaumburg,IL,42.03,-88.08
+Bolingbrook,IL,41.70,-88.07
+Scranton,PA,41.41,-75.66
+Nampa,ID,43.54,-116.56
+New Rochelle,NY,40.91,-73.78
+Merced,CA,37.30,-120.48
+Lawrence,MA,42.71,-71.16
+Lynwood,CA,33.93,-118.21
+Plymouth,MN,45.01,-93.46
+Redwood City,CA,37.49,-122.24
+St. Joseph,MO,39.77,-94.85
+Largo,FL,27.91,-82.79
+Catalina Foothills,AZ,32.30,-110.92
+New Britain,CT,41.66,-72.78
+Wilmington,DE,39.75,-75.55
+Gulfport,MS,30.37,-89.09
+Bloomington,IN,39.17,-86.53
+Frisco,TX,33.15,-96.82
+Greenville,NC,35.61,-77.37
+Bloomington,IL,40.48,-88.99
+Chico,CA,39.73,-121.84
+Cherry Hill,NJ,39.93,-75.03
+Alameda,CA,37.77,-122.24
+Lake Charles,LA,30.23,-93.22
+Wyoming,MI,42.91,-85.71
+Redlands,CA,34.06,-117.18
+Appleton,WI,44.26,-88.42
+Kenner,LA,29.99,-90.24
+Missouri City,TX,29.62,-95.54
+San Marcos,CA,33.14,-117.17
+Avondale,AZ,33.44,-112.35
+Medford,OR,42.33,-122.87
+Bryan,TX,30.67,-96.37
+The Hammocks,FL,25.67,-80.44
+Union City,CA,37.60,-122.02
+Tamiami,FL,25.76,-80.40
+Santa Fe,NM,35.69,-105.94
+Hemet,CA,33.75,-116.97
+Rochester Hills,MI,42.66,-83.15
+Passaic,NJ,40.86,-74.13
+Asheville,NC,35.60,-82.55
+Tustin,CA,33.75,-117.83
+East Orange,NJ,40.77,-74.21
+Mountain View,CA,37.39,-122.08
+Weston,FL,26.10,-80.40
+Mount Vernon,NY,40.91,-73.84
+Waukesha,WI,43.01,-88.23
+Jacksonville,NC,34.75,-77.43
+Pontiac,MI,42.64,-83.29
+Folsom,CA,38.68,-121.17
+Turlock,CA,37.49,-120.85
+Lorain,OH,41.45,-82.18
+Gastonia,NC,35.26,-81.19
+Palatine,IL,42.11,-88.03
+Redondo Beach,CA,33.85,-118.39
+Brooklyn Park,MN,45.09,-93.36
+Baytown,TX,29.74,-94.98
+Hoover,AL,33.41,-86.81
+Flower Mound,TX,33.01,-97.10
+West Hartford,CT,41.76,-72.74
+Pleasanton,CA,37.66,-121.87
+Boynton Beach,FL,26.52,-80.07
+Pico Rivera,CA,33.98,-118.10
+Laguna Niguel,CA,33.52,-117.71
+Deerfield Beach,FL,26.32,-80.10
+Ellicott City,MD,39.27,-76.80
+Union City,NJ,40.78,-74.02
+Indio,CA,33.72,-116.21
+Waterloo,IA,42.49,-92.34
+Manteca,CA,37.80,-121.22
+Davis,CA,38.55,-121.74
+Bend,OR,44.06,-121.31
+Lynchburg,VA,37.41,-79.14
+Delray Beach,FL,26.46,-80.07
+Surprise,AZ,33.63,-112.33
+Framingham,MA,42.28,-71.42
+Muncie,IN,40.19,-85.39
+Centreville,VA,38.84,-77.43
+Walnut Creek,CA,37.91,-122.06
+Taylor,MI,42.24,-83.27
+Fayetteville,AR,36.06,-94.16
+Yorba Linda,CA,33.89,-117.81
+Germantown,MD,39.17,-77.27
+Daytona Beach,FL,29.21,-81.02
+Palm Harbor,FL,28.08,-82.76
+Montebello,CA,34.01,-118.10
+Springfield,OH,39.92,-83.81
+Apple Valley,CA,34.50,-117.19
+Skokie,IL,42.03,-87.73
+Eagan,MN,44.80,-93.17
+Iowa City,IA,41.66,-91.53
+Rio Rancho,NM,35.23,-106.66
+Huntington Park,CA,33.98,-118.22
+Kissimmee,FL,28.29,-81.41
+Greenwich,CT,41.03,-73.63
+North Bergen,NJ,40.80,-74.01
+Eden Prairie,MN,44.85,-93.47
+Monterey Park,CA,34.06,-118.12
+Missoula,MT,46.87,-113.99
+Harlingen,TX,26.19,-97.70
+Portland,ME,43.66,-70.26
+Carol City,FL,25.94,-80.25
+Oshkosh,WI,44.02,-88.54
+Eau Claire,WI,44.81,-91.50
+Pittsburg,CA,38.03,-121.88
+North Richland Hills,TX,32.83,-97.23
+Castro Valley,CA,37.69,-122.09
+Lodi,CA,38.13,-121.27
+Milpitas,CA,37.43,-121.91
+Coon Rapids,MN,45.12,-93.29
+Camarillo,CA,34.22,-119.04
+National City,CA,32.68,-117.10
+Layton,UT,41.06,-111.97
+San Clemente,CA,33.43,-117.61
+Lafayette,IN,40.42,-86.88
+Kennewick,WA,46.21,-119.14
+Jackson,TN,35.61,-88.81
+Victoria,TX,28.80,-97.00
+St. Charles,MO,38.78,-90.48
+League City,TX,29.51,-95.09
+Rapid City,SD,44.08,-103.23
+Kendale Lakes,FL,25.71,-80.41
+Dothan,AL,31.22,-85.39
+Janesville,WI,42.68,-89.02
+Dundalk,MD,39.25,-76.52
+Encinitas,CA,33.04,-117.29
+Mission,TX,26.22,-98.33
+Haverhill,MA,42.78,-71.08
+Hamilton,OH,39.40,-84.56
+Marietta,GA,33.95,-84.55
+St. George,UT,37.10,-113.58
+Irvington,NJ,40.73,-74.24
+Dale City,VA,38.64,-77.31
+Reston,VA,38.97,-77.34
+Bristol,CT,41.67,-72.95
+Gardena,CA,33.89,-118.31
+Pharr,TX,26.19,-98.18
+Rockville,MD,39.08,-77.15
+Concord,NC,35.41,-80.58
+Edinburg,TX,26.30,-98.16
+Schenectady,NY,42.81,-73.94
+Gaithersburg,MD,39.14,-77.20
+Maple Grove,MN,45.07,-93.46
+Bayonne,NJ,40.67,-74.11
+Lauderhill,FL,26.14,-80.21
+Hamden,CT,41.40,-72.90
+Rock Hill,SC,34.92,-81.03
+La Habra,CA,33.93,-117.95
+Loveland,CO,40.40,-105.07
+Bossier City,LA,32.52,-93.73
+Burnsville,MN,44.77,-93.28
+Falmouth,MA,41.55,-70.62
+Meriden,CT,41.54,-72.81
+West Allis,WI,43.02,-88.01
+Tamarac,FL,26.21,-80.25
+Rancho Cordova,CA,38.59,-121.30
+St. Cloud,MN,45.56,-94.16
+Mount Pleasant,SC,32.79,-79.86
+North Little Rock,AR,34.77,-92.27
+Fairfield,CT,41.14,-73.26
+South Whittier,CA,33.96,-118.04
+Diamond Bar,CA,34.03,-117.81
+Lakewood,WA,47.17,-122.52
+Council Bluffs,IA,41.26,-95.86
+Jonesboro,AR,35.84,-90.70
+Johnson City,TN,36.31,-82.35
+Utica,NY,43.10,-75.23
+Waltham,MA,42.38,-71.24
+South San Francisco,CA,37.65,-122.41
+North Miami,FL,25.89,-80.19
+Taylorsville,UT,40.67,-111.94
+Burke,VA,38.79,-77.27
+Vineland,NJ,39.49,-75.03
+Brentwood,NY,40.78,-73.25
+Wayne,NJ,40.93,-74.28
+Warner Robins,GA,32.62,-83.60
+Royal Oak,MI,42.49,-83.14
+Flagstaff,AZ,35.20,-111.65
+Shawnee,KS,39.04,-94.72
+Saginaw,MI,43.42,-83.95
+Annandale,VA,38.83,-77.20
+Anderson,IN,40.11,-85.68
+Carson City,NV,39.16,-119.77
+Frederick,MD,39.41,-77.41
+Paramount,CA,33.89,-118.16
+White Plains,NY,41.03,-73.76
+Tinley Park,IL,41.57,-87.78
+Dubuque,IA,42.50,-90.66
+Taunton,MA,41.90,-71.09
+Terre Haute,IN,39.47,-87.41
+Port Arthur,TX,29.90,-93.93
+Union,NJ,40.70,-74.26
+Arcadia,CA,34.14,-118.03
+Bismarck,ND,46.81,-100.78
+Ames,IA,42.03,-93.62
+Palo Alto,CA,37.44,-122.14
+Galveston,TX,29.30,-94.80
+Springdale,AR,36.19,-94.13
+Dearborn Heights,MI,42.34,-83.27
+Renton,WA,47.48,-122.22
+Fountain Valley,CA,33.71,-117.95
+Brookline,MA,42.33,-71.12
+Great Falls,MT,47.50,-111.30
+Rosemead,CA,34.08,-118.07
+Bowie,MD,39.01,-76.78
+Springfield,OR,44.05,-123.02
+Rocky Mount,NC,35.94,-77.79
+Kettering,OH,39.69,-84.17
+Elyria,OH,41.37,-82.11
+Orland Park,IL,41.63,-87.85
+Temple,TX,31.10,-97.34
+Greenville,SC,34.85,-82.39
+Margate,FL,26.24,-80.21
+Cheyenne,WY,41.14,-104.82
+Petaluma,CA,38.23,-122.64
+Mount Prospect,IL,42.07,-87.94
+Malden,MA,42.42,-71.07
+West Des Moines,IA,41.58,-93.71
+San Rafael,CA,37.97,-122.53
+Pearland,TX,29.56,-95.29
+Chicopee,MA,42.15,-72.61
+Rocklin,CA,38.79,-121.23
+Murray,UT,40.67,-111.89
+Midwest City,OK,35.45,-97.40
+Fishers,IN,39.96,-86.01
+Rowlett,TX,32.90,-96.56
+Oak Lawn,IL,41.71,-87.76
+Lake Havasu City,AZ,34.48,-114.32
+Lancaster,PA,40.04,-76.31
+Decatur,AL,34.61,-86.98
+Santa Cruz,CA,36.97,-122.03
+Bradenton,FL,27.50,-82.58
+Wheaton,IL,41.87,-88.11
+Owensboro,KY,37.77,-87.11
+Weymouth,MA,42.22,-70.94
+Hacienda Heights,CA,33.99,-117.97
+Port Orange,FL,29.14,-81.00
+Blaine,MN,45.16,-93.23
+Trujillo Alto,PR,18.36,-66.01
+Pensacola,FL,30.42,-87.22
+Battle Creek,MI,42.32,-85.18
+La Mesa,CA,32.77,-117.02
+Des Plaines,IL,42.03,-87.88
+Medford,MA,42.42,-71.11
+St. Peters,MO,38.80,-90.63
+Novi,MI,42.48,-83.48
+Towson,MD,39.40,-76.60
+Country Club,FL,25.95,-80.32
+Aspen Hill,MD,39.08,-77.07
+West Haven,CT,41.27,-72.95
+Sarasota,FL,27.34,-82.53
+Cerritos,CA,33.86,-118.06
+Euless,TX,32.84,-97.08
+Pine Bluff,AR,34.23,-92.00
+Wellington,FL,26.66,-80.24
+Levittown,PA,40.16,-74.83
+Niagara Falls,NY,43.09,-79.06
+Fort Myers,FL,26.64,-81.87
+Cathedral City,CA,33.78,-116.46
+Hempstead,NY,40.71,-73.62
+Middletown,OH,39.52,-84.40
+Bethesda,MD,38.98,-77.10
+Lakewood,OH,41.48,-81.80
+Santee,CA,32.84,-116.97
+Levittown,NY,40.73,-73.51
+Yuba City,CA,39.14,-121.62
+Rowland Heights,CA,33.98,-117.90
+Colton,CA,34.07,-117.31
+Idaho Falls,ID,43.47,-112.03
+Irondequoit,NY,43.21,-77.58
+Cuyahoga Falls,OH,41.13,-81.48
+Florissant,MO,38.79,-90.32
+Woodland,CA,38.68,-121.77
+Cedar Park,TX,30.50,-97.82
+Shoreline,WA,47.76,-122.34
+Monroe,LA,32.51,-92.12
+Bowling Green,KY,36.99,-86.44
+Glendora,CA,34.14,-117.86
+Conway,AR,35.09,-92.44
+Casper,WY,42.87,-106.31
+Madera,CA,36.96,-120.06
+Elkhart,IN,41.68,-85.98
+Berwyn,IL,41.85,-87.79
+Rancho Santa Margarita,CA,33.64,-117.60
+Normal,IL,40.51,-88.99
+Highland,CA,34.13,-117.21
+Stratford,CT,41.18,-73.13
+Milford,CT,41.22,-73.06
+Lakeville,MN,44.65,-93.24
+Carmichael,CA,38.62,-121.33
+Woodbury,MN,44.92,-92.96
+Cupertino,CA,37.32,-122.03
+Corvallis,OR,44.56,-123.26
+Pocatello,ID,42.87,-112.44
+New Brunswick,NJ,40.49,-74.45
+Hoffman Estates,IL,42.04,-88.08
+Apple Valley,MN,44.73,-93.22
+La Crosse,WI,43.80,-91.24
+East Providence,RI,41.81,-71.37
+Charleston,WV,38.35,-81.63
+Yucaipa,CA,34.03,-117.04
+Middletown,CT,41.56,-72.65
+Coconut Creek,FL,26.25,-80.18
+Mansfield,OH,40.76,-82.52
+Peabody,MA,42.53,-70.93
+East Hartford,CT,41.78,-72.61
+Euclid,OH,41.59,-81.53
+Minnetonka,MN,44.91,-93.50
+Tulare,CA,36.21,-119.35
+La Mirada,CA,33.92,-118.01
+Redford,MI,42.38,-83.30
+Auburn,AL,32.61,-85.48
+Blue Springs,MO,39.02,-94.28
+Mentor,OH,41.67,-81.34
+Franklin,TN,35.92,-86.87
+Grapevine,TX,32.93,-97.08
+Poway,CA,32.96,-117.03
+Ocala,FL,29.19,-82.14
+Oak Park,IL,41.88,-87.78
+Downers Grove,IL,41.81,-88.01
+Port Charlotte,FL,26.98,-82.09
+Arecibo,PR,18.47,-66.72
+Bedford,TX,32.84,-97.14
+Placentia,CA,33.87,-117.87
+Bloomfield,NJ,40.81,-74.19
+Perth Amboy,NJ,40.51,-74.27
+Mishawaka,IN,41.66,-86.16
+Jupiter,FL,26.93,-80.09
+Novato,CA,38.11,-122.57
+Covina,CA,34.09,-117.89
+Sheboygan,WI,43.75,-87.71
+Lehigh Acres,FL,26.62,-81.62
+Palm Desert,CA,33.72,-116.37
+Huntington,WV,38.42,-82.45
+East Brunswick,NJ,40.43,-74.42
+Chantilly,VA,38.89,-77.43
+Grand Forks,ND,47.93,-97.03
+East Lansing,MI,42.74,-84.48
+Azusa,CA,34.13,-117.91
+Andover,MA,42.66,-71.14
+Troy,NY,42.73,-73.69
+Palm Beach Gardens,FL,26.82,-80.14
+West Orange,NJ,40.80,-74.24
+Hattiesburg,MS,31.33,-89.29
+Bellevue,NE,41.14,-95.89
+Harrisburg,PA,40.27,-76.88
+Plainfield,NJ,40.63,-74.41
+Cleveland Heights,OH,41.52,-81.56
+Biloxi,MS,30.40,-88.89
+Hanford,CA,36.33,-119.64
+Chapel Hill,NC,35.91,-79.06
+Moore,OK,35.34,-97.49
+Roseville,MI,42.50,-82.94
+Cypress,CA,33.82,-118.04
+Redmond,WA,47.67,-122.12
+Carmel,IN,39.98,-86.12
+Chesterfield,MO,38.66,-90.58
+Tigard,OR,45.43,-122.77
+Kentwood,MI,42.87,-85.64
+Altoona,PA,40.52,-78.39
+Burlington,NC,36.10,-79.44
+Joplin,MO,37.08,-94.51
+Newark,OH,40.06,-82.40
+Wilson,NC,35.72,-77.92
+San Marcos,TX,29.88,-97.94
+Palm Springs,CA,33.83,-116.54
+Brentwood,CA,37.93,-121.69
+Smyrna,GA,33.88,-84.51
+Glenview,IL,42.07,-87.79
+Pinellas Park,FL,27.84,-82.70
+North Fort Myers,FL,26.67,-81.88
+Revere,MA,42.41,-71.01
+Portage,MI,42.20,-85.58
+Perris,CA,33.78,-117.23
+Kokomo,IN,40.49,-86.13
+Egypt Lake-Leto,FL,28.02,-82.50
+Enid,OK,36.40,-97.88
+Bell Gardens,CA,33.97,-118.15
+West New York,NJ,40.79,-74.01
+San Ramon,CA,37.78,-121.98
+Edina,MN,44.89,-93.35
+Grand Junction,CO,39.06,-108.55
+Danville,VA,36.59,-79.40
+North Highlands,CA,38.69,-121.37
+New Braunfels,TX,29.70,-98.12
+Woonsocket,RI,42.00,-71.52
+Meridian,ID,43.61,-116.39
+Kirkland,WA,47.68,-122.21
+Watsonville,CA,36.91,-121.76
+Salina,KS,38.84,-97.61
+Valdosta,GA,30.83,-83.28
+Auburn,WA,47.31,-122.23
+Manhattan,KS,39.18,-96.57
+DeSoto,TX,32.59,-96.86
+Pine Hills,FL,28.56,-81.45
+Rogers,AR,36.33,-94.12
+Binghamton,NY,42.10,-75.92
+Warren,OH,41.24,-80.82
+Wauwatosa,WI,43.05,-88.01
+Methuen,MA,42.73,-71.19
+Gilroy,CA,37.01,-121.57
+Sanford,FL,28.80,-81.27
+Alexandria,LA,31.31,-92.44
+Potomac,MD,39.02,-77.21
+Elmhurst,IL,41.90,-87.94
+Olympia,WA,47.04,-122.90
+Aloha,OR,45.49,-122.87
+Richland,WA,46.29,-119.28
+Strongsville,OH,41.31,-81.84
+Logan,UT,41.74,-111.83
+Grand Island,NE,40.92,-98.34
+Albany,OR,44.64,-123.10
+Delano,CA,35.77,-119.25
+West Seneca,NY,42.85,-78.80
+Broomfield,CO,39.92,-105.09
+Porterville,CA,36.07,-119.02
+Hendersonville,TN,36.30,-86.62
+North Atlanta,GA,33.87,-84.34
+North Bethesda,MD,39.04,-77.12
+Attleboro,MA,41.94,-71.29
+Pittsfield,MA,42.45,-73.25
+South Hill,WA,47.14,-122.27
+San Luis Obispo,CA,35.28,-120.66
+St. Louis Park,MN,44.95,-93.35
+Roswell,NM,33.39,-104.52
+Bremerton,WA,47.57,-122.63
+Cedar Hill,TX,32.59,-96.96
+Kingsport,TN,36.55,-82.56
+Tuckahoe,VA,37.59,-77.56
+East Lake,FL,28.11,-82.69
+Texas City,TX,29.38,-94.90
+Hackensack,NJ,40.89,-74.04
+West Babylon,NY,40.72,-73.35
+Freeport,NY,40.66,-73.58
+Pasco,WA,46.24,-119.10
+DeKalb,IL,41.93,-88.75
+Lenexa,KS,38.95,-94.73
+Buffalo Grove,IL,42.15,-87.96
+Farmington,NM,36.73,-108.22
+Bartlett,TN,35.20,-89.87
+Altadena,CA,34.19,-118.13
+Fairfield,OH,39.35,-84.56
+Hilo,HI,19.73,-155.09
+Newark,CA,37.53,-122.04
+Sayreville,NJ,40.46,-74.36
+Danville,CA,37.82,-122.00
+Lombard,IL,41.88,-88.01
+Catonsville,MD,39.27,-76.73
+Stillwater,OK,36.12,-97.06
+Goodyear,AZ,33.44,-112.36
+Titusville,FL,28.61,-80.81
+Rancho Palos Verdes,CA,33.74,-118.39
+Moline,IL,41.51,-90.52
+Concord,NH,43.21,-71.54
+La Puente,CA,34.02,-117.95
+Coral Gables,FL,25.72,-80.27
+Salem,MA,42.52,-70.90
+New Milford,CT,41.58,-73.41
+Midland,MI,43.62,-84.25
+Leominster,MA,42.52,-71.76
+Southglenn,CO,39.59,-104.95
+Severn,MD,39.14,-76.70
+Covington,KY,39.08,-84.51
+Lakewood,NJ,40.10,-74.22
+Fond du Lac,WI,43.77,-88.45
+Bonita Springs,FL,26.34,-81.78
+State College,PA,40.79,-77.86
+Lawrence,IN,39.84,-86.03
+The Colony,TX,33.09,-96.89
+Harrisonburg,VA,38.45,-78.87
+Montgomery Village,MD,39.18,-77.20
+Conroe,TX,30.31,-95.46
+Bountiful,UT,40.89,-111.88
+Haltom City,TX,32.80,-97.27
+San Gabriel,CA,34.10,-118.11
+Palm Coast,FL,29.58,-81.21
+Arlington,MA,42.42,-71.16
+Hicksville,NY,40.77,-73.53
+West Sacramento,CA,38.58,-121.53
+Romeoville,IL,41.65,-88.09
+Sierra Vista,AZ,31.55,-110.30
+Rohnert Park,CA,38.34,-122.70
+Aliso Viejo,CA,33.61,-117.74
+Greenwood,IN,39.61,-86.11
+Rio Grande,PR,18.38,-65.83
+Crystal Lake,IL,42.24,-88.32
+Sun City,AZ,33.60,-112.27
+Parker,CO,39.52,-104.76
+Lompoc,CA,34.64,-120.46
+Littleton,CO,39.61,-105.02
+Westfield,MA,42.12,-72.75
+Belleville,IL,38.52,-89.98
+Marshfield,MA,42.09,-70.71
+Altamonte Springs,FL,28.66,-81.37
+Beavercreek,OH,39.71,-84.06
+Wilkes-Barre,PA,41.25,-75.88
+Lake Elsinore,CA,33.67,-117.33
+Hutchinson,KS,38.06,-97.93
+Atlantic City,NJ,39.36,-74.42
+Beverly,MA,42.56,-70.88
+Fitchburg,MA,42.58,-71.80
+Findlay,OH,41.04,-83.65
+Pahrump,NV,36.21,-115.98
+Huntersville,NC,35.41,-80.84
+Hickory,NC,35.73,-81.34
+Glen Burnie,MD,39.16,-76.62
+Franconia,VA,38.78,-77.15
+Blacksburg,VA,37.23,-80.41
+Holyoke,MA,42.20,-72.62
+Prescott,AZ,34.54,-112.47
+Culver City,CA,34.02,-118.40
+Muskegon,MI,43.23,-86.25
+Ceres,CA,37.59,-120.96
+Sumter,SC,33.92,-80.34
+Teaneck,NJ,40.90,-74.02
+Brookfield,WI,43.06,-88.11
+Edmonds,WA,47.81,-122.38
+Lima,OH,40.74,-84.11
+Billerica,MA,42.56,-71.27
+Linden,NJ,40.62,-74.25
+Carol Stream,IL,41.91,-88.13
+Hoboken,NJ,40.74,-74.03
+North Miami Beach,FL,25.93,-80.16
+Quincy,IL,39.94,-91.41
+Montclair,NJ,40.83,-74.21
+Shelton,CT,41.32,-73.09
+San Bruno,CA,37.63,-122.41
+York,PA,39.96,-76.73
+Coppell,TX,32.95,-97.01
+Brea,CA,33.92,-117.90
+Urbana,IL,40.11,-88.21
+South Valley,NM,35.01,-106.68
+Meridian,MS,32.36,-88.70
+Columbus,IN,39.20,-85.92
+Kearny,NJ,40.77,-74.15
+Redan,GA,33.75,-84.13
+Georgetown,TX,30.63,-97.68
+Essex,MD,39.31,-76.48
+Castle Rock,CO,39.37,-104.86
+Dublin,CA,37.70,-121.93
+Kannapolis,NC,35.49,-80.62
+New Berlin,WI,42.98,-88.11
+Muskogee,OK,35.75,-95.37
+Twin Falls,ID,42.56,-114.46
+Burlington,VT,44.48,-73.21
+Southaven,MS,34.99,-90.01
+Ormond Beach,FL,29.29,-81.06
+Monrovia,CA,34.15,-118.00
+Huber Heights,OH,39.84,-84.12
+Calumet City,IL,41.62,-87.53
+Rock Island,IL,41.51,-90.58
+Eldersburg,MD,39.40,-76.95
+Bell,CA,33.98,-118.19
+Marlborough,MA,42.35,-71.55
+El Centro,CA,32.79,-115.56
+Lincoln Park,MI,42.25,-83.18
+Bartlett,IL,41.99,-88.19
+Goldsboro,NC,35.38,-77.99
+Lake Magdalene,FL,28.07,-82.47
+Spring,TX,30.08,-95.42
+Greenville,MS,33.41,-91.06
+North Port,FL,27.04,-82.24
+Spartanburg,SC,34.95,-81.93
+Merritt Island,FL,28.54,-80.67
+Bullhead City,AZ,35.15,-114.57
+Vestavia Hills,AL,33.45,-86.79
+Temple City,CA,34.11,-118.06
+Stanton,CA,33.80,-117.99
+Collierville,TN,35.04,-89.66
+Fort Lee,NJ,40.85,-73.97
+Hurst,TX,32.82,-97.17
+Woburn,MA,42.48,-71.15
+Fort Pierce,FL,27.45,-80.33
+Manassas,VA,38.75,-77.48
+La Quinta,CA,33.66,-116.31
+Madison,AL,34.70,-86.75
+University City,MO,38.67,-90.32
+Panama City,FL,30.16,-85.66
+Richmond,IN,39.83,-84.89
+Streamwood,IL,42.03,-88.18
+Keller,TX,32.93,-97.25
+Hollister,CA,36.85,-121.40
+Marion,OH,40.59,-83.13
+Hot Springs,AR,34.50,-93.06
+Cleveland,TN,35.16,-84.88
+East Meadow,NY,40.71,-73.56
+Addison,IL,41.93,-87.99
+Germantown,TN,35.09,-89.81
+Hagerstown,MD,39.64,-77.72
+North Chicago,IL,42.33,-87.84
+Oro Valley,AZ,32.39,-110.97
+Manhattan Beach,CA,33.88,-118.41
+Coram,NY,40.87,-73.00
+Everett,MA,42.41,-71.05
+South Jordan,UT,40.56,-111.93
+Sherman,TX,33.64,-96.61
+Brewster,MA,41.76,-70.08
+Hanover Park,IL,42.00,-88.14
+Kailua,HI,21.40,-157.74
+Leesburg,VA,39.12,-77.56
+Park Ridge,IL,42.01,-87.84
+West Hollywood,CA,34.09,-118.36
+Dunedin,FL,28.02,-82.77
+Moorpark,CA,34.29,-118.88
+Olney,MD,39.15,-77.07
+Chester,PA,39.85,-75.36
+Golden Glades,FL,25.91,-80.20
+Belleville,NJ,40.79,-74.15
+Carpentersville,IL,42.12,-88.26
+Gadsden,AL,34.01,-86.01
+Oakville,MO,38.47,-90.30
+Wausau,WI,44.96,-89.63
+Martinez,CA,38.02,-122.13
+Puyallup,WA,47.19,-122.29
+Mansfield,TX,32.56,-97.14
+Lake Oswego,OR,45.42,-122.67
+Ewing,NJ,40.27,-74.80
+Campbell,CA,37.29,-121.95
+Bridgewater,MA,41.99,-70.98
+Greenfield,WI,42.96,-88.01
+Pacifica,CA,37.61,-122.49
+Norwich,CT,41.52,-72.08
+San Dimas,CA,34.11,-117.81
+Texarkana,TX,33.42,-94.05
+Maplewood,MN,44.95,-93.00
+Calexico,CA,32.68,-115.50
+St. Charles,MD,38.60,-76.94
+Longview,WA,46.14,-122.94
+Pennsauken,NJ,39.96,-75.06
+Chillum,MD,38.96,-76.99
+Roy,UT,41.16,-112.03
+Cedar Falls,IA,42.53,-92.45
+Annapolis,MD,38.98,-76.49
+Boardman,OH,41.02,-80.66
+Lewiston,ME,44.10,-70.22
+Commack,NY,40.84,-73.29
+New Albany,IN,38.29,-85.82
+Del Rio,TX,29.36,-100.90
+Trumbull,CT,41.24,-73.20
+Alamogordo,NM,32.90,-105.96
+Torrington,CT,41.80,-73.12
+Dunwoody,GA,33.95,-84.33
+Tupelo,MS,34.26,-88.70
+Valley Stream,NY,40.66,-73.71
+Cape Girardeau,MO,37.31,-89.52
+Lancaster,OH,39.71,-82.60
+Jefferson City,MO,38.58,-92.17
+Dana Point,CA,33.47,-117.70
+Brighton,NY,43.15,-77.55
+Noblesville,IN,40.05,-86.01
+Lake Worth,FL,26.62,-80.06
+Wheeling,IL,42.14,-87.93
+Mechanicsville,VA,37.61,-77.37
+Portage,IN,41.58,-87.18
+East Point,GA,33.68,-84.44
+Seaside,CA,36.61,-121.85
+Hallandale Beach,FL,25.98,-80.15
+Drexel Heights,AZ,32.14,-111.03
+Florence,AL,34.80,-87.68
+Montclair,CA,34.08,-117.69
+Huntsville,TX,30.72,-95.55
+South Miami Heights,FL,25.60,-80.38
+Keizer,OR,44.99,-123.03
+Coventry,RI,41.70,-71.68
+Rome,GA,34.26,-85.16
+Kaneohe,HI,21.42,-157.80
+Marrero,LA,29.90,-90.10
+Homestead,FL,25.47,-80.48
+Claremont,CA,34.10,-117.72
+Beverly Hills,CA,34.07,-118.40
+Stow,OH,41.16,-81.44
+Kearns,UT,40.66,-112.00
+Willowbrook,CA,33.92,-118.25
+Texarkana,AR,33.44,-94.04
+Texarkana,TX,33.42,-94.05
+San Juan Capistrano,CA,33.50,-117.66
+Woodbridge,VA,38.66,-77.25
+Dublin,OH,40.10,-83.11
+Beloit,WI,42.51,-89.03
+Long Beach,NY,40.59,-73.66
+Draper,UT,40.52,-111.86
+Mankato,MN,44.16,-94.00
+La Presa,CA,32.71,-117.00
+Atascocita,TX,30.00,-95.18
+Wildwood,MO,38.58,-90.66
+Duncanville,TX,32.65,-96.91
+Summerville,SC,33.02,-80.18
+Central Islip,NY,40.79,-73.20
+Apache Junction,AZ,33.41,-111.55
+Sandwich,MA,41.76,-70.49
+Minot,ND,48.23,-101.30
+Leavenworth,KS,39.31,-94.92
+Alpharetta,GA,34.08,-84.29
+Cumberland,RI,41.97,-71.43
+Brunswick,OH,41.24,-81.84
+Oak Creek,WI,42.89,-87.86
+Royal Palm Beach,FL,26.71,-80.23
+Morgan Hill,CA,37.13,-121.65
+Charlottesville,VA,38.03,-78.48
+Friendswood,TX,29.53,-95.20
+Amherst Center,MA,42.38,-72.52
+Bartlesville,OK,36.75,-95.98
+Waipahu,HI,21.39,-158.01
+Bay City,MI,43.59,-83.89
+Holland,MI,42.79,-86.11
+Derry,NH,42.88,-71.33
+Menomonee Falls,WI,43.18,-88.12
+Springfield,VA,38.79,-77.19
+Woodridge,IL,41.75,-88.05
+St. Charles,IL,41.91,-88.31
+Elmont,NY,40.70,-73.71
+Pleasant Hill,CA,37.95,-122.06
+Orange,NJ,40.77,-74.23
+Hilton Head Island,SC,32.22,-80.75
+Jackson,MI,42.25,-84.40
+Lake Ridge,VA,38.69,-77.30
+Caldwell,ID,43.66,-116.69
+Northbrook,IL,42.13,-87.83
+North Lauderdale,FL,26.22,-80.23
+Elk Grove Village,IL,42.00,-87.97
+Westerville,OH,40.13,-82.93
+Peachtree City,GA,33.40,-84.60
+Mission Bend,TX,29.69,-95.66
+Rome,NY,43.21,-75.46
+Fajardo,PR,18.33,-65.65
+Bourne,MA,41.74,-70.60
+New City,NY,41.15,-73.99
+Manitowoc,WI,44.09,-87.66
+Sammamish,WA,47.64,-122.08
+Chelmsford,MA,42.60,-71.37
+Ankeny,IA,41.73,-93.61
+Shrewsbury,MA,42.30,-71.71
+North Providence,RI,41.85,-71.47
+Randallstown,MD,39.37,-76.80
+Lacey,WA,47.03,-122.82
+La Porte,TX,29.67,-95.02
+La Verne,CA,34.10,-117.77
+Riviera Beach,FL,26.77,-80.06
+Lufkin,TX,31.34,-94.73
+Columbia,TN,35.62,-87.04
+Fallbrook,CA,33.38,-117.25
+Urbandale,IA,41.63,-93.71
+Braintree,MA,42.22,-71.00
+Lynnwood,WA,47.82,-122.31
+Ken Caryl,CO,39.58,-105.11
+Richfield,MN,44.88,-93.28
+Los Banos,CA,37.06,-120.85
+Gainesville,GA,34.30,-83.82
+Dover,DE,39.16,-75.52
+Franklin,WI,42.89,-88.04
+Lincoln,CA,38.89,-121.29
+Reynoldsburg,OH,39.95,-82.81
+Apopka,FL,28.68,-81.51
+Bozeman,MT,45.68,-111.04
+Clovis,NM,34.40,-103.20
+Moorhead,MN,46.87,-96.77
+Gahanna,OH,40.02,-82.88
+Chelsea,MA,42.39,-71.03
+Glendale Heights,IL,41.91,-88.07
+Mundelein,IL,42.26,-88.00
+Cottage Grove,MN,44.83,-92.94
+Smyrna,TN,35.98,-86.52
+North Olmsted,OH,41.42,-81.92
+Watertown,MA,42.37,-71.18
+East Palo Alto,CA,37.47,-122.14
+Englewood,CO,39.65,-104.99
+Lawndale,CA,33.89,-118.35
+Sun City West,AZ,33.66,-112.34
+Petersburg,VA,37.23,-77.40
+Granger,IN,41.75,-86.11
+Pekin,IL,40.57,-89.64
+Weslaco,TX,26.16,-97.99
+Mount Lebanon,PA,40.36,-80.05
+Eastpointe,MI,42.47,-82.96
+Walpole,MA,42.14,-71.25
+Winter Springs,FL,28.70,-81.31
+Northglenn,CO,39.89,-104.99
+Oceanside,NY,40.64,-73.64
+Danville,IL,40.12,-87.63
+Fairborn,OH,39.82,-84.02
+Roseville,MN,45.01,-93.16
+Perry Hall,MD,39.41,-76.46
+Bethel Park,PA,40.33,-80.04
+New Iberia,LA,30.00,-91.82
+Prescott Valley,AZ,34.61,-112.31
+Westmont,CA,33.94,-118.30
+Inver Grove Heights,MN,44.85,-93.04
+El Mirage,AZ,33.61,-112.32
+Natick,MA,42.28,-71.35
+West Little River,FL,25.86,-80.24
+Rubidoux,CA,34.00,-117.40
+Oakton,VA,38.88,-77.30
+Naugatuck,CT,41.49,-73.05
+Casa Grande,AZ,32.88,-111.76
+Galesburg,IL,40.95,-90.37
+Lakeside,FL,30.13,-81.77
+Westlake,OH,41.46,-81.92
+Channelview,TX,29.78,-95.11
+Michigan City,IN,41.71,-86.89
+Pikesville,MD,39.37,-76.72
+Riverton,UT,40.52,-111.94
+North Tonawanda,NY,43.04,-78.86
+Chicago Heights,IL,41.51,-87.64
+Houma,LA,29.60,-90.72
+Juneau,AK,58.30,-134.42
+Douglasville,GA,33.75,-84.75
+Walnut,CA,34.02,-117.86
+Chalmette,LA,29.94,-89.96
+Plant City,FL,28.02,-82.11
+Willingboro,NJ,40.03,-74.87
+Oakland Park,FL,26.17,-80.13
+Dalton,GA,34.77,-84.97
+Lauderdale Lakes,FL,26.17,-80.21
+Burton,MI,43.00,-83.62
+Pearl City,HI,21.40,-157.97
+Parkersburg,WV,39.27,-81.56
+Richmond West,FL,25.61,-80.43
+Bangor,ME,44.80,-68.78
+Massillon,OH,40.80,-81.52
+Long Branch,NJ,40.30,-73.99
+Fair Lawn,NJ,40.94,-74.13
+Mableton,GA,33.82,-84.58
+Upper Arlington,OH,39.99,-83.06
+Bentonville,AR,36.37,-94.21
+Delaware,OH,40.30,-83.07
+Lewiston,ID,46.42,-117.02
+Bettendorf,IA,41.52,-90.52
+Highland Park,IL,42.18,-87.80
+Goose Creek,SC,32.98,-80.03
+Parkville,MD,39.38,-76.54
+Fairbanks,AK,64.84,-147.72
+San Pablo,CA,37.96,-122.34
+Gurnee,IL,42.37,-87.90
+Brentwood,TN,36.03,-86.78
+Merrillville,IN,41.48,-87.33
+Ithaca,NY,42.44,-76.50
+Butte,MT,46.00,-112.53
+Mason,OH,39.36,-84.31
+Port Huron,MI,42.97,-82.42
+Wheat Ridge,CO,39.77,-105.08
+Austintown,OH,41.10,-80.76
+West Lafayette,IN,40.43,-86.91
+Gloucester,MA,42.62,-70.66
+University Place,WA,47.24,-122.55
+Apex,NC,35.73,-78.85
+Thomasville,NC,35.88,-80.08
+Laguna Hills,CA,33.61,-117.71
+Marion,IA,42.03,-91.60
+Randolph,MA,42.16,-71.04
+Coachella,CA,33.68,-116.17
+Ballwin,MO,38.59,-90.55
+Winchester,NV,36.13,-115.12
+Norristown,PA,40.12,-75.34
+Granite City,IL,38.70,-90.15
+Commerce City,CO,39.81,-104.93
+Richmond,KY,37.75,-84.29
+Millcreek,UT,40.69,-111.87
+Nacogdoches,TX,31.60,-94.66
+Westchester,FL,25.75,-80.33
+Fortuna Foothills,AZ,32.66,-114.41
+East Chicago,IN,41.64,-87.45
+Lexington,MA,42.45,-71.22
+San Juan,TX,26.19,-98.16
+Franklin,MA,42.08,-71.40
+Bothell,WA,47.76,-122.20
+Burien,WA,47.47,-122.35
+Walla Walla,WA,46.06,-118.34
+Copperas Cove,TX,31.12,-97.90
+Jacksonville,AR,34.87,-92.11
+Florence,SC,34.20,-79.76
+Huntington Station,NY,40.85,-73.41
+Banning,CA,33.93,-116.88
+Algonquin,IL,42.17,-88.29
+Shakopee,MN,44.80,-93.53
+Poughkeepsie,NY,41.70,-73.92
+Rochester,NH,43.30,-70.98
+Monterey,CA,36.60,-121.89
+Severna Park,MD,39.07,-76.55
+Newark,DE,39.68,-75.75
+Andover,MN,45.23,-93.29
+Marion,IN,40.56,-85.66
+Hingham,MA,42.24,-70.89
+West Warwick,RI,41.71,-71.52
+Carney,MD,39.39,-76.52
+Jamestown,NY,42.10,-79.24
+Vernon,CT,41.82,-72.48
+Goshen,IN,41.58,-85.83
+Grove City,OH,39.88,-83.09
+Elmira,NY,42.09,-76.81
+Madison Heights,MI,42.49,-83.11
+Oregon City,OR,45.36,-122.61
+Clinton,MD,38.77,-76.90
+Leawood,KS,38.97,-94.62
+Newington,CT,41.70,-72.72
+Westfield,NJ,40.66,-74.35
+Rockwall,TX,32.93,-96.46
+Texarkana,AR,33.44,-94.04
+Tooele,UT,40.53,-112.30
+Marysville,WA,48.05,-122.18
+Florin,CA,38.50,-121.41
+Levittown,PR,18.45,-66.18
+East St. Louis,IL,38.62,-90.15
+Niles,IL,42.02,-87.80
+Rosenberg,TX,29.56,-95.81
+Holladay,UT,40.67,-111.82
+Shawnee,OK,35.33,-96.92
+Atwater,CA,37.35,-120.61
+Monroe,NC,34.99,-80.55
+Southgate,MI,42.21,-83.19
+Northampton,MA,42.33,-72.64
+Waimalu,HI,21.40,-157.94
+Franklin Square,NY,40.71,-73.68
+South Gate,MD,39.13,-76.63
+Garfield,NJ,40.88,-74.11
+Salem,NH,42.79,-71.20
+Pflugerville,TX,30.44,-97.62
+Cheshire,CT,41.50,-72.90
+Rexburg,ID,43.83,-111.79
+Branford,CT,41.28,-72.82
+West Bend,WI,43.43,-88.18
+Wheeling,WV,40.06,-80.72
+Mount Vernon,VA,38.71,-77.09
+Williamsport,PA,41.24,-77.00
+San Jacinto,CA,33.78,-116.96
+Lawrenceville,GA,33.96,-83.99
+Brighton,CO,39.99,-104.82
+Tewksbury,MA,42.61,-71.23
+Vega Baja,PR,18.45,-66.39
+Westborough,MA,42.27,-71.62
+Mount Vernon,WA,48.42,-122.33
+Alton,IL,38.89,-90.18
+Raytown,MO,39.01,-94.46
+Garfield Heights,OH,41.42,-81.61
+Bowling Green,OH,41.37,-83.65
+Lancaster,TX,32.59,-96.76
+Mehlville,MO,38.51,-90.32
+Cooper City,FL,26.06,-80.27
+Wenatchee,WA,47.42,-120.31
+Needham,MA,42.28,-71.23
+Lindenhurst,NY,40.69,-73.37
+Drexel Hill,PA,39.95,-75.29
+Milford Mill,MD,39.35,-76.77
+Menlo Park,CA,37.45,-122.18
+Laplace,LA,30.07,-90.48
+Dover,NH,43.20,-70.87
+Oviedo,FL,28.67,-81.21
+Liberty,MO,39.25,-94.42
+Garden City,MI,42.33,-83.33
+Santa Paula,CA,34.35,-119.06
+Round Lake Beach,IL,42.37,-88.09
+East Haven,CT,41.28,-72.87
+Fair Oaks,CA,38.64,-121.27
+Cleburne,TX,32.35,-97.39
+Maywood,CA,33.99,-118.18
+Oildale,CA,35.42,-119.02
+Morgantown,WV,39.63,-79.96
+Saratoga,CA,37.26,-122.02
+North Royalton,OH,41.31,-81.72
+West Islip,NY,40.71,-73.31
+Inkster,MI,42.29,-83.31
+Dracut,MA,42.67,-71.30
+Dania Beach,FL,26.05,-80.14
+Harvey,IL,41.61,-87.65
+Mililani Town,HI,21.45,-158.00
+Valparaiso,IN,41.47,-87.06
+Deer Park,TX,29.70,-95.12
+Agawam,MA,42.07,-72.62
+Kearney,NE,40.70,-99.08
+West Springfield,VA,38.77,-77.22
+Elkridge,MD,39.21,-76.71
+Des Moines,WA,47.40,-122.32
+Cookeville,TN,36.16,-85.50
+Oak Park,MI,42.46,-83.18
+Socorro,TX,31.65,-106.30
+Milford,MA,42.14,-71.52
+Bessemer,AL,33.40,-86.95
+Norwood,MA,42.19,-71.20
+Ocoee,FL,28.57,-81.54
+Lake in the Hills,IL,42.18,-88.33
+Burleson,TX,32.54,-97.32
+Foster City,CA,37.56,-122.27
+Winter Park,FL,28.60,-81.34
+Wylie,TX,33.02,-96.54
+Jefferson,VA,38.86,-77.19
+Newburgh,NY,41.50,-74.01
+Jeffersonville,IN,38.28,-85.74
+Kennesaw,GA,34.02,-84.62
+Phenix City,AL,32.47,-85.00
+Clearfield,UT,41.11,-112.03
+Schertz,TX,29.55,-98.27
+Holbrook,NY,40.81,-73.08
+Kent,OH,41.15,-81.36
+Goleta,CA,34.44,-119.83
+Rancho San Diego,CA,32.75,-116.93
+Prattville,AL,32.46,-86.46
+North Andover,MA,42.70,-71.14
+Batavia,IL,41.85,-88.31
+University Park,FL,28.57,-81.21
+Palm City,FL,27.17,-80.27
+Allen Park,MI,42.26,-83.21
+Oakdale,MN,44.96,-92.96
+Soledad,CA,36.42,-121.33
+Oak Forest,IL,41.60,-87.74
+Catano,PR,18.44,-66.12
+Hinesville,GA,31.85,-81.60
+West Memphis,AR,35.15,-90.18
+Watertown,NY,43.97,-75.91
+Cottonwood Heights,UT,40.62,-111.81
+Burbank,IL,41.73,-87.78
+Hobbs,NM,32.70,-103.14
+Hobart,IN,41.53,-87.25
+Port Chester,NY,41.00,-73.67
+Saratoga Springs,NY,43.08,-73.78
+Winter Haven,FL,28.02,-81.73
+West Springfield,MA,42.11,-72.62
+Aventura,FL,25.96,-80.14
+Auburn,NY,42.93,-76.57
+Livingston,NJ,40.80,-74.32
+Deer Park,NY,40.76,-73.33
+Ferry Pass,FL,30.51,-87.21
+Mason City,IA,43.15,-93.20
+Slidell,LA,30.27,-89.78
+Shaker Heights,OH,41.47,-81.54
+Olive Branch,MS,34.96,-89.83
+Brooklyn Center,MN,45.08,-93.33
+Scarborough,ME,43.58,-70.32
+Duxbury,MA,42.04,-70.67
+Palm Valley,FL,30.18,-81.39
+Lansing,IL,41.56,-87.54
+Hopkinsville,KY,36.87,-87.49
+Shoreview,MN,45.08,-93.15
+Gladstone,MO,39.20,-94.55
+Nutley,NJ,40.82,-74.16
+Los Gatos,CA,37.23,-121.97
+Prichard,AL,30.74,-88.08
+Henderson,KY,37.84,-87.59
+Owings Mills,MD,39.42,-76.78
+Oak Ridge,TN,36.01,-84.27
+Millville,NJ,39.40,-75.04
+Medina,OH,41.14,-81.86
+Norco,CA,33.93,-117.55
+Helena,MT,46.59,-112.04
+Centereach,NY,40.86,-73.10
+Orangevale,CA,38.68,-121.22
+Atascadero,CA,35.49,-120.67
+Smithtown,NY,40.86,-73.20
+Clinton,IA,41.84,-90.19
+Glen Ellyn,IL,41.88,-88.07
+Midvale,UT,40.61,-111.90
+Waldorf,MD,38.62,-76.94
+Aiken,SC,33.56,-81.72
+Suisun City,CA,38.24,-122.04
+Sanford,ME,43.44,-70.77
+Trotwood,OH,39.80,-84.31
+Martinez,GA,33.52,-82.08
+Grants Pass,OR,42.44,-123.33
+Schererville,IN,41.48,-87.45
+Superior,WI,46.72,-92.10
+Lake Jackson,TX,29.03,-95.43
+Kirkwood,MO,38.58,-90.41
+Wethersfield,CT,41.71,-72.65
+Barberton,OH,41.01,-81.61
+Savage,MN,44.78,-93.34
+Imperial Beach,CA,32.58,-117.11
+Frankfort,KY,38.20,-84.87
+Paris,TX,33.66,-95.56
+Back Mountain,PA,41.34,-76.00
+West Milford,NJ,41.13,-74.37
+Paradise,CA,39.76,-121.62
+Paramus,NJ,40.94,-74.08
+Westport,CT,41.14,-73.36
+Laramie,WY,41.31,-105.59
+Stoughton,MA,42.12,-71.10
+Hilliard,OH,40.03,-83.16
+Fort Dodge,IA,42.50,-94.17
+Wilmette,IL,42.07,-87.72
+Los Altos,CA,37.39,-122.11
+Oak Ridge,FL,28.47,-81.42
+Fridley,MN,45.09,-93.26
+Cutler Ridge,FL,25.58,-80.35
+Wyandotte,MI,42.21,-83.15
+Dennis,MA,41.74,-70.19
+Burlingame,CA,37.58,-122.36
+Oakley,CA,38.00,-121.71
+Benicia,CA,38.05,-122.16
+Alabaster,AL,33.24,-86.82
+Merrimack,NH,42.87,-71.49
+Maryville,TN,35.76,-83.97
+Glen Cove,NY,40.86,-73.63
+Rahway,NJ,40.61,-74.28
+Salisbury,NC,35.67,-80.47
+Bristol,TN,36.59,-82.19
+Saugus,MA,42.46,-71.01
+San Carlos,CA,37.51,-122.26
+Kankakee,IL,41.12,-87.86
+Winona,MN,44.05,-91.64
+Tucker,GA,33.85,-84.22
+Cloverleaf,TX,29.78,-95.17
+Plum,PA,40.50,-79.75
+Emporia,KS,38.40,-96.18
+Plainfield,IL,41.63,-88.20
+Tualatin,OR,45.38,-122.76
+Farmers Branch,TX,32.93,-96.90
+Melrose,MA,42.46,-71.07
+Jeffersontown,KY,38.19,-85.56
+Wellesley,MA,42.30,-71.29
+Shirley,NY,40.80,-72.87
+Sandusky,OH,41.45,-82.71
+Garden City,KS,37.97,-100.87
+La Vergne,TN,36.02,-86.58
+North Creek,WA,47.82,-122.17
+Lehi,UT,40.39,-111.85
+Scituate,MA,42.20,-70.73
+Salisbury,MD,38.36,-75.60
+New London,CT,41.36,-72.10
+Gallatin,TN,36.39,-86.45
+Easton,PA,40.69,-75.22
+Spring Valley,CA,32.74,-117.00
+Bergenfield,NJ,40.93,-74.00
+Ridgecrest,CA,35.62,-117.67
+Middletown,NY,41.45,-74.42
+Eagle Pass,TX,28.71,-100.50
+West Linn,OR,45.37,-122.61
+Westerly,RI,41.38,-71.83
+The Crossings,FL,25.67,-80.40
+Corsicana,TX,32.10,-96.47
+West Chicago,IL,41.88,-88.20
+Englewood,NJ,40.89,-73.97
+Odenton,MD,39.08,-76.70
+North Potomac,MD,39.08,-77.27
+Dodge City,KS,37.75,-100.02
+Dix Hills,NY,40.80,-73.34
+Opportunity,WA,47.66,-117.24
+Maywood,IL,41.88,-87.84
+Terrytown,LA,29.91,-90.03
+North Ridgeville,OH,41.39,-82.02
+Danvers,MA,42.58,-70.93
+Newport,RI,41.49,-71.31
+Southlake,TX,32.94,-97.13
+Pike Creek,DE,39.73,-75.70
+Wooster,OH,40.80,-81.94
+Vicksburg,MS,32.35,-90.88
+Lochearn,MD,39.34,-76.72
+Hazelwood,MO,38.77,-90.37
+Harrison,NY,40.97,-73.71
+Pullman,WA,46.73,-117.18
+Eureka,CA,40.80,-124.16
+Pascagoula,MS,30.37,-88.56
+Freeport,IL,42.30,-89.62
+Waxahachie,TX,32.39,-96.85
+Burlington,IA,40.81,-91.11
+Cudahy,CA,33.96,-118.18
+Cave Spring,VA,37.23,-80.01
+Milton,MA,42.25,-71.07
+Sun Prairie,WI,43.18,-89.21
+Marshalltown,IA,42.05,-92.91
+Marana,AZ,32.44,-111.22
+College Park,MD,38.98,-76.94
+East Cleveland,OH,41.53,-81.58
+Collinsville,IL,38.67,-89.98
+Florence,KY,39.00,-84.63
+Spring Valley,NY,41.11,-74.04
+Arnold,MD,39.03,-76.50
+Anderson,SC,34.50,-82.65
+Golden Gate,FL,26.19,-81.70
+Greenville,TX,33.14,-96.11
+Maryland Heights,MO,38.71,-90.43
+Myrtle Beach,SC,33.69,-78.89
+Paducah,KY,37.08,-88.60
+Carlsbad,NM,32.42,-104.23
+Mount Pleasant,MI,43.60,-84.77
+Ponca City,OK,36.71,-97.09
+Castlewood,CO,39.58,-104.90
+Kingsville,TX,27.52,-97.86
+Windsor,CA,38.55,-122.82
+Yarmouth,MA,41.71,-70.23
+Crofton,MD,39.00,-76.69
+Duluth,GA,34.00,-84.14
+Morristown,TN,36.21,-83.30
+Fremont,NE,41.43,-96.50
+Plainview,NY,40.78,-73.47
+Parkland,WA,47.16,-122.43
+Coral Terrace,FL,25.75,-80.30
+Spanaway,WA,47.10,-122.43
+Maplewood,NJ,40.77,-74.27
+South Pasadena,CA,34.12,-118.15
+Zanesville,OH,39.94,-82.01
+Russellville,AR,35.28,-93.13
+Bay Shore,NY,40.73,-73.25
+Maple Heights,OH,41.42,-81.57
+Grandview,MO,38.89,-94.53
+Winchester,VA,39.19,-78.16
+Gautier,MS,30.39,-88.61
+Neenah,WI,44.19,-88.46
+Lemon Grove,CA,32.74,-117.03
+Lafayette,CA,37.89,-122.12
+Dolton,IL,41.64,-87.61
+Winter Garden,FL,28.57,-81.59
+Magna,UT,40.71,-112.10
+Ridgewood,NJ,40.98,-74.12
+Wakefield,MA,42.51,-71.07
+Statesville,NC,35.78,-80.89
+Parkland,FL,26.31,-80.24
+Benton,AR,34.56,-92.59
+SeaTac,WA,47.45,-122.32
+New Castle,PA,41.00,-80.35
+Key West,FL,24.56,-81.78
+Bayonet Point,FL,28.33,-82.68
+Spanish Fork,UT,40.12,-111.65
+Ottumwa,IA,41.00,-92.37
+Clinton,MS,32.34,-90.32
+Statesboro,GA,32.45,-81.78
+Westmont,IL,41.80,-87.98
+Edwardsville,IL,38.81,-89.95
+Belvidere,IL,42.26,-88.84
+San Fernando,CA,34.28,-118.44
+Belton,MO,38.81,-94.53
+San Benito,TX,26.13,-97.63
+Carbondale,IL,37.73,-89.22
+Londonderry,NH,42.87,-71.37
+Hudson,NH,42.76,-71.44
+Pleasant Grove,UT,40.36,-111.74
+Reisterstown,MD,39.47,-76.83
+Kingman,AZ,35.19,-114.05
+Elmwood Park,IL,41.92,-87.81
+Stevens Point,WI,44.52,-89.57
+Seal Beach,CA,33.74,-118.10
+Columbus,MS,33.50,-88.43
+Ossining,NY,41.16,-73.86
+Watauga,TX,32.86,-97.25
+Zion,IL,42.45,-87.83
+New Lenox,IL,41.51,-87.97
+Salem,VA,37.29,-80.06
+White Bear Lake,MN,45.08,-93.01
+Caledonia,WI,42.81,-87.92
+Lodi,NJ,40.88,-74.08
+Tustin Foothills,CA,33.76,-117.79
+Brunswick,ME,43.91,-69.97
+Barstow,CA,34.90,-117.02
+Uniondale,NY,40.70,-73.59
+Laguna Beach,CA,33.54,-117.78
+North Platte,NE,41.12,-100.77
+West Puente Valley,CA,34.05,-117.97
+Bay Point,CA,38.03,-121.96
+Fort Washington,MD,38.71,-77.02
+Big Spring,TX,32.25,-101.48
+Peekskill,NY,41.29,-73.92
+Norfolk,NE,42.03,-97.42
+Yeehaw Junction,FL,27.70,-80.90
+Sharon,MA,42.12,-71.18
+North Laurel,MD,39.14,-76.87
+Staunton,VA,38.15,-79.07
+Middle River,MD,39.33,-76.44
+Romulus,MI,42.22,-83.40
+Sun Valley,NV,39.60,-119.78
+Nicholasville,KY,37.88,-84.57
+Rolling Meadows,IL,42.08,-88.01
+Seguin,TX,29.57,-97.96
+Belmont,CA,37.52,-122.27
+Galt,CA,38.25,-121.30
+Ardmore,OK,34.17,-97.14
+Geneva,IL,41.89,-88.31
+North Haven,CT,41.39,-72.86
+Owatonna,MN,44.08,-93.23
+Okemos,MI,42.72,-84.43
+South Lake Tahoe,CA,38.93,-119.98
+Owasso,OK,36.27,-95.85
+Mequon,WI,43.24,-87.98
+Green,OH,40.95,-81.48
+South Portland,ME,43.64,-70.24
+Marshall,TX,32.54,-94.37
+Walker,MI,43.00,-85.77
+Casselberry,FL,28.68,-81.33
+Griffin,GA,33.25,-84.26
+Hercules,CA,38.02,-122.29
+Homewood,AL,33.47,-86.80
+Prior Lake,MN,44.71,-93.42
+University Park,TX,32.85,-96.80
+Leisure City,FL,25.50,-80.43
+Valinda,CA,34.05,-117.94
+Lafayette,CO,39.99,-105.09
+Matthews,NC,35.12,-80.72
+Denison,TX,33.76,-96.54
+Aberdeen,SD,45.46,-98.49
+Elizabethtown,KY,37.69,-85.86
+Opelika,AL,32.65,-85.38
+New Bern,NC,35.11,-77.04
+Baldwin,NY,40.66,-73.61
+Bloomingdale,FL,27.89,-82.24
+Norland,FL,25.95,-80.21
+Scotch Plains,NJ,40.66,-74.39
+Somerset,NJ,40.50,-74.49
+American Fork,UT,40.38,-111.80
+Lebanon,PA,40.34,-76.41
+Coronado,CA,32.69,-117.18
+Chanhassen,MN,44.86,-93.53
+Belmont,MA,42.40,-71.18
+Rockledge,FL,28.35,-80.73
+Vernon Hills,IL,42.22,-87.98
+Edgewood,MD,39.42,-76.29
+Auburn,ME,44.10,-70.23
+Norton Shores,MI,43.17,-86.26
+Sanford,NC,35.48,-79.18
+Ashland,CA,37.69,-122.11
+Easton,MA,42.02,-71.13
+Austin,MN,43.67,-92.97
+Paragould,AR,36.06,-90.50
+Asheboro,NC,35.71,-79.81
+Reading,MA,42.53,-71.10
+Anniston,AL,33.66,-85.83
+De Pere,WI,44.45,-88.06
+Wekiva Springs,FL,28.70,-81.43
+Newnan,GA,33.38,-84.80
+Park Forest,IL,41.49,-87.67
+Holiday,FL,28.19,-82.74
+Lennox,CA,33.94,-118.35
+Mansfield,MA,42.03,-71.22
+South Plainfield,NJ,40.58,-74.41
+Hudson,OH,41.24,-81.44
+Champlin,MN,45.19,-93.40
+Springfield,PA,39.93,-75.32
+Columbine,CO,39.59,-105.07
+Xenia,OH,39.68,-83.93
+Watertown,WI,43.19,-88.73
+Immokalee,FL,26.42,-81.42
+Wright,FL,30.46,-86.64
+Rosemont,CA,38.55,-121.36
+Pearl,MS,32.27,-90.13
+Shelby,NC,35.29,-81.54
+Old Bridge,NJ,40.41,-74.37
+Centerville,OH,39.63,-84.16
+San Lorenzo,CA,37.68,-122.12
+El Cerrito,CA,37.92,-122.31
+Athens,OH,39.33,-82.10
+Chaska,MN,44.79,-93.60
+Kingston,NY,41.93,-74.00
+Plainfield,IN,39.70,-86.40
+Roselle,IL,41.98,-88.08
+Fountain Hills,AZ,33.61,-111.72
+Gillette,WY,44.29,-105.50
+Forest Hills,MI,42.96,-85.49
+Windham,CT,41.70,-72.16
+Melrose Park,IL,41.90,-87.86
+Weatherford,TX,32.76,-97.80
+Fairland,MD,39.08,-76.96
+Dedham,MA,42.24,-71.17
+Cedar City,UT,37.68,-113.06
+Hastings,NE,40.59,-98.39
+Morton Grove,IL,42.04,-87.78
+St. Cloud,FL,28.25,-81.28
+Bridgeton,NJ,39.43,-75.23
+Tarpon Springs,FL,28.15,-82.76
+Blue Island,IL,41.66,-87.68
+Keene,NH,42.93,-72.28
+Muskego,WI,42.91,-88.14
+Webster Groves,MO,38.59,-90.36
+Villa Park,IL,41.89,-87.99
+Springville,UT,40.17,-111.61
+Woodburn,OR,45.14,-122.85
+Opelousas,LA,30.53,-92.08
+Starkville,MS,33.45,-88.82
+Wasco,CA,35.59,-119.34
+Cliffside Park,NJ,40.82,-73.99
+Bristol,RI,41.68,-71.27
+Massapequa,NY,40.68,-73.47
+Grayslake,IL,42.34,-88.04
+Lemoore,CA,36.30,-119.78
+Valley Station,KY,38.11,-85.87
+Burlington,MA,42.50,-71.20
+Brent,FL,30.47,-87.24
+Foxborough,MA,42.07,-71.25
+De Land,FL,29.03,-81.30
+Ridgeland,MS,32.43,-90.13
+Adrian,MI,41.90,-84.04
+Darien,IL,41.75,-87.97
+Alliance,OH,40.92,-81.11
+Loves Park,IL,42.32,-89.06
+Twentynine Palms,CA,34.14,-116.05
+Faribault,MN,44.30,-93.27
+Cranford,NJ,40.66,-74.30
+Hopkinton,MA,42.23,-71.52
+Corcoran,CA,36.10,-119.56
+Fitchburg,WI,42.96,-89.47
+Munster,IN,41.56,-87.51
+Miami Lakes,FL,25.91,-80.31
+Enterprise,AL,31.32,-85.86
+Muscatine,IA,41.42,-91.04
+Duarte,CA,34.14,-117.98
+Riverside,OH,39.78,-84.12
+Guilford,CT,41.29,-72.68
+Sherwood,AR,34.81,-92.22
+White Oak,MD,39.04,-76.99
+Blythe,CA,33.61,-114.60
+Mercer Island,WA,47.57,-122.22
+Kinston,NC,35.26,-77.58
+Merrick,NY,40.66,-73.55
+Solon,OH,41.39,-81.44
+Selma,CA,36.57,-119.61
+Belchertown,MA,42.28,-72.40
+Watertown,CT,41.61,-73.12
+Greenbelt,MD,39.00,-76.88
+Harvey,LA,29.90,-90.08
+Lebanon,TN,36.21,-86.29
+Citrus Park,FL,28.08,-82.57
+Johnstown,PA,40.33,-78.92
+Willoughby,OH,41.64,-81.41
+East Peoria,IL,40.67,-89.58
+South Euclid,OH,41.52,-81.52
+South Elgin,IL,41.99,-88.29
+South Bradenton,FL,27.46,-82.58
+Troy,OH,40.04,-84.20
+Colleyville,TX,32.88,-97.15
+Greenwood,SC,34.20,-82.16
+Kahului,HI,20.89,-156.47
+Copiague,NY,40.68,-73.40
+Gorham,ME,43.68,-70.44
+Selden,NY,40.87,-73.04
+Post Falls,ID,47.72,-116.95
+Bellview,FL,30.46,-87.31
+Hopewell,VA,37.30,-77.29
+Agoura Hills,CA,34.14,-118.77
+Kaysville,UT,41.04,-111.94
+Ludlow,MA,42.16,-72.48
+Ypsilanti,MI,42.24,-83.61
+Brawley,CA,32.98,-115.53
+Chillicothe,OH,39.33,-82.98
+Fairfax,VA,38.85,-77.31
+Reedley,CA,36.60,-119.45
+Hillside,NJ,40.70,-74.23
+Medford,NY,40.82,-73.00
+Lockport,IL,41.59,-88.06
+Groveton,VA,38.77,-77.08
+Del City,OK,35.44,-97.44
+Alvin,TX,29.42,-95.24
+South El Monte,CA,34.05,-118.05
+Havelock,NC,34.88,-76.90
+Temple Terrace,FL,28.04,-82.39
+Oak Harbor,WA,48.29,-122.64
+West Pensacola,FL,30.43,-87.28
+Tysons Corner,VA,38.92,-77.23
+Bloomington,CA,34.07,-117.39
+Hamtramck,MI,42.39,-83.05
+Hazleton,PA,40.96,-75.97
+Garner,NC,35.71,-78.61
+Adelanto,CA,34.58,-117.41
+West Carson,CA,33.82,-118.29
+Carteret,NJ,40.58,-74.23
+South Holland,IL,41.60,-87.61
+North Marysville,WA,48.10,-122.15
+Crown Point,IN,41.42,-87.37
+Kerrville,TX,30.05,-99.14
+Garden City,NY,40.73,-73.63
+Biddeford,ME,43.49,-70.45
+Smithfield,RI,41.92,-71.55
+Moscow,ID,46.73,-117.00
+Crystal,MN,45.03,-93.36
+Ashland,OH,40.87,-82.32
+Stoneham,MA,42.48,-71.10
+San Luis,AZ,32.49,-114.78
+Duncan,OK,34.50,-97.96
+Radcliff,KY,37.84,-85.95
+South San Jose Hills,CA,34.01,-117.90
+Woodstock,IL,42.31,-88.45
+South Laurel,MD,39.07,-76.85
+Bloomingdale,IL,41.96,-88.08
+Plainview,TX,34.18,-101.71
+Pottstown,PA,40.25,-75.65
+Wilmington,MA,42.55,-71.17
+Canton,MA,42.16,-71.15
+Lisle,IL,41.80,-88.07
+Franklin,IN,39.48,-86.06
+Canyon Lake,TX,29.88,-98.26
+Spanish Lake,MO,38.79,-90.22
+South Salt Lake,UT,40.72,-111.89
+Benbrook,TX,32.67,-97.46
+Westford,MA,42.58,-71.44
+Lutz,FL,28.15,-82.46
+Guayama,PR,17.99,-66.11
+Prairie Village,KS,38.99,-94.63
+Jacksonville Beach,FL,30.29,-81.39
+Oswego,IL,41.68,-88.35
+Ferguson,MO,38.74,-90.31
+Herndon,VA,38.97,-77.39
+Naples,FL,26.14,-81.80
+Machesney Park,IL,42.35,-89.04
+Wareham,MA,41.76,-70.72
+West Mifflin,PA,40.36,-79.87
+Bella Vista,AR,36.48,-94.27
+Port Hueneme,CA,34.15,-119.19
+Calabasas,CA,34.16,-118.64
+Winchester,MA,42.45,-71.14
+Ferndale,MI,42.46,-83.13
+Carrollton,GA,33.58,-85.08
+Roselle,NJ,40.66,-74.26
+North Druid Hills,GA,33.82,-84.31
+Lumberton,NC,34.62,-79.01
+New Brighton,MN,45.07,-93.20
+La Canada Flintridge,CA,34.20,-118.19
+Cornelius,NC,35.49,-80.86
+Libertyville,IL,42.28,-87.95
+New Smyrna Beach,FL,29.03,-80.93
+Islip,NY,40.73,-73.21
+Summit,NJ,40.74,-74.36
+Ashland,KY,38.48,-82.64
+Edgewater,FL,28.99,-80.90
+Yukon,OK,35.51,-97.76
+Lockport,NY,43.17,-78.69
+Bedford,NH,42.95,-71.52
+Gardner,MA,42.58,-72.00
+Forest Park,GA,33.62,-84.37
+Clarksville,IN,38.30,-85.76
+Monroe,MI,41.92,-83.40
+South Milwaukee,WI,42.91,-87.86
+East Moline,IL,41.50,-90.44
+West Lake Stevens,WA,47.99,-122.10
+Lake Forest,IL,42.26,-87.84
+Kernersville,NC,36.12,-80.07
+Avon Lake,OH,41.51,-82.03
+North Plainfield,NJ,40.63,-74.43
+East Patchogue,NY,40.77,-73.00
+Portsmouth,NH,43.07,-70.76
+Van Buren,AR,35.44,-94.35
+Waynesboro,VA,38.07,-78.89
+Acton,MA,42.48,-71.43
+Newington,VA,38.74,-77.19
+Ashland,OR,42.19,-122.71
+East Northport,NY,40.88,-73.33
+Parma Heights,OH,41.39,-81.76
+Wilbraham,MA,42.12,-72.43
+Oxford,OH,39.51,-84.75
+Laurel,MD,39.10,-76.85
+Hastings,MN,44.74,-92.85
+Marquette,MI,46.54,-87.40
+Columbus,NE,41.43,-97.37
+Auburn Hills,MI,42.69,-83.23
+East Millcreek,UT,40.70,-111.81
+Loma Linda,CA,34.05,-117.26
+Newberg,OR,45.30,-122.97
+Lexington,NC,35.82,-80.25
+Sanger,CA,36.71,-119.56
+Milwaukie,OR,45.45,-122.64
+Darien,CT,41.08,-73.47
+Lomita,CA,33.79,-118.31
+Piqua,OH,40.14,-84.24
+White Center,WA,47.52,-122.35
+Nogales,AZ,31.34,-110.93
+Kihei,HI,20.79,-156.47
+Greer,SC,34.94,-82.23
+Ruston,LA,32.52,-92.64
+Colesville,MD,39.08,-77.00
+Arbutus,MD,39.25,-76.70
+Northport,AL,33.23,-87.58
+Fredericksburg,VA,38.30,-77.46
+Cabot,AR,34.97,-92.02
+Bensenville,IL,41.95,-87.94
+Wade Hampton,SC,34.90,-82.33
+Athens,AL,34.80,-86.97
+Venice,FL,27.10,-82.45
+Mountlake Terrace,WA,47.79,-122.31
+Roseburg,OR,43.22,-123.34
+Marblehead,MA,42.50,-70.86
+Humacao,PR,18.15,-65.83
+Millburn,NJ,40.74,-74.30
+Elk River,MN,45.30,-93.57
+Ramsey,MN,45.25,-93.45
+El Dorado,AR,33.21,-92.67
+Cumberland,MD,39.65,-78.76
+Georgetown,KY,38.21,-84.56
+Lebanon,OH,39.44,-84.20
+Golden Valley,MN,45.01,-93.35
+Cary,IL,42.21,-88.24
+Yauco,PR,18.04,-66.85
+Norwood,OH,39.16,-84.46
+Altus,OK,34.64,-99.33
+Hialeah Gardens,FL,25.86,-80.32
+Brook Park,OH,41.40,-81.80
+Mooresville,NC,35.58,-80.81
+Arnold,MO,38.43,-90.38
+Wadsworth,OH,41.03,-81.73
+Watertown,SD,44.90,-97.11
+Taylors,SC,34.92,-82.30
+Liberal,KS,37.04,-100.92
+Sidney,OH,40.28,-84.16
+Point Pleasant,NJ,40.08,-74.07
+Searcy,AR,35.25,-91.74
+Ensley,FL,30.52,-87.27
+Evergreen Park,IL,41.72,-87.70
+Hauppauge,NY,40.83,-73.20
+North Bellmore,NY,40.69,-73.53
+Lino Lakes,MN,45.16,-93.09
+Affton,MO,38.55,-90.33
+Rotterdam,NY,42.79,-73.97
+Ives Estates,FL,25.96,-80.18
+Cockeysville,MD,39.48,-76.64
+Miamisburg,OH,39.64,-84.29
+Ashtabula,OH,41.87,-80.79
+Hayesville,OR,44.99,-122.98
+Lyndhurst,NJ,40.81,-74.12
+Little Elm,TX,33.16,-96.94
+Newburg,KY,38.16,-85.66
+Mukilteo,WA,47.94,-122.30
+Lake Zurich,IL,42.20,-88.09
+Niles,OH,41.18,-80.77
+Corinth,TX,33.15,-97.06
+Lake Ronkonkoma,NY,40.84,-73.13
+Hays,KS,38.88,-99.33
+Laguna Woods,CA,33.61,-117.72
+Acworth,GA,34.07,-84.68
+New Hope,MN,45.04,-93.39
+Derby,KS,37.55,-97.27
+Southbury,CT,41.48,-73.21
+Sapulpa,OK,36.00,-96.11
+Hermosa Beach,CA,33.86,-118.40
+Norton,MA,41.97,-71.19
+Evans,GA,33.53,-82.13
+Rocky River,OH,41.48,-81.84
+Sedalia,MO,38.70,-93.23
+Greenfield,MA,42.59,-72.60
+Bellwood,IL,41.88,-87.88
+Eastlake,OH,41.65,-81.45
+Rosedale,MD,39.32,-76.52
+Fort Walton Beach,FL,30.41,-86.62
+Pinecrest,FL,25.67,-80.31
+Altamont,OR,42.21,-121.74
+Ronkonkoma,NY,40.82,-73.11
+Hudson,MA,42.39,-71.57
+Milledgeville,GA,33.08,-83.23
+Bethany,OK,35.52,-97.63
+Lynbrook,NY,40.65,-73.67
+Stafford,TX,29.62,-95.56
+Evans,CO,40.38,-104.69
+Chester,VA,37.36,-77.44
+Deerfield,IL,42.17,-87.84
+Trenton,MI,42.14,-83.18
+Alice,TX,27.75,-98.07
+East Ridge,TN,35.01,-85.25
+Sun City,CA,33.71,-117.20
+Sulphur,LA,30.24,-93.38
+Millbrae,CA,37.60,-122.39
+Pinole,CA,38.00,-122.30
+Brownwood,TX,31.71,-98.99
+Ennis,TX,32.33,-96.62
+Mauldin,SC,34.78,-82.31
+Central Falls,RI,41.89,-71.39
+Mountain Brook,AL,33.50,-86.75
+Jacksonville,IL,39.73,-90.23
+Pittsburg,KS,37.41,-94.70
+Germantown,WI,43.23,-88.11
+Pleasant Prairie,WI,42.55,-87.93
+Gallup,NM,35.53,-108.74
+Weirton,WV,40.42,-80.59
+Pelham,AL,33.29,-86.81
+Clifton,CO,39.09,-108.45
+Tiverton,RI,41.63,-71.21
+Forest Grove,OR,45.52,-123.11
+Madisonville,KY,37.33,-87.50
+East Massapequa,NY,40.67,-73.44
+Oregon,OH,41.64,-83.49
+Talladega,AL,33.44,-86.11
+Balch Springs,TX,32.73,-96.62
+Charleston,IL,39.50,-88.18
+Kiryas Joel,NY,41.34,-74.17
+Yucca Valley,CA,34.11,-116.43
+South St. Paul,MN,44.89,-93.03
+Green Haven,MD,39.14,-76.55
+Leander,TX,30.58,-97.85
+Steubenville,OH,40.37,-80.63
+Farragut,TN,35.88,-84.15
+Green Valley,AZ,31.85,-110.99
+Alsip,IL,41.67,-87.74
+Lakeside,CA,32.86,-116.92
+Kenmore,WA,47.76,-122.24
+Brandon,MS,32.27,-89.99
+Manchester,MO,38.60,-90.51
+Macomb,IL,40.46,-90.67
+Plattsburgh,NY,44.70,-73.45
+Lorton,VA,38.70,-77.23
+Mokena,IL,41.53,-87.89
+Klamath Falls,OR,42.23,-121.78
+West St. Paul,MN,44.92,-93.10
+Salmon Creek,WA,45.71,-122.65
+Glassboro,NJ,39.70,-75.11
+San Carlos Park,FL,26.47,-81.80
+Belvedere Park,GA,33.75,-84.27
+Clarksdale,MS,34.20,-90.57
+Sylvania,OH,41.72,-83.71
+Madison,CT,41.28,-72.60
+Portsmouth,OH,38.73,-83.00
+Homewood,IL,41.56,-87.67
+Maple Shade,NJ,39.95,-74.99
+Logansport,IN,40.75,-86.36
+West Hempstead,NY,40.70,-73.65
+Camp Springs,MD,38.80,-76.91
+Harker Heights,TX,31.08,-97.66
+Pleasantville,NJ,39.39,-74.52
+Southbridge,MA,42.08,-72.03
+North Augusta,SC,33.50,-81.97
+Webster,MA,42.05,-71.88
+Wantagh,NY,40.68,-73.51
+Mineola,NY,40.75,-73.64
+Baldwin,PA,40.34,-79.98
+Desert Hot Springs,CA,33.96,-116.50
+Selma,AL,32.41,-87.02
+Birmingham,MI,42.55,-83.21
+Elmwood Park,NJ,40.90,-74.12
+Ansonia,CT,41.35,-73.08
+Farmington,MN,44.64,-93.14
+Sebastian,FL,27.82,-80.47
+Bixby,OK,35.94,-95.88
+Somerset,MA,41.77,-71.13
+Brookfield,IL,41.82,-87.85
+North Massapequa,NY,40.70,-73.46
+Woodstock,GA,34.10,-84.52
+Northfield,MN,44.46,-93.16
+Ottawa,IL,41.35,-88.84
+Jasmine Estates,FL,28.29,-82.69
+Morristown,NJ,40.80,-74.48
+Angleton,TX,29.17,-95.43
+Wake Forest,NC,35.98,-78.51
+Shenandoah,LA,30.40,-91.00
+Mira Loma,CA,33.99,-117.52
+Fairmont,WV,39.48,-80.14
+New Castle,IN,39.93,-85.37
+Redmond,OR,44.27,-121.17
+Woodbridge,NJ,40.56,-74.28
+Wayne,MI,42.28,-83.39
+Riverbank,CA,37.74,-120.93
+Groton,MA,42.61,-71.58
+Ipswich,MA,42.68,-70.84
+Easley,SC,34.83,-82.60
+Papillion,NE,41.15,-96.04
+Seymour,IN,38.96,-85.89
+Franklin Park,IL,41.94,-87.87
+Dover,NJ,40.88,-74.56
+Tullahoma,TN,35.36,-86.21
+Snellville,GA,33.86,-84.02
+Marshfield,WI,44.67,-90.17
+Oakdale,CA,37.77,-120.85
+Avenel,NJ,40.58,-74.29
+Bay City,TX,28.98,-95.97
+Augusta,ME,44.31,-69.78
+Beacon,NY,41.50,-73.97
+Port Angeles,WA,48.12,-123.43
+Natchitoches,LA,31.76,-93.09
+Independence,KY,38.94,-84.54
+Rosemount,MN,44.74,-93.13
+Beaumont,CA,33.93,-116.98
+Mount Juliet,TN,36.20,-86.52
+Daphne,AL,30.60,-87.90
+Goodings Grove,IL,41.63,-87.93
+Mayfield Heights,OH,41.52,-81.46
+Brownsburg,IN,39.84,-86.40
+Thomasville,GA,30.84,-83.98
+Palisades Park,NJ,40.85,-74.00
+Dinuba,CA,36.54,-119.39
+Cayey,PR,18.11,-66.17
+King of Prussia,PA,40.09,-75.40
+Willmar,MN,45.12,-95.04
+Montclair,VA,38.61,-77.34
+West Odessa,TX,31.84,-102.50
+Saco,ME,43.50,-70.44
+Oswego,NY,43.46,-76.51
+Eastchester,NY,40.89,-73.83
+Hawthorne,NJ,40.95,-74.15
+Fern Creek,KY,38.16,-85.59
+Albertville,AL,34.27,-86.21
+Eagle,ID,43.70,-116.35
+Dickinson,TX,29.46,-95.05
+Huntington,NY,40.87,-73.43
+Shelbyville,TN,35.48,-86.46
+Saginaw,TX,32.86,-97.36
+Amesbury,MA,42.86,-70.93
+Punta Gorda,FL,26.93,-82.05
+Northborough,MA,42.32,-71.64
+Lackawanna,NY,42.83,-78.82
+Leesburg,FL,28.81,-81.88
+Bennington,VT,42.88,-73.20
+Hazel Park,MI,42.46,-83.10
+Palmer,MA,42.16,-72.33
+Vincennes,IN,38.68,-87.53
+Orinda,CA,37.88,-122.18
+Sachse,TX,32.98,-96.59
+Columbia Heights,MN,45.04,-93.26
+Hinsdale,IL,41.80,-87.94
+Rock Springs,WY,41.59,-109.20
+Christiansburg,VA,37.13,-80.41
+Brookings,SD,44.31,-96.80
+Syracuse,UT,41.09,-112.06
+Syosset,NY,40.83,-73.50
+Carlisle,PA,40.20,-77.19
+Whitehall,OH,39.97,-82.89
+Mamaroneck,NY,40.95,-73.73
+Cutler,FL,25.61,-80.31
+Newton,KS,38.05,-97.34
+Berea,OH,41.37,-81.85
+Forest Park,OH,39.29,-84.50
+Cudahy,WI,42.96,-87.86
+Pembroke,MA,42.07,-70.81
+Wilkinsburg,PA,40.44,-79.88
+Kyle,TX,29.99,-97.88
+Kalispell,MT,48.20,-114.31
+Cortland,NY,42.60,-76.18
+Elizabeth City,NC,36.29,-76.25
+Rockland,MA,42.13,-70.92
+Nanuet,NY,41.09,-74.01
+Louisville,CO,39.98,-105.13
+Sandalfoot Cove,FL,26.34,-80.19
+College Park,GA,33.65,-84.45
+Sunset,FL,25.71,-80.35
+Rutherford,NJ,40.83,-74.11
+Palestine,TX,31.76,-95.63
+Scarsdale,NY,41.01,-73.78
+Holtsville,NY,40.82,-73.05
+Uvalde,TX,29.21,-99.79
+Laurel,MS,31.69,-89.13
+North Amityville,NY,40.70,-73.43
+Golden,CO,39.76,-105.22
+Chambersburg,PA,39.94,-77.66
+Rolla,MO,37.95,-91.77
+Westminster,MD,39.58,-77.00
+Takoma Park,MD,38.98,-77.01
+Canton,GA,34.24,-84.49
+Bristol,VA,36.60,-82.19
+Foothill Farms,CA,38.68,-121.34
+Sand Springs,OK,36.14,-96.11
+Shelbyville,IN,39.52,-85.78
+Hammond,LA,30.50,-90.46
+Lenoir,NC,35.91,-81.54
+Orange,TX,30.09,-93.74
+Alamo,CA,37.85,-122.03
+Portsmouth,RI,41.60,-71.25
+Stillwater,MN,45.06,-92.81
+Oxford,MA,42.12,-71.87
+Amsterdam,NY,42.94,-74.19
+Wisconsin Rapids,WI,44.38,-89.82
+Isla Vista,CA,34.41,-119.86
+Mattoon,IL,39.48,-88.37
+Anoka,MN,45.20,-93.39
+Cartersville,GA,34.16,-84.80
+Redland,MD,39.15,-77.14
+Colonia,NJ,40.57,-74.30
+Ocean Springs,MS,30.41,-88.83
+South Hadley,MA,42.26,-72.58
+Coralville,IA,41.68,-91.58
+North Babylon,NY,40.72,-73.32
+Susanville,CA,40.42,-120.65
+Candelaria,PR,18.41,-66.21
+Colonial Heights,VA,37.24,-77.41
+Bayshore Gardens,FL,27.43,-82.59
+Winthrop,MA,42.38,-70.98
+Wentzville,MO,38.81,-90.85
+Albert Lea,MN,43.65,-93.37
+Goffstown,NH,43.02,-71.60
+West Fargo,ND,46.88,-96.90
+West Fargo,MN,46.88,-96.87
+Newburyport,MA,42.81,-70.88
+Hannibal,MO,39.71,-91.36
+Sherrelwood,CO,39.84,-105.00
+West Chester,PA,39.96,-75.61
+Tallmadge,OH,41.10,-81.44
+Laconia,NH,43.53,-71.47
+Safety Harbor,FL,27.99,-82.69
+Dumont,NJ,40.94,-74.00
+St. Matthews,KY,38.25,-85.66
+Palos Hills,IL,41.70,-87.82
+Hybla Valley,VA,38.75,-77.08
+New Philadelphia,OH,40.49,-81.45
+Decatur,GA,33.77,-84.30
+Pepperell,MA,42.67,-71.59
+Forest Lake,MN,45.28,-92.98
+Bellaire,TX,29.71,-95.46
+Warrensburg,MO,38.76,-93.74
+Lincolnia,VA,38.82,-77.14
+Abington,MA,42.10,-70.95
+Broadview Heights,OH,41.31,-81.69
+Ramona,CA,33.04,-116.87
+Twinsburg,OH,41.31,-81.44
+Sudbury,MA,42.38,-71.42
+Ojus,FL,25.95,-80.15
+Dyersburg,TN,36.03,-89.39
+Lindenwold,NJ,39.82,-75.00
+Massapequa Park,NY,40.68,-73.46
+Middletown,RI,41.55,-71.29
+Clinton,UT,41.14,-112.05
+South Orange,NJ,40.75,-74.26
+Fremont,OH,41.35,-83.12
+Elk Plain,WA,47.05,-122.40
+Marion,IL,37.73,-88.93
+Vero Beach,FL,27.64,-80.40
+Brigham City,UT,41.51,-112.01
+Claremore,OK,36.31,-95.62
+Myrtle Grove,FL,30.42,-87.31
+Painesville,OH,41.72,-81.25
+Colchester,VT,44.54,-73.15
+Narragansett,RI,41.45,-71.45
+Cutlerville,MI,42.84,-85.66
+Junction City,KS,39.03,-96.83
+Arcata,CA,40.87,-124.08
+Morganton,NC,35.75,-81.69
+South Burlington,VT,44.47,-73.17
+Walnut Park,CA,33.97,-118.22
+Greenwood,MS,33.52,-90.18
+New Port Richey,FL,28.24,-82.72
+Terrell,TX,32.74,-96.28
+Pinewood,FL,25.87,-80.22
+Farmingville,NY,40.83,-73.03
+Okolona,KY,38.14,-85.69
+Wyckoff,NJ,41.01,-74.17
+Natchez,MS,31.56,-91.40
+Gretna,LA,29.91,-90.05
+Glenvar Heights,FL,25.71,-80.33
+Hopkins,MN,44.92,-93.46
+Eustis,FL,28.85,-81.69
+Ellensburg,WA,47.00,-120.55
+Rutland,VT,43.61,-72.97
+Camas,WA,45.59,-122.40
+St. Marys,GA,30.73,-81.55
+Sikeston,MO,36.88,-89.59
+Tukwila,WA,47.47,-122.26
+Iselin,NJ,40.58,-74.32
+Holden,MA,42.35,-71.86
+Tiffin,OH,41.11,-83.18
+Florida Ridge,FL,27.58,-80.39
+Mineral Wells,TX,32.81,-98.11
+Artesia,CA,33.87,-118.08
+Cimarron Hills,CO,38.86,-104.70
+Kirksville,MO,40.19,-92.58
+Mount Vernon,OH,40.39,-82.49
+Marina,CA,36.68,-121.80
+Springboro,OH,39.55,-84.23
+Townsend,MA,42.67,-71.71
+Huntington,IN,40.88,-85.50
+Englewood,FL,26.96,-82.35
+Hanover,MA,42.11,-70.81
+Erlanger,KY,39.02,-84.60
+North Canton,OH,40.88,-81.40
+Beckley,WV,37.78,-81.19
+Alderwood Manor,WA,47.82,-122.28
+Issaquah,WA,47.53,-122.03
+Godfrey,IL,38.96,-90.19
+Ashwaubenon,WI,44.48,-88.07
+Covington,WA,47.35,-122.11
+Moraga,CA,37.84,-122.13
+Americus,GA,32.07,-84.23
+Concord,MA,42.46,-71.35
+Mandan,ND,46.83,-100.89
+Idylwood,VA,38.90,-77.21
+Perrysburg,OH,41.56,-83.63
+Bethpage,NY,40.74,-73.48
+Madison,MS,32.46,-90.12
+Hermitage,PA,41.23,-80.45
+Mount Clemens,MI,42.60,-82.88
+Crest Hill,IL,41.55,-88.10
+Chickasha,OK,35.05,-97.94
+Long Beach,MS,30.35,-89.15
+Jenison,MI,42.91,-85.79
+Seminole,FL,27.84,-82.79
+Rancho Mirage,CA,33.74,-116.41
+Grandville,MI,42.91,-85.76
+Woodmere,NY,40.63,-73.71
+Avenal,CA,36.00,-120.13
+North Ogden,UT,41.31,-111.96
+El Segundo,CA,33.92,-118.42
+Fairview Park,OH,41.44,-81.86
+Lemay,MO,38.53,-90.28
+Crestview,FL,30.76,-86.57
+Huntley,IL,42.17,-88.43
+Creve Coeur,MO,38.66,-90.42
+Douglas,AZ,31.34,-109.54
+Sayville,NY,40.74,-73.08
+Willimantic,CT,41.71,-72.21
+Griffith,IN,41.53,-87.42
+Nederland,TX,29.97,-93.99
+Barrington,RI,41.74,-71.31
+Parole,MD,38.98,-76.53
+Wolcott,CT,41.60,-72.99
+Hibbing,MN,47.43,-92.94
+Moses Lake,WA,47.13,-119.28
+Carrboro,NC,35.91,-79.08
+Menasha,WI,44.20,-88.45
+Arroyo Grande,CA,35.12,-120.59
+Easthampton,MA,42.27,-72.67
+Grafton,MA,42.21,-71.69
+Prospect Heights,IL,42.10,-87.94
+Seymour,CT,41.40,-73.08
+Estelle,LA,29.85,-90.11
+Tinton Falls,NJ,40.30,-74.10
+Beltsville,MD,39.03,-76.91
+Pendleton,OR,45.67,-118.79
+Swansea,MA,41.75,-71.19
+Lunenburg,MA,42.59,-71.72
+Asbury Park,NJ,40.22,-74.01
+Mount Vernon,IL,38.32,-88.91
+Bourbonnais,IL,41.14,-87.88
+Poplar Bluff,MO,36.76,-90.39
+Brunswick,GA,31.15,-81.49
+South River,NJ,40.45,-74.39
+Fairhaven,MA,41.64,-70.90
+Wildomar,CA,33.60,-117.28
+Westchester,IL,41.85,-87.88
+Cocoa,FL,28.39,-80.74
+Socastee,SC,33.68,-79.00
+Norwalk,OH,41.24,-82.62
+Marysville,OH,40.24,-83.37
+Howard,WI,44.54,-88.09
+Grosse Pointe Woods,MI,42.44,-82.91
+Country Club Hills,IL,41.57,-87.72
+Waverly,MI,42.74,-84.62
+Coalinga,CA,36.14,-120.36
+Santa Fe Springs,CA,33.95,-118.08
+New Milford,NJ,40.94,-74.02
+Clemmons,NC,36.02,-80.38
+Alamo,TX,26.18,-98.12
+Clinton,MA,42.42,-71.68
+Frankfort,IN,40.28,-86.51
+Blytheville,AR,35.93,-89.92
+Bellmore,NY,40.67,-73.53
+Gainesville,TX,33.63,-97.13
+Roanoke Rapids,NC,36.46,-77.65
+Middleton,WI,43.10,-89.50
+Central Point,OR,42.38,-122.92
+Bon Air,VA,37.52,-77.56
+Hopatcong,NJ,40.93,-74.66
+North Valley Stream,NY,40.69,-73.70
+Greenfield,IN,39.78,-85.77
+Pampa,TX,35.54,-100.96
+Hillcrest Heights,MD,39.15,-76.89
+Glen Avon,CA,34.01,-117.48
+Dixon,CA,38.45,-121.82
+Clarksburg,WV,39.28,-80.34
+Cameron Park,CA,38.67,-120.99
+Winchester,KY,37.99,-84.18
+White Settlement,TX,32.76,-97.46
+La Palma,CA,33.85,-118.05
+Bostonia,CA,32.81,-116.94
+Ferndale,MD,39.18,-76.64
+Mastic,NY,40.80,-72.84
+Sheridan,WY,44.80,-106.96
+Jollyville,TX,30.44,-97.77
+Tahlequah,OK,35.92,-94.97
+Albany,CA,37.89,-122.30
+Ada,OK,34.77,-96.68
+Wilsonville,OR,45.30,-122.77
+Henderson,NC,36.33,-78.40
+Overland,MO,38.70,-90.36
+Roosevelt,NY,40.68,-73.59
+Willow Grove,PA,40.14,-75.12
+Black Forest,CO,39.01,-104.70
+Lansdale,PA,40.24,-75.28
+Manati,PR,18.43,-66.49
+Riverdale,GA,33.57,-84.41
+Aguadilla,PR,18.43,-67.15
+Anacortes,WA,48.51,-122.61
+Oxford,AL,33.61,-85.83
+Aberdeen,WA,46.98,-123.81
+Pecan Grove,TX,29.63,-95.73
+South Houston,TX,29.66,-95.24
+Horn Lake,MS,34.96,-90.03
+Newton,IA,41.70,-93.05
+North Bay Shore,NY,40.74,-73.26
+Adelphi,MD,39.00,-76.97
+Laurel,VA,37.64,-77.51
+Universal City,TX,29.55,-98.29
+Red Wing,MN,44.56,-92.53
+Canon City,CO,38.40,-105.22
+Patterson,CA,37.47,-121.13
+Westbrook,ME,43.68,-70.37
+Ozark,MO,37.02,-93.21
+Lynn Haven,FL,30.25,-85.65
+Highland Springs,VA,37.55,-77.33
+Defiance,OH,41.28,-84.36
+Fountain,CO,38.68,-104.70
+Onalaska,WI,43.88,-91.23
+Clayton,MO,38.64,-90.32
+Payson,UT,40.04,-111.73
+Waterville,ME,44.55,-69.63
+Wahiawa,HI,21.50,-158.02
+Trussville,AL,33.62,-86.61
+Tifton,GA,31.45,-83.51
+Sarasota Springs,FL,27.31,-82.48
+Langley Park,MD,38.99,-76.98
+Dublin,GA,32.54,-82.90
+Depew,NY,42.90,-78.69
+Donna,TX,26.17,-98.05
+Avocado Heights,CA,34.04,-117.99
+Batavia,NY,43.00,-78.19
+Ukiah,CA,39.15,-123.21
+Elko,NV,40.83,-115.76
+Ashland,MA,42.26,-71.46
+Spring Hill,TN,35.75,-86.93
+Streetsboro,OH,41.24,-81.35
+Mint Hill,NC,35.18,-80.65
+Portland,TX,27.88,-97.32
+Truckee,CA,39.33,-120.18
+North Decatur,GA,33.79,-84.31
+Cahokia,IL,38.57,-90.19
+Seaford,NY,40.67,-73.49
+Avon,OH,41.45,-82.04
+Bartow,FL,27.90,-81.84
+La Grange,IL,41.80,-87.87
+Floral Park,NY,40.72,-73.71
+Wilmington Island,GA,32.00,-80.97
+Longmeadow,MA,42.05,-72.58
+La Vista,NE,41.18,-96.03
+Middleburg Heights,OH,41.36,-81.81
+Newport,KY,39.09,-84.50
+Kingston,MA,41.99,-70.72
+Sevierville,TN,35.87,-83.56
+Fort Thomas,KY,39.08,-84.45
+Hawaiian Gardens,CA,33.83,-118.07
+El Reno,OK,35.53,-97.95
+Ocean City,NJ,39.28,-74.58
+Stephenville,TX,32.22,-98.20
+Murray,KY,36.61,-88.31
+Martinsburg,WV,39.46,-77.96
+Mustang,OK,35.38,-97.72
+Frankfort,IL,41.50,-87.85
+Kenmore,NY,42.97,-78.87
+Aldine,TX,29.93,-95.38
+Cherryland,CA,37.68,-122.10
+Dickinson,ND,46.88,-102.79
+East Riverdale,MD,38.96,-76.92
+Highland Park,MI,42.41,-83.10
+Monroe,WA,47.86,-121.97
+Pearl River,NY,41.06,-74.02
+Secaucus,NJ,40.79,-74.06
+South Ogden,UT,41.19,-111.97
+St. Michael,MN,45.21,-93.66
+Hampton,NH,42.94,-70.84
+American Canyon,CA,38.17,-122.26
+Springfield,TN,36.51,-86.89
+Colchester,CT,41.58,-72.33
+Plainfield,CT,41.68,-71.92
+Gatesville,TX,31.43,-97.74
+Morton,IL,40.61,-89.46
+Durant,OK,33.99,-96.37
+Florence,AZ,33.03,-111.39
+Boulder City,NV,35.98,-114.83
+Bay Village,OH,41.48,-81.92
+Canby,OR,45.26,-122.69
+Eden,NC,36.49,-79.77
+Melville,NY,40.79,-73.42
+Shively,KY,38.20,-85.82
+Bridgeton,MO,38.77,-90.41
+Fairhope,AL,30.52,-87.90
+Sharon,PA,41.23,-80.49
+Pickerington,OH,39.88,-82.75
+Tonawanda,NY,43.02,-78.88
+Coos Bay,OR,43.37,-124.22
+Fords,NJ,40.53,-74.32
+Alpine,CA,32.84,-116.77
+Fillmore,CA,34.40,-118.92
+Makakilo City,HI,21.35,-158.09
+Owosso,MI,43.00,-84.18
+Highland Village,TX,33.09,-97.05
+Fairview Heights,IL,38.59,-89.99
+Menomonie,WI,44.88,-91.92
+Sugar Hill,GA,34.11,-84.03
+Flowing Wells,AZ,32.29,-111.01
+Hyattsville,MD,38.96,-76.95
+Hanson,MA,42.08,-70.88
+Kings Park,NY,40.89,-73.26
+Greensburg,PA,40.30,-79.54
+Hueytown,AL,33.45,-87.00
+Madison,NJ,40.76,-74.42
+Albemarle,NC,35.35,-80.20
+Belle Glade,FL,26.68,-80.67
+Laurinburg,NC,34.77,-79.46
+Indian Trail,NC,35.08,-80.67
+South Yuba City,CA,39.12,-121.64
+Ledyard,IA,43.42,-94.16
+Matteson,IL,41.50,-87.71
+Greeneville,TN,36.16,-82.83
+Troutdale,OR,45.54,-122.39
+North Arlington,NJ,40.79,-74.13
+Pacific Grove,CA,36.62,-121.92
+Cohoes,NY,42.77,-73.70
+Belton,TX,31.06,-97.46
+Oldsmar,FL,28.03,-82.67
+Forest Park,IL,41.88,-87.81
+Highview,KY,38.14,-85.62
+Danville,KY,37.65,-84.77
+Sherwood,OR,45.36,-122.84
+Dyer,IN,41.49,-87.52
+Montrose,CO,38.48,-107.88
+Conway,FL,28.50,-81.33
+Bridgeview,IL,41.75,-87.80
+Gloversville,NY,43.05,-74.34
+Groves,TX,29.95,-93.92
+East Brainerd,TN,35.00,-85.15
+Stuart,FL,27.20,-80.25
+Centralia,WA,46.72,-122.95
+West University Place,TX,29.72,-95.43
+Sterling,IL,41.79,-89.70
+Northview,MI,43.05,-85.60
+East Longmeadow,MA,42.06,-72.51
+Ewa Beach,HI,21.32,-158.01
+Phillipsburg,NJ,40.69,-75.19
+Jamestown,ND,46.91,-98.71
+Waycross,GA,31.21,-82.35
+Crawfordsville,IN,40.04,-86.87
+Bryant,AR,34.60,-92.49
+Rye,NY,40.98,-73.68
+Lemont,IL,41.67,-88.00
+Lindenhurst,IL,42.41,-88.03
+Hanover,PA,39.80,-76.98
+Sulphur Springs,TX,33.14,-95.60
+Durango,CO,37.28,-107.88
+Port Washington,NY,40.83,-73.70
+Johnson City,NY,42.12,-75.96
+Moss Point,MS,30.41,-88.53
+Berkley,MI,42.50,-83.18
+Alexander City,AL,32.94,-85.95
+Allouez,WI,44.48,-88.02
+Simpsonville,SC,34.74,-82.25
+Vienna,VA,38.90,-77.27
+Springfield,NJ,40.72,-74.31
+Nixa,MO,37.04,-93.29
+Ozark,AL,31.46,-85.64
+Elizabethton,TN,36.35,-82.21
+Ham Lake,MN,45.25,-93.25
+Hermiston,OR,45.84,-119.29
+Warrington,FL,30.38,-87.28
+Hollins,VA,37.34,-79.94
+Callaway,FL,30.15,-85.57
+New Cassel,NY,40.76,-73.57
+Windsor,CO,40.48,-104.90
+Lincoln,IL,40.15,-89.36
+Chowchilla,CA,37.12,-120.26
+Jennings,MO,38.72,-90.26
+Tolland,CT,41.87,-72.37
+Centerville,UT,40.92,-111.87
+Fraser,MI,42.54,-82.95
+Fayetteville,GA,33.45,-84.45
+Martinsville,VA,36.69,-79.87
+Olympia Heights,FL,25.73,-80.36
+Bonney Lake,WA,47.18,-122.19
+Scottsbluff,NE,41.87,-103.67
+Dixon,IL,41.84,-89.48
+Beaver Dam,WI,43.46,-88.84
+Medfield,MA,42.19,-71.31
+Mashpee,MA,41.65,-70.48
+Clearlake,CA,38.96,-122.63
+Olean,NY,42.08,-78.43
+Glen Allen,VA,37.67,-77.51
+Holly Springs,NC,35.65,-78.83
+Spencer,MA,42.24,-71.99
+Canton,IL,40.56,-90.03
+South Farmingdale,NY,40.72,-73.44
+Cullman,AL,34.17,-86.84
+Kaukauna,WI,44.28,-88.27
+Fullerton,PA,40.63,-75.47
+California City,CA,35.13,-117.98
+Nantucket,MA,41.28,-70.10
+Reidsville,NC,36.35,-79.66
+Exeter,NH,42.98,-70.95
+Deming,NM,32.27,-107.76
+Arvin,CA,35.21,-118.83
+Mitchell,SD,43.71,-98.03
+Farmington,MO,37.78,-90.42
+Scottsboro,AL,34.67,-86.03
+Payson,AZ,34.23,-111.32
+Humble,TX,30.00,-95.26
+West Norriton,PA,40.13,-75.38
+Ellington,CT,41.90,-72.47
+Elkton,MD,39.61,-75.83
+Milford,NH,42.84,-71.65
+Phoenixville,PA,40.13,-75.52
+Great Bend,KS,38.36,-98.76
+Kennebunk,ME,43.38,-70.55
+Cinnaminson,NJ,40.00,-74.99
+Moultrie,GA,31.18,-83.79
+Monsey,NY,41.11,-74.07
+Washington,PA,40.17,-80.25
+Siloam Springs,AR,36.19,-94.54
+Pottsville,PA,40.69,-76.20
+Clark,NJ,40.64,-74.31
+Raymore,MO,38.80,-94.45
+Front Royal,VA,38.92,-78.19
+Powder Springs,GA,33.86,-84.68
+Brenham,TX,30.17,-96.40
+Hazel Crest,IL,41.57,-87.69
+Lake Mary,FL,28.76,-81.32
+Horsham,PA,40.18,-75.13
+Lebanon,IN,40.05,-86.47
+Butler,PA,40.86,-79.90
+Opa-locka,FL,25.90,-80.25
+Wolf Trap,VA,38.94,-77.29
+Lyndhurst,OH,41.52,-81.49
+Grenada,MS,33.77,-89.81
+Taylor,TX,30.57,-97.41
+Aurora,OH,41.32,-81.35
+Whitewater,WI,42.83,-88.73
+Lake St. Louis,MO,38.80,-90.79
+Rosaryville,MD,38.76,-76.81
+Ramsey,NJ,41.06,-74.14
+Brookside,DE,39.67,-75.73
+Fruitville,FL,27.33,-82.46
+Goodlettsville,TN,36.32,-86.71
+North New Hyde Park,NY,40.74,-73.69
+Portland,CT,41.57,-72.64
+Whitman,MA,42.08,-70.94
+Riverdale,IL,41.63,-87.63
+Glenn Dale,MD,38.99,-76.82
+Palmetto Estates,FL,25.62,-80.36
+Vandalia,OH,39.89,-84.20
+South Venice,FL,27.05,-82.42
+Haines City,FL,28.11,-81.62
+North Branford,CT,41.33,-72.77
+South Daytona,FL,29.17,-81.00
+Swampscott,MA,42.47,-70.92
+North Aurora,IL,41.81,-88.33
+Maumee,OH,41.56,-83.65
+Lamont,CA,35.26,-118.91
+Aberdeen,MD,39.51,-76.16
+Connersville,IN,39.64,-85.14
+Traverse City,MI,44.76,-85.62
+Scott Lake,FL,25.94,-80.23
+Thibodaux,LA,29.80,-90.82
+Warrensville Heights,OH,41.44,-81.54
+Mount Pleasant,TX,33.16,-94.97
+Paradise Valley,AZ,33.53,-111.94
+Shafter,CA,35.50,-119.27
+Bellevue,WI,44.44,-87.92
+Covington,GA,33.60,-83.86
+Hereford,TX,34.81,-102.40
+Fergus Falls,MN,46.28,-96.08
+Indiana,PA,40.62,-79.15
+Fairview Shores,FL,28.59,-81.39
+Tenafly,NJ,40.93,-73.96
+Berea,SC,34.89,-82.46
+Palm Springs,FL,26.64,-80.10
+Farmington,UT,40.98,-111.89
+Oakland,NJ,41.01,-74.26
+Millbrook,AL,32.48,-86.36
+Buffalo,MN,45.17,-93.87
+River Ridge,LA,29.96,-90.22
+Highland Park,NJ,40.50,-74.42
+Sunland Park,NM,31.80,-106.58
+Mercedes,TX,26.15,-97.91
+Brainerd,MN,46.36,-94.20
+Sunnyside,WA,46.32,-120.01
+Westbury,NY,40.76,-73.59
+Union City,GA,33.59,-84.54
+Eatontown,NJ,40.30,-74.05
+Berkeley Heights,NJ,40.68,-74.44
+Glens Falls,NY,43.31,-73.64
+Beech Grove,IN,39.72,-86.09
+Corinth,MS,34.93,-88.52
+West Melbourne,FL,28.07,-80.65
+Norridge,IL,41.96,-87.83
+Sycamore,IL,41.99,-88.69
+Richmond,TX,29.58,-95.76
+Midlothian,IL,41.63,-87.72
+Collingswood,NJ,39.92,-75.07
+Ridge,NY,40.89,-72.90
+Radford,VA,37.13,-80.58
+North Adams,MA,42.70,-73.11
+Weehawken,NJ,40.77,-74.02
+North Reading,MA,42.58,-71.08
+Maple Valley,WA,47.41,-122.04
+Lakeland Highlands,FL,27.96,-81.95
+Harrison,NJ,40.75,-74.16
+Clive,IA,41.60,-93.72
+Green Valley,MD,39.31,-77.30
+Middlesex,NJ,40.57,-74.49
+Forrest City,AR,35.01,-90.79
+Port St. John,FL,28.48,-80.79
+Clinton,CT,41.28,-72.53
+Northbridge,MA,42.15,-71.65
+Gladeview,FL,25.84,-80.24
+Greece,NY,43.21,-77.69
+Las Vegas,NM,35.59,-105.22
+Red Bluff,CA,40.18,-122.23
+Palos Verdes Estates,CA,33.80,-118.39
+Welby,CO,39.84,-104.96
+Westwood,MA,42.21,-71.22
+New Kensington,PA,40.57,-79.77
+St. Marys,PA,41.43,-78.56
+East Bridgewater,MA,42.03,-70.96
+Holliston,MA,42.20,-71.42
+Lexington,SC,33.98,-81.24
+Greendale,WI,42.94,-88.00
+Cedar Mill,OR,45.52,-122.81
+Glasgow,KY,37.00,-85.91
+Seekonk,MA,41.81,-71.34
+Streator,IL,41.12,-88.84
+Jacksonville,TX,31.96,-95.27
+Sweetwater,FL,25.76,-80.37
+St. Simons,GA,31.14,-81.39
+East Wenatchee Bench,WA,47.43,-120.28
+Athens,TN,35.44,-84.59
+Linda,CA,39.13,-121.55
+Washington,MO,38.56,-91.01
+Pataskala,OH,40.00,-82.67
+Pierre,SD,44.37,-100.35
+East Hemet,CA,33.74,-116.94
+Gantt,SC,34.80,-82.42
+La Marque,TX,29.37,-94.97
+Orange,CT,41.28,-73.03
+East Islip,NY,40.73,-73.19
+Lockhart,TX,29.88,-97.67
+Dallas,OR,44.92,-123.32
+Willowick,OH,41.63,-81.47
+Jasper,IN,38.39,-86.93
+Moberly,MO,39.42,-92.44
+Pineville,LA,31.32,-92.43
+New Haven,IN,41.07,-85.01
+Jasper,AL,33.83,-87.28
+Maumelle,AR,34.87,-92.40
+Crowley,LA,30.21,-92.37
+Marietta,OH,39.42,-81.45
+El Sobrante,CA,37.98,-122.29
+Carpinteria,CA,34.40,-119.52
+Malibu,CA,34.01,-118.81
+Forest City,FL,28.66,-81.42
+Hutchinson,MN,44.89,-94.37
+Oconomowoc,WI,43.11,-88.50
+Cromwell,CT,41.59,-72.65
+Bradley,IL,41.14,-87.86
+Lockhart,FL,28.62,-81.44
+Calhoun,GA,34.50,-84.95
+Wixom,MI,42.52,-83.54
+Rio Grande City,TX,26.38,-98.82
+Chicago Ridge,IL,41.70,-87.78
+Martha Lake,WA,47.85,-122.24
+Commerce,CA,34.00,-118.16
+East Greenwich,RI,41.66,-71.46
+Midlothian,TX,32.48,-96.99
+Fostoria,OH,41.16,-83.42
+Lake Station,IN,41.58,-87.24
+Harper Woods,MI,42.43,-82.92
+Elfers,FL,28.22,-82.72
+Ionia,MI,42.99,-85.07
+Atlantic Beach,FL,30.33,-81.40
+Dumas,TX,35.87,-101.97
+Addison,TX,32.96,-96.83
+Stony Brook,NY,40.93,-73.14
+Whitefish Bay,WI,43.11,-87.90
+Millbury,MA,42.19,-71.76
+Hickory Hills,IL,41.73,-87.83
+Longwood,FL,28.70,-81.34
+Ripon,CA,37.74,-121.12
+Fort Payne,AL,34.44,-85.72
+Hooksett,NH,43.10,-71.47
+Riviera Beach,MD,39.17,-76.51
+Dunmore,PA,41.42,-75.63
+Claremont,NH,43.38,-72.35
+White Oak,OH,39.21,-84.60
+Sartell,MN,45.62,-94.21
+Verona,NJ,40.83,-74.24
+Finneytown,OH,39.20,-84.52
+Florham Park,NJ,40.79,-74.39
+Gardner,KS,38.81,-94.93
+Lebanon,OR,44.54,-122.91
+Dentsville,SC,34.06,-80.96
+Graham,NC,36.07,-79.40
+Metuchen,NJ,40.54,-74.36
+Mill Creek,WA,47.86,-122.20
+Bedford,OH,41.39,-81.54
+Eufaula,AL,31.89,-85.15
+Fairview,NJ,40.81,-74.00
+St. James,NY,40.88,-73.16
+River Falls,WI,44.86,-92.62
+Durham,NH,43.13,-70.93
+Geneva,NY,42.87,-76.98
+Brecksville,OH,41.32,-81.63
+Centralia,IL,38.52,-89.13
+Pasadena,MD,39.11,-76.57
+Yankton,SD,42.87,-97.40
+Borger,TX,35.67,-101.40
+Forest Hill,TX,32.67,-97.27
+Baker,LA,30.59,-91.17
+Wailuku,HI,20.89,-156.50
+North Myrtle Beach,SC,33.82,-78.68
+Miami Springs,FL,25.82,-80.29
+Minden,LA,32.62,-93.29
+Tumwater,WA,47.01,-122.91
+University Heights,OH,41.50,-81.54
+Brattleboro,VT,42.85,-72.56
+Katy,TX,29.79,-95.82
+Indianola,IA,41.36,-93.56
+Oxford,MS,34.37,-89.52
+Conway,SC,33.84,-79.05
+Greenwood Village,CO,39.62,-104.95
+Troy,AL,31.81,-85.97
+Miami,OK,36.87,-94.88
+Pewaukee,WI,43.08,-88.26
+Bemidji,MN,47.47,-94.88
+Wood Dale,IL,41.96,-87.98
+Robbinsdale,MN,45.03,-93.34
+San Marino,CA,34.12,-118.11
+West Carrollton City,OH,39.67,-84.25
+Bedford,IN,38.86,-86.49
+New Ulm,MN,44.31,-94.46
+Lady Lake,FL,28.92,-81.92
+Hammonton,NJ,39.64,-74.80
+Circleville,OH,39.60,-82.95
+Greenville,OH,40.10,-84.63
+Sharonville,OH,39.27,-84.41
+Lathrop,CA,37.82,-121.28
+Dickson,TN,36.08,-87.39
+New Carrollton,MD,38.97,-76.88
+Roselle Park,NJ,40.66,-74.26
+Meadville,PA,41.64,-80.15
+West Freehold,NJ,40.24,-74.30
+Mill Valley,CA,37.91,-122.54
+Goldenrod,FL,28.61,-81.29
+St. Ann,MO,38.73,-90.38
+Worthington,OH,40.09,-83.02
+Beatrice,NE,40.27,-96.75
+Oroville,CA,39.51,-121.56
+Shorewood,WI,43.09,-87.89
+Ephrata,PA,40.18,-76.18
+Warrenville,IL,41.82,-88.17
+Wickliffe,OH,41.61,-81.45
+Clayton,NC,35.65,-78.46
+Hershey,PA,40.29,-76.65
+Lake Shore,MD,39.11,-76.49
+Wayland,MA,42.36,-71.36
+Raynham,MA,41.95,-71.07
+Clayton,OH,39.86,-84.36
+Saddle Brook,NJ,40.90,-74.09
+Helena,AL,33.30,-86.84
+Greenfield,CA,36.32,-121.24
+Dorado,PR,18.46,-66.27
+East Norriton,PA,40.15,-75.34
+Port Neches,TX,29.99,-93.96
+Hanahan,SC,32.92,-80.02
+Easton,MD,38.77,-76.08
+Windham,NH,42.80,-71.30
+Hartselle,AL,34.44,-86.94
+Calverton,MD,39.29,-76.66
+Weston,WI,44.89,-89.55
+Kingston,PA,41.26,-75.90
+Conneaut,OH,41.95,-80.55
+Kittery,ME,43.09,-70.74
+Harwich,MA,41.69,-70.08
+Iona,FL,26.52,-81.96
+Richton Park,IL,41.48,-87.70
+Carthage,MO,37.18,-94.31
+Medway,MA,42.14,-71.40
+Canyon,TX,34.98,-101.92
+Ladson,SC,32.99,-80.11
+Fort Hunt,VA,38.73,-77.06
+Lebanon,MO,37.68,-92.66
+Beeville,TX,28.40,-97.75
+Vadnais Heights,MN,45.06,-93.07
+Warsaw,IN,41.24,-85.85
+Cypress Lake,FL,26.54,-81.90
+East Renton Highlands,WA,47.48,-122.11
+Rantoul,IL,40.31,-88.16
+Hewitt,TX,31.46,-97.20
+Glendale,WI,43.14,-87.94
+Grover Beach,CA,35.12,-120.62
+Colonial Park,PA,40.30,-76.81
+Bellefontaine,OH,40.36,-83.76
+Winchendon,MA,42.69,-72.04
+Princeton,NJ,40.35,-74.66
+Bloomsburg,PA,41.00,-76.46
+Piney Green,NC,34.72,-77.32
+Boone,NC,36.22,-81.67
+Jenks,OK,36.02,-95.97
+Woodhaven,MI,42.14,-83.24
+East Highland Park,VA,37.58,-77.41
+Orangeburg,SC,33.49,-80.86
+Solana Beach,CA,32.99,-117.27
+West Monroe,LA,32.52,-92.15
+Jericho,NY,40.79,-73.54
+Wilton Manors,FL,26.16,-80.14
+Druid Hills,GA,33.78,-84.34
+Athol,MA,42.60,-72.23
+Auburn,IN,41.37,-85.06
+Levelland,TX,33.59,-102.38
+North Palm Beach,FL,26.82,-80.08
+Ringwood,NJ,41.11,-74.25
+West Columbia,SC,33.99,-81.07
+Lebanon,NH,43.64,-72.25
+Peru,IN,40.75,-86.07
+North Auburn,CA,38.93,-121.08
+La Grange Park,IL,41.83,-87.86
+Babylon,NY,40.70,-73.33
+Jackson,MO,37.38,-89.67
+Palos Heights,IL,41.67,-87.80
+Parlier,CA,36.61,-119.53
+Palmetto,FL,27.52,-82.57
+Rossville,MD,39.34,-76.48
+Endicott,NY,42.10,-76.05
+Boone,IA,42.06,-93.88
+Gaffney,SC,35.07,-81.65
+Bucyrus,OH,40.81,-82.98
+Charlton,MA,42.14,-71.97
+Cleveland,MS,33.74,-90.72
+Riverview,MI,42.17,-83.18
+Newton,NC,35.67,-81.22
+Canton,MS,32.61,-90.04
+Holly Hill,FL,29.24,-81.04
+Stoughton,WI,42.92,-89.22
+Bastrop,LA,32.76,-91.87
+South Charleston,WV,38.37,-81.70
+Derby,CT,41.32,-73.09
+Ridgefield Park,NJ,40.86,-74.02
+Ventnor City,NJ,39.34,-74.48
+Pedley,CA,33.98,-117.47
+Bogalusa,LA,30.79,-89.85
+Justice,IL,41.74,-87.84
+Sterling,CO,40.63,-103.21
+Pelham,NH,42.73,-71.33
+Panthersville,GA,33.71,-84.27
+Oak Grove,OR,45.42,-122.64
+Brigantine,NJ,39.41,-74.36
+El Dorado,KS,37.82,-96.86
+Saraland,AL,30.82,-88.07
+Mounds View,MN,45.10,-93.21
+Winder,GA,33.99,-83.72
+Speedway,IN,39.80,-86.27
+Arlington,NY,41.70,-73.90
+Freeport,TX,28.95,-95.36
+Escanaba,MI,45.75,-87.06
+Effingham,IL,39.12,-88.54
+Uxbridge,MA,42.08,-71.63
+Gulfport,FL,27.75,-82.70
+Chippewa Falls,WI,44.94,-91.39
+Franklin,OH,39.56,-84.30
+Englewood,OH,39.88,-84.30
+North Mankato,MN,44.17,-94.03
+Robstown,TX,27.79,-97.67
+Morris,IL,41.36,-88.42
+Kewanee,IL,41.25,-89.92
+Stanford,CA,37.42,-122.17
+Niceville,FL,30.52,-86.48
+Westfield,IN,40.04,-86.13
+Ardmore,PA,40.01,-75.29
+Johnston,IA,41.67,-93.70
+Nesconset,NY,40.85,-73.15
+Sylacauga,AL,33.17,-86.25
+Marysville,CA,39.15,-121.59
+Conyers,GA,33.67,-84.02
+Hartford,WI,43.32,-88.38
+Auburn,CA,38.90,-121.08
+Bonita,CA,32.66,-117.03
+Grand Terrace,CA,34.03,-117.31
+Isabela,PR,18.50,-67.02
+Bedford,MA,42.49,-71.28
+Okmulgee,OK,35.62,-95.96
+Lower Burrell,PA,40.55,-79.76
+Harrison,AR,36.23,-93.11
+Damascus,MD,39.29,-77.20
+Cedar Grove,NJ,40.85,-74.23
+Dunkirk,NY,42.48,-79.33
+Dover,OH,40.52,-81.47
+Cayce,SC,33.97,-81.07
+Western Springs,IL,41.81,-87.90
+Madison,IN,38.74,-85.38
+Coventry,CT,41.77,-72.31
+Half Moon Bay,CA,37.46,-122.43
+Freeport,ME,43.86,-70.10
+Lake Wales,FL,27.90,-81.59
+Auburndale,FL,28.07,-81.79
+Markham,IL,41.59,-87.69
+Athens,TX,32.20,-95.86
+Beach Park,IL,42.42,-87.86
+Stockbridge,GA,33.54,-84.23
+Gardendale,AL,33.66,-86.81
+Lake Forest Park,WA,47.76,-122.28
+Marshall,MN,44.45,-95.79
+Azalea Park,FL,28.54,-81.30
+Overlea,MD,39.36,-76.52
+Cocoa Beach,FL,28.32,-80.61
+Oneonta,NY,42.45,-75.06
+Sauk Rapids,MN,45.59,-94.17
+Washington,UT,37.13,-113.51
+Muscle Shoals,AL,34.74,-87.67
+Wilmington,OH,39.45,-83.83
+Williamstown,NJ,39.69,-75.00
+Somerville,NJ,40.57,-74.61
+Grass Valley,CA,39.22,-121.06
+Washington,IL,40.70,-89.41
+La Grande,OR,45.32,-118.09
+Winnetka,IL,42.11,-87.74
+Plymouth,CT,41.67,-73.05
+North Lindenhurst,NY,40.71,-73.38
+Mays Chapel,MD,39.43,-76.65
+Beaufort,SC,32.43,-80.67
+Gladstone,OR,45.38,-122.59
+Key Largo,FL,25.09,-80.45
+Bexley,OH,39.97,-82.94
+Fenton,MI,42.80,-83.70
+Stony Point,NY,41.23,-73.99
+Hope Mills,NC,34.97,-78.95
+Clawson,MI,42.53,-83.15
+Soddy-Daisy,TN,35.24,-85.19
+Camden,AR,33.58,-92.83
+East Liverpool,OH,40.62,-80.58
+Kings Point,FL,26.45,-80.14
+East Hanover,NJ,40.82,-74.37
+Villas,FL,26.55,-81.87
+Monroe,GA,33.79,-83.71
+South Miami,FL,25.71,-80.29
+South Yarmouth,MA,41.67,-70.19
+Morgan City,LA,29.70,-91.21
+Friendly,MD,38.75,-76.98
+Converse,TX,29.52,-98.32
+Lincolnwood,IL,42.00,-87.73
+Somerset,KY,37.09,-84.60
+Windsor Locks,CT,41.93,-72.63
+South Sioux City,NE,42.47,-96.41
+Fuquay-Varina,NC,35.58,-78.80
+Ottawa,KS,38.62,-95.27
+Altoona,IA,41.64,-93.46
+Los Lunas,NM,34.81,-106.73
+Destin,FL,30.39,-86.50
+Zachary,LA,30.65,-91.16
+St. Augustine,FL,29.89,-81.31
+Zephyrhills,FL,28.23,-82.18
+Mastic Beach,NY,40.77,-72.85
+Poquoson,VA,37.12,-76.35
+St. Helens,OR,45.86,-122.81
+Yazoo City,MS,32.85,-90.41
+Livingston,CA,37.39,-120.72
+Berea,KY,37.57,-84.30
+Forestville,MD,38.84,-76.88
+Swansea,IL,38.53,-89.99
+San German,PR,18.08,-67.05
+Valley Falls,RI,41.91,-71.39
+Seven Hills,OH,41.40,-81.68
+Vega Alta,PR,18.41,-66.33
+Patchogue,NY,40.77,-73.02
+Stafford,CT,41.98,-72.29
+Seabrook,TX,29.56,-95.03
+Tehachapi,CA,35.13,-118.45
+North Wantagh,NY,40.69,-73.51
+Channahon,IL,41.43,-88.23
+Two Rivers,WI,44.15,-87.57
+Fernley,NV,39.61,-119.25
+Williston,ND,48.13,-103.63
+East Bethel,MN,45.32,-93.20
+Beecher,MI,43.09,-83.69
+Coamo,PR,18.08,-66.36
+Grosse Pointe Park,MI,42.38,-82.94
+Fulton,MO,38.85,-91.95
+San Anselmo,CA,37.97,-122.56
+New Providence,NJ,40.70,-74.40
+Hormigueros,PR,18.14,-67.13
+Olivehurst,CA,39.10,-121.55
+Brown Deer,WI,43.16,-87.96
+Elizabethtown,PA,40.15,-76.60
+Mandeville,LA,30.36,-90.07
+Clemson,SC,34.68,-82.84
+Somersworth,NH,43.26,-70.87
+Uniontown,PA,39.90,-79.72
+Kingsgate,WA,47.73,-122.18
+Lancaster,NY,42.90,-78.67
+Grafton,WI,43.32,-87.95
+Shorewood,IL,41.52,-88.20
+Marshall,MO,39.12,-93.20
+Jensen Beach,FL,27.25,-80.23
+Antioch,IL,42.48,-88.10
+North St. Paul,MN,45.01,-92.99
+Mountain Home,AR,36.34,-92.39
+Fort Atkinson,WI,42.93,-88.84
+Eunice,LA,30.49,-92.42
+Salem,OH,40.90,-80.86
+Crestwood,MO,38.56,-90.38
+Los Alamos,NM,35.89,-106.31
+Winfield,KS,37.24,-97.00
+Red Bank,TN,35.11,-85.29
+Kettering,MD,38.88,-76.81
+Gulf Gate Estates,FL,27.26,-82.51
+Lynnfield,MA,42.54,-71.05
+Woodward,OK,36.43,-99.39
+Lexington Park,MD,38.27,-76.45
+Amherst,OH,41.40,-82.22
+Blue Ash,OH,39.23,-84.38
+Port Lavaca,TX,28.61,-96.63
+Niles,MI,41.83,-86.25
+Franklin Park,PA,40.58,-80.09
+Norton,OH,41.03,-81.64
+Red Bank,NJ,40.35,-74.06
+Amherst,NH,42.86,-71.63
+Carver,MA,41.88,-70.76
+Los Alamitos,CA,33.80,-118.07
+Joppatowne,MD,39.46,-76.36
+Bainbridge,GA,30.90,-84.58
+Haslett,MI,42.75,-84.40
+Beachwood,OH,41.46,-81.51
+Cambridge,OH,40.03,-81.59
+Somers Point,NJ,39.32,-74.59
+Muskegon Heights,MI,43.20,-86.24
+Coshocton,OH,40.27,-81.86
+Maitland,FL,28.63,-81.36
+Tavares,FL,28.80,-81.73
+Weston,MA,42.37,-71.30
+Hendersonville,NC,35.32,-82.46
+Nanakuli,HI,21.39,-158.15
+West Point,MS,33.61,-88.65
+West Caldwell,NJ,40.84,-74.30
+Waianae,HI,21.44,-158.19
+Larkspur,CA,37.93,-122.53
+Urbana,OH,40.11,-83.75
+Canandaigua,NY,42.87,-77.29
+Kelso,WA,46.15,-122.91
+Fairfield,AL,33.49,-86.91
+Southern Pines,NC,35.17,-79.39
+Madison Heights,VA,37.43,-79.12
+North Merrick,NY,40.69,-73.56
+Martinsville,IN,39.43,-86.43
+Ware,MA,42.26,-72.24
+Hasbrouck Heights,NJ,40.86,-74.08
+San Sebastian,PR,18.34,-66.99
+Canyon Lake,CA,33.69,-117.27
+Magalia,CA,39.81,-121.58
+Haddonfield,NJ,39.89,-75.04
+Glen Carbon,IL,38.75,-89.98
+Chesterton,IN,41.61,-87.06
+Munhall,PA,40.39,-79.90
+Freehold,NJ,40.26,-74.27
+Abbeville,LA,29.97,-92.13
+Federal Heights,CO,39.85,-105.00
+Cloquet,MN,46.72,-92.46
+Pinehurst,NC,35.20,-79.47
+Fulton,NY,43.32,-76.42
+Kilgore,TX,32.39,-94.88
+Havre de Grace,MD,39.55,-76.09
+Northlake,IL,41.92,-87.90
+Rehoboth,MA,41.84,-71.25
+Rochester,MI,42.68,-83.13
+Hayden,ID,47.77,-116.79
+Clermont,FL,28.55,-81.77
+Herrin,IL,37.80,-89.03
+Schiller Park,IL,41.96,-87.87
+Wallington,NJ,40.85,-74.11
+Yeadon,PA,39.94,-75.26
+Plover,WI,44.46,-89.54
+Arkansas City,KS,37.06,-97.04
+Tarrytown,NY,41.08,-73.86
+Glen Rock,NJ,40.96,-74.13
+Ogdensburg,NY,44.69,-75.49
+New Baltimore,MI,42.68,-82.74
+South Lyon,MI,42.46,-83.65
+Springfield,VT,43.30,-72.48
+Franklin Lakes,NJ,41.02,-74.21
+Pennsville,NJ,39.65,-75.52
+North Berwick,ME,43.30,-70.73
+Suwanee,GA,34.05,-84.07
+King City,CA,36.21,-121.12
+Coatesville,PA,39.98,-75.82
+Tuskegee,AL,32.42,-85.69
+Excelsior Springs,MO,39.34,-94.23
+Mooresville,IN,39.61,-86.37
+Salem,WI,42.55,-88.11
+Burlington,WI,42.68,-88.28
+College,AK,64.86,-147.80
+Kingsburg,CA,36.51,-119.55
+Cordele,GA,31.96,-83.78
+Kuna,ID,43.49,-116.42
+Kingsland,GA,30.80,-81.69
+Pompton Lakes,NJ,41.01,-74.29
+Hobe Sound,FL,27.06,-80.14
+Williamsburg,VA,37.27,-76.71
+West Paterson,NJ,40.89,-74.20
+Gloucester City,NJ,39.89,-75.12
+Middle Valley,TN,35.20,-85.18
+Garden City,ID,43.62,-116.24
+Walker Mill,MD,38.88,-76.89
+Grosse Ile,MI,42.13,-83.14
+Healdsburg,CA,38.61,-122.87
+Green River,WY,41.53,-109.47
+Galion,OH,40.73,-82.79
+Lilburn,GA,33.89,-84.14
+Oxford,CT,41.43,-73.12
+Villa Rica,GA,33.73,-84.92
+Ravenna,OH,41.16,-81.24
+Hull,MA,42.30,-70.91
+Manassas Park,VA,38.78,-77.47
+Citrus,CA,34.12,-117.89
+Pine Hill,NJ,39.78,-74.99
+North Valley,NM,35.17,-106.62
+Sedona,AZ,34.87,-111.76
+Corozal,PR,18.34,-66.32
+Crestwood,IL,41.66,-87.75
+Somers,CT,41.99,-72.45
+Hudson,WI,44.97,-92.76
+Mountain Home,ID,43.13,-115.69
+Irmo,SC,34.09,-81.18
+Warren,RI,41.73,-71.28
+Worthington,MN,43.62,-95.60
+Washington,IN,38.66,-87.17
+Evanston,WY,41.27,-110.96
+Fernandina Beach,FL,30.67,-81.46
+Wrentham,MA,42.07,-71.33
+Crestline,CA,34.24,-117.28
+Dobbs Ferry,NY,41.01,-73.87
+River Forest,IL,41.90,-87.81
+Lighthouse Point,FL,26.28,-80.09
+Bellmawr,NJ,39.87,-75.09
+Perry,GA,32.46,-83.73
+Parsons,KS,37.34,-95.26
+Hanover,NH,43.70,-72.29
+Cedarburg,WI,43.30,-87.99
+Endwell,NY,42.11,-76.02
+Hamptons at Boca Raton,FL,26.38,-80.19
+Vidor,TX,30.13,-94.02
+North Smithfield,RI,41.97,-71.55
+Ironton,OH,38.54,-82.68
+Smithfield,NC,35.51,-78.34
+Emmaus,PA,40.54,-75.50
+Spencer,IA,43.14,-95.14
+Indianola,MS,33.45,-90.66
+Taylorville,IL,39.55,-89.29
+Mendota Heights,MN,44.88,-93.14
+Superior,CO,39.95,-105.17
+Marinette,WI,45.10,-87.63
+Zionsville,IN,39.95,-86.26
+Leeds,AL,33.55,-86.54
+Dudley,MA,42.05,-71.93
+Fortuna,CA,40.60,-124.16
+Clayton,CA,37.94,-121.93
+Rio Linda,CA,38.69,-121.45
+Wabash,IN,40.80,-85.82
+Scotts Valley,CA,37.05,-122.01
+Oskaloosa,IA,41.30,-92.64
+Topsham,ME,43.93,-69.98
+Sierra Madre,CA,34.16,-118.05
+Guttenberg,NJ,40.79,-74.00
+Brooklyn Park,MD,39.23,-76.62
+Sturgis,MI,41.80,-85.42
+Struthers,OH,41.05,-80.61
+Aliquippa,PA,40.64,-80.24
+Leicester,MA,42.25,-71.91
+Arkadelphia,AR,34.12,-93.05
+Broomall,PA,39.98,-75.36
+West Plains,MO,36.73,-91.85
+Brooklyn,OH,41.44,-81.74
+Portales,NM,34.19,-103.33
+Port Washington,WI,43.39,-87.88
+Huron,SD,44.36,-98.21
+Plymouth,IN,41.34,-86.31
+Holt,MI,42.64,-84.52
+Eloy,AZ,32.76,-111.55
+Bedford Heights,OH,41.42,-81.53
+Culpeper,VA,38.47,-78.00
+Seagoville,TX,32.64,-96.54
+Vermilion,OH,41.42,-82.36
+Westwood,NJ,40.99,-74.03
+Trenton,OH,39.48,-84.46
+Loveland,OH,39.27,-84.26
+St. Albans,WV,38.39,-81.84
+Pontiac,IL,40.88,-88.63
+Suffern,NY,41.11,-74.15
+Wood River,IL,38.86,-90.10
+River Edge,NJ,40.93,-74.04
+Ontario,OR,44.03,-116.96
+Fort Morgan,CO,40.25,-103.80
+Timberlake,VA,37.32,-79.26
+Oneida,NY,43.09,-75.65
+Bluefield,WV,37.27,-81.22
+Bluefield,VA,37.25,-81.27
+Lawrenceburg,TN,35.24,-87.33
+Fort Stewart,GA,31.86,-81.52
+Burr Ridge,IL,41.75,-87.92
+Ridgefield,NJ,40.83,-74.01
+Fredericksburg,TX,30.27,-98.87
+Kennett,MO,36.24,-90.06
+Lake City,FL,30.19,-82.64
+Mount Dora,FL,28.80,-81.64
+Henderson,TX,32.15,-94.80
+Vienna,WV,39.33,-81.55
+Baraboo,WI,43.47,-89.74
+Beachwood,NJ,39.94,-74.19
+Benton Harbor,MI,42.12,-86.45
+Massena,NY,44.93,-74.89
+Richfield,WI,43.26,-88.19
+Oil City,PA,41.43,-79.71
+Neosho,MO,36.87,-94.37
+Douglas,GA,31.51,-82.85
+Holbrook,MA,42.16,-71.01
+Monticello,MN,45.31,-93.79
+Coldwater,MI,41.94,-85.00
+Buford,GA,34.12,-84.00
+Enumclaw,WA,47.20,-121.99
+Acushnet,MA,41.68,-70.91
+Lakeside,VA,37.61,-77.48
+Lansing,KS,39.25,-94.90
+Lincoln Park,NJ,40.92,-74.30
+Cabo Rojo,PR,18.09,-67.15
+Hartford,VT,43.66,-72.34
+Elwood,NY,40.85,-73.34
+East Stroudsburg,PA,41.00,-75.18
+Campbellsville,KY,37.34,-85.34
+Town and Country,MO,38.61,-90.46
+Lynden,WA,48.95,-122.45
+Blackfoot,ID,43.19,-112.34
+Lindsay,CA,36.20,-119.09
+Mount Holly,NJ,39.99,-74.79
+Clute,TX,29.02,-95.40
+Little Ferry,NJ,40.85,-74.04
+Mexico,MO,39.17,-91.88
+Lakeville,MA,41.85,-70.95
+Northbrook,OH,39.25,-84.58
+Bonham,TX,33.58,-96.18
+Ecorse,MI,42.24,-83.15
+Pell City,AL,33.59,-86.29
+El Campo,TX,29.20,-96.27
+Merriam,KS,39.02,-94.69
+Richmond Heights,OH,41.55,-81.51
+Vidalia,GA,32.22,-82.41
+Worth,IL,41.69,-87.80
+Coral Hills,MD,38.87,-76.92
+Garden City,GA,32.11,-81.15
+Palatka,FL,29.65,-81.64
+Lansdowne,PA,39.94,-75.27
+Brownsville,TN,35.59,-89.26
+Fort Madison,IA,40.63,-91.31
+Union City,TN,36.42,-89.06
+Falmouth,ME,43.73,-70.24
+Big Rapids,MI,43.70,-85.48
+Alpena,MI,45.06,-83.43
+Santa Fe,TX,29.38,-95.11
+Lake Grove,NY,40.85,-73.12
+Cambridge,MD,38.56,-76.08
+Little Chute,WI,44.28,-88.32
+Lewisburg,TN,35.45,-86.79
+Little Falls,NJ,40.87,-74.21
+Sweetwater,TX,32.47,-100.41
+Storrs,CT,41.81,-72.25
+Anderson,CA,40.45,-122.30
+Cottonwood,AZ,34.74,-112.01
+Shiloh,IL,38.56,-89.90
+Maryville,MO,40.35,-94.87
+Bellefontaine Neighbors,MO,38.74,-90.23
+Lyons,IL,41.81,-87.82
+Terryville,NY,40.91,-73.07
+Rossmoor,CA,33.79,-118.08
+Picayune,MS,30.53,-89.68
+Verona,WI,42.99,-89.53
+Kerman,CA,36.72,-120.06
+Keokuk,IA,40.40,-91.38
+Fort Carson,CO,38.74,-104.79
+Grand Haven,MI,43.06,-86.23
+Portland,TN,36.58,-86.52
+Kings Mountain,NC,35.24,-81.34
+Keansburg,NJ,40.44,-74.13
+Yarmouth,ME,43.80,-70.19
+Burkburnett,TX,34.10,-98.57
+Old Saybrook,CT,41.29,-72.38
+Piedmont,CA,37.82,-122.23
+Shasta Lake,CA,40.68,-122.37
+Monroe,WI,42.60,-89.64
+Macedonia,OH,41.31,-81.51
+Sedro-Woolley,WA,48.50,-122.24
+Jefferson,LA,29.97,-90.15
+Greensburg,IN,39.34,-85.48
+Tarboro,NC,35.90,-77.54
+Snyder,TX,32.72,-100.92
+Shelbyville,KY,38.21,-85.22
+Sauk Village,IL,41.49,-87.57
+Cornelius,OR,45.52,-123.06
+St. Peter,MN,44.32,-93.96
+Norwell,MA,42.16,-70.79
+Fairmont,MN,43.65,-94.46
+Bardstown,KY,37.81,-85.47
+Signal Hill,CA,33.80,-118.17
+North Versailles,PA,40.38,-79.81
+Jennings,LA,30.22,-92.66
+Vernon,TX,34.15,-99.26
+Ammon,ID,43.47,-111.97
+Choctaw,OK,35.50,-97.27
+Newberry,SC,34.27,-81.62
+Garden Acres,CA,37.96,-121.23
+Elk City,OK,35.41,-99.40
+Parker,SC,34.85,-82.45
+Wanaque,NJ,41.04,-74.29
+Guymon,OK,36.68,-101.48
+Azle,TX,32.90,-97.55
+Webb City,MO,37.15,-94.46
+Artesia,NM,32.84,-104.40
+Melvindale,MI,42.28,-83.18
+Fox Lake,IL,42.40,-88.18
+Waupun,WI,43.63,-88.73
+Doctor Phillips,FL,28.45,-81.49
+Woodbury,NJ,39.84,-75.15
+Van Wert,OH,40.87,-84.58
+Girard,OH,41.15,-80.70
+Chubbuck,ID,42.92,-112.47
+Corning,NY,42.14,-77.06
+Fredonia,NY,42.44,-79.33
+Pleasant Grove,AL,33.49,-86.97
+Republic,MO,37.12,-93.48
+Erie,CO,40.05,-105.05
+St. John,IN,41.45,-87.47
+North Branch,MN,45.51,-92.98
+Norfolk,MA,42.12,-71.33
+Westwego,LA,29.91,-90.14
+Hope,AR,33.67,-93.59
+East Grand Rapids,MI,42.94,-85.61
+Lyndon,KY,38.26,-85.60
+Hillsborough,CA,37.57,-122.38
+Berwick,PA,41.05,-76.23
+Waunakee,WI,43.19,-89.46
+Kapaa,HI,22.08,-159.32
+Groton,CT,41.35,-72.08
+Manville,NJ,40.54,-74.59
+West Haverstraw,NY,41.21,-73.99
+Hidalgo,TX,26.10,-98.26
+Falls Church,VA,38.88,-77.17
+Reading,OH,39.22,-84.44
+Summit,IL,41.79,-87.81
+Marlton,NJ,39.89,-74.92
+Magnolia,AR,33.27,-93.24
+Camp Verde,AZ,34.56,-111.85
+Suamico,WI,44.63,-88.04
+Cheney,WA,47.49,-117.57
+Merrydale,LA,30.50,-91.11
+Celina,OH,40.55,-84.57
+Lincolnton,NC,35.47,-81.25
+River Grove,IL,41.93,-87.84
+Guthrie,OK,35.88,-97.42
+Maynard,MA,42.43,-71.45
+Hurricane,UT,37.18,-113.29
+Placerville,CA,38.73,-120.80
+Wauconda,IL,42.26,-88.14
+East Rockaway,NY,40.64,-73.67
+Imperial,CA,32.85,-115.57
+Nanticoke,PA,41.21,-76.01
+Cadillac,MI,44.25,-85.40
+Galena Park,TX,29.73,-95.23
+Morro Bay,CA,35.37,-120.85
+Raymond,NH,43.04,-71.18
+Forest Acres,SC,34.02,-80.99
+Washougal,WA,45.58,-122.35
+Alexandria,MN,45.89,-95.38
+Steger,IL,41.47,-87.64
+Martin,TN,36.34,-88.85
+Festus,MO,38.22,-90.40
+Live Oak,TX,29.57,-98.34
+Jeannette,PA,40.33,-79.62
+Merrill,WI,45.18,-89.68
+Pooler,GA,32.12,-81.25
+Lexington,NE,40.78,-99.74
+Quartz Hill,CA,34.65,-118.22
+Crossville,TN,35.95,-85.03
+Wells,ME,43.32,-70.58
+Barrington,IL,42.15,-88.14
+Mayfield,KY,36.74,-88.64
+Sussex,WI,43.13,-88.22
+Coffeyville,KS,37.04,-95.62
+Cross Lanes,WV,38.42,-81.79
+Woodinville,WA,47.75,-122.16
+Hugo,MN,45.16,-92.99
+Key Biscayne,FL,25.69,-80.16
+Columbia,PA,40.03,-76.50
+Jacinto City,TX,29.77,-95.23
+Haverstraw,NY,41.20,-73.97
+La Riviera,CA,38.57,-121.36
+Bound Brook,NJ,40.57,-74.54
+Cape Canaveral,FL,28.41,-80.61
+Ferndale,WA,48.85,-122.59
+Portage,WI,43.54,-89.46
+Greencastle,IN,39.64,-86.86
+Fairmount,NY,43.05,-76.24
+Sunbury,PA,40.86,-76.79
+Tomball,TX,30.10,-95.62
+Totowa,NJ,40.91,-74.21
+Exeter,CA,36.30,-119.14
+Hillsdale,NJ,41.00,-74.04
+Atchison,KS,39.56,-95.12
+Highland,UT,40.45,-111.77
+Doraville,GA,33.90,-84.28
+St. Pete Beach,FL,27.73,-82.74
+Canyon Rim,UT,40.71,-111.82
+Marathon,FL,24.71,-81.09
+Pella,IA,41.41,-92.92
+North Andrews Gardens,FL,26.19,-80.14
+Miami Shores,FL,25.86,-80.19
+Crowley,TX,32.58,-97.36
+Beverly Hills,MI,42.52,-83.22
+Sebring,FL,27.50,-81.44
+Darby,PA,39.92,-75.26
+Millington,TN,35.34,-89.90
+Mount Kisco,NY,41.20,-73.73
+Dunn,NC,35.31,-78.61
+Haysville,KS,37.56,-97.35
+Vermillion,SD,42.78,-96.93
+Winslow,AZ,35.02,-110.70
+Farmington,MI,42.46,-83.38
+The Village,OK,35.56,-97.55
+Watervliet,NY,42.73,-73.70
+Croydon,PA,40.09,-74.90
+Berlin,NH,44.47,-71.19
+Bohemia,NY,40.77,-73.12
+Woodlyn,PA,39.87,-75.34
+Micco,FL,27.88,-80.50
+Carroll,IA,42.07,-94.87
+Standish,ME,43.74,-70.55
+Bolivar,MO,37.61,-93.41
+Marysville,MI,42.91,-82.49
+Edgewater,NJ,40.83,-73.98
+West Richland,WA,46.30,-119.36
+Hartsdale,NY,41.02,-73.80
+Brentwood,PA,40.37,-79.97
+Howell,MI,42.61,-83.93
+Middleton,MA,42.59,-71.02
+Bristol,PA,40.10,-74.85
+Burlington,NJ,40.07,-74.87
+Utuado,PR,18.27,-66.70
+Chatham,IL,39.68,-89.70
+Storm Lake,IA,42.64,-95.21
+Peru,IL,41.33,-89.13
+Fairview,CA,37.68,-122.04
+Bloomingdale,TN,36.58,-82.49
+Lantana,FL,26.59,-80.05
+Winfield,IL,41.86,-88.16
+Bellmead,TX,31.59,-97.11
+Platteville,WI,42.73,-90.48
+Brookhaven,MS,31.58,-90.44
+Springdale,OH,39.29,-84.49
+Westview,FL,25.88,-80.24
+Sonoma,CA,38.29,-122.46
+Orange Cove,CA,36.62,-119.31
+Palm Beach,FL,26.71,-80.04
+East La Mirada,CA,33.92,-117.99
+Northampton,PA,40.69,-75.50
+Woodbury,CT,41.54,-73.21
+Harahan,LA,29.94,-90.20
+Silver City,NM,32.77,-108.28
+Farmersville,CA,36.30,-119.21
+Laurens,SC,34.50,-82.01
+Commerce,TX,33.25,-95.90
+Espanola,NM,35.99,-106.08
+Edgewood,WA,47.25,-122.29
+Bethalto,IL,38.91,-90.04
+Cedartown,GA,34.05,-85.25
+Harrisonville,MO,38.65,-94.35
+Norcross,GA,33.94,-84.21
+Aptos,CA,36.98,-121.90
+Berkeley,MO,38.75,-90.33
+Southborough,MA,42.31,-71.53
+Rochelle,IL,41.92,-89.07
+Cedar Lake,IN,41.36,-87.44
+Country Club,CA,37.97,-121.34
+North Salt Lake,UT,40.85,-111.91
+Potsdam,NY,44.67,-74.98
+Hamburg,NY,42.72,-78.83
+Lake Park,FL,26.80,-80.07
+Irondale,AL,33.54,-86.71
+Waynesboro,PA,39.76,-77.58
+Washington,NC,35.55,-77.05
+Moundsville,WV,39.92,-80.74
+Covington,TN,35.56,-89.65
+Ingleside,TX,27.88,-97.21
+Kendallville,IN,41.44,-85.27
+Great Neck,NY,40.80,-73.73
+North Bend,OR,43.41,-124.22
+Rye Brook,NY,41.02,-73.68
+Little Canada,MN,45.03,-93.09
+Waldwick,NJ,41.01,-74.12
+Progress,PA,40.28,-76.83
+Harrisburg,IL,37.74,-88.54
+Warr Acres,OK,35.52,-97.62
+Paris,TN,36.30,-88.33
+Jesup,GA,31.61,-81.89
+Lewisville,NC,36.10,-80.42
+Capitola,CA,36.98,-121.95
+Warren,PA,41.84,-79.15
+Amityville,NY,40.68,-73.42
+Show Low,AZ,34.25,-110.03
+Waseca,MN,44.08,-93.51
+East Hampton,CT,41.58,-72.50
+Baker City,OR,44.77,-117.83
+Kinnelon,NJ,41.00,-74.37
+Astoria,OR,46.19,-123.83
+Skowhegan,ME,44.77,-69.72
+Wapakoneta,OH,40.57,-84.19
+Newport,OR,44.64,-124.05
+Mount Holly,NC,35.30,-81.02
+Pleasanton,TX,28.97,-98.48
+Beaver Falls,PA,40.75,-80.32
+Sturgeon Bay,WI,44.83,-87.38
+Lumberton,TX,30.27,-94.20
+Mission,KS,39.03,-94.66
+Shelby,OH,40.88,-82.66
+La Salle,IL,41.33,-89.09
+New Hyde Park,NY,40.73,-73.69
+Prospect,CT,41.50,-72.98
+Cairo,GA,30.88,-84.20
+Presque Isle,ME,46.68,-68.02
+Somerton,AZ,32.60,-114.71
+Bluffton,IN,40.74,-85.17
+Waynesville,NC,35.49,-82.99
+Flossmoor,IL,41.54,-87.68
+Maywood,NJ,40.90,-74.06
+Somers,WI,42.64,-87.91
+Fairview,OR,45.54,-122.43
+Southwick,MA,42.05,-72.77
+Decatur,IN,40.83,-84.93
+Monmouth,IL,40.91,-90.65
+Fairfield,IA,41.01,-91.96
+Batesville,AR,35.77,-91.64
+Lawrenceburg,KY,38.04,-84.90
+Montgomery,OH,39.23,-84.35
+Juana Diaz,PR,18.05,-66.51
+Orono,ME,44.88,-68.67
+Loganville,GA,33.84,-83.90
+Clinton,MO,38.37,-93.78
+Lovington,NM,32.94,-103.35
+Old Orchard Beach,ME,43.52,-70.38
+Richmond Hill,GA,31.94,-81.30
+Denham Springs,LA,30.49,-90.96
+Leon Valley,TX,29.50,-98.62
+Edgemere,MD,39.24,-76.45
+Lisbon,ME,44.03,-70.11
+Craig,CO,40.52,-107.55
+Andrews,TX,32.32,-102.55
+Tipp City,OH,39.96,-84.17
+Havre,MT,48.55,-109.68
+Rock Falls,IL,41.78,-89.69
+Alma,MI,43.38,-84.66
+San Lorenzo,PR,18.19,-65.96
+Lapeer,MI,43.05,-83.32
+Clinton,SC,34.47,-81.88
+Newark,NY,43.05,-77.10
+Bath,ME,43.91,-69.82
+Ellisville,MO,38.59,-90.59
+North College Hill,OH,39.22,-84.55
+Grosse Pointe Farms,MI,42.41,-82.89
+Thompson,CT,41.96,-71.86
+Woodbridge,CT,41.35,-73.01
+West Athens,CA,33.92,-118.30
+Mound,MN,44.94,-93.67
+Steamboat Springs,CO,40.48,-106.83
+Sumner,WA,47.20,-122.24
+North Springfield,VA,38.80,-77.20
+Economy,PA,40.60,-80.22
+Newcastle,WA,47.54,-122.15
+Paris,KY,38.21,-84.25
+Archdale,NC,35.91,-79.97
+Raymondville,TX,26.48,-97.78
+Satellite Beach,FL,28.18,-80.59
+Lahaina,HI,20.88,-156.68
+South Huntington,NY,40.82,-73.40
+Waterloo,IL,38.34,-90.15
+Grinnell,IA,41.74,-92.72
+Richmond Heights,MO,38.63,-90.32
+Waggaman,LA,29.92,-90.21
+Wharton,TX,29.31,-96.10
+Carbondale,PA,41.57,-75.50
+Hebron,CT,41.66,-72.37
+Taft,CA,35.14,-119.46
+Sleepy Hollow,NY,41.09,-73.86
+Clinton,TN,36.10,-84.13
+Orange Park,FL,30.17,-81.71
+Thomaston,GA,32.89,-84.33
+Weatherford,OK,35.53,-98.71
+Conway,NH,43.98,-71.12
+Pitman,NJ,39.73,-75.13
+Le Mars,IA,42.79,-96.17
+Bennettsville,SC,34.62,-79.69
+Aiea,HI,21.38,-157.93
+Burley,ID,42.54,-113.79
+Charter Oak,CA,34.10,-117.84
+Louisville,OH,40.84,-81.26
+Chino Valley,AZ,34.76,-112.45
+Marion,AR,35.21,-90.20
+Guanica,PR,17.97,-66.91
+Manchester,TN,35.48,-86.09
+Gresham Park,GA,33.70,-84.31
+Sutton,MA,42.15,-71.76
+Humboldt,TN,35.82,-88.92
+Andover,KS,37.71,-97.14
+Napoleon,OH,41.39,-84.13
+Riverton,WY,43.02,-108.38
+Toppenish,WA,46.38,-120.31
+Stuttgart,AR,34.50,-91.55
+Springfield,FL,30.15,-85.61
+Toccoa,GA,34.58,-83.33
+Spearfish,SD,44.49,-103.86
+Lincoln Village,OH,39.95,-83.13
+Blacklick Estates,OH,39.91,-82.86
+Blackstone,MA,42.02,-71.54
+Cody,WY,44.53,-109.06
+Port Jervis,NY,41.38,-74.69
+Lamesa,TX,32.74,-101.95
+Trinidad,CO,37.17,-104.50
+Albion,MI,42.24,-84.75
+Corte Madera,CA,37.93,-122.53
+Brewer,ME,44.80,-68.76
+Sheffield Lake,OH,41.49,-82.10
+Mitchellville,MD,38.92,-76.74
+Pine Castle,FL,28.47,-81.37
+Independence,KS,37.22,-95.71
+Aransas Pass,TX,27.91,-97.15
+River Rouge,MI,42.27,-83.13
+Putnam,CT,41.91,-71.91
+Waverly,IA,42.73,-92.48
+Mims,FL,28.66,-80.84
+Swissvale,PA,40.42,-79.88
+Audubon,NJ,39.89,-75.07
+Grants,NM,35.15,-107.85
+Gonzales,CA,36.51,-121.44
+Rockingham,NC,34.94,-79.77
+Elwood,IN,40.28,-85.84
+Winston,FL,28.03,-82.02
+Lake Lucerne,FL,25.96,-80.24
+Edgewood,KY,39.02,-84.58
+East Haddam,CT,41.45,-72.46
+Sheffield,AL,34.77,-87.70
+Barre,VT,44.20,-72.50
+Buckeye,AZ,33.37,-112.58
+Webster,TX,29.54,-95.12
+Shelton,WA,47.22,-123.10
+South Patrick Shores,FL,28.20,-80.61
+Pulaski,VA,37.05,-80.78
+Cape Elizabeth,ME,43.56,-70.20
+Harvard,IL,42.42,-88.61
+Jackson,WY,43.48,-110.76
+Mango,FL,27.98,-82.31
+Gurabo,PR,18.26,-65.97
+Rockport,TX,28.02,-97.05
+Port Townsend,WA,48.12,-122.76
+Malvern,AR,34.36,-92.81
+Greenville,RI,41.87,-71.55
+Sabana Grande,PR,18.08,-66.96
+Brownfield,TX,33.18,-102.27
+Monticello,AR,33.63,-91.79
+Aibonito,PR,18.14,-66.27
+Hillsboro,TX,32.01,-97.13
+Sitka,AK,57.05,-135.33
+Newmarket,NH,43.08,-70.94
+Georgetown,SC,33.38,-79.29
+Claymont,DE,39.80,-75.46
+Juncos,PR,18.23,-65.92
+Portage Lakes,OH,41.01,-81.53
+Chamblee,GA,33.89,-84.30
+Mendota,CA,36.75,-120.38
+Lindon,UT,40.34,-111.72
+Chanute,KS,37.68,-95.46
+Middlebury,VT,44.02,-73.17
+East Wenatchee,WA,47.42,-120.29
+Farmington,ME,44.67,-70.15
+College Place,WA,46.05,-118.39
+Hoquiam,WA,46.98,-123.89
+Murphy,MO,38.49,-90.49
+Safford,AZ,32.83,-109.71
+Mount Rainier,MD,38.94,-76.97
+Waconia,MN,44.85,-93.79
+Hartland,WI,43.10,-88.34
+Lock Haven,PA,41.14,-77.45
+Avon Park,FL,27.60,-81.51
+Maplewood,MO,38.61,-90.32
+Fairfield,ME,44.59,-69.60
+Alamosa,CO,37.47,-105.87
+Woodway,TX,31.51,-97.20
+Ruidoso,NM,33.33,-105.67
+Campbell,OH,41.08,-80.60
+Cypress Gardens,FL,27.99,-81.69
+Anderson Mill,TX,30.45,-97.81
+Robinson,TX,31.47,-97.11
+Ahuimanu,HI,21.44,-157.84
+Franklin,NH,43.44,-71.65
+Kirby,TX,29.46,-98.39
+Dormont,PA,40.40,-80.03
+Mount Airy,MD,39.38,-77.16
+Snohomish,WA,47.91,-122.10
+Highland Park,TX,32.83,-96.79
+Anaconda,MT,46.13,-112.94
+Bridge City,TX,30.02,-93.85
+Seabrook,NH,42.89,-70.87
+Socorro,NM,34.06,-106.89
+Westlake Village,CA,34.15,-118.80
+Valley,AL,32.82,-85.18
+Hampstead,NH,42.87,-71.18
+Graham,TX,33.11,-98.59
+Tiburon,CA,37.87,-122.46
+Cedar Hills,OR,45.51,-122.80
+Grandview,WA,46.25,-119.90
+Bradford,PA,41.96,-78.64
+Jacksonville,AL,33.81,-85.76
+Weare,NH,43.09,-71.73
+Indian Harbour Beach,FL,28.15,-80.59
+Glenn Heights,TX,32.55,-96.86
+Glenwood Springs,CO,39.55,-107.32
+Rawlins,WY,41.79,-107.24
+Laurel,FL,27.13,-82.45
+Wasilla,AK,61.58,-149.44
+Lamar,CO,38.09,-102.62
+Richmond Heights,FL,25.63,-80.37
+Coolidge,AZ,32.98,-111.52
+Pismo Beach,CA,35.14,-120.64
+Fort Oglethorpe,GA,34.95,-85.26
+Canovanas,PR,18.38,-65.90
+Charlestown,RI,41.38,-71.64
+Barrington,NH,43.22,-71.05
+Hondo,TX,29.35,-99.14
+Wahpeton,ND,46.27,-96.61
+Fern Park,FL,28.65,-81.35
+Pecos,TX,31.42,-103.49
+Alcoa,TN,35.79,-83.97
+Washington Terrace,UT,41.17,-111.98
+Lancaster,SC,34.72,-80.77
+Rumford,ME,44.55,-70.55
+Caribou,ME,46.86,-68.01
+Luquillo,PR,18.37,-65.72
+Liberty,TX,30.06,-94.80
+Williston,VT,44.44,-73.07
+Litchfield,NH,42.84,-71.48
+Jerome,ID,42.72,-114.52
+Burlington,WA,48.48,-122.32
+Cortez,CO,37.35,-108.59
+La Plata,MD,38.53,-76.98
+Hackettstown,NJ,40.85,-74.83
+Hopkinton,RI,41.46,-71.78
+Mahtomedi,MN,45.07,-92.95
+Lakeway,TX,30.37,-97.99
+Los Altos Hills,CA,37.38,-122.14
+Fairburn,GA,33.57,-84.58
+Miles City,MT,46.41,-105.84
+Winthrop,ME,44.30,-69.98
+Union,SC,34.72,-81.62
+Richland Hills,TX,32.82,-97.23
+Clinton,OK,35.52,-98.97
+East Foothills,CA,37.38,-121.82
+Buxton,ME,43.64,-70.52
+Old Town,ME,44.93,-68.65
+Bay St. Louis,MS,30.31,-89.33
+Fallon,NV,39.47,-118.78
+Winslow,ME,44.55,-69.62
+Wilmington Manor,DE,39.69,-75.58
+Largo,MD,38.90,-76.83
+Price,UT,39.60,-110.81
+Alondra Park,CA,33.89,-118.33
+Dallas,GA,33.92,-84.84
+Angola,IN,41.63,-85.00
+Hailey,ID,43.52,-114.31
+Plaistow,NH,42.84,-71.10
+Redlands,CO,39.08,-108.64
+Berwick,ME,43.27,-70.86
+Gilford,NH,43.55,-71.41
+Century Village,FL,26.71,-80.13
+Oakland,ME,44.54,-69.72
+Montpelier,VT,44.26,-72.58
+Makaha,HI,21.47,-158.22
+Sandpoint,ID,48.28,-116.55
+Hampden,ME,44.74,-68.84
+St. Johnsbury,VT,44.42,-72.02
+Charlestown,NH,43.24,-72.42
+Hollis,NH,42.74,-71.59
+West Helena,AR,34.55,-90.64
+Corrales,NM,35.24,-106.61
+Kenai,AK,60.55,-151.26
+Lenoir City,TN,35.80,-84.26
+Applewood,CO,39.75,-105.16
+Waterboro,ME,43.54,-70.72
+Rockland,ME,44.10,-69.11
+Payette,ID,44.08,-116.93
+Arroyo,PR,17.97,-66.06
+Belmont,NH,43.45,-71.48
+Rapid Valley,SD,44.06,-103.15
+South Berwick,ME,43.23,-70.81
+Bloomfield,NM,36.71,-107.98
+Waldoboro,ME,44.10,-69.38
+Pembroke,NH,43.15,-71.46
+Belgrade,MT,45.78,-111.18
+St. Albans,VT,44.81,-73.08
+Gray,ME,43.89,-70.33
+Jericho,VT,44.50,-73.00
+Minnehaha,WA,45.66,-122.65
+Santa Isabel,PR,17.97,-66.41
+Swanzey,NH,42.87,-72.28
+Pompano Beach Highlands,FL,26.28,-80.11
+Lares,PR,18.30,-66.88
+Ketchikan,AK,55.34,-131.65
+Bernalillo,NM,35.30,-106.55
+Livingston,MT,45.66,-110.56
+Brandon,SD,43.59,-96.57
+Milford,DE,38.91,-75.43
+Seaford,DE,38.64,-75.61
+Truth or Consequences,NM,33.13,-107.25
+Raton,NM,36.90,-104.44
+Ellsworth,ME,44.54,-68.42
+Belfast,ME,44.43,-69.01
+Shelburne,VT,44.38,-73.23
+Aztec,NM,36.82,-107.99
+Eatonton,GA,33.33,-83.39
+Yabucoa,PR,18.05,-65.88
+Stratham,NH,43.02,-70.91
+Austell,GA,33.81,-84.63
+Belen,NM,34.66,-106.78
+Fort Myers Beach,FL,26.45,-81.95
+Fort Dix,NJ,40.03,-74.62
+Penuelas,PR,18.06,-66.72
+Lander,WY,42.83,-108.73
+Devils Lake,ND,48.11,-98.86
+Atkinson,NH,42.84,-71.15
+Middletown,DE,39.45,-75.72
+Naples Park,FL,26.26,-81.81
+Wolfeboro,NH,43.58,-71.21
+Houlton,ME,46.13,-67.84
+Smyrna,DE,39.30,-75.61
+Las Piedras,PR,18.18,-65.87
+Meredith,NH,43.66,-71.50
+Newport,NH,43.37,-72.17
+Palmer,AK,61.60,-149.11
+Homer,AK,59.64,-151.55
+Eliot,ME,43.15,-70.80
+Rincon,GA,32.30,-81.24
+Farmington,NH,43.39,-71.07
+Exeter,RI,41.58,-71.54
+Sappington,MO,38.54,-90.38
+Salinas,PR,17.98,-66.30
+Sturgis,SD,44.41,-103.51
+Bridgton,ME,44.05,-70.71
+Whitefish,MT,48.41,-114.34
+Laurel,MT,45.67,-108.77
+Lincoln,ME,45.36,-68.51
+Winnemucca,NV,40.97,-117.73
+North Vernon,IN,39.01,-85.62
+Littleton,NH,44.31,-71.77
+Epping,NH,43.03,-71.07
+Winooski,VT,44.49,-73.19
+Gardiner,ME,44.23,-69.78
+Emmett,ID,43.87,-116.50
+Plymouth,NH,43.76,-71.69
+Bethel,AK,60.79,-161.76
+Kingston,NH,42.94,-71.05
+Valley City,ND,46.92,-98.00
+Kodiak,AK,57.79,-152.41
+Anasco,PR,18.28,-67.14
+Bar Harbor,ME,44.39,-68.20
+Rindge,NH,42.75,-72.01
+Edgemoor,DE,39.75,-75.50
+Madison,SD,44.01,-97.11
+Peterborough,NH,42.87,-71.95
+Roseland,CA,38.42,-122.73
+Florida,PR,18.37,-66.57
+Lewistown,MT,47.06,-109.43
+Camden,ME,44.21,-69.07
+Sandown,NH,42.93,-71.19
+Centerville,GA,32.63,-83.69
+Jaffrey,NH,42.81,-72.02
+Bucksport,ME,44.57,-68.80
+Jamestown,RI,41.50,-71.37
+Norway,ME,44.21,-70.55
+Rathdrum,ID,47.81,-116.90
+Elsmere,DE,39.74,-75.60
+Hopkinton,NH,43.19,-71.68
+Morristown,VT,44.56,-72.62
+Hatillo,PR,18.49,-66.83
+Quebradillas,PR,18.48,-66.94
+Lyndon,VT,44.51,-72.01
+Torrington,WY,42.06,-104.18
+Turner,ME,44.26,-70.26
+Lebanon,ME,43.39,-70.85
+Weiser,ID,44.25,-116.97
+New Gloucester,ME,43.96,-70.28
+Douglas,WY,42.76,-105.38
+Madison,ME,44.80,-69.88
+Poland,ME,44.06,-70.39
+Tucumcari,NM,35.17,-103.72
+New Ipswich,NH,42.75,-71.85
+Rye,NH,43.01,-70.77
+Atoka,TN,35.44,-89.78
+Lajas,PR,18.05,-67.06
+Chester,NH,42.96,-71.26
+Rupert,ID,42.62,-113.68
+Powell,WY,44.75,-108.76
+Guayanilla,PR,18.02,-66.79
+Loudon,NH,43.29,-71.47
+Rockingham,VT,43.19,-72.49
+Taos,NM,36.41,-105.57
+Los Ranchos de Albuquerque,NM,35.16,-106.64
+Hillsborough,NH,43.11,-71.90
+Sterling,AK,60.54,-150.76
+Newport,VT,44.94,-72.21
+Randolph,VT,43.92,-72.67
+Kingston,RI,41.48,-71.52
+Millinocket,ME,45.66,-68.71
+Soquel,CA,36.99,-121.96
+Auburn,NH,43.00,-71.35
+Adjuntas,PR,18.16,-66.72
+Paris,ME,44.26,-70.50
+Alton,NH,43.45,-71.22
+Cidra,PR,18.18,-66.16
+Northfield,NH,43.43,-71.59
+Moultonborough,NH,43.75,-71.40
+Dawson,GA,31.77,-84.45
+Jay,ME,44.50,-70.22
+Enfield,NH,43.64,-72.14
+Moca,PR,18.40,-67.11
+Henniker,NH,43.18,-71.82
+Preston,ID,42.10,-111.88
+West Wendover,NV,40.74,-114.07
+Madawaska,ME,47.36,-68.32
+New Boston,NH,42.98,-71.69
+Georgetown,DE,38.69,-75.39
+Hermon,ME,44.81,-68.91
+Orchard Homes,MT,46.86,-114.05
+Stowe,VT,44.47,-72.69
+Polson,MT,47.69,-114.16
+Worland,WY,44.02,-107.95
+North Hampton,NH,42.97,-70.83
+New Castle,DE,39.66,-75.57
+Pascoag,RI,41.96,-71.70
+Wakefield,NH,43.57,-71.03
+Glendive,MT,47.11,-104.71
+Sabattus,ME,44.12,-70.11
+Belle Fourche,SD,44.67,-103.85
+Ossipee,NH,43.69,-71.12
+Brookline,NH,42.73,-71.66
+Raymond,ME,43.90,-70.47
+Comerio,PR,18.22,-66.23
+Naguabo,PR,18.21,-65.74
+Foster,RI,41.85,-71.76
+Epsom,NH,43.22,-71.33
+Aguas Buenas,PR,18.26,-66.10
+Barnstead,NH,43.33,-71.29
+Villalba,PR,18.13,-66.49
+Danville,NH,42.91,-71.12
+Haverhill,NH,44.03,-72.06
+Vieques,PR,18.15,-65.45
+Hamilton,MT,46.25,-114.16
+Pittsfield,NH,43.31,-71.32
+Newton,NH,42.87,-71.03
+Lee,NH,43.12,-71.01
+Barceloneta,PR,18.45,-66.54
+Toa Alta,PR,18.39,-66.25
+Milton,NH,43.41,-70.99
+Hinesburg,VT,44.33,-73.11
+Candia,NH,43.08,-71.28
+Sidney,MT,47.72,-104.16
+New London,NH,43.41,-71.99
+Barrow,AK,71.29,-156.79
+Loiza,PR,18.43,-65.88
+Patillas,PR,18.01,-66.02
+Camuy,PR,18.49,-66.85
+Grafton,ND,48.41,-97.41
+Soldotna,AK,60.49,-151.06
+Aguada,PR,18.38,-67.19
+Dillon,MT,45.22,-112.64
+Esperance,WA,47.79,-122.35
+Jayuya,PR,18.22,-66.59
+Nome,AK,64.50,-165.41
+Ciales,PR,18.34,-66.47
+Hillandale,MD,39.03,-76.97
+Barranquitas,PR,18.19,-66.31
+Morovis,PR,18.33,-66.41
+Maunabo,PR,18.01,-65.90
+Lithia Springs,GA,33.79,-84.66
+Naranjito,PR,18.30,-66.25
+Toa Baja,PR,18.45,-66.26
+Northfield,VT,44.15,-72.66
+Rincon,PR,18.34,-67.25
+Culebra,PR,18.30,-65.30
+Swanton,VT,44.92,-73.12
+Maricao,PR,18.18,-66.98
+Orocovis,PR,18.23,-66.39
+Waterbury,VT,44.34,-72.76
+Mountain Park,GA,34.08,-84.41
+Milton,VT,44.64,-73.11
+Litchfield,CT,41.75,-73.19
+Stonington,CT,41.34,-71.91
+Manchester,VT,43.16,-73.07

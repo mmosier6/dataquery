@@ -1,0 +1,88 @@
+<?php
+//first open valid products file to determine operational mode of mainpage
+$prodFile = file("/local/spcwebsite/new/SPCProducts/validProducts.txt");
+
+foreach($prodFile as $line) {
+        $tline = trim($line);
+        $data = explode("|",$tline);
+        $prodType = $data[0];
+        //check for valid WWs
+        $strCheck = substr($prodType,0,2);
+        if ($strCheck == "WW") {
+                $ww = substr($prodType,0,2);
+                $wwNum = substr($prodType,2,4);
+                if ($wwNum != "none") { $validWW = 1; }
+		elseif ($wwNum == "none") { $validWW = 0; }
+	}
+	$strCheck = substr($prodType,0,3);
+        if ($strCheck == "MCD") {
+        $md = substr($prodType,0,3);
+        $mdNum = substr($prodType,3,4);
+		if ($mdNum != "none") { $validMD = 1; }
+		elseif ($mdNum == "none") { $validMD = 0; }
+	}
+}
+
+print "<style>\n";
+
+if ( $validWW == 1)  {
+	print "ul.tabbernav li a#prodsnav2 {\n";
+        print "	  padding: 3px 0.5em;\n";
+        print "   margin-left: 3px;\n";
+        print "   border: 1px solid #778;\n";
+        print "   border-bottom: none;\n";
+        print "   color: #800000;\n";
+        print "   background: #ffcccc;\n";
+        print "   text-decoration: none;\n";
+        print "}\n";
+        print "ul.tabbernav li a#prodsnav2:hover {\n";
+        print "   background: #ff9b9b;\n";
+        print "}\n";
+}
+elseif ($validWW == 0) {
+print "ul.tabbernav li a#prodsnav2 {\n";
+        print "   padding: 3px 0.5em;\n";
+        print "   margin-left: 3px;\n";
+        print "   border: 1px solid #778;\n";
+        print "   border-bottom: none;\n";
+        print "   color: #387200;\n";
+        print "   background: #d2ffa6;\n";
+        print "   text-decoration: none;\n";
+        print "}\n";
+        print "ul.tabbernav li a#prodsnav2:hover {\n";
+        print "   background: #84fe0c;\n";
+        print "}\n";
+}
+
+if ( $validMD == 1)  {
+        print "ul.tabbernav li a#prodsnav3 {\n";
+        print "   padding: 3px 0.5em;\n";
+        print "   margin-left: 3px;\n";
+        print "   border: 1px solid #778;\n";
+        print "   border-bottom: none;\n";
+        print "   color: #800000;\n";
+        print "   background: #ffcccc;\n";
+        print "   text-decoration: none;\n";
+        print "}\n";
+        print "ul.tabbernav li a#prodsnav3:hover {\n";
+        print "   background: #ff9b9b;\n";
+        print "}\n";
+}
+elseif ($validMD == 0) {
+print "ul.tabbernav li a#prodsnav3 {\n";
+        print "   padding: 3px 0.5em;\n";
+        print "   margin-left: 3px;\n";
+        print "   border: 1px solid #778;\n";
+        print "   border-bottom: none;\n";
+        print "   color: #387200;\n";
+        print "   background: #d2ffa6;\n";
+        print "   text-decoration: none;\n";
+        print "}\n";
+        print "ul.tabbernav li a#prodsnav3:hover {\n";
+        print "   background: #84fe0c;\n";
+        print "}\n";
+}
+
+print "</style>\n";
+
+?>

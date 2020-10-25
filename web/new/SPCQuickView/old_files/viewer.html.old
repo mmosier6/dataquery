@@ -1,0 +1,42 @@
+            <div class="grid_9 alpha" id="midBlock2">
+               <div class="SPCQuickView">    
+                  <ul>
+                     <li class="SPCQuickViewTabFirst">
+		        <a href="/alerts" OnMouseOver="show_tab('TABoverview')" class="overview" alt="Overview"><span id="TABoverviewT" class="Tyellow">Overview</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/forecastmaps" OnMouseOver="show_tab('TABday1')" class="overview" alt="Day 1 Convective Outlook"><span id="TABday1T" class="Tyellow">Conv. Outlook</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="http://weather.gov/Radar" OnMouseOver="show_tab('TABwatch')" class="overview" alt="Current Watches"><span id="TABwatchT" class="Tyellow">Watches</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="http://water.weather.gov/ahps" OnMouseOver="show_tab('TABmcd')" class="overview" alt="Current MDs"><span id="TABmcdT" class="Tyellow">MDs</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="http://airquality.weather.gov" OnMouseOver="show_tab('TABreport')" class="overview" alt="Today's Storm Reports" ><span id="TABreportT" class="Tyellow">Storm Reports</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/satellite" OnMouseOver="show_tab('TABmeso')" class="overview" alt="Mesoanalysis Page"><span id="TABmesoT" class="Tyellow">Mesoanalysis</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/climate" OnMouseOver="show_tab('TABfirewx')" class="overview" alt="Day 1 Fire Weather"><span id="TABfirewxT" class="Tyellow">Fire</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/climate" OnMouseOver="show_tab('TABwwa1')" class="overview" alt="NWS Hazards Map"><span id="TABwwa1T" class="Tyellow">Hazards</span></a>
+		     </li>
+                  </ul>
+                  <br><br>
+               </div>
+            </div> 
+
+            <div id="TABoverview" style="display:block;"> <a href="/products/"><img src="/products/activity_loop.gif" alt="SPC Products Overview" width="582" height="408"></a> </div>
+            <div id="TABday1" style="display:none;"> <a href="/products/"><img src="/products/outlook/day1otlk-overview.gif" alt="Day 1 outlook" width="582" height="408"></a> </div>
+            <div id="TABwatch" style="display:none;"> <a href="/products/"><img src="/products/watch/validww.png" alt="SPC Products Overview" width="582" height="408"></a> </div>
+            <div id="TABmcd" style="display:none;"> <a href="/products/"><img src="/products/md/validmd.png" alt="Day 1 outlook" width="582" height="408"></a> </div>
+            <div id="TABreport" style="display:none;"> <a href="/products/"><img src="/climo/reports/today.gif" alt="SPC Products Overview" width="582" height="408"></a> </div>
+            <div id="TABmeso" style="display:none;"> <a href="/products/"><img src="/exper/mesoanalysis/sectorloop2.gif" alt="Day 1 outlook" width="582" height="408"></a> </div>
+            <div id="TABfirewx" style="display:none;"> <a href="/products/"><img src="/products/fire_wx/day1fireotlk-overview.png" alt="SPC Products Overview" width="582" height="408"></a> </div>
+            <div id="TABwwa1" style="display:none;"> <a href="/products/"><img src="http://forecast.weather.gov/wwamap/png/US.png" alt="Day 1 outlook" width="582" height="408"></a> </div>
+
+

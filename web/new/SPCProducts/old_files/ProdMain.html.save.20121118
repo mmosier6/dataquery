@@ -1,0 +1,23 @@
+<script language="JavaScript" type="text/javascript" src="./js/ProdTab.js"></script> 
+
+<script language="JavaScript" type="text/javascript"> 
+  function makeactive(tab) { 
+    document.getElementById("tab1").className = ""; 
+    document.getElementById("tab2").className = ""; 
+    document.getElementById("tab3").className = "";
+    document.getElementById("tab4").className = "";
+    document.getElementById("tab5").className = ""; 
+    document.getElementById("tab"+tab).className = "active"; 
+    callAHAH('./SPCProducts/getTab.php?content= '+tab, 'content', 'getting content for tab '+tab+'. Wait...', 'Error'); 
+  } 
+</script>
+
+<ul id="tabmenu" > 
+ <li onclick="makeactive(1)"><a class="" id="tab1">All</a></li> 
+ <li onclick="makeactive(2)"><a class="" id="tab2">Watch</a></li> 
+ <li onclick="makeactive(3)"><a class="" id="tab3">MD</a></li>
+ <li onclick="makeactive(4)"><a class="" id="tab4">Conv. Outlook</a></li>
+ <li onclick="makeactive(5)"><a class="" id="tab5">Fire</a></li> 
+</ul> 
+
+<div id="content"></div>

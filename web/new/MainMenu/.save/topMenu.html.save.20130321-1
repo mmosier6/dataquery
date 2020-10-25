@@ -1,0 +1,163 @@
+<!-- Main Banner -->
+<div class="full_width" id="PageTop">
+ <div class="UTCclock">Current time (in <a href="/faq/index.html#3.1">UTC/GMT/Zulu</a>):&nbsp; </div>
+ <div class="UTCclock" id="USNOtime">JavaScript Must Be Enabled.</div>
+
+ <div id="TopNav">
+  <ul>
+   <li style="margin-top: -4px;">
+    <form method="post" action="http://forecast.weather.gov/zipcity.php" target="_blank">
+     <input type="text" id="query-field" name="inputstring" size="12" value="Local Forecast ZIP/City, State" onfocus="this.value='';" />
+     <input style="margin-top: -2px;" type="image" name="Go2" alt="Enter ZIP/City, State then click to access local forecast" title="Enter ZIP/City, State then click to access local forecast" id="searchsubmit" src="/new/images/search_submitA.png"/>
+    </form>
+   </li>
+   <li><a href="/misc/feedback.html">Feedback</a></li>
+   <li><a href="/exper/mobile/">Mobile</a></li>
+   <li><a href="/misc/aboutus.html">About&nbsp;Us</a></li>
+   <li><a href="http://www.weather.gov/organization/" target="_blank">Organization</a></li>
+   <li><a href="/sitemap.html">Site&nbsp;Map</a></li>
+  </ul>
+ </div>
+</div>
+<div class="full_width" id="banner">
+ <img src="/new/images/SPC.png" usemap="#bannermap" alt="SPC Logo">
+ <map name="bannermap">
+  <area shape="rect" coords="0,0,72,74" href="http://www.noaa.gov/" target="_blank" alt="NOAA - National Oceanic and Atmospheric Administration">
+  <area shape="rect" coords="75,0,150,74" href="http://www.weather.gov/" target="_blank" alt="NWS - National Weather Service">
+  <area shape="rect" coords="180,0,770,74" href="/" alt="SPC - Storm Prediction Center">
+  <area shape="rect" coords="917,0,960,37" href="http://www.doc.gov/" target="_blank" alt="DOC - Department of Commerce">
+ </map>
+</div>
+
+<div class="full_width" id="midBlock"> 
+<div class="topnav">
+ <ul id="topnav">
+  <li>
+   <div class="topMenuNavList home"><a href="/">HOME</a></div>
+   <div style="opacity: 0;" class="sub">
+    <ul>
+     <li><a href="/" title="Old Home Page" target="_blank">Old Home Page</a></li>
+    </ul>
+   </div>
+  </li>
+  <li>
+   <div class="topMenuNavList home"><a href="/">NEWS</a></div>
+   <div style="opacity: 0;" class="sub">
+    <ul>
+     <li><a href="http://www.weather.gov/news" target="_blank">NWS News</a></li>
+     <li><a href="/new/SPCNews/news.html" title="SPC News" target="_blank">SPC News</a></li>
+    </ul>
+   </div>
+  </li>
+  <li>
+   <div class="topMenuNavList products"><a href="/products/">SPC PRODUCTS</a></div>
+    <div style="opacity: 0;" class="sub">
+     <ul>
+      <li><a href="/products/" title="All Forecasts">All Forecasts</a></li>
+      <li><a href="/products/watch/" title="Current Watches">Current Watches</a></li>
+      <li><a href="/products/md/" title="Mesoscale Discussions">Mesoscale Discussions</a></li>
+      <li><a href="/products/outlook/" title="Convective Outlooks">Convective Outlooks</a></li>
+      <li><a href="/products/exper/enhtstm/" title="Enhanced Thunderstorm Outlook">Enhanced Thunderstorm Outlook</a></li>
+      <li><a href="/products/fire_wx/overview.html" title="Fire Weather Outlook">Fire Weather Outlooks</a></li>
+      <li><a href="/products/archive/" title="Product Overview">Product Overview</a></li>
+      <li><a href="/kml/" title="Products in KML">Products in KML Format</a></li>
+      <li><a href="/aboutrss.html" title="RSS Feeds">RSS Feeds</a></li>
+      <li><a href="http://www.nws.noaa.gov/emailupdates/" target="_blank" title="Email Alerts">Email Alerts</a></li>
+     </ul>
+    </div>
+   </li>
+   <li>
+    <div class="topMenuNavList weather"><a href="/climo/online/">WEATHER INFO</a></div>
+     <div style="opacity: 0;" class="sub">
+      <ul>
+       <li><a href="/climo/online/" title="Storm Reports">Storm Reports</a></li>
+       <li><a href="/new/ReportPlot/reportPlot.php" title="Storm Report Trends">Storm Report Trends</a></li>
+       <li><a href="/new/SVRclimo/climo.php?parm=anySvr" title="Severe Weather Climatology">Severe Weather Climatology</a></li>
+       <li><a href="/archive/" title="SPC Product Archive">SPC Product Archive</a></li>
+       <li><a href="/products/wwa/" title="Watch/Warning Map">Watch/Warning Map</a></li>
+      </ul>
+     </div>
+    </li>
+    <li>
+     <div class="topMenuNavList tools"><a href="/exper/">FORECAST TOOLS</a></div>
+      <div style="opacity: 0;" class="sub">
+       <ul>
+        <li><a href="/exper/mesoanalysis/" title="Mesoanalysis">Mesoanalysis</a></li>
+        <li><a href="/exper/soundings/" title="Observed Sounding Analysis">Observed Sounding Analysis</a></li>
+        <li><a href="/obswx/maps/" title="Upper-Air Maps">Upper-Air Maps</a></li>
+        <li><a href="/exper/sref/index.php" title="SREF">SREF</a></li>
+        <li><a href="/exper/sseo/" title="SSEO">SSEO</a></li>
+        <li><a href="/exper/firecomp/" title="Fire Weather Composite Maps">Fire Weather Composite Maps</a></li>
+        <li><a href="/compmap/" title="Compmap">Compmap</a></li>
+       </ul>
+      </div>
+     </li>
+     <li>
+      <div class="topMenuNavList research"><a href="/publications/">RESEARCH</a></div>
+       <div style="opacity: 0;" class="sub">
+        <ul>
+         <li><a href="/publications/" title="Publications">Publications</a></li>
+         <li><a href="/exper/archive/events/" title="Severe Thunderstorm Event Archive">Severe Thunderstorm Event Archive</a></li>
+	 <li><a href="/exper/envbrowser/" title="Tornado Environment Browser">Tornado Environment Browser</a></li>
+         <li><a href="http://hwt.nssl.noaa.gov/" target="_blank" title="SPC-NSSL Hazardous Weather Testbed">SPC-NSSL Hazardous Weather Testbed</a></li>
+        </ul>
+       </div>
+      </li>
+      <li>
+       <div class="topMenuNavList outreach"><a href="/faq/">OUTREACH</a></div>
+        <div style="opacity: 0;" class="sub">
+         <ul>
+          <li><a href="/aboutus.html" title="About the SPC">About the SPC</a></li>
+          <li><a href="/faq/" title="SPC FAQ">SPC FAQ</a></li>
+          <li><a href="/wcm/" title="WCM Page">WCM Page</a></li>
+          <li><a href="/faq/tornado/" title="About Tornadoes">About Tornadoes</a></li>
+          <li><a href="/misc/AbtDerechos/derechofacts.htm" title="About Derechos">About Derechos</a></li>
+          <li><a href="http://www.lightningsafety.noaa.gov/" target="_blank" title="Lightning">Lightning</a></li>
+          <li><a href="http://www.nws.noaa.gov/om/severeweather/index.shtml" target="_blank" title="Thunderstorms, Tornadoes, Floods">Thunderstorms, Tornadoes, Floods</a></li>
+          <li><a href="/efscale/" title="EF Scale">Enhanced Fujita Scale</a></li>
+          <li><a href="/history/early.html" title="History of the SPC">History of the SPC</a></li>
+          <li><a href="http://www.norman.noaa.gov/publicaffairs/" target="_blank" title="Public Affairs">Public Affairs</a></li>
+          <li><a href="/staff/" title="Staff Listing">Staff Listing</a></li>
+          <li><a href="/misc/links.html" title="Links">Links</a></li>
+         </ul>
+        </div>
+       </li>
+       <li>
+       <div class="topMenuNavList ncep"><a href="http://www.weather.gov" target="_blank">NWS/NCEP</a></div>
+        <div style="opacity: 0;" class="sub">
+         <ul>
+          <li><a href="http://www.weather.gov/" target="_blank" title="NWS">National Weather Service (NWS)</a></li>
+          <li><a href="http://www.ncep.noaa.gov/" target="_blank" title="NCEP">National Centers for Environmental Prediction (NCEP)</a></li>
+          <li><a href="http://www.ncep.noaa.gov/newsletter/" target="_blank" title="NCEP Newsletter">NCEP Quarterly Newsletter</a></li>
+          <li><a href="http://www.aviationweather.gov/" target="_blank" title="AWC">Aviation Weather Center (AWC)</a></li>
+          <li><a href="http://www.cpc.ncep.noaa.gov/" target="_blank" title="CPC">Climate Prediction Center (CPC)</a></li>
+          <li><a href="http://www.emc.ncep.noaa.gov/" target="_blank" title="EMC">Environmental Modeling Center (EMC)</a></li>
+          <li><a href="http://www.nco.ncep.noaa.gov/" target="_blank" title="NCO">NCEP Central Operations (NCO)</a></li>
+          <li><a href="http://www.nhc.noaa.gov/" target="_blank" title="NHC">National Hurricane Center (NHC)</a></li>
+          <li><a href="http://www.opc.ncep.noaa.gov/" target="_blank" title="OPC">Ocean Prediction Center (OPC)</a></li>
+          <li><a href="/" title="SPC">Storm Prediction Center (SPC)</a></li>
+          <li><a href="http://www.swpc.noaa.gov/" target="_blank" title="SWPC">Space Weather Prediction Center (SWPC)</a></li>
+          <li><a href="http://www.wpc.ncep.noaa.gov/" target="_blank" title="WPC">Weather Prediction Center (WPC)</a></li>
+         </ul>
+        </div>
+       </li>
+       </ul>
+      </div>
+
+    <div id="searchBox">
+     <a class="SPC_news_rss_small" href="/aboutrss.html" title="SPC News RSS"></a>
+     <a class="SPC_twitter" href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=https://twitter.com/NWSSPC"  target="_blank" title="SPC Twitter"></a>
+     <a class="SPC_facebook" href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=https://facebook.com/US.NOAA.StormPredictionCenter"  target="_blank" title="SPC Facebook"></a>
+
+     <label style="display: none;" for="query-field">Search Criteria</label>
+     <form action="http://search.usa.gov/search" method="get" id="searchForm">
+      <fieldset id="searchFieldSet">
+       <input name="utf8" type="hidden" value="&#x2713;" />
+       <input type="hidden" value="firstgov" name="v:project"/>
+       <input type="text" value="Search NOAA..." id="query-field" name="query" onfocus="this.value='';"/>
+       <input type="image" alt="Click to Search NOAA.gov" title="Click to Search NOAA.gov" id="searchsubmit" src="/new/images/search_submitA.png"/>
+      </fieldset>
+     </form>
+
+    </div>
+   </div>

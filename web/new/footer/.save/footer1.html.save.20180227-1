@@ -1,0 +1,13 @@
+  <table cellspacing="6" cellpadding="0" width="100%" border="0">
+    <tr valign="top">
+      <td class="gray">
+        <a href="http://www.usa.gov" target="_blank"><img src="/new/images/usa_gov.png" alt="usa.gov" width="110" height="30" /></a>
+      </td>
+      <td class="gray">
+        <a href="http://www.noaa.gov/" target="_blank"><span class="gray">NOAA</span></a>&nbsp;/
+        <a href="http://www.weather.gov/" target="_blank"><span class="gray">National Weather Service</span></a><br />
+        <a href="http://www.ncep.noaa.gov/" target="_blank"><span class="gray">National Centers for Environmental Prediction</span></a><br />
+        <a href="/"><span class="gray">Storm Prediction Center</span></a><br />
+        120 David L. Boren Blvd.<br />
+        Norman, OK 73072 U.S.A.<br />
+        <a href="mailto:spc.feedback@noaa.gov?subject=[SPC web feedback]"><span class="gray">spc.feedback@noaa.gov</span></a><br />

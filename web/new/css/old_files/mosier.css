@@ -1,0 +1,37 @@
+/* CSS Document for the updated SPC main page - 10/27/2012 */
+
+/***STRUCTURAL DESIGN***/
+
+#SPCWrapper{
+        width:1050px;
+        background-image:url(../images/body_bg.png) ;
+        background-repeat:repeat-y;
+        margin:0px auto 5px auto;
+}
+
+#SPCMain {
+        margin:0px auto 5px auto;
+        width:960px;
+}
+
+#Right-Top{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	border-left: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+	z-index:2;
+}
+	
+#Right-SideBar {
+	position: absolute;
+	top: 0px;
+	right: 0;
+	left: 1450px;
+	bottom: 0px;
+	background: #DCDCDC;
+}
+

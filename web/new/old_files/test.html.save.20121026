@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="DC.title" content="NOAA/NWS Storm Prediction Center" />
+    <meta name="DC.description" content="Home page of the National Environmental Satellite, Data, and Information Service containing environmental data from satellites and other sources to promote, protect, and enhance the Nation's economy,security, environment, and quality of life." />
+    <meta name="DC.creator" content="US Department of Commerce, NOAA Satallites and Information Service" />
+    <meta name="DC.date.created" scheme="ISO8601" content="2009-09-14" />
+    <meta name="DC.date.reviewed" scheme="ISO8601" content="2009-09-14" />
+    <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+    <meta name="keywords" content="environmental satellites, climatic data, oceanographic data, coastal envirnomental data, geophysical data, glaciology, GOES, POES, DMSP, environmental data and imagery, climate modelling, global change, hazards, volcanoes, tsunamis, earthquakes" />
+    <meta name="author" content="US Department of Commerce, NOAA Satallites and Information Service" />
+    <meta name="description" content="National Environmental Satellite, Data, and Information Service containing environmental data from satellites and other sources to promote, protect, and enhance the Nation's economy, security, environment, and quality of life." />
+    <meta name="language" content="EN-US" />
+    <title>NOAA/NWS Storm Prediction Center</title>
+    
+    <!-- Sitewide css and scripts -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/960.css" />
+    <link rel="stylesheet" href="./css/test.css" />
+    <link rel="stylesheet" href=".SPCMain.css" />
+    <link rel="stylesheet" href="./SPCFacts/facts.css" />
+    <link rel="stylesheet" href="./SPCResearch/research.css" />
+    <link rel="stylesheet" href="./SPCNews/news.css" />
+    <link rel="stylesheet" href="./SPCProducts/products.css" />
+    <link rel="stylesheet" href="./SPCWeatherHeadlines/headlines.css" />
+    <link rel="stylesheet" href="./SPCQuickView/viewer.css" />
+
+    <style type="text/css">
+	.Tyellow { color: #FF3; margins 2px 2px 2px 2px;}
+	.Twhite  { color: #FFF; margins 2px 2px 2px 2px;}
+    </style>
+
+    <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="SPCFacts/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="js/SPCindex.js"></script>
+</head>
+
+<body>
+<div id="SPCWrapper">
+   <div id="SPCMain">
+      <div class="container_16"> <!-- From 960.css -->
+	 <!-- ##### SPC TOP MENU ##### -->
+         <!--#include virtual="/cwi/topMenu.html"-->
+
+	 <!-- ##### WEATHER HEADLINES (if warranted) ##### -->
+         <!--#include virtual="SPCWeatherHeadlines/headlines.html"-->
+
+	 <div class="grid_9" > <!-- Left-side 585px wide column -->   
+
+	    <!-- ##### SPC QUICK VIEW ( IMAGE DISPLAY ) ##### -->
+            <!--#include virtual="SPCQuickView/viewer.html"-->
+
+	    <!-- ##### SPC OUTLOOK MATRIX ##### -->
+	    <!--#include virtual="/products/mx.html"-->
+            <br />
+
+            <!-- ##### RECENT SPC NEWS ##### -->
+            <div class="content_container">
+               <div class="container_content2">
+     	          <div class="container_head"> <div class="container_head_text">Recent News</div> </div>
+	          <!--#include virtual="./SPCNews/news.html"-->
+               </div>
+            </div>
+   
+	    <!-- ##### SPC RESEARCH ##### -->
+            <div class="content_container">
+               <div class="container_content2">
+                  <div class="container_content2">
+                     <div class="container_head"> <div class="container_head_text">Research Topics</div> </div>
+	             <!--#include virtual="./SPCResearch/research.html"-->
+                  </div>
+               </div>
+            </div>
+
+         <div> <!-- grid_9 -->
+      </div> <!-- container_16 -->
+   </div> <!-- container --> 
+
+   <!-- ##### SPC PRODUCT ALERTS ##### -->
+   <div class="grid_4 Col3">
+      <div class="content_container" id="Row2Col3Home">
+	 <div class="container_content2">
+	    <div class="container_head"> <div class="container_head_alert">SPC Product Alerts</div> </div>
+	    <div id="SPCProducts"> </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- ##### SEVERE WEATHER CLIMATOLOGY ##### -->
+   <div class="grid_4 Col3">
+      <div class="content_container" id="Row2Col3Home">
+         <div class="container_content2">
+	    <div class="container_head"> <div class="container_head_text">Current Severe Weather Climotology</div> </div>
+	    <img src="./images/svr_climo.png">
+         </div>
+      </div>
+   </div>
+
+   <!-- ##### SPC FACTS ##### -->
+   <div class="grid_4 Col3">
+      <div class="content_container" id="Row2Col3Home">
+         <div class="container_content2">
+            <div class="container_head"> <div class="container_head_text">Interesting Factoids</div> </div>
+	    <!--#include virtual="./SPCFacts/facts.html"-->
+         </div>
+      </div>
+   </div>
+
+   <div class="clear"> </div> <!-- Sets background to white -->
+
+   <!-- ##### FOOTER ACROSS BOTTOM OF PAGE ##### -->
+   <div class="grid_16">
+      <div id="footer">
+         <div id="footer2">
+	     <a href="https://intranet.nesdis.noaa.gov/." title="Intranet">Intranet</a> |
+             <a href="http://www.noaa.gov/privacy.html" title="Privacy Policy">Privacy Policy</a> | 
+             <a href="http://www.rdc.noaa.gov/~foia/" title="FOIA">FOIA</a> | 
+             <a href="http://www.cio.noaa.gov/Policy_Programs/info_quality.html" title="Information Quality">Information Quality</a> | 
+             <a href="http://www.noaa.gov/disclaimer.html" title="Disclaimer">Disclaimer</a> | 
+             <a href="http://www.commerce.gov" title="Commerce.gov">Commerce.gov</a> | 
+             <a href="http://www.usa.gov" title="USA.gov">USA.gov</a> |
+             <a href="http://www8.nos.noaa.gov/survey/index.aspx?Location=nesdis" title="User Comments">User Comments</a>| 
+             <a href="mailto:NESDIS.Webmaster@noaa.gov?Subject=&quot;NESDIS Website&quot;" title="User Comments">Contact Webmaster</a>
+             <p style="margin-top:5px">Last modified:&nbsp; &nbsp; Sunday, 02-Sep-2012 01:18:39 UTC</p>
+         </div>
+      </div>
+   </div>
+<script type="text/javascript">
+   show_tab("TABoverview");
+   $("#query-field").blur();
+</script>
+</body>
+</html>

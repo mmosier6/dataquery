@@ -1,0 +1,87 @@
+<link rel='stylesheet' href='./css/pwp.css' />
+<link rel='stylesheet' href='./css/jquery-ui.css' />
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+<script src='./js/jquery-ui.js'></script>
+<script type='text/javascript' src='./js/pwp.js'></script>
+<div id='pwoContainer'>
+<div id='pwoImageDiv'>
+<div id='headlineNormal'>Public Weather Page<br></div>
+<div id='tabs'>
+<ul>
+<li><a href='#tabs-1'>Overview</a></li>
+<li><a href='#tabs-2'>Thunderstorms</a></li>
+<li><a href='#tabs-3'>Marginal Risk</a></li>
+<li><a href='#tabs-4'>Slight Risk</a></li>
+<li><a href='#state'>States</a></li>
+<li id='dropDown'><select id='maps'>
+<option value='AL'>Alabama</option>
+<option value='AZ'>Arizona</option>
+<option value='AR'>Arkansas</option>
+<option value='CA'>California</option>
+<option value='CO'>Colorado</option>
+<option value='CT'>Connecticut</option>
+<option value='DE'>Delaware</option>
+<option value='FL'>Florida</option>
+<option value='GA'>Georgia</option>
+<option value='ID'>Idaho</option>
+<option value='IL'>Illinois</option>
+<option value='IN'>Indiana</option>
+<option value='IA'>Iowa</option>
+<option value='KS'>Kansas</option>
+<option value='KY'>Kentucky</option>
+<option value='LA'>Louisiana</option>
+<option value='ME'>Maine</option>
+<option value='MD'>Maryland</option>
+<option value='MA'>Massachusetts</option>
+<option value='MI'>Michigan</option>
+<option value='MN'>Minnesota</option>
+<option value='MS'>Mississippi</option>
+<option value='MO'>Missouri</option>
+<option value='MT'>Montana</option>
+<option value='NE'>Nebraska</option>
+<option value='NV'>Nevada</option>
+<option value='NH'>New Hampshire</option>
+<option value='NJ'>New Jersey</option>
+<option value='NM'>New Mexico</option>
+<option value='NY'>New York</option>
+<option value='NC'>North Carolina</option>
+<option value='ND'>North Dakota</option>
+<option value='OH'>Ohio</option>
+<option value='OK'>Oklahoma</option>
+<option value='OR'>Oregon</option>
+<option value='PA'>Pennsylvania</option>
+<option value='RI'>Rhode Island</option>
+<option value='SC'>South Carolina</option>
+<option value='SD'>South Dakota</option>
+<option value='TN'>Tennessee</option>
+<option value='TX'>Texas</option>
+<option value='UT'>Utah</option>
+<option value='VT'>Vermont</option>
+<option value='VA'>Virginia</option>
+<option value='WA'>Washington</option>
+<option value='WV'>West Virginia</option>
+<option value='WI'>Wisconsin</option>
+<option value='WY'>Wyoming</option>
+</select></li>
+</ul>
+<div id='tabs-1'><img src='./images/US_swody1.png?1431549462' height='600px' width='800px'></img></div>
+<div id='tabs-2'><img src='./images/TSTM_swody1.png?1431549462' height='600px' width='800px'></img></div>
+<div id='tabs-3'><img src='./images/MRGL_swody1.png?1431549462' height='600px' width='800px'></img></div>
+<div id='tabs-4'><img src='./images/SLGT_swody1.png?1431549462' height='600px' width='800px'></img></div>
+<div id='state'><img src='./states/AL_swody1.png?1431549462' height='600px' width='800px'></img></div>
+</div>
+<div id='popTable'>
+<?php include($_SERVER['DOCUMENT_ROOT']."/products/outlook/ac1_SItable.html");?></div>
+<div id='SUMdiv'>
+<p id='SUMtitle'>Weather Summary:</p>
+<p id='PWOtext'>
+Scattered strong to severe thunderstorms are expected today and tonight across much of southern, central and north central Texas. More isolated strong to severe storms may affect the northern High Plains and Black Hills late this afternoon and evening.
+</p>
+</div>
+<div id='PStable'>
+<div id='PSthumb'>What is My Risk?<br><a href='/new/images/Outlook-category-descriptions.png' target='_blank'><img src='/new/images/Outlook-category-descriptions-sm.png' height='174' width='248'></img></a></div>
+<div id='PSthumb'>What is a Watch?<br><a href='http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.youtube.com/watch?v=x3V3HZBs1Y4' title='What is a Watch?' target='YouTube Clip'><img src='/new/images/WatchWarn.png' height='174' width='260'/></a></div>
+<div id='PSthumb'>How is a Forecast Made?<a href='http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://youtu.be/PHMlpv5vJ_Y'  title='How is a Forecast Made?' target='YouTube Clip'><img src='/new/images/ForecastMade.jpg' height='174' width='260'/></a></div>
+</div>
+<div id='dateDiv'>Page Updated: Wed May 13 20:37:42 UTC 2015</div>
+</div>

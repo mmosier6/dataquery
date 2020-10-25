@@ -1,0 +1,331 @@
+<?php
+
+//////////////////////////////////////////////////////////////////////////
+// This script creates the main page panel content, which resides below
+// The overview graphic(s) and the current product listing.  The only 
+// change in content occurs when storm reports have been received for the
+// current convective day.  In that case, the upper-middle panel displays
+// the storm report trend graph, pushing the watch summaries into a 
+// jQuery loop immediately below.
+// CMM 03/2013
+// Modified to use relative paths instead of absolute paths
+// Jay Liang, Tue Feb 26 16:49:23 UTC 2013
+// Added $_SERVER['DOCUMENT_ROOT']. to the path to convert path to absolute
+// path to support porting.  Jay Liang, March 4, 2013
+// Modified "Did You Know?" to handle animation.  Jay Liang, Wed Feb  4 16:40:47 UTC 2015
+//////////////////////////////////////////////////////////////////////////
+
+//Define date variables to determine whether any storm reports have been 
+//received today.
+
+$cyear = strftime("%Y");
+$cdate = strftime("%Y%m%d");
+$cHHmm = strftime("%H%M");
+//need to make sure of the right date if time >0z and <12z
+if (($cHHmm >= 1200) && ($cHHmm <= 2359)) {
+  $YY = substr($cdate, 0, 4);
+  $MM = substr($cdate, 4, 2);
+  $DD = substr($cdate, 6, 2);
+  $ctime = mktime(0, 0, 0, $MM, $DD, $YY);
+} elseif (($cHHmm >= 0000) && ($cHHmm <= 1159)) {
+  $YY = substr($cdate, 0, 4);
+  $MM = substr($cdate, 4, 2);
+  $DD = substr($cdate, 6, 2);
+  $ctim = mktime(0, 0, 0, $MM, $DD, $YY);
+  $ctime = strftime("%s", $ctim - (24*60*60));
+}
+
+$tdyEpoch = $ctime;
+$tmrwEpoch = $tdyEpoch + 86400;
+$tdyLabel = strftime("%m-%d-%Y", $ctime);
+$tmrwLabel = strftime("%m-%d-%Y", $ctime + (24*60*60));
+$ydyNav = strftime("%Y%m%d", $ctime - (24*60*60));
+$tmrwNav = strftime("%Y%m%d", $ctime + (24*60*60));
+$rptDate = strftime("%y%m%d", $ctime);
+
+$tornfile = file($_SERVER['DOCUMENT_ROOT']."/climo/reports/${rptDate}_rpts_torn.csv");
+$windfile = file($_SERVER['DOCUMENT_ROOT']."/climo/reports/${rptDate}_rpts_wind.csv");
+$hailfile = file($_SERVER['DOCUMENT_ROOT']."/climo/reports/${rptDate}_rpts_hail.csv");
+
+//remove the header from the arrays
+$tornFile = array_shift($tornfile);
+$windFile = array_shift($windfile);
+$hailFile = array_shift($hailfile);
+
+//check to see if any reports have been received
+$tornSize = count($tornfile);
+$windSize = count($windfile);
+$hailSize = count($hailfile);
+
+?>
+ 
+<div id="HighlightContainer">
+    <table>
+     <tr>
+      <td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+          <tr><td id="HighlightTitle">Severe Weather Climatology (1982-2011)</td></tr>
+          <tr><td align="center">
+          <?php include($_SERVER['DOCUMENT_ROOT']."/new/SVRclimo/climoSlides.php"); ?>
+	  </td></tr>
+	  <tr><td align="left"><br>More severe weather climatology data <a href="/new/SVRclimo/climo.php?parm=anySvr"> here</a>.</td></tr>
+        </table>
+      </td>
+
+<?php
+//logic to account for inclusion of the storm reports trend graph 
+if (($tornSize < 2) && ($windSize < 2) && ($hailSize < 2)) {
+  print "<td valign='top' width='33%' id='TopicContainer'>\n";
+  print "<table summary='layout' border='0'>\n";
+  print "<tr><td id='HighlightTitle'>$cyear Tornado Watch Summary</td></tr>\n";
+  print "<tr><td align='center'><a href='/wcm/${YY}_torww_to_date.png'><img src='/wcm/thumbs/${YY}_torww_to_date_sm.png'></a></td></tr>\n";
+
+  $filename = $_SERVER['DOCUMENT_ROOT'].'/wcm/${YY}_torww_to_date.png';
+  if (file_exists($filename)) {
+    print "<tr><td align='left'>Page last modified: " . date ("F d Y H:i T", filemtime($filename)) . "</td></tr>\n";
+  }
+
+  print "</table></td>\n";
+
+} else {
+  print "<td valign='top' width='33%' id='TopicContainer'>\n";
+  print "<table summary='layout' border='0'>\n";
+  print "<tr><td id='HighlightTitle'>Today's Storm Report Trend</td></tr>\n";
+  print "<tr><td align='center'>\n";
+  include($_SERVER['DOCUMENT_ROOT']."/new/ReportPlot/reportPlot_sm.php"); 
+  print "</td></tr>\n";
+  print "<tr><td align='left'><br><br>Full-size plot <a href='/new/ReportPlot/reportPlot.php'>here</a>.</td></tr>\n";
+  print "</table></td>\n";
+}
+?>
+
+        <script src="/new/js/slides.min.jquery.js"></script>
+
+        <script>
+          var $j = jQuery.noConflict();
+          $j(function(){
+            $j('#slides1').slides({
+              fadeSpeed: 1000,
+              crossfade: true,
+              effect: 'fade',
+              preload: true,
+              preloadImage: '/new/SVRclimo/loading.gif',
+              play: 7000,
+              pause: 2500,
+              hoverPause: true,
+              animationStart: function(current){
+                $j('.caption').animate({
+                  bottom:-35 
+                },100);
+                if (window.console && console.log) {
+                  // example return of current slide number
+                  console.log('animationStart on slide: ', current);
+                };
+              },
+              animationComplete: function(current){
+                $j('.caption').animate({
+                  bottom:0
+                },200);
+                if (window.console && console.log) {
+                  // example return of current slide number
+                  console.log('animationComplete on slide: ', current);
+                };
+              },
+              slidesLoaded: function() {
+                $j('.caption').animate({
+                  bottom:0
+                },200);
+              }
+            });
+          });
+        </script>
+
+	<td valign='top' width='33%' id='TopicContainer'>
+          <table summary="layout" border="0" background="#eee">
+	    <tr><td id='HighlightTitle'>Did You Know?</td></tr>
+            <tr><td align="center">
+
+            <div id="spc1">
+              <div id="example">
+                <div id="slides1">
+                  <div class="slides_container">
+                    <div class="slide">
+                      <a href="/new/images/Outlook-category-descriptions.png" alt="Slide 1" title="Convective Outlook Category Descriptions" target="_blank"><img src="/new/images/Outlook-category-descriptions-sm.png" height="174" width="248"/></a>
+                      <div class="caption" style="bottom:0"><p>What's My Risk?</p></div>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.youtube.com/watch?v=x3V3HZBs1Y4" alt="Slide 2" title="What's a Watch?" target="YouTube Clip"><img src="/new/images/WatchWarn.png" height="174" width="280"/></a>
+                      <div class="caption" style="bottom:0"><p>What's a Watch?</p></div>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://youtu.be/PHMlpv5vJ_Y" alt="Slide 3" title="How's a Forecast Made?" target="YouTube Clip"><img src="/new/images/ForecastMade.jpg" height="174" width="280"/></a>
+                      <div class="caption" style="bottom:0"><p>How's a Forecast Made?</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </td></tr>
+          </table>
+        </td>
+        <tr>
+
+        <td valign='top' width='33%' id='TopicContainer'>
+	<table summary='layout' border='0'>
+        <tr><td id='HighlightTitle'>Forecast Tools</td></tr>
+        <tr><td align='center'>
+
+        <script>
+          var $j = jQuery.noConflict();
+          $j(function(){
+            $j('#slides2').slides({
+              fadeSpeed: 1000,
+              crossfade: true,
+              effect: 'fade',
+              preload: true,
+              preloadImage: '/new/SVRclimo/loading.gif',
+              play: 7000,
+              pause: 2500,
+              hoverPause: true,
+              animationStart: function(current){
+                $j('.caption').animate({
+                  bottom:-35 
+                },100);
+                if (window.console && console.log) {
+                  // example return of current slide number
+                  console.log('animationStart on slide: ', current);
+                };
+              },
+              animationComplete: function(current){
+                $j('.caption').animate({
+                  bottom:0
+                },200);
+                if (window.console && console.log) {
+                  // example return of current slide number
+                  console.log('animationComplete on slide: ', current);
+                };
+              },
+              slidesLoaded: function() {
+                $j('.caption').animate({
+                  bottom:0
+                },200);
+              }
+            });
+          });
+        </script>
+	
+        <div id="spc1">
+          <div id="example">
+            <div id="slides2">
+              <div class="slides_container">
+                <div class="slide">
+                  <a href="/exper/sseo/" title="SSEO" target="_blank" alt="Slide 1"><img src="/new/images/SPC_SSEO.png" width="300" height="212"></a>
+                  <div class="caption" style="bottom:0"><p>SSEO</p></div>
+                </div>
+              <div class="slide">
+                <a href="/exper/sref/" target="_blank"><img src="/new/images/SPC_SREF.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>SREF</p></div>
+              </div>
+              <div class="slide">
+                <a href="/exper/mesoanalysis/new/" target="_blank"><img src="/new/images/SPC_mesoanalysis.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>Mesoanalysis</p></div>
+              </div>
+              <div class="slide">
+                <a href="/exper/soundings/" target="_blank"><img src="/new/images/SPC_sounding.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>Observed Soundings</p></div>
+              </div>
+              <div class="slide">
+                <a href="/exper/envbrowser/" target="_blank"><img src="/new/images/SPC_env_browser.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>Tornado Environment Browser</p></div>
+              </div>
+              <div class="slide">
+                <a href="/obswx/maps/" target="_blank"><img src="/new/images/SPC_UA.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>Upper-Air Maps</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+	</td></tr>
+        </table></td>
+        
+<?php
+//logic to account for inclusion of the storm reports trend graph
+if (($tornSize < 2) && ($windSize < 2) && ($hailSize < 2)) {
+?>
+
+	<td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+          <tr><td id="HighlightTitle"><?php print $cyear; ?> Severe Tstm Watch Summary</td></tr>
+        <tr><td align='center'><a href='/wcm/<?php print $cyear; ?>_svrww_to_date.png'><img src='/wcm/thumbs/<?php print $cyear; ?>_svrww_to_date_sm.png'></a></td></tr>
+
+<?php
+         $filename = $_SERVER['DOCUMENT_ROOT'].'/wcm/'.${cyear}.'_svrww_to_date.png';
+         if (file_exists($filename)) {
+           print "<tr><td align='left'>Page last modified: " . date ("F d Y H:i T", filemtime($filename)) . "</td></tr>\n";
+         }
+?>
+
+        </table></td>
+
+<?php } else { ?>
+
+	<td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+        <tr><td id="HighlightTitle"><?php print $cyear; ?> Watch Summaries</td></tr>
+	<tr><td align='center'>
+
+        <script type="text/javascript">
+        var $j = jQuery.noConflict();
+        $j(document).ready(function() {
+          $j('#slideshow2').cycle({fx: 'fade', timeout:5000, speed:2000});
+          $j('#slideshow2 img').click(function (){
+            var blankWindow = window.open('','_blank');
+	    blankWindow.location.href=$j(this).attr('rel');
+            // document.location.href=$j(this).attr('rel');
+          }).css('cursor','pointer');
+        });
+        </script>
+
+        <div id="slideshow2">
+	<img src="/wcm/thumbs/<?php print $cyear; ?>_torww_to_date_sm.png" alt="" rel="/wcm/<?php print $cyear; ?>_torww_to_date.png" width="300" height="200" />
+	<img src="/wcm/thumbs/<?php print $cyear; ?>_svrww_to_date_sm.png" alt="" rel="/wcm/<?php print $cyear; ?>_svrww_to_date.png" width="300" height="200" />
+	</div>
+        </td></tr>
+
+<?php
+         $filename = $_SERVER['DOCUMENT_ROOT'].'/wcm/'.${cyear}.'_svrww_to_date.png';
+         if (file_exists($filename)) {
+           print "<tr><td align='left'>Page last modified: " . date ("F d Y H:i T", filemtime($filename)) . "</td></tr>\n";
+         }
+?>
+
+        </table></td>
+<?php } ?>
+
+	<td valign="top" width="33%" id="TopicContainer">
+         <table summary="layout" border="0">
+	 <tr><td id='HighlightTitle'>Severe Weather IQ</td></tr>
+          <tr><td align="center"><a href="/faq/tornado/#Safety"><img src="/new/images/TornSafety.png" width=280" height="182"></a></td></tr>
+          <tr><td align="left">Tornado Safety <a href="/faq/tornado/#Safety">Tips</a>.</td></tr>
+         </table>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2" valign="top" width="66%" id="TopicContainer">
+	<div id="HighlightTitle">Latest SPC Publications</div>
+        <?php include($_SERVER['DOCUMENT_ROOT']."/new/SPCResearch/research.html"); ?>
+        </td>
+        <td valign="top" width="33%" id="TopicContainer">  
+	<div id="HighlightTitle">Latest SPC Case Archive</div>
+        <?php include($_SERVER['DOCUMENT_ROOT']."/new/SPCCaseArchive/casestudy.html"); ?>
+        </td>
+       </tr>
+
+     </table>
+   </td>
+  </tr>
+</table>
+</div><!--end HighlightContainer-->
+<!--End 9-panel-->

@@ -1,0 +1,413 @@
+<li><p>
+Effective Wednesday, November 1, 2017, SPC has a new High Resolution Ensemble Forecast version 2 (HREFv2) web page (<a href="/exper/href/">www.spc.noaa.gov/exper/href/</a>) that is found under the Forecast Tools section of the main SPC home page. The HREFv2 provides an operational version of the SPC SSEO and this new web page replaces the existing SSEO page. The new HREFv2 viewer provides a much improved interactive web page with additional ensemble products, options, and functionalities, and is updated as hourly forecast member grids are processed. It contains advanced guidance for many weather hazards, with tabs for synoptic, severe, winter, fire, precipitation, and CAM storm attributes, that can be displayed over a CONUS domain or one of nine regional sectors. There is also capability to select from a number of product and map overlays. (Updated: November 1 2017)
+</p></li>
+<li><p>
+We present a <a href="/exper/spcousom/" target="_BLANK">video lecture series</a> on severe thunderstorm forecasting, a collaboration between the NOAA Storm Prediction Center, The University of Oklahoma, the NOAA National Severe Storms Laboratory, and the NOAA Warning Decision Training Division. (Updated: May 15 2017)
+</p></li>
+<li><p>
+Interested in learning more about what is going on at the SPC? Click <a href="/misc/WatcherVol3.pdf" target="_blank">here</a> for the Fall 2016 newsletter.
+(Updated: December 16 2016)
+</p></li>
+<li><p>
+Effective Tuesday, <strong>December 6, 2016</strong>, at 1800 Coordinated Universal Time (UTC), the SPC transitioned its text products to a mixed case text format. This is part of a continuing NWS effort to make products easier to read. Examples of Storm Prediction Center products converted to mixed case are online for sample formatting purposes: <a href="/misc/mcex.php">www.spc.noaa.gov/misc/mcex.php</a>.<br />
+For details see <a href="//www.nws.noaa.gov/om/notification/scn16-43mixedcase_spc_products.htm" target="_blank">NWS Service Change Notice 16-43</a>.
+(Updated: December 7 2016)
+</p></li>
+<li><p>
+Effective Tuesday, <strong>December 6, 2016</strong>, at 1800 Coordinated Universal Time (UTC), the SPC will transition its text products to a mixed case text format. This is part of a continuing NWS effort to make products easier to read. Examples of Storm Prediction Center products converted to mixed case are online for sample formatting purposes: <a href="/misc/mcex.php">www.spc.noaa.gov/misc/mcex.php</a>.<br />
+For details see <a href="//www.nws.noaa.gov/om/notification/scn16-43mixedcase_spc_products.htm" target="_blank">NWS Service Change Notice 16-43</a>.
+(Updated: November 29 2016)
+</p></li>
+<li><p>
+Effective Tuesday, April 14, 2015, at 1500 Coordinated Universal Time (UTC), the SPC will add a new SUMMARY section to Public Watch Notification Messages (AWIPS ID SEL#).
+The new SUMMARY section is a general 1-2 sentence statement of the severe weather expected in and close to the watch area.
+This new section facilitates consistent, forecaster-driven, concise communication for public consumption.
+The SUMMARY is intended to be useful for a variety of communication needs including web page headlines, social media and multimedia briefings.
+For details see <a href="//www.nws.noaa.gov/os/notification/scn15-05spc_sel.htm" target="_blank">NWS Service Change Notice 15-05</a>.
+(Updated: February 4 2015)
+</p></li>
+<li><p>
+Check out the multimedia briefing on the Day 4-8 Severe Weather Outlook changes started on December 16, 2014: <a href="/misc/2014_D48_OutlookChanges.mp4" target="_blank">/misc/2014_D48_OutlookChanges.mp4</a>. (Updated: December 19 2014)
+</p></li>
+<li><p>
+Click <a href="www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=//youtu.be/PHMlpv5vJ_Y" target="YouTube Clip">here</a> to view a video clip on <a href="//www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=//youtu.be/PHMlpv5vJ_Y" target="YouTube Clip">How is a Forecast Made?</a> (Updated: December 19 2014)
+</p></li>
+<li><p>
+The SPC has developed a sounding climatology web browser for the CONUS.
+It can be accessed at: <a href="/exper/soundingclimo/">www.spc.noaa.gov/exper/soundingclimo/</a>. (Updated: December 1 2014)
+</p></li>
+<li><p>
+The SPC has a new High Resolution Rapid Refresh (HRRR) web page called the "HRRR Browser" (<a href="/exper/hrrr/" target="_blank">www.spc.noaa.gov/exper/hrrr</a>) that is found under the <a href="/exper/" target="_blank">Forecast Tools</a> section of the main SPC home page.
+This page permits viewing of selected high-impact weather fields for convective and winter weather from the last six hourly HRRR runs, displayed over a CONUS domain or one of nine regional sectors.
+There is also capability to select from a number of product and map overlays as well as image underlays. (Updated: November 13 2014)
+</p></li>
+<li><p>
+Effective Tuesday, December 16, 2014, at 1500 Coordinated Universal Time (UTC), the SPC Day 4-8 Severe Weather Outlooks for the Continental U.S. will transition from experimental to operational status (see <a href="//www.nws.noaa.gov/os/notification/scn14-54spc_day4-8severe.htm" target="_blank">NWS Service Change Notice 14-54</a>).
+The Day 4-8 Outlook will include areas where total severe weather probabilities are at least 15 percent within 25 miles of a point, in addition to the current "severe" areas corresponding to a 30 percent or greater probability.
+Examples of these Outlooks using historical data and additional information are online at: <a href="/exper/dy4-8example/" target="_blank">www.spc.noaa.gov/exper/dy4-8example/</a>. (Updated: November 12 2014)
+</p></li>
+<li><p>
+Effective Wednesday, October 22, 2014, at 1500 Coordinated Universal Time (UTC), the SPC Categorical Day 1-3 Convective Outlooks for CONUS will transition from experimental to operational status (see <a href="//www.nws.noaa.gov/os/notification/scn14-42day1-3outlooks_cca.htm" target="_blank">NWS Service Change Notice 14-42</a>).<br />
+The experimental SPC Day 1, Day 2 and Day 3 Convective Outlooks for the Continental U.S. will include two new risk categories:<br />
+&nbsp;&nbsp;-&nbsp;"Marginal" replaces the current SEE TEXT used in these products<br />
+&nbsp;&nbsp;-&nbsp;"Enhanced" is an additional category to delineate areas of risk in the high end of the current SLIGHT risk, but below MODERATE risk.<br />
+Examples of these Outlooks using historical data and additional information are online at:
+<a href="/exper/dy1-3example/" target="_blank">www.spc.noaa.gov/exper/dy1-3example/</a>.<br /><br />
+The experimental SPC Day 4-8 Severe Weather Outlooks for the Continental U.S. will include areas where total severe weather probabilities are at least 15 percent within 25 miles of a point, in addition to the current "severe" areas corresponding to a 30 percent or greater probability.
+Examples of these Outlooks using historical data and additional information are online at:
+<a href="/exper/dy4-8example/" target="_blank">www.spc.noaa.gov/exper/dy4-8example/</a>. (Updated: August 13 2014)
+</p></li>
+<li><p>
+SPC announces a fire weather web page providing objective guidance for dry thunderstorms over the CONUS and Alaska.
+See: <a href="/exper/dryt/" target="_blank">www.spc.noaa.gov/exper/dryt/</a>. (Updated: July 1 2014)
+</p></li>
+<li><p>
+The NWS is soliciting comments on the proposed SPC experimental Day 4-8 Severe Weather Outlooks through June 17, 2014.
+The experimental SPC Day 4-8 Severe Weather Outlooks for the Continental U.S. will include areas where total severe weather probabilities are at least 15 percent within 25 miles of a point, in addition to the current "severe" areas corresponding to a 30 percent or greater probability.
+Examples of these Outlooks using historical data, additional information, and a link to provide user comments are online at:
+<a href="/exper/dy4-8example/" target="_blank">www.spc.noaa.gov/exper/dy4-8example/</a>. (Updated: May 16 2014)
+</p></li>
+<li><p>
+The NWS is soliciting comments on the proposed SPC experimental category Day 1-3 Convective Outlooks through 
+June 17, 2014.  The experimental SPC Day 1, Day 2 and Day 3 Convective Outlooks for the Continental U.S. will include two new
+risk categories:<br>
+- "Marginal" replaces the current SEE TEXT used in these products<br>
+- "Enhanced" is an additional category to delineate areas of risk in the high end of the current SLIGHT risk, but below MODERATE risk.<br>
+Examples of these Outlooks using historical data, additional information, and a link to provide user comments are online at: 
+<a href="/exper/dy1-3example/" target="_blank"> www.spc.noaa.gov/exper/dy1-3example/</a>. (Updated: April 21 2014)
+</p></li>
+<li><p>
+On April 17, 2014, SPC introduced an experimental version of the preliminary daily storm report summary through
+several enhancements on a new webpage <a href="/exper/reports/" target="_blank">www.spc.noaa.gov/exper/reports/</a>.
+These enhancements include a new page framework and layout, improved functionality and personalization.
+More information from each Local Storm Report (LSR) will be accessible, and winter weather LSRs will now be included.
+Since this service is experimental, these reports may <strong>NOT</strong> contain edited, deleted or added
+reports that are currently performed as needed in the "operational" <a href="/climo/online/" target="_blank">LSR</a> webpage.
+Again, LSRs should always be considered <strong>PRELIMINARY</strong>.
+For more details on the improvements, please refer to the SPC FAQ page <a href="/faq/#6.14" target="_blank">here</a>.
+We welcome your questions and comments regarding the new page, please click on the <strong>Comments</strong> button on the page to provide your feedback.  (Updated: April 17 2014)
+</p></li>
+<li><p>
+Starting on November 26 2013, the SPC replaced the current SEE TEXT reference in its Day 1 and Day 2 Fire Weather Outlook products with graphical depictions of areas of Elevated Risk and areas of Isolated Dry Thunderstorms.  (Updated: November 26 2013)
+</p></li>
+<li><p>
+The SPC will be replacing the current SEE TEXT reference in its Day 1 and Day 2 Fire Weather Outlook products with graphical depictions of areas of Elevated Risk and areas of Isolated Dry Thunderstorms. Starting on September 24, 2013 at 1500 UTC, previews of these changes will be available on the Fire Weather Outlook page. Click <a href="//www.nws.noaa.gov/om/notification/scn13-60spc_fire_wx_outlook.htm" target="_blank">here</a>
+for the Service Change Notice. (Updated: September 16 2013)
+</p></li>
+<li><p>
+The NWS is undertaking its annual research to better serve the public's needs and request that you take the NWS 2013 Customer Satisfaction Survey
+at:<br />
+<a href="//www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=https://cfigroup.qualtrics.com/SE/?SID=SV_bCyQV2ZNlA8IRNj&LOC=1" target="_blank">https://cfigroup.qualtrics.com/SE/?SID=SV_bCyQV2ZNlA8IRNj&LOC=1</a><br />
+The core section of the survey takes about 20 minutes to complete and does not need to be finished all at once. You are also encouraged to take a moment and complete one or more of the additional sections covering Climate, Fire Weather, Hydrology, and Hurricane Services. (Updated: September 10 2013)
+</p></li>
+<li><p>
+Starting June 25, 2013, the SPC will issue <a href="/products/exper/fire_wx/">
+Experimental Dry Thunderstorm Fire Weather Outlooks</a> for Days 4 through 8 with individual web graphics.
+(Updated: June 25 2013)
+</p></li>
+<li><p>
+We started a <a href="/staff/profiles/">Staff Profiles</a> page to feature one member of the SPC professionals every month.
+(Updated: May 2 2013)
+</li>
+<li><p>
+The SPC <a href="/exper/mesoanalysis/">Mesoanalysis Page</a> now has an option to incorporate the experimental ESRL
+Rapid Refresh version 2 (RAPv2) model as background input for the mesoanalysis fields, in addition to the current
+operational NCEP Rapid Refresh (RAP) model.
+The RAPv2 is being developed by ESRL as the next version of the RAP.
+More details about the RAP and RAPv2 are found at: <a href="//rapidrefresh.noaa.gov/" target="_blank">rapidrefresh.noaa.gov</a>.
+(Updated: April 30 2013)
+</p></li>
+<li><p>
+On April 9th, 2013 at 1500 UTC responsibility for Heavy Rain Mesoscale Discussions was transferred to the Weather
+Prediction Center (WPC).
+Click <a href="//www.nws.noaa.gov/os/notification/scn13-14hpc_mesoscale_precip.htm" target="_blank">here</a> for the Service Change Notice.
+(Updated: April 12 2013)
+</p></li>
+<li><p>
+Tornado, hail, and wind database files have been updated for events occurring in 2012.
+Please see this link for more information: <a href="/wcm/test.html#data" target="_blank">www.spc.noaa.gov/wcm/test.html#data</a>.
+(Updated: March 27 2013)
+</p></li>
+<li><p>
+We added population information potentially impacted by the categorical convective and fire weather outlooks.
+The information is derived based on 2010 Census data and the NDFD outlook grids.
+All information should be considered experimental and approximate.
+(Updated: March 13 2013)
+</p></li>
+<li><p>
+The Storm Prediction Center in cooperation with NOAA teamed up with the State of Oklahoma Insurance Department
+held the 2013 National Severe Weather Workshop at the National Tornado Symposium, March 10-12, 2013, in Oklahoma City.
+Details can be found on the National Severe Weather Workshop website at:
+<a href="//www.norman.noaa.gov/nsww/" target="_blank">www.norman.noaa.gov/nsww/</a>
+(Updated: March 12 2013)
+</p></li>
+<li><p>
+Enhanced bulleted format of SPC Public Watch Notification Messages (SEL) (CONUS Only) effective April 16, 2013.
+Click <a href="/exper/SELhazard/">here</a> for more details.
+(Updated: January 30 2013)
+</p></li>
+<li><p>
+A <a href="/exper/envbrowser/">tornado environment browser</a> for the contiguous United States is now available.
+A tornado environment—convective mode sample (2003-2011) displays statistical information of supercell-related
+convective parameters accompanied by smoothed tornadic convective mode climatology images.
+(Updated: January 22 2013)
+</p></li>
+<li><p>
+We mourn the loss of Jon Racy, SPC Lead Forecaster, who passed away on 8 January 2013 after a long and courageous battle with colorectal cancer.  Click <a href="/Racy/" target="_blank">here</a> for more details.
+(Updated: January 8 2013)
+</p></li>
+<li><p>
+The experimental <a href="/exper/sseo/">SPC Storm-Scale Ensemble of Opportunity (SSEO)</a> is produced by postprocessing seven (7) deterministic convection-allowing model runs. Special emphasis is placed on hourly maximum storm-attribute fields.
+(Updated: November 13 2012)
+</p></li>
+<li><p>
+Effective September 26, 2012, the SPC <a href="/products/exper/enhtstm/">Thunderstorm Outlook</a> becomes operational.
+Here is the <a href="//www.nws.noaa.gov/om/notification/scn12-29spc_opr_thunderstorm.htm" target="_target">Service Change Notice 12-29</a>.
+(Updated: September 26 2012)
+</p></li>
+<li><p>
+Effective September 25, 2012, the Day 3 Outlook includes general thunderstorm information. Please see <a href="//www.nws.noaa.gov/om/notification/scn12-26spc-day3-thunder.htm" target="_target">Service Change Notice 12-26</a> for more information.
+(Updated: September 26 2012)
+</p></li>
+<li><p>
+<a href="/gis/svrgis/">Severe Weather GIS (SVRGIS)</a> page has been updated with preliminary January - June 2012 tornado data.
+Visit <a href="/gis/svrgis/">www.spc.noaa.gov/gis/svrgis/</a> for details.
+(Updated: September 21 2012)
+</p></li>
+<li><p>
+On September 26, 2012, the SPC <a href="/products/exper/enhtstm/">Thunderstorm Outlook</a> becomes operational.
+Here is the <a href="www.nws.noaa.gov/om/notification/scn12-29spc_opr_thunderstorm.htm" target="_target">Service Change Notice 12-29</a>.
+(Updated: August 23 2012)
+</p></li>
+<li><p>
+From June 5, 2012 to January 30, 2013, SPC will issue Experimental Probabilistic Fire Weather Dry Thunder and Strong Wind
+Outlooks for Day 3 to 8 with individual web graphics.
+Please read the <a href="//products.weather.gov/PDD/spc_day38fire_prob_pdd_ext%202012.pdf" target="FW_PDD">Product Description Document (PDD)</a>
+and provide feedback using this link:
+<a href="//www.weather.gov/survey/nws-survey.php?code=spc38firewx" target="FW_Survey">www.weather.gov/survey/nws-survey.php?code=spc38firewx</a>.
+(Updated: June 5 2012)
+</p></li>
+<li><p>
+The Rapid Refresh (RAP) model has replaced the RUC model at 12Z on May 1 2012.
+All references to RUC model fields in the Mesoscale Analysis, Fire Weather Analysis, and Compmap pages
+have been changed to indicate the RAP model provides background input to the display fields. (Updated: May 1 2012)
+</p></li>
+<li><p>
+<a href="/gis/svrgis/">Severe Weather GIS (SVRGIS)</a>
+page has been updated with tornadoes (1950-2011), hail/wind (1955-2011) reports converted into shapefile (.shp) format.
+Visit <a href="/gis/svrgis/">www.spc.noaa.gov/gis/svrgis/</a> for details. (Updated: Apr 9 2012)
+</p></li>
+<li><p>
+New Meso Analysis Page has been implemented on March 27, 2012.
+Changes include: 1) overlay/underlay select buttons moved from the bottom to the side based on user feedback.
+2) current SPC products are displayed in a hovered window at the lower-right of the page to facilitate better
+situational awareness as new products are issued.
+3) A Trends/Forecast section has been added.
+This allows the user to view trends in the parameter being examined, and even project the data into the
+future for selected parameters.
+The images are viewed when you mouseover the selected past/forecast hour.
+Past images are of the SfcOA system, while future images are based on RUC model output.
+Another use for this function is to compare the SfcOA Analysis of a selected parameter to the RUC
+forecast for the same parameter at 00H.
+This may provide useful information regarding the performance of the model. (Updated: Mar 27 2012)
+</p></li>
+<li><p>
+New <a href="/exper/sref/">SREF</a> Page has been implemented on March 27, 2012.  Go to <a href="/exper/sref/index_old.html">www.spc.noaa.gov/exper/sref/index_old.html</a> to access the legacy version. (Updated: Mar 27 2012)
+</p></li>
+<li><p>
+The 2011 SPC Severe Weather Database files are now available for download at <a href="/wcm/#data">www.spc.noaa.gov/wcm/#data</a>. (Updated: Mar 26 2012)
+</p></li>
+<li><p>
+New Meso Analysis Page will be implemented on March 27, 2012.
+To preview, go to <a href="/exper/mesoanalysis/new/vs4.php">www.spc.noaa.gov/exper/mesoanalysis/new/vs4.php</a>.
+Changes include: 1) overlay/underlay select buttons moved from the bottom to the side based on user feedback.
+2) current SPC products are displayed in a hovered window at the lower-right of the page to facilitate better
+situational awareness as new products are issued.
+3) A Trends/Forecast section has been added.
+This allows the user to view trends in the parameter being examined, and even project the data into the
+future for selected parameters.
+The images are viewed when you mouseover the selected past/forecast hour.
+Past images are of the SfcOA system, while future images are based on RUC model output.
+Another use for this function is to compare the SfcOA Analysis of a selected parameter to the RUC
+forecast for the same parameter at 00H.
+This may provide useful information regarding the performance of the model. (Updated: Mar 23 2012)
+</p></li>
+<li><p>
+New SREF Page will be implemented on March 27, 2012.  To preview, go to <a href="/exper/sref/cmm_sref.php">www.spc.noaa.gov/exper/sref/cmm_sref.php</a>. (Updated: Mar 23 2012)
+</p></li>
+<li><p>
+Two new RSS feeds have been added:
+&ndash; For Particularly Dangerous Situation (PDS) tornado/severe thunderstorm watches only: <a href="/products/spcpdswwrss.xml">www.spc.noaa.gov/products/spcpdswwrss.xml</a>
+&ndash; For Public Severe Weather Outlook (PWO) experimental multimedia briefings: <a href="/products/spcmbrss.xml">www.spc.noaa.gov/products/spcmbrss.xml</a>
+</p></li>
+<li><p>
+Click <a href="//www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=//www.youtube.com/watch?v=x3V3HZBs1Y4" target="YouTube Clip">here</a> to view a video clip on <a href="//www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=//www.youtube.com/watch?v=x3V3HZBs1Y4" target="YouTube Clip">What is a Watch?</a>
+(updated: Mar 8 2012)
+</p></li>
+<li><p>
+The <a href="//www.norman.noaa.gov/nsww/">2012 National Severe Weather Workshop</a> was held March 1-3, 2012 in Norman, OK. Visit <a href="//www.norman.noaa.gov/nsww/">www.norman.noaa.gov/nsww/</a> for more details.
+</p></li>
+<li><p>
+Starting July 8, 2011 the <a href="/climo/reports/">Storm Reports</a> page has been updated to display both the new un-filtered reports side by side with the filtered version. For more info about the differences click <a href="/faq/#6.11">here</a>. Additionally, the links to display storm reports in Google Maps have been added.
+</p></li>
+<li><p>
+On July 6, 2011 SPC created the official Facebook page.  Please click on the Facebook icon on the left side menu or click on <a href="//www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=https://www.facebook.com/US.NOAA.StormPredictionCenter" target="_TOP" title="NOAA NWS Storm Prediction Center">this link</a>.
+</p></li>
+<li><p>
+On April 19, 2011 SPC began issuing the <a href="/products/exper/fire_wx">Experimental Probabilistic Day 3-8 Fire Weather Outlooks</a>.
+Please read the <a href="//products.weather.gov/PDD/spc_day38fire_prob_pdd.pdf">Product Description Document (PDD)</a>.
+</p></li>
+<li><p>
+<a href="/gis/svrgis/">Severe Weather GIS (SVRGIS)</a>
+page has been updated with tornadoes (1950-2010), hail/wind (1955-2010)
+reports converted into shapefile (.shp) format.
+Visit <a href="/gis/svrgis/">www.spc.noaa.gov/gis/svrgis/</a>
+for details.
+</p></li>
+<li><p>
+NCEP is pleased to announce the first edition of NCEP's online Newsletter, which will appear on a quarterly basis.
+The newsletter, suggested as a result of a review of NCEP conducted by the University Corporation of Atmospheric Research (UCAR), will be distributed to NCEP customers and partners to keep them apprised of the breadth of NCEP activities.
+The newsletter can be accessed via a link from NCEP's homepage <<a href="//www.ncep.noaa.gov/">www.ncep.noaa.gov/</a>, as well as from links from each of the NCEP Centers.
+</p></li>
+<li><p>
+Beginning March 15, 2011, the SPC will provide multimedia weather briefings on an experimental basis for most Moderate and all High Risk severe weather days during the Day 1 period.
+As a supplement to the Public Severe Weather Outlook (PWO), these once-per-day recorded briefings will be available during the early morning hours (approximately 6:00-10:30 am Central) on the SPC website.
+</p></li>
+<li><p>
+On March 8, 2011, the SPC removed space/time filtering on incoming National Weather Service (NWS) Local Storm Reports (LSRs).
+This filtering had been used by SPC in an attempt to reduce duplicate reports and limit artificially inflated initial estimates of severe weather events when many reports arrived for the same event.
+Space/time filtering is no longer being applied to decoded NWS LSRs and this approach is consistent with NWS storm-based verification methods.
+However, identical reports should still be removed from SPC logs and should not appear on the preliminary maps and lists.
+</p></li>
+<li><p>
+<p>SPC has switched to the new NOAA WOC web farms mid January 2011. Please do <strong>NOT</strong> use w1.spc.woc.noaa.gov or w2.spc.woc.noaa.gov for SPC web pages.
+Please clear your browser cache if your browser still redirects www.spc.noaa.gov to either w1 or w2.
+</p></li>
+<li><p>
+The 2011 National Severe Weather Workshop is scheduled for March 3-5, 2011 in Norman, OK.
+Visit <a href="//www.norman.noaa.gov/nsww/">www.norman.noaa.gov/nsww/</a> for details.
+Visit <a href="//www.norman.noaa.gov/nsww/registration/workshop-registration-form/"><strong>here</strong></a> for early registration until January 10, 2011.
+</p></li>
+<li><p>
+The <a href="/products/exper/enhtstm/">Experimental Thunderstorm Outlooks</a> product will continue to be issued through winter.
+Please click <a href="//products.weather.gov/detaile.php?selrow=373"><strong>here</strong></a> for the Product Description Document (PDD).
+Please click <a href="//www.weather.gov/survey/nws-survey.php?code=spc_enhncd_tstm"><strong>here</strong></a> to take the survey.
+Public comment period ends on September 30, 2011.
+</p></li>
+<li><p>
+The <a href="/exper/mesoanalysis/">Mesoscale Analysis</a> page has been substantially redesigned.
+Several additions and improvements have been added, such as image overlays, larger images, and
+<b>fixed</b> sector areas that permanently cover the entire contiguous United States.
+For more information, visit the <a href="/exper/mesoanalysis">Mesoscale Analysis Page</a>, or download
+a MPEG4 video clip <a href="/misc/SPC_Mesoanalysis.mp4">here</a>. (5.8MB)
+</p></li>
+<li><p>
+The Storm Prediction Center is one of the initial participants in the NWS experimental email updates service.
+The SPC products available with email updates are:
+Tornado/Severe Thunderstorm Watches and Watch Status updates,
+Mesoscale Discussions, Day 1, 2, 3 and 4-8 Convective Outlooks,
+Day 1, 2 and 3-8 Fire Weather Outlooks.
+<a href="//www.weather.gov/emailupdates/">More info</a>.
+</p></li>
+<li><p>
+Effective <b>Tuesday March 23, 2010</b>, the SPC began issuing fire weather products during the daylight hours.
+Click <a href="/misc/firewx-daytime-update.html">here</a> for more details.
+</p></li>
+<li><p>
+<a href="/exper/mesoanalysis/new/">SPC Mesoscale Analysis Page</a> has been extensively revised!
+Several additions and improvements have been added, such as image overlays, larger images, and
+<b>fixed</b> sector areas that permanently cover the entire contiguous United States.
+This new format is expected to replace the existing set of pages on <b>April 13, 2010</b>.
+</p></li>
+<li><p>
+Starting <b>January 5, 2010</b>, the daily storm report summaries will record <b>1 inch and greater diameter hail</b>,
+as well as severe thunderstorm wind and tornado reports.
+Please see this <a href="/misc/scn09-52_1inch_hail_oper.txt">link</a> for more information.
+</p></li>
+<li><p>
+Public Severe Weather Outlooks for nighttime tornado potential will be issued December 1 through
+March 31. More information <a href="/misc/cool_season_nighttime_PWO.html">here</a>.
+</p></li>
+<li><p>
+<a href="/products/exper/day4-8/">Day 4-8 Convective Outlook</a> NDFD grid becomes
+operational December 1, 2009.
+Click <a href="/misc/PDD-day48-final.pdf">here</a> for the Product Description Document.
+Click <a href="/misc/tin09-38conv4-8_oper.txt">here</a> for the Technical Implementation Notice 09-38.
+</p></li>
+<li><p>
+<a href="/products/md/">Mesoscale Discussions</a> for significant short range winter
+weather events will be issued on a scheduled basis (four times a day around 00, 06, 12 and 18 UTC)
+from December 1 through February 28.
+</p></li>
+<li><p>
+<a href="/products/exper/enhtstm/">Experimental Enhanced Thunderstorm Outlooks</a> have been
+suspended on December 1, 2009 and will resume March 1, 2010.
+</p></li>
+<li><p>
+<a href="/gis/svrgis/">Severe Weather GIS (SVRGIS)</a>
+page has been updated with tornadoes (1950-2008), hail/wind (1955-2008)
+reports converted into shapefile (.shp) format.
+Visit <a href="/gis/svrgis/">www.spc.noaa.gov/gis/svrgis/</a>
+for details.
+</p></li>
+<li><p>
+<a href="//www.norman.noaa.gov/nsww/">2010 National Severe Weather Workshop</a> is scheduled for March 4-6, 2010 in Norman, OK.
+Visit <a href="//www.norman.noaa.gov/nsww/">www.norman.noaa.gov/nsww/</a> for details.
+</p></li>
+<li><p>
+<a href="/products/exper/enhtstm/">Experimental Enhanced Resolution
+Thunderstorm Outlooks</a> product was suspended on February 27, 2009
+for further development and refinement.
+This experimental product is now available to the general public on
+May 5, 2009.
+Please click <a href="/products/exper/enhtstm/enhtstm_pdd.html">
+here</a> for a description of the revised outlook product.
+Click <a href="/misc/SPC_NewThunder_PDD_ver3.pdf">
+here</a> for the Product Description Document (PDD).
+</p></li>
+<li><p>
+<a href="/products/exper/enhtstm/">Experimental Enhanced Resolution Thunderstorm Outlooks</a>
+were suspended on February 27, 2009.  Please visit <a href="/products/exper/enhtstm/enhtstm_pdd.html">here</a>
+for a description of the revised outlook product.
+</p></li>
+<li><p>
+<a href="//www.norman.noaa.gov/nsww2009/">2009 National Severe Weather Workshop</a> is scheduled for March 5-7, 2009 in Norman, OK.
+Visit <a href="//www.norman.noaa.gov/nsww2009/">www.norman.noaa.gov/nsww2009/</a> for details.
+</p></li>
+<li><p>
+<a href="/products/md/">MD</a> LAT/LON points format changed effective 10/21/2008.  The change standardizes the format for LAT/LON data within SPC products.
+</p></li>
+<li><p>
+Click <a href="/products/exper/fire_wx/">here</a> then click on the <strong>FNUS38 KWNS PFWF38</strong> link close to the bottom of the page to see the LAT/LON points product for Day 3-8 Fire Weather Outlook. (effective May 20, 2008)
+</p></li>
+<li><p>
+Click <a href="/products/exper/day4-8/">here</a> then click on the <strong>WWUS48 PTSD48</strong> link to see the LAT/LON points product for Day 4-8 Convective Outlook. (effective March 25, 2008)
+</p></li>
+<li><p>
+<a href="//www.norman.noaa.gov/nsww2008/">
+2008 National Severe Weather Workshop</a> is scheduled for March 6-8, 2008 in Norman, Oklahoma.
+Visit <a href="//www.norman.noaa.gov/nsww2008/">www.norman.noaa.gov/
+nsww2008/</a> for details.
+</p></li>
+<li><p>
+Click <a href="/climo/online/monthly/">here</a> to see the SPC Preliminary Severe Weather Database Summary.
+</p></li>
+<li><p>
+The <a href="/products/exper/fire_wx/">day 3-8 fire weather outlook</a>
+became an official product June 12, 2007.
+</p></li>
+<li><p>
+The <a href="/products/exper/day4-8/">day 4-8 convective outlooks</a>
+became an official product March 22, 2007.
+</p></li>
+<li><p>
+<a href="//www.norman.noaa.gov/nsww2007/">2007 National Severe Weather Workshop</a> is scheduled for March 1-3, 2007.
+Visit <a href="//www.norman.noaa.gov/nsww2007/">www.norman.noaa.gov/nsww2007/</a> for details.
+</p></li>
+<li><p>
+The SPC has updated the <a href="/exper/sref/">Short-Range Ensemble (SREF)</a> guidance page.
+</p></li>
+<li><p>
+Go to <a href="//www.wdtb.noaa.gov/courses/EF-scale/index.html">www.wdtb.noaa.gov/courses/EF-scale/index.html</a>
+for more information regarding EF-Scale training by the WDTB.
+</p></li>

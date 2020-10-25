@@ -1,0 +1,246 @@
+
+#pwoContainer {
+        width: 900px;
+	margin: 0 auto;
+	padding: 1px;
+	position: relative;
+	display: inline;
+}
+#pwoImageDiv {
+	width: 810px;
+	margin: 0 auto;
+        padding: 0px;
+}
+#headlineTable {
+	width: 810px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+#headlineNormal {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+	letter-spacing: .1em;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+#headlinePWO {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: right;
+        letter-spacing: .1em;
+        margin: 0 auto;
+	width: 550px;
+	vertical-align: middle;
+}
+#headlineMP4image  {
+	width: 140px;
+}
+#headlineMP4 {
+	width: 120px;
+        text-align: right;
+        margin: 0 auto;
+        vertical-align: middle;
+}
+#headlineMP4 a,a:link,a:visited {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#headlineMP4 a:hover {
+	color: #ff00ff;
+	text-decoration: underline;
+}
+#imageControl {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+#dropDown {
+	float: right;
+//	vertical-align: text-top;
+	padding: 0px;
+	margin: 0px 2px 0px 0px;
+	font-size: 12px;
+}
+#popTable {
+	width: 805px;
+	margin: 2px auto;
+	padding: 2px;
+	border: 1px solid #aaaaaa;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+#PWOdiv {
+	width: 800px;
+        margin: 2px auto;
+        padding: 5px;
+        border: 1px solid #aaaaaa;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-align: left;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+}
+#PStable {
+        width: 810px;
+        margin: 2px auto;
+        padding: 1px;
+}
+#PSthumb {
+	float: left;
+        width: 265px;
+        margin: 2px auto;
+        padding:5px 1px 1px 1px;
+        border: 1px solid #aaaaaa;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-align: center;
+	font-weight: bold;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+}
+
+#SUMdiv {
+	width: 800px;
+        margin: 2px auto;
+        padding: 5px;
+        border: 1px solid #aaaaaa;
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+	text-align: left;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+}
+#SUMtitle {
+	font-size: 16px;
+        font-weight: bold;
+	color: #0062AE;
+	letter-spacing: .1em;
+	margin: 5px 0px 5px 0px;
+}
+#PWOtext {
+        font-size: 14px;
+        font-weight: normal;
+        color: #000;
+        letter-spacing: .05em;
+	line-height: 1.2em;
+        margin: 5px 0px 5px 0px;
+}
+#dateDiv {
+	width: 800px;
+        margin: 2px auto;
+        padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-align: left;
+	font-style: italic;
+	color: #000000;
+}
+
+td.off {
+background:#91b8ff;
+}
+td.on {
+background:#003399;
+}
+
+#impactTbl {
+        margin: 0 0 0 1px;
+        float: left;
+}
+.impacts {
+        font-size: 8pt;
+        font-weight: bold;
+        font-family: arial;
+        vertical-align: middle;
+}
+.cities_high { background: #ff7fff; vertical-align: middle; }
+.cities_mdt { background: #e67f7f; vertical-align: middle;}
+.cities_enh { background: #e6c27f; vertical-align: middle; }
+.cities_slgt { background: #f6f67f; vertical-align: middle; }
+.cities_mrgl { background: #7fc57f; vertical-align: middle; }
+.ac-mod { background: #ff0000; vertical-align: middle;}
+.ac-enh { background: #e69600; vertical-align: middle; }
+.ac-slgt { background: #f6f600; vertical-align: middle; }
+.ac-mrgl { background: #00c500; vertical-align: middle; }
+.ac-nosvr { background: #e7e7e7; vertical-align: middle; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SPCQuickView {
+	background: none repeat scroll 0 0 #0062ae;
+	border-radius: 10px 10px 0 0;
+	display: block;
+	height: 20px;
+	padding: 5px 0;
+	position: relative;
+	vertical-align: middle;
+	width: 700px;
+}
+.SPCQuickViewTabFirst {
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.thumbnail {
+	float: left;
+	padding: 0 5px 0 5px;
+}
+#show {
+	display: block;
+	width: 700px;
+	height: 700px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+#pwoMainImage {
+        width: 700px;
+        height: 700px;
+        margin: 0px;
+        padding: 0px;
+}
+#pwoThumbs {
+        width: 700px;
+        margin: 0px;
+        padding: 0px;
+}
+#pwoThumbs img {
+        width: 115px;
+        height: 115px;
+        margin: 1px;
+        float: left;
+}

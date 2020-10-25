@@ -1,0 +1,732 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="//www.w3.org/1999/xhtml" xmlns:og="//ogp.me/ns#" xmlns:fb="//www.facebook.com/2008/fbml">
+<head>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+  <title>Storm Prediction Center</title>
+  <meta property="og:title" content="Storm Prediction Center" />
+  <meta property="og:type" content="government" />
+  <meta property="og:url" content="/" />
+  <meta property="og:image" content="//www.spc.noaa.gov/products/outlook/day1otlk_sm.gif" />
+  <meta property="og:site_name" content="NOAA NWS Storm Prediction Center" />
+  <meta property="fb:admins" content="1819456490" />
+  <meta property="og:image" content="//www.spc.noaa.gov/products/watch/validww.png" />
+  <meta property="og:image" content="//www.spc.noaa.gov/products/md/validmd.png" />
+  <meta property="og:image" content="//www.spc.noaa.gov/products/fire_wx/day1fireotlk_sm.png" />
+  <meta property="og:image" content="//www.spc.noaa.gov/climo/reports/today.gif" />
+  <meta property="og:image" content="//www.spc.noaa.gov/climo/reports/yesterday.gif" />
+  <meta property="og:image" content="//www.spc.noaa.gov/products/activity_loop.gif" />
+  <meta property="og:sitename" content="NOAA/NWS/SPC" />
+  <meta property="og:description" content="The SPC exists solely to protect life and property of the American people through the issuance of timely and accurate watch and forecast products dealing with tornadoes, wildfires and other hazardous mesoscale weather phenomena." />
+  <meta name="DC.title" content="NOAA's NWS Storm Prediction Center" />
+  <meta name="DC.description" content="Storm Prediction Center Home Page." />
+  <meta name="DC.subject" content="Tornado/severe thunderstorm watches, mesoscale discussions, day 1, 2, 3 convective outlooks, day 1, 2 fire weather outlooks, experimental day 4-8 severe thunderstorm outlooks, experimental day 3-8 fire weather outlooks, storm reports, severe thunderstorm events archive, mesoscale analysis, tornado FAQ, staff research publications" />
+  <meta name="DC.date.reviewed" scheme="ISO8601" content="2005-12-09" />
+  <meta name="DC.date.created" scheme="ISO8601" content="2001-01-01" />
+  <meta name="DC.format" content="text/html; charset=iso-8859-1" />
+  <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+  <meta name="DC.Distribution" content="Global" />
+  <meta name="DC.robot" content="all" />
+  <meta name="DC.creator" content="Storm Prediction Center" />
+  <meta name="DC.contributor" content="Storm Prediction Center " />
+  <meta name="DC.publisher" content="NOAA's National Weather Service" />
+  <link rel="schema.DC" href="//purl.org/dc/elements/1.1/" />
+  <link rel="schema.DCTERMS" href="//purl.org/dc/terms/" />
+  <link rel="DC.rights" href="//www.weather.gov/disclaimer.php" />
+
+  <meta content="NCEP/SPC Web Team" name="GENERATOR" />
+  <link href="/nwscwi/spccwi.css" type="text/css" rel="STYLESHEET" />
+  <link href="/nwscwi/main.css" type="text/css" rel="STYLESHEET" />
+  <META NAME="ROBOTS" CONTENT="ALL">
+  <link rel="alternate" type="application/rss+xml" title="SPC Forecast Products RSS" href="/products/spcrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Tornado/Severe Thunderstorm Watches RSS" href="/products/spcwwrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Mesoscale Discussions RSS" href="/products/spcmdrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Convective Outlooks RSS" href="/products/spcacrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Thunderstorm Outlooks RSS" href="/products/spctstmrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Fire Weather Outlooks RSS" href="/products/spcfwrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC PDS Watches RSS" href="/products/spcpdswwrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Multimedia Briefings RSS" href="/products/spcmbrss.xml" />
+  <meta name="description" content="Severe weather information from the Storm Prediction Center." />
+  <meta name="keywords" content="severe weather, watches, warnings, meteorology, outlooks, storm reports, SPC, Storm Prediction Center" />
+  <script type="text/javascript" src="/misc/usno_gmttime.js"></script>
+  <script type="text/javascript" src="/misc/lastMod.js"></script>
+
+<script language="Javascript" type="text/javascript">
+function show_tab(nam)
+   {
+   document.getElementById("TABoverview").style.display= "none";
+   document.getElementById("TABday1").style.display= "none";
+   document.getElementById("TABwatch").style.display= "none";
+   document.getElementById("TABmcd").style.display= "none";
+   document.getElementById("TABreport").style.display= "none";
+   document.getElementById("TABmeso").style.display= "none";
+   document.getElementById("TABfirewx").style.display= "none";
+   document.getElementById("TABwwa1").style.display= "none";
+   document.getElementById(nam).style.display = "block";
+   }
+</script>
+
+<style type ="text/css">
+td.off {
+background:#91b8ff;
+}
+td.on {
+background:#003399;
+}
+</style>
+
+</head>
+<body leftmargin="0" background="/nwscwi/nws_background.gif"
+      topmargin="0" rightmargin="0" marginheight="0" marginwidth="0">
+
+<!-- Header here-->
+<table cellspacing="0" cellpadding="0" width="100%" background="/nwscwi/topbanner.jpg" border="0">
+  <tr>
+    <td align="right" height="19">
+      <a href="#contents"><img height="1" alt="Skip Navigation Links"
+         src="/nwscwi/skipgraphic.gif" width="1" border="0"></a>
+      <a href="//www.weather.gov/" target="_blank"><span class="nwslink">weather.gov</span></a>&nbsp;</td>
+  </tr>
+</table>
+
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tr>
+    <td rowspan="2"><a href="//www.noaa.gov" target="_blank"><img src="/nwscwi/noaaleft.jpg" alt="NOAA logo-Select to go to the NOAA homepage" width="85" height="78" border="0" /></a></td>
+<!--
+    <td width="500" height="20" align="center" nowrap background="/nwscwi/blank_title.jpg"><a href="//www.weather.gov/" target="_blank"><span class="regionwhite">NOAA's National Weather Service</span></a></td>
+-->
+    <td><img src="/nwscwi/noaa_nws_title.jpg" width="500" height="20" border="0" alt="NOAA's National Weather Service"></td>
+    <td rowspan="2" width="100%" background="/nwscwi/ncep_bkgrnd.jpg">&nbsp;</td>
+    <td rowspan="2" align="right"><a href="//www.weather.gov/" target="_blank"><img src="/nwscwi/nwsright.jpg" alt="Select to go to the NWS homepage" width="85" height="78" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="/"><img height="58" alt="Storm Prediction Center" src="/nwscwi/spc.jpg" width="500" border="0"></td>
+  </tr>
+</table>
+
+<table cellspacing="0" cellpadding="0" width="100%" background="/nwscwi/navbkgrnd.gif" border="0">
+  <tr>
+    <td align="left" valign="top" width="94"><img height="23" alt="navigation bar left" src="/nwscwi/navbarleft.jpg" width="94" border="0"></td>
+    <td class="nav" id="menuitem" align="center" width="15%">
+      <a href="/sitemap.html">Site Map</a></td>
+    <td class="nav" id="menuitem" align="right" width="15%">
+      <a href="//www.weather.gov/pa/">News</a></td>
+    <td class="nav" id="menuitem" align="right" width="20%">
+      <a href="//www.weather.gov/organization.php">Organization</a></td>
+    <td width="20%">&nbsp;</td>
+    <td align="left" class="searchinput" width="20%" nowrap="nowrap"><!-- Begin search code -->
+      <form method="get" action="search.usa.gov/search">
+        <input type="hidden" name="v:project" value="firstgov" />
+        <label for="query" span class="yellow">Search for:&nbsp;&nbsp;</label>
+        <input type="text" name="query" id="query" size="10"/>
+        <input type="radio" name="affiliate" checked="checked" value="ncep.noaa.gov"" id="ncep" />
+        <label class="yellow" for="ncep">NCEP</label>
+        <input type="radio" name="affiliate" value="noaa.gov" id="noaa" />
+        <label class="yellow" for="noaa">All NOAA</label>
+        <input type="submit" value="Go"  /></label>
+      </form>
+    </td><!-- End search code -->
+    <td width="10%">&nbsp;</td>
+    <td align="right" valign="bottom" width="24"><img src="/nwscwi/navbarendcap.jpg" alt="navigation bar end cap" width="24" height="23" border="0" /></td>
+  </tr>
+
+</table>
+
+
+<table cellspacing="0" cellpading="0" width="750" border="0">
+<tr valign="top">
+<td width="130" bgcolor="#0a2390">
+
+<!-- Left menu here-->
+<table cellspacing="0" cellpadding="2" width="130" border="0">
+        <!-- Do not remove this section. You will need this when the City,St/zip search is implemented nationwide.-->
+      	<!-- <tr align="left" valign="top">
+	        <td class="searchinput">
+	          <div id="Layer2" style="position:absolute; width:200px; height:115px; z-index:2; visibility: hidden">Search by city or zip code. Press enter or select the go button to submit request</div>
+	          <form method="POST" action="//www.srh.noaa.gov/zipcity.php">
+	          <span class="yellow">Local forecast by<br />&quot;City, St&quot; or Zip Code</span><br />
+	          <input type="text" name="inputstring" size="10" value="City, St" onfocus="this.value='';" />&nbsp;
+	          <input type="submit" name="Go2" value="Go"><br /><br /></td>
+	</tr></form> -->
+        <tr valign="top">
+          <td class="searchinput" align="left"> <form method="post" action="//forecast.weather.gov/zipcity.php">
+              <div ID="Layer2" STYLE="position:absolute; width:200px;  height:115px; z-index:2; visibility: hidden">Search by city or zip code. Press enter or select the go button to submit request</div>
+              <span class="yellow"><label for="city_state">Local&nbsp;forecast&nbsp;by<br />&quot;City,&nbsp;St&quot;&nbsp;or&nbsp;&quot;ZIP&quot;</label></span><br />
+              <input type="text" id="city_state" name="inputstring" size="10" value="City, St" onfocus="this.value='';" />&nbsp;
+              <input type="submit" name="Go2" value="Go" />
+            </form>
+          </td>
+        </tr>
+<!-- Old Search code 
+        <tr>
+          <td class="searchinput" align="left">
+            <form method="get" action="//firstgovsearch.gov/search">
+            <input type="hidden" name="v:project" value="firstgov" />
+            <label for="query" span class="yellow">Search
+            for:&nbsp;&nbsp;</label><input type="text" name="query" id="query"
+            size="10"/>
+            <input type="radio" name="affiliate" checked="checked"
+            value="www.spc.noaa.gov"" id="spc" /><label for="spc">SPC</label>
+            <input type="radio" name="affiliate" value="noaa.gov" id="noaa" /><label
+            for="noaa">All NOAA</label>
+            <input type="submit" value="Go"  />
+            </label>
+            </form>
+
+            <form method="get" action="//firstgovsearch.gov/search" style="margin-bottom:0; margin-top:0;">
+              <label for="Search" span class="yellow">Search&nbsp;SPC</span></label>
+              <input type="hidden" name="affiliate" value="nws.noaa.gov" />
+              <input type="hidden" name="v:project" value="firstgov" />
+              <input type="hidden" name="query" value="site:www.spc.noaa.gov" />
+              <input name="query" type="text" value="Search&nbsp;SPC" size="10" maxlength="256" id="Search"/>
+              <input type="submit" value="Go"  />
+            </form>
+          </td>
+
+            <form action="//www.firstgov.gov/fgsearch/index.jsp" name="query">
+              <input type="hidden" name="parsed" value="true">
+              <input type="hidden" name="rn" value="3">
+              <input type="hidden" name="in0" value="domain">
+              <input type="hidden" name="dom0" value="spc.noaa.gov">
+              <span class="yellow">Search&nbsp;SPC</span><br />
+              <input type="text" name="mw0" id="search"  size="10" maxLength="256" value="SPC search" />&nbsp;
+              <input type="submit" name="Go2" value="Go" />
+          </form></td>
+        </tr>
+Old search code -->
+        <tr>
+	  <td class="white" id="menuitem">
+            <span class="yellow"><a href="/faq/index.html#3.1">UTC/GMT/Zulu</a>&nbsp;Time</span><br />
+            <span class="utcclock" id="USNOtime">JavaScript Must Be Enabled.</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="white" id="menuitem">
+            <hr width="90%"/>
+            <div style="text-align:center;">
+              <span><a href="//www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=//www.facebook.com/US.NOAA.StormPredictionCenter" target="SPC_Facebook" title="NOAA NWS Storm Prediction Center Facebook"><img src="/misc/facebook_logo.gif" style="border: 0px;" /><br />SPC on Facebook</a></span>
+              <hr width="80%"/>
+              <span><a href="//www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=//twitter.com/NWSSPC" target="_blank" title="NOAA NWS Storm Prediction Center Twitter"><img src="/misc/twitter-bird-light-bgs.png" style="border: 0px;height: 40px;width: 40px;vertical-align: middle;" />@NWSSPC</a></span>
+              <hr width="80%"/>
+              <span class="yellow"><a href="//www.ncep.noaa.gov/newsletter/" target="NCEP_Newsletter">NCEP Quarterly Newsletter</a></span>
+            </div>
+            <hr width="90%"/>
+            <a href="/"><span class="yellow">Home</span></a><br />
+            <span class="yellow">SPC&nbsp;Products</span><br />
+            &nbsp;&nbsp;&nbsp;<a href="/products/">All&nbsp;SPC&nbsp;Forecasts</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/products/watch/">Current&nbsp;Watches</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/products/md/">Meso.&nbsp;Discussions</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/products/outlook/">Conv.&nbsp;Outlooks</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/products/exper/enhtstm/">Tstm.&nbsp;Outlooks</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/products/fire_wx/overview.html">Fire&nbsp;Wx&nbsp;Outlooks</a><br />
+	    &nbsp;&nbsp;&nbsp;<a href="/products/spcrss.xml"><img src="/nwscwi/xml2.gif" alt="XML logo" border="0" height="13" width="13"></a>&nbsp;<a href="/aboutrss.html">RSS&nbsp;Feeds</a><br />
+	    &nbsp;&nbsp;&nbsp;<a href="//www.nws.noaa.gov/emailupdates/">E-Mail Alerts</a><br />
+	    
+	    <span class="yellow">Weather&nbsp;Information</span><br />
+	    &nbsp;&nbsp;&nbsp;<a href="/climo/online/">Storm&nbsp;Reports</a><br />
+	    &nbsp;&nbsp;&nbsp;<a href="//www.weather.gov/largemap.php" target="NWS_Hazards">NWS&nbsp;Hazards&nbsp;Map</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/products/wwa/">Watch/Warning&nbsp;Map</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="//www.nws.noaa.gov/radar_tab.php" target="radar_window">National&nbsp;RADAR</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/archive/">Product&nbsp;Archive</a><br />
+            &nbsp;&nbsp;&nbsp;<A href="//www.weather.gov/data/obhistory/KOUN.html" target="norman_ok_wx">Norman,&nbsp;OK&nbsp;WX</a><br />
+            &nbsp;&nbsp;&nbsp;<A href="//www.weather.gov/nwr/" target="NWR_window">NOAA&nbsp;Weather&nbsp;Radio</a><br />
+
+            <span class="yellow">Research</span><br />
+            &nbsp;&nbsp;&nbsp;<a href="/products/exper/">Non-op.&nbsp;Products</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/exper/">Forecast&nbsp;Tools</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/exper/archive/events/">Svr.&nbsp;Tstm.&nbsp;Events</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/publications/">SPC&nbsp;Publications</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="//hwt.nssl.noaa.gov" target="NOAA_HWT">SPC-NSSL&nbsp;HWT</a><br />
+
+            <span class="yellow">Education&nbsp;&&nbsp;Outreach</span><br />
+            &nbsp;&nbsp;&nbsp;<a href="/misc/aboutus.html">About&nbsp;the&nbsp;SPC</a><br />
+	    &nbsp;&nbsp;&nbsp;<a href="/faq/">SPC&nbsp;FAQ</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/faq/tornado/">About&nbsp;Tornadoes</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/misc/AbtDerechos/derechofacts.htm">About&nbsp;Derechos</a><br />
+	    &nbsp;&nbsp;&nbsp;<a href="/wcm/">WCM&nbsp;Page</a><br />
+	    &nbsp;&nbsp;&nbsp;<a href="/efscale/">Enh.&nbsp;Fujita&nbsp;Page</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/coolimg/">Cool&nbsp;Images</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/history/early.html">Our&nbsp;History</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="//www.norman.noaa.gov/publicaffairs/" target="pa_window">Public&nbsp;Affairs</a><br />
+
+            <span class="yellow">Misc.</span><br />
+            &nbsp;&nbsp;&nbsp;<a href="/staff/">Staff</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="/misc/links.html">Links</a><br />
+
+            <span class="yellow">Contact&nbsp;Us</span><br />
+            &nbsp;&nbsp;&nbsp;<a href="/misc/feedback.html">SPC&nbsp;Feedback</a><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td align="center"><a href="//www.USA.gov/"><img src="/misc/usagov_logo_color_110w_30h.gif" alt="USA.gov is the U.S. Government's official Web portal to all Federal, state and local government Web resources and services." width="110" height="30" border="0"></a></td>
+        </tr>
+<!--
+        <tr>
+          <td align="center">
+            <a href="//www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=//www.facebook.com/US.NOAA.StormPredictionCenter" target="_TOP" title="NOAA NWS Storm Prediction Center"><img src="//badge.facebook.com/badge/248179758532328.3017.109230598.png" width="120" height="216" style="border: 0px;" /></a>
+          </td>
+        </tr>
+-->
+      </table>
+
+
+</td>
+<td valign="top" align="center" width="620"><a name="contents"></a>
+
+<br />
+<table border="0" cellpadding="0" cellspacing="0" width="600">
+<tr>
+<td bgcolor="#003399" width="67%"><font color="#ffffff"><strong>&nbsp;&nbsp;Top News of the Day</strong></font></td>
+<td width="37%"></td>
+</tr>
+<table>
+<table border="0" cellpadding="2" cellspacing="0" width="600">
+<tr>
+<td>
+<table border="0" cellpadding="2" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+<tr><td>
+<table border="0" cellpadding="2" cellspacing="0" width="95%" bgcolor="#FFFFFF">
+
+<?php
+  /* read in spcnews.txt and generate the "Top" news items */
+/* Format of an SPC news item in spcnews.txt:
+loc:top
+upd:2013-03-20 15:39:00 UTC
+exp:2013-03-20 23:00:00 UTC
+imp:<strong><font color="#ff0000">CRITICAL:&nbsp;</font></strong>
+msg:PWO for all of Florida, Look out!!!
+end:
+*/
+  $file_handle = fopen("./spcnews/spcnews.txt", "r");
+  $spc_top_news = "";
+  $spc_top_news_updated;
+  $spc_other_news = "";
+  $spc_other_news_updated;
+  while (!feof($file_handle)) {
+    $line = fgets($file_handle, 4096);
+    $spc_msg_complete = 0;
+    $spc_upd = "";
+    $spc_exp = "";
+    $spc_imp = "";
+    $spc_msg = "";
+    $spc_loc = 0; /* 0 = top, 1 = other */
+    if (strpos($line,"loc:top") !== false || strpos($line,"loc:other") !== false) {
+      if (strpos($line,"loc:top") !== false) {$spc_loc = 0;}
+      if (strpos($line,"loc:other") !== false) {$spc_loc = 1;}
+      while ($line !== false && $spc_msg_complete == 0) {
+        $line = fgets($file_handle, 4096);
+        if (strpos($line,"upd:") !== false) {
+          $spc_upd = date_create_from_format('Y-m-d H:i:s e', substr(trim($line), 4));
+          if ($spc_loc == 0) {
+            if ($spc_upd > $spc_top_news_updated) {
+              $spc_top_news_updated = $spc_upd;
+            }
+          }
+          if ($spc_loc == 1) {
+            if ($spc_upd > $spc_other_news_updated) {
+              $spc_other_news_updated = $spc_upd;
+            }
+          }
+        }
+        if (strpos($line,"exp:") !== false) {
+          $spc_exp = date_create_from_format('Y-m-d H:i:s e', substr(trim($line), 4));
+        }
+        if (strpos($line,"imp:") !== false) {
+          $spc_imp = substr(trim($line), 4); /* strip out the leading "imp:" */
+        }
+        if (strpos($line,"msg:") !== false) {
+          $spc_msg = substr(trim($line), 4); /* strip out the leading "msg:" */
+          while ($line !== false && $spc_msg_complete == 0) {
+            $line = fgets($file_handle, 4096);
+            if (strpos($line,"end:") === false) {
+              $spc_msg = $spc_msg . "\n" . trim($line);
+            }
+            else {
+              $spc_msg_complete = 1;
+            }
+          }
+        }
+      }
+      /* If the current time is past the expiration time, we won't display this item */
+      if ($spc_exp < date_create()) {
+        $spc_msg_complete = 0;
+      }
+      if ($spc_msg_complete == 1) {
+        $spc_line = "";
+        $spc_line = $spc_line . '<tr>' . "\n";
+        $spc_line = $spc_line . '  <td align="left" width="5%">' . "\n";
+        $spc_line = $spc_line . '    <img src="/nwscwi/bullet.gif" alt="NOAA logo bullet" />' . "\n";
+        $spc_line = $spc_line . '  </td>' . "\n";
+        $spc_line = $spc_line . '  <td align="left" width="95%">' . "\n";
+        $spc_line = $spc_line . '    <p>' . $spc_imp . $spc_msg;
+        if ($spc_loc == 0) {
+          $spc_line = $spc_line . ' (Updated: ' . date_format($spc_upd, 'Y-m-d H:i:s e') . ")\n";
+        }
+        else {
+          $spc_line = $spc_line . ' (Updated: ' . date_format($spc_upd, 'F j, Y') . ")\n";
+        }
+        $spc_line = $spc_line . '    </p>' . "\n";
+        $spc_line = $spc_line . '  </td>' . "\n";
+        $spc_line = $spc_line . '</tr>' . "\n";
+        if ($spc_loc == 0) {$spc_top_news = $spc_top_news . $spc_line;}
+        if ($spc_loc == 1) {$spc_other_news = $spc_other_news . $spc_line;}
+      }
+    }
+  }
+  fclose($file_handle);
+  echo $spc_top_news;
+?>
+
+<!-- start of important announcement -->
+<!-- Mon Mar  6 21:21:59 UTC 2006
+<tr>
+<td align="left" width="5%">
+<img src="/nwscwi/bullet.gif" alt="NOAA logo bullet"></td>
+<td align="left" width="95%">
+<p><strong><a href="//www.norman.noaa.gov/nsww2006/">2006 National Severe Weather Workshop</a> is scheduled for March 2, 3 and 4, 2006.
+Visit <a href="//www.norman.noaa.gov/nsww2006/">//www.norman.noaa.gov/nsww2006/</a> for details.</strong></p>
+</td>
+</tr>
+Mon Mar  6 21:21:59 UTC 2006 -->
+<!-- end of important announcement -->
+
+<tr>
+  <td align="left" width="5%"></td>
+  <td align="left" valign="top" width="95%">
+    More news items below the overview graphic.
+    Updated: 2013-03-20 17:27:05 UTC
+  </td>
+</tr>
+
+</table>
+</td></tr>
+</table>
+</td></tr>
+</table>
+
+
+<!-- Facebook Like
+<div id="fb-root"></div><script src="//connect.facebook.net/en_US/all.js#appId=226674544033829&amp;xfbml=1"></script><fb:like href="/" send="true" width="550" show_faces="true" font="arial"></fb:like>
+Facebook Like -->
+
+<noscript>
+  <font color="red">For best viewing experience, please enable browser JavaScript/Active Scripting.</font>
+</noscript>
+
+
+<table cellspacing="0" cellpadding="0" width="586" border="0" align="center" name="Tabs">
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" width="586" border="1" align="center" name="Tabs">
+<tr>
+<td class="nav" id="menuitem" width="70" height="25" align="center" bgcolor="#0A2390" OnMouseOver="show_tab('TABoverview')"><a href="/products/" OnMouseOver="show_tab('TABoverview')" alt="Overview">Overview</a></td>
+<td class="nav" id="menuitem" width="95" height="25" align="center" bgcolor="#0A2390" OnMouseOver="show_tab('TABday1')"><a href="/products/outlook/" OnMouseOver="show_tab('TABday1')" alt="Current Day 1 Outlook">Conv.&nbsp;Outlooks</a></td>
+<td class="nav" id="menuitem" width="70" height="25" align="center" bgcolor="#0A2390" OnMouseOver="show_tab('TABwatch')"><a href="/products/watch/" OnMouseOver="show_tab('TABwatch')" alt="Current Watches">Watches</a></td>
+<td class="nav" id="menuitem" width="50" height="25" align="center" bgcolor="#0A2390" OnMouseOver="show_tab('TABmcd')"><a href="/products/md/" OnMouseOver="show_tab('TABmcd')" alt="Current MDs">MDs</a></td>
+<td class="nav" id="menuitem" width="70" height="25" align="center" bgcolor="#0A2390" OnMouseOver="show_tab('TABreport')"><a href="/climo/online/" OnMouseOver="show_tab('TABreport')" alt="Today's Storm Reports">Reports</a></td>
+<td class="nav" id="menuitem" width="95" height="25" align="center" bgcolor="#0A2390" OnMouseOver="show_tab('TABmeso')"><a href="/exper/mesoanalysis/" OnMouseOver="show_tab('TABmeso')" alt="Mesoanalysis Page">Mesoanalysis</a></td>
+<td class="nav" id="menuitem" width="50" height="25" align="center" bgcolor="#0A2390" OnMouseOver="show_tab('TABfirewx')"><a href="/products/fire_wx/overview.html" OnMouseOver="show_tab('TABfirewx')" alt="Day 1 Fire Weather">Fire</a></td>
+<td class="nav" id="menuitem" width="70" height="25" align="center" bgcolor="#0A2390" OnMouseOver="show_tab('TABwwa1')"><a href="//www.weather.gov/largemap.php" target="NWS_Hazards" OnMouseOver="show_tab('TABwwa1')" alt="Current NWS Hazards Map">Hazards</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="586" cellpadding="0" cellspacing="0" align="center" bgcolor="#003399">
+<tr>
+
+<td>
+
+<div id="TABoverview" style="display:block;">
+<a href="/products/"><img src="/products/activity_loop.gif" alt="SPC Products Overview" width="582" height="408"></a>
+</div>
+
+<div id="TABday1" style="display:none;">
+<a href="/products/outlook/day1otlk.html"><img src="/products/outlook/day1otlk-overview.gif" alt="Latest Day 1 convective outlook" width="582" height="408"></a>
+</div>
+
+<div id="TABwatch" style="display:none;">
+<a href="/products/watch/"><img src="/products/watch/validww.png" alt="Current Watches" width="582" height="408"></a>
+</div>
+
+<div id="TABmcd" style="display:none;">
+<a href="/products/md/"><img src="/products/md/validmd.png" alt="Current MDs" width="582" height="408"></a>
+</div>
+
+<div id="TABreport" style="display:none;">
+<a href="/climo/online/"><img src="/climo/reports/today.gif" alt="Today's severe weather reports" width="582" height="408"></a>
+</div>
+
+<div id="TABmeso" style="display:none;">
+<a href="/exper/mesoanalysis/"><img src="/exper/mesoanalysis/sectorloop2.gif" alt="Mesoanalysis Page" width="582" height="408"></a>
+</div>
+
+<div id="TABfirewx" style="display:none;">
+<a href="/products/fire_wx/"><img src="/products/fire_wx/day1fireotlk-overview.png" alt="Lastest Day 1 fire weather forecast" width="582" height="408"></a>
+</div>
+
+<div id="TABwwa1" style="display:none;">
+<a href="//www.weather.gov/largemap.php" target="NWS_Hazards"><img src="//forecast.weather.gov/wwamap/png/US.png" alt="Current National Weather Hazards Map" width="582" height="408"></a>
+</div>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<style type ="text/css">
+td.off {
+background:#91b8ff;
+}
+td.on {
+background:#003399;
+}
+
+.matrix {
+        font-size: 8pt;
+        font-family: arial;
+}
+A.black:link {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:visited {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:active {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:hover {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: underline;
+        font-family: arial;
+}
+A.awhite:link {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:visited {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:active {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:hover {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: underline;
+        font-family: arial;
+}
+
+.ac-high { background: #ff00ff; }
+.ac-mod { background: #ff0000; }
+.ac-slight { background: #ffa000; }
+.ac-seetext { background: #fcde0a; }
+.ac-nosevere { background: #d2ffa6; }
+.ac-nothunder { background: #7efe00; }
+.mx-unknown { background: #ffffff; }
+.mx-inprogress { background: #ffffff; }
+.ac48-sig { background: #ff0000; }
+.ac48-severe { background: #ffa000; }
+.ac48-uncertain { background: #fbf58c; }
+.ac48-noarea { background: #e7e7e7; }
+.ac48-unknown { background: #ffffff; }
+.fw12-extreme { background: #ff00ff; }
+.fw12-critical { background: #ff0000; }
+.fw12-seetext { background: #fcde0a; }
+.fw12-low { background: #d2ffa6; }
+.fw38-critical { background: #ff0000; }
+.fw38-uncertain { background: #fbf58c; }
+.fw38-noarea { background: #e7e7e7; }
+</style>
+
+<table width='586' cellspacing='0' cellpadding='0' align='center'>
+<tbody>
+<tr>
+<td style='border: 1px solid black;'>
+<table cellspacing='1' cellpadding='2' border='0' width='100%'>
+<tr style='background-color: #0A2390; text-align: center;'>
+<td align='center' bgcolor='#000000'><span class='matrix'><font color='#ffffff'>Hazard</font></span></td>
+
+
+<td align='center'><span class='matrix'><font color='#ffffff'>Wed&nbsp;(03/20)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Thu&nbsp;(03/21)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Fri&nbsp;(03/22)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Sat&nbsp;(03/23)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Sun&nbsp;(03/24)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Mon&nbsp;(03/25)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Tue&nbsp;(03/26)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Wed&nbsp;(03/27)</font></span></td>
+
+
+<tr align='center' bgcolor='#eeeeee'>
+<td align='center' bgcolor='#0a2390'><span class='matrix'><a href="/products/outlook/" class='awhite' title="SPC Convective Outlooks">Severe</a></span></td>
+
+<td align='center' class='ac-seetext'><a class='black' href='/products/outlook/day1otlk.html' title='Day 1 Convective Outlook Valid: 20/1630Z - 21/1200Z'>See Text</a></td>
+
+<td align='center' class='ac-seetext'><a class='black' href='/products/outlook/day2otlk.html' title='Day 2 Convective Outlook Valid: 21/1200Z - 22/1200Z'>See Text</a></td>
+
+<td align='center' class='ac-seetext'><a class='black' href='/products/outlook/day3otlk.html' title='Day 3 Convective Outlook Valid: 22/1200Z - 23/1200Z'>See Text</a></td>
+
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Convective Outlook Valid: 231200Z - 241200Z'>No Area</a></td>
+
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Convective Outlook Valid: 241200Z - 251200Z'>No Area</a></td>
+
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Convective Outlook Valid: 251200Z - 261200Z'>No Area</a></td>
+
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Convective Outlook Valid: 261200Z - 271200Z'>No Area</a></td>
+
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Convective Outlook Valid: 271200Z - 281200Z'>No Area</a></td>
+
+
+</tr>
+
+<tr align='center' bgcolor='#eeeeee'>
+<td align='center' bgcolor='#0a2390'><span class='matrix'><a href="/products/fire_wx/overview.html" class='awhite' title="SPC Fire Weather Outlooks">Fire</a></span></td>
+
+<td align='center' class='fw12-seetext'><a class='black' href='/products/fire_wx/fwdy1.html' title='Day 1 Fire Weather Outlook Valid: 201700Z - 211200Z'>See Text</a></td>
+
+<td align='center' class='fw12-critical'><a class='black' href='/products/fire_wx/fwdy2.html' title='Day 2 Fire Weather Outlook Valid: 211200Z - 221200Z'>Critical</a></td>
+
+<td align='center' class='fw38-critical'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 221200Z - 231200Z'>Critical</a></td>
+
+<td align='center' class='fw38-critical'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 231200Z - 241200Z'>Critical</a></td>
+
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 241200Z - 251200Z'>No Area</a></td>
+
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 251200Z - 261200Z'>No Area</a></td>
+
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 261200Z - 271200Z'>No Area</a></td>
+
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 271200Z - 281200Z'>No Area</a></td>
+
+
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table border='0' cellpadding='0' cellspacing='0' width='586'>
+<tr>
+<td>
+<span class='matrix'>Click on the hazard matrix cell to navigate to the specific forecast.</span>
+</td>
+</tr>
+</table>
+
+<br />
+
+<?php
+  echo '<table border="0" cellpadding="0" cellspacing="0" width="600">' . "\n";
+  echo '  <tr>' . "\n";
+  echo '    <td bgcolor="#003399" width="67%"><font color="#ffffff">' . "\n";
+  echo '      <strong>&nbsp;&nbsp;Other&nbsp;News</strong>';
+  echo ' (Updated:&nbsp;' . date_format($spc_other_news_updated, 'F j, Y') . ')' . "\n";
+  echo '    </font></td>' . "\n";
+  echo '    <td width="33%"></td>' . "\n";
+  echo '  </tr>' . "\n";
+  echo '</table>' . "\n";
+  echo '<table border="0" cellpadding="2" cellspacing="0" width="600">' . "\n";
+  echo '  <tr>' . "\n";
+  echo '    <td>' . "\n";
+  echo '      <table border="0" cellpadding="2" cellspacing="0" width="100%" bgcolor="#FFFFFF">' . "\n";
+  echo '        <tr><td>' . "\n";
+  echo '          <table border="0" cellpadding="2" cellspacing="0" width="95%" bgcolor="#FFFFFF">' . "\n";
+  echo $spc_other_news;
+  echo '          </table>' . "\n";
+  echo '        </td></tr>' . "\n";
+  echo '      </table>' . "\n";
+  echo '    </td>' . "\n";
+  echo '  </tr>' . "\n";
+  echo '</table>' . "\n";
+?>
+
+
+
+<hr width="80%" />
+
+<!-- Footer here-->
+<!-- Footers begin here-->
+<center>
+  <table cellspacing="2" cellpadding="2" border="0">
+    <tr align="center">
+    <td>Weather Topics:<br />
+      <a href="/products/watch/">Watches</a>,
+      <a href="/products/md/">Mesoscale Discussions</a>,
+      <a href="/products/outlook/">Outlooks</a>,
+      <a href="/products/fire_wx/">Fire Weather</a>,
+      <a href="/products/">All Products</a>,
+      <a href="/misc/feedback.html">Contact Us</a></td>
+    </tr>
+  </table>
+  <table cellspacing="6" cellpadding="0" width="98%" border="0">
+    <tr>
+      <td colSpan="3"><hr></td>
+    </tr>
+    <tr valign="top">
+      <td class="gray">
+        <a href="//www.noaa.gov/"><span class="gray">NOAA</span></a>&nbsp;/
+        <a href="//www.nws.noaa.gov/"><span class="gray">National Weather Service</span></a><br />
+        <a href="//www.ncep.noaa.gov/"><span class="gray">National Centers for Environmental Prediction</span></a><br />
+        <a href="/"><span class="gray">Storm Prediction Center</span></a><br />
+        120 David L. Boren Blvd.<br />
+        Norman, OK 73072 U.S.A.<br />
+        <a href="mailto:spc.feedback@noaa.gov?subject=[SPC web feedback]"><span class="gray">spc.feedback@noaa.gov</span></a><br />
+
+
+Page last modified:
+
+
+March 20, 2013</td>
+
+      <td>
+        <a href="//www.weather.gov/disclaimer.php">
+          <span class="gray">Disclaimer</span></a><br />
+        <a href="//www.cio.noaa.gov/Policy_Programs/info_quality.html">
+          <span class="gray">Information Quality</span></a><br />
+        <a href="//www.weather.gov/credits.php">
+          <span class="gray">Credits</span></a><br />
+        <a href="//www.weather.gov/glossary/">
+          <span class="gray">Glossary</span></a>
+      </td>
+      <td align="right">
+        <a href="//www.weather.gov/privacy.php">
+          <span class="gray">Privacy Policy</span></a><br />
+        <a href="//www.rdc.noaa.gov/%7Efoia/">
+          <span class="gray">Freedom of Information Act (FOIA)</span></a><br />
+        <a href="//www.weather.gov/admin.php">
+          <span class="gray">About Us</span></a><br />
+        <a href="//www.weather.gov/careers.php">
+          <span class="gray">Career Opportunities</span></a>
+      </td>
+    </tr>
+  </table>
+
+</center>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,126 @@
+
+<style type ="text/css">
+td.off {
+background:#91b8ff;
+}
+td.on {
+background:#003399;
+}
+
+.matrix {
+        font-size: 8pt;
+        font-family: arial;
+}
+A.black:link {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:visited {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:active {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.black:hover {
+        color: #000000;
+        font-size: 8pt;
+        text-decoration: underline;
+        font-family: arial;
+}
+A.awhite:link {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:visited {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:active {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: none;
+        font-family: arial;
+}
+A.awhite:hover {
+        color: #ffffff;
+        font-size: 8pt;
+        text-decoration: underline;
+        font-family: arial;
+}
+
+.ac-high { background: #ff00ff; }
+.ac-mod { background: #ff0000; }
+.ac-slight { background: #ffa000; }
+.ac-seetext { background: #fcde0a; }
+.ac-nosevere { background: #d2ffa6; }
+.ac-nothunder { background: #7efe00; }
+.mx-unknown { background: #ffffff; }
+.mx-inprogress { background: #ffffff; }
+.ac48-severe { background: #ffa000; }
+.ac48-uncertain { background: #fbf58c; }
+.ac48-noarea { background: #e7e7e7; }
+.ac48-unknown { background: #ffffff; }
+.fw12-extreme { background: #ff00ff; }
+.fw12-critical { background: #ff0000; }
+.fw12-seetext { background: #fcde0a; }
+.fw12-low { background: #d2ffa6; }
+.fw38-critical { background: #ff0000; }
+.fw38-uncertain { background: #fbf58c; }
+.fw38-noarea { background: #e7e7e7; }
+</style>
+
+<table width='586' cellspacing='0' cellpadding='0' align='center'>
+<tbody>
+<tr>
+<td style='border: 1px solid black;'>
+<table cellspacing='1' cellpadding='2' border='0' width='100%'>
+<tr style='background-color: #0A2390; text-align: center;'>
+<td align='center' bgcolor='#000000'><span class='matrix'><font color='#ffffff'>Hazard</font></span></td>
+
+<!--#config errmsg=""-->
+<!--#include virtual="./mx-hazard.html"-->
+
+<tr align='center' bgcolor='#eeeeee'>
+<td align='center' bgcolor='#0a2390'><span class='matrix'><a href="/products/outlook/" class='awhite' title="SPC Convective Outlooks">Severe</a></span></td>
+
+<!--#include virtual="./mx-ac1.html"-->
+<!--#include virtual="./mx-ac2.html"-->
+<!--#include virtual="./mx-ac3.html"-->
+<!--#include virtual="./mx-ac4.html"-->
+<!--#include virtual="./mx-ac5.html"-->
+<!--#include virtual="./mx-ac6.html"-->
+<!--#include virtual="./mx-ac7.html"-->
+<!--#include virtual="./mx-ac8.html"-->
+
+</tr>
+
+<tr align='center' bgcolor='#eeeeee'>
+<td align='center' bgcolor='#0a2390'><span class='matrix'><a href="/products/fire_wx/overview.html" class='awhite' title="SPC Fire Weather Outlooks">Fire</a></span></td>
+
+<!--#include virtual="./mx-fw1.html"-->
+<!--#include virtual="./mx-fw2.html"-->
+<!--#include virtual="./mx-fw3.html"-->
+<!--#include virtual="./mx-fw4.html"-->
+<!--#include virtual="./mx-fw5.html"-->
+<!--#include virtual="./mx-fw6.html"-->
+<!--#include virtual="./mx-fw7.html"-->
+<!--#include virtual="./mx-fw8.html"-->
+
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

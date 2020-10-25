@@ -1,0 +1,27 @@
+a, a:visited {
+	text-decoration:none;
+	color:#930B01;
+}
+a:hover {
+	text-decoration:underline;
+	color:#FF0000;
+}
+
+.imgwrapper
+{       position: relative;
+        display: block }
+
+.mapbutton {
+	font: 11px arial;
+}
+
+.maptext {
+        font: 11px arial;
+}
+
+.maintbl
+{
+	border: 1px solid black;
+	background: #FFFFFF;
+
+}	

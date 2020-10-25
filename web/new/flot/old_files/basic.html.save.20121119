@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Flot Examples</title>
+    <link href="layout.css" rel="stylesheet" type="text/css">
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="../excanvas.min.js"></script><![endif]-->
+    <script language="javascript" type="text/javascript" src="jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="jquery.flot.js"></script>
+ </head>
+    <body>
+    <h1>Flot Examples</h1>
+
+    <div id="placeholder" style="width:600px;height:300px;"></div>
+
+    <p>Simple example. You don't need to specify much to get an
+       attractive look. Put in a placeholder, make sure you set its
+       dimensions (otherwise the plot library will barf) and call the
+       plot function with the data. The axes are automatically
+       scaled.</p>
+
+<script type="text/javascript">
+$(function () {
+
+    var d2 = [[2005, 1],[2011, 2],[2035, 3],[2045, 4],[2210, 5],[2215, 6],[2235, 7],[2245, 8],[2320, 9],[2325, 10],[2327, 11],[2331, 12],[2335, 13],[2340, 14]];
+    
+    $.plot($("#placeholder"), [
+	{ label: "total reports", data: d2}
+],{ 
+	series: {
+		lines: { show: true },
+		points: { show: true }
+	},
+	xaxis: {
+		min: 2000,
+		max: 2400
+	},
+	yaxis: {
+		ticks: 10,
+		min: 0,
+		max: 20
+	},
+	grid: {
+		backgroundColor: { colors: ["#fff", "#eee"] }
+	}
+   });
+});
+</script>
+
+ </body>
+</html>

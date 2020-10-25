@@ -1,0 +1,286 @@
+<?php
+
+//////////////////////////////////////////////////////////////////////////
+// This utilizes the file "validProducts.txt" to determine whether an 
+// "Active Weather" or "Quiet Weather" configuration should be used.
+// CMM 01/2013
+//////////////////////////////////////////////////////////////////////////
+
+//first open valid products file to determine operational mode of mainpage
+
+$prodFile = file("/local/spcwebsite/new/SPCProducts/validProducts.txt");
+
+///Hazard Levels///
+//0 = No Thunder //
+//1 = No Severe  //
+//2 = See Text   //
+//3 = Slight     //
+//4 = Moderate   //
+//5 = High       //
+///////////////////
+
+foreach($prodFile as $line) {
+        $tline = trim($line);
+        $data = explode("|",$tline);
+        $prodType = $data[0];
+        $otlkCat = $data[3];
+        if ($prodType == "OTLK" ) {
+                if ($otlkCat == "High") { $hazard = 5; }
+                elseif ($otlkCat == "Moderate") { $hazard = 4; }
+                elseif ($otlkCat == "Slight") { $hazard = 3; }
+                elseif ($otlkCat == "See Text") { $hazard = 2; }
+                elseif ($otlkCat == "No Severe") { $hazard = 1; }
+                elseif ($otlkCat == "No Thunder") { $hazard = 0; }
+        }
+        $strCheck = substr($prodType,0,2);
+        if ($strCheck == "WW") {
+                $ww = substr($prodType,0,2);
+                $wwNum = substr($prodType,2,4);
+        if ($wwNum != "none") { $validWW = 1; }
+        else { $validWW = 0; }
+        }
+}
+
+//Define date variables to determine whether any storm reports have been 
+//received today.
+
+$cdate = strftime("%Y%m%d");
+$cHHmm = strftime("%H%M");
+//need to make sure of the right date if time >0z and <12z
+if (($cHHmm >= 1200) && ($cHHmm <= 2359)) {
+	$YY = substr($cdate, 0, 4);
+        $MM = substr($cdate, 4, 2);
+        $DD = substr($cdate, 6, 2);
+        $ctime = mktime(0, 0, 0, $MM, $DD, $YY);
+} elseif (($cHHmm >= 0000) && ($cHHmm <= 1159)) {
+        $YY = substr($cdate, 0, 4);
+        $MM = substr($cdate, 4, 2);
+        $DD = substr($cdate, 6, 2);
+        $ctim = mktime(0, 0, 0, $MM, $DD, $YY);
+        $ctime = strftime("%s", $ctim - (24*60*60));
+        }
+
+$tdyEpoch = $ctime;
+$tmrwEpoch = $tdyEpoch + 86400;
+$tdyLabel = strftime("%m-%d-%Y", $ctime);
+$tmrwLabel = strftime("%m-%d-%Y", $ctime + (24*60*60));
+$ydyNav = strftime("%Y%m%d", $ctime - (24*60*60));
+$tmrwNav = strftime("%Y%m%d", $ctime + (24*60*60));
+$rptDate = strftime("%y%m%d", $ctime);
+
+$tornfile = file("/local/spcwebsite/climo/reports/${rptDate}_rpts_torn.csv");
+$windfile = file("/local/spcwebsite/climo/reports/${rptDate}_rpts_wind.csv");
+$hailfile = file("/local/spcwebsite/climo/reports/${rptDate}_rpts_hail.csv");
+
+//remove the header from the arrays
+$tornFile = array_shift($tornfile);
+$windFile = array_shift($windfile);
+$hailFile = array_shift($hailfile);
+
+//check to see if any reports have been received
+$tornSize = count($tornfile);
+$windSize = count($windfile);
+$hailSize = count($hailfile);
+
+
+//Case for > SLGT risk or a valid WW
+if (($hazard > "3") || ($validWW == 1)) {
+?>
+
+	<!--Active Weather 6-panel-->
+<div id="HighlightContainer">
+    <table>
+     <tr>
+
+<?php
+if (($tornSize == 0) && ($windSize == 0) && ($hailSize == 0)) {
+	//If no reports, plot climo UL.
+	print "<td valign='top' width='33%' id='TopicContainer'>\n";
+        print "<table summary='layout' border='0'>\n";
+        print "<tr><td id='HighlightTitle'>Severe Weather Climatology (1982-2011)</td></tr>\n";
+        print "<tr><td align='center'>\n";
+        include("/local/spcwebsite/new/SVRclimo/climoSlides.php"); 
+        print "</td></tr>\n";
+        print "<tr><td align='left'><br>More severe weather climatology data <a href='/new/SVRclimo/climo.php?parm=anySvr'> here</a>.</td></tr>\n";
+        print "</table></td>\n";
+} else {
+	//If reports, plot SAM UL.	
+	print "<td valign='top' width='33%' id='TopicContainer'>\n";
+        print "<table summary='layout' border='0'>\n";
+        print "<tr><td id='HighlightTitle'>Situational Awareness Monitor</td></tr>\n";
+        print "<tr><td align='center'><a href='http://www.spc.noaa.gov/exper/situation/?lat=32.00&lon=-102.00'><img src='/new/images/SituAware.png'></a></td></tr>\n";
+        print "<tr><td align='left'><br>SPC Situational Awareness <a href='http://www.spc.noaa.gov/exper/situation/?lat=32.00&lon=-102.00'>monitor</a>.</td></tr>\n";
+        print "</table></td>\n";
+}
+if (($tornSize == 0) && ($windSize == 0) && ($hailSize == 0)) {
+        //If not reports, plot SAM UM.
+	print "<td valign='top' width='33%' id='TopicContainer'>\n";
+        print "<table summary='layout' border='0'>\n";
+        print "<tr><td id='HighlightTitle'>Situational Awareness Monitor</td></tr>\n";
+        print "<tr><td align='center'><a href='http://www.spc.noaa.gov/exper/situation/?lat=32.00&lon=-102.00'><img src='/new/images/SituAware.png'></a></td></tr>\n";
+        print "<tr><td align='left'><br>SPC Situational Awareness <a href='http://www.spc.noaa.gov/exper/situation/?lat=32.00&lon=-102.00'>monitor</a>.</td></tr>\n";
+        print "</table></td>\n";
+} else {
+	//If reports, plot report trend UM.
+        print "<td valign='top' width='33%' id='TopicContainer'>\n";
+        print "<table summary='layout' border='0'>\n";
+        print "<tr><td id='HighlightTitle'>Today's Storm Report Trend</td></tr>\n";
+        print "<tr><td align='center'>\n";
+        include("/local/spcwebsite/new/ReportPlot/reportPlot_sm.php");
+        print "</td></tr>\n";
+        print "<tr><td align='left'><br><br>Full-size plot <a href='/new/ReportPlot/reportPlot.php'>here</a>.</td></tr>\n";
+        print "</table></td>\n";
+}
+?>
+        
+      <td valign="top" width="33%" id="TopicContainer"> 
+	<table summary="layout" border="0">
+	 <tr><td id='HighlightTitle'>Public Awareness</td></tr>
+          <tr><td align="center"><a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.youtube.com/watch?v=x3V3HZBs1Y4" target="YouTube Clip"><img src="./images/WatchvWarn.png"/></a></td></tr>
+          <tr><td align="left">Find out the difference between a severe weather <b><i>Watch</i></b> and <b><i>Warning </i></b><a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.youtube.com/watch?v=x3V3HZBs1Y4">here</a>.</td></tr>
+         </table>
+        </td></tr>
+        <tr>
+        <td valign="top" width="33%" id="TopicContainer">
+	<table summary="layout" border="0">
+          <tr><td id="HighlightTitle">SPC SSEO Guidance</td></tr>
+          <tr><td align="center"><a href="/exper/sseo/" target="_blank"><img src="./images/sseo_sm.png" /></a></td></tr>
+        </table>
+      </td>
+
+<?php
+if (($tornSize == 0) && ($windSize == 0) && ($hailSize == 0)) {
+	// If no reports, plot SREF LM.
+	print "<td valign='top' width='33%' id='TopicContainer'>\n";
+        print "<table summary='layout' border='0'>\n";
+        print "<tr><td id='HighlightTitle'>SPC SREF Guidance</td></tr>\n";
+        print "<tr><td align='center'><a href='/exper/sref/' target='_blank'><img src='./images/sref_sm.png' /></a></td></tr>\n";
+        print "</table></td>\n";
+} else {
+	// If reports, plot svr climo LM 
+	print "<td valign='top' width='33%' id='TopicContainer'>\n";
+        print "<table summary='layout' border='0'>\n";
+        print "<tr><td id='HighlightTitle'>Severe Weather Climatology (1982-2011)</td></tr>\n";
+        print "<tr><td align='center'>\n";
+        include("/local/spcwebsite/new/SVRclimo/climoSlides.php");
+        print "</td></tr>\n";
+        print "<tr><td align='left'><br>More severe weather climatology data <a href='/new/SVRclimo/climo.php?parm=anySvr'> here</a>.</td></tr>\n";	
+        print "</table></td>\n";
+}
+?>
+
+	<td valign="top" width="33%" id="TopicContainer">
+	<table summary="layout" border="0">
+	<tr><td id="HighlightTitle">Public Awareness</td></tr>
+          <tr><td align="center"><a href="/faq/tornado/#Safety"><img src="./images/TorSafety2.png"></a></td></tr>
+          <tr><td align="left">Tornado Safety <a href="/faq/tornado/#Safety"> Tips</a>.</td></tr>
+         </table>
+        </td>
+       </tr>
+     </table>
+   </td>
+  </tr>
+</table>
+</div><!--end HighlightContainer-->
+<!--End 6-panel-->      
+<?php
+} else {
+?>
+ 
+<!--Quiet Weather 9-panel-->
+<div id="HighlightContainer">
+    <table>
+     <tr>
+      <td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+          <tr><td id="HighlightTitle">Severe Weather Climatology (1982-2011)</td></tr>
+          <tr><td align="center">
+          <?php include("/local/spcwebsite/new/SVRclimo/climoSlides.php"); ?>
+	  </td></tr>
+	  <tr><td align="left"><br>More severe weather climatology data <a href="/new/SVRclimo/climo.php?parm=anySvr"> here</a>.</td></tr>
+        </table>
+      </td>
+
+<?php 
+if (($tornSize == 0) && ($windSize == 0) && ($hailSize == 0)) {
+	print "<td valign='top' width='33%' id='TopicContainer'>\n";
+	print "<table summary='layout' border='0'>\n";
+	print "<tr><td id='HighlightTitle'>Situational Awareness Monitor</td></tr>\n";
+        print "<tr><td align='center'><a href='http://www.spc.noaa.gov/exper/situation/?lat=32.00&lon=-102.00'><img src='/new/images/SituAware.png'></a></td></tr>\n";
+        print "<tr><td align='left'><br>SPC Situational Awareness <a href='http://www.spc.noaa.gov/exper/situation/?lat=32.00&lon=-102.00'>monitor</a>.</td></tr>\n";
+        print "</table></td>\n";
+
+} else {
+	print "<td valign='top' width='33%' id='TopicContainer'>\n";
+	print "<table summary='layout' border='0'>\n";
+	print "<tr><td id='HighlightTitle'>Today's Storm Report Trend</td></tr>\n";
+        print "<tr><td align='center'>\n";
+        include("/local/spcwebsite/new/ReportPlot/reportPlot_sm.php"); 
+        print "</td></tr>\n";
+        print "<tr><td align='left'><br><br>Full-size plot <a href='/new/ReportPlot/reportPlot.php'>here</a>.</td></tr>\n";
+        print "</table></td>\n";
+}
+?>
+
+	<td valign='top' width='33%' id='TopicContainer'>
+         <table summary="layout" border="0" background="#eee">
+	  <tr><td id='HighlightTitle'>Public Awareness</td></tr>
+          <tr><td align="center"><a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.youtube.com/watch?v=x3V3HZBs1Y4" target="YouTube Clip"><img src="./images/WatchWarn.png"/></a></td></tr>
+          <tr><td align="left"><br>Find out the difference between a severe weather <b><i>Watch</i></b> and <b><i>Warning </i></b><a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.youtube.com/watch?v=x3V3HZBs1Y4">here</a>.</td></tr>
+         </table>
+        </td></tr>
+        <tr>
+
+<?php
+if (($tornSize == 0) && ($windSize == 0) && ($hailSize == 0)) {
+        print "<td valign='top' width='33%' id='TopicContainer'>\n";
+	print "<table summary='layout' border='0'>\n";
+        print "<tr><td id='HighlightTitle'>2012 Tornado Statistics</td></tr>\n";
+        print "<tr><td align='center'><a href='/wcm/#torgraph' target='_blank'><img src='./images/2013_torTrends_sm.png' /></a></td></tr>\n";
+        print "  <tr><td align='left'>Daily count and annual running trend.  See <a href='/wcm/#torgraph'> more...</a></td></tr>\n";
+        print "</table></td>\n";
+} else {
+	 print "<td valign='top' width='33%' id='TopicContainer'>\n";
+        print "<table summary='layout' border='0'>\n";
+        print "<tr><td id='HighlightTitle'>Situational Awareness Monitor</td></tr>\n";
+        print "<tr><td align='center'><a href='http://www.spc.noaa.gov/exper/situation/?lat=32.00&lon=-102.00'><img src='/new/images/SituAware.png'></a></td></tr>\n";
+        print "<tr><td align='left'><br>SPC Situational Awareness <a href='http://www.spc.noaa.gov/exper/situation/?lat=32.00&lon=-102.00'>monitor</a>.</td></tr>\n";
+        print "</table></td>\n";
+}	
+?>
+        <td valign="top" width="33%" id="TopicContainer">
+	<table summary="layout" border="0">
+          <tr><td id="HighlightTitle">2013 SPC Watch Summaries</td></tr>
+          <tr><td align="center"><a href="/wcm/2013_torww_to_date.png" target="_blank"><img src="/wcm/thumbs/2013_torww_to_date_sm.png" /></a></td></tr>
+          <tr><td align="left">Tornado and severe thunderstorm watch summary maps.  See <a href="/wcm/#watchfreq">more...</a></td></tr>
+        </table>
+        </td>
+	<td valign="top" width="33%" id="TopicContainer">
+         <table summary="layout" border="0">
+	 <tr><td id='HighlightTitle'>Public Awareness</td></tr>
+          <tr><td align="center"><a href="/faq/tornado/#Safety"><img src="./images/TornSafety.png"></a></td></tr>
+          <tr><td align="left">Tornado Safety <a href="/faq/tornado/#Safety">Tips</a>.</td></tr>
+         </table>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2" valign="top" width="66%" id="TopicContainer">
+	<div id="HighlightTitle">Latest SPC Publications</div>
+        <?php include("/local/spcwebsite/new/SPCResearch/research.html"); ?>
+        </td>
+        <td valign="top" width="33%" id="TopicContainer">  
+	<div id="HighlightTitle">Latest SPC Case Archive</div>
+        <?php include("/local/spcwebsite/new/SPCCaseArchive/casestudy.html"); ?>
+        </td>
+       </tr>
+
+     </table>
+   </td>
+  </tr>
+</table>
+</div><!--end HighlightContainer-->
+<!--End 9-panel-->
+<?php
+}
+
+?>

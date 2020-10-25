@@ -1,0 +1,166 @@
+loc:top
+upd:2013-03-20 15:30:27 UTC
+exp:2013-03-21 22:20:00 UTC
+imp:<strong><font color="#ff0000">CRITICAL:&nbsp;</font></strong>
+msg:PWO for all of Florida, Look out!!!
+end:
+
+loc:other
+upd:2013-03-13 12:00:00 UTC
+exp:2050-03-20 12:00:00 UTC
+imp:<strong><font color="#ff0000">New:&nbsp;</font></strong>
+msg:We added population information potentially impacted
+by the categorical convective and fire weather outlooks. The information
+is derived based on 2010 Census data and the NDFD outlook grids. All information
+should be considered experimental and approximate.
+end:
+
+loc:other
+upd:2013-03-13 13:39:00 UTC
+exp:2050-03-20 12:00:00 UTC
+imp:
+msg:The Storm Prediction Center in cooperation with NOAA teamed up with the
+State of Oklahoma Insurance Department to hold the 2013 National Severe Weather
+Workshop at the National Tornado Symposium, March 10-12, 2013, in Oklahoma City.
+Details can be found on the National Severe Weather Workshop website at:
+<a href="http://www.norman.noaa.gov/nsww/" target="_blank">www.norman.noaa.gov/nsww/</a>
+end:
+
+loc:other
+upd:2013-01-30 12:00:00 UTC
+exp:2050-03-20 12:00:00 UTC
+imp:<strong><font color="#ff0000">Notice:&nbsp;</font></strong>
+msg:Enhanced bulleted format of SPC Public Watch Notification Messages
+(SEL) (CONUS Only) effective April 16, 2013. Click
+<a href="http://www.spc.noaa.gov/exper/SELhazard/">here</a> for more details.
+end:
+
+loc:other
+upd:2013-01-22 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:<strong><font color="#ff0000">New:&nbsp;</font></strong>
+msg:A <a href="/exper/envbrowser/">tornado environment browser</a> for the
+contiguous United States is now available. A tornado environment-convective
+mode sample (2003-2011) displays statistical information of supercell-related
+convective parameters accompanied by smoothed tornadic convective mode
+climatology images.
+end:
+
+loc:other
+upd:2013-01-08 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:We mourn the loss of Jon Racy, SPC Lead Forecaster, who passed away on
+8 January 2013 after a long and courageous battle with colorectal cancer.  Click
+<a href="/Racy/" target="_blank">here</a> for more details.
+end:
+
+loc:other
+upd:2012-11-13 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:The experimental <a href="/exper/sseo/">SPC Storm-Scale Ensemble of
+Opportunity (SSEO)</a> is produced by postprocessing seven (7) deterministic
+convection-allowing model runs. Special emphasis is placed on hourly maximum
+storm-attribute fields.
+end:
+
+loc:other
+upd:2012-09-26 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:Effective September 26, 2012, the SPC <a href="http://www.spc.noaa.gov/products/exper/enhtstm/">Thunderstorm Outlook</a>
+becomes operational. Here is the <a href="http://www.nws.noaa.gov/om/notification/scn12-29spc_opr_thunderstorm.htm" target="_target">Service Change Notice 12-29</a>.
+end:
+
+loc:other
+upd:2012-09-26 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:Effective September 25, 2012, the Day 3 Outlook includes general thunderstorm information.
+Please see <a href="http://www.nws.noaa.gov/om/notification/scn12-26spc-day3-thunder.htm"
+target="_target">Service Change Notice 12-26</a> for more information.
+end:
+
+loc:other
+upd:2012-09-21 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:<a href="http://www.spc.noaa.gov/gis/svrgis/">Severe Weather GIS (SVRGIS)</a>
+page has been updated with preliminary January - June 2012 tornado data.
+Visit <a href="http://www.spc.noaa.gov/gis/svrgis/">http://www.spc.noaa.gov/gis/svrgis/</a> for details.
+end:
+
+loc:other
+upd:2012-06-05 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:From June 5, 2012 to January 30, 2013, SPC will issue Experimental Probabilistic Fire Weather
+Dry Thunder and Strong Wind Outlooks for Day 3 to 8 with individual web graphics. Please read the
+<a href="http://products.weather.gov/PDD/spc_day38fire_prob_pdd_ext%202012.pdf" target="FW_PDD">
+Product Description Document (PDD)</a> and provide feedback using this link:
+<a href="http://www.weather.gov/survey/nws-survey.php?code=spc38firewx" target="FW_Survey">
+http://www.weather.gov/survey/nws-survey.php?code=spc38firewx</a>.
+end:
+
+loc:other
+upd:2012-05-01 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:
+The Rapid Refresh (RAP) model has replaced the RUC model at 12Z on May 1 2012.
+All references to RUC model fields in the Mesoscale Analysis, Fire Weather Analysis, and Compmap pages
+have been changed to indicate the RAP model provides background input to the display fields.
+end:
+
+loc:other
+upd:2012-03-27 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:
+New Meso Analysis Page has been implemented on March 27, 2012.
+Changes include: 1) overlay/underlay select buttons moved from the bottom to the side based on user feedback.
+2) current SPC products are displayed in a hovered window at the lower-right of the page to facilitate better
+situational awareness as new products are issued.
+3) A Trends/Forecast section has been added.
+This allows the user to view trends in the parameter being examined, and even project the data into the
+future for selected parameters.
+The images are viewed when you mouseover the selected past/forecast hour.
+Past images are of the SfcOA system, while future images are based on RUC model output.
+Another use for this function is to compare the SfcOA Analysis of a selected parameter to the RUC
+forecast for the same parameter at 00H.
+This may provide useful information regarding the performance of the model.
+end:
+
+loc:other
+upd:2012-03-27 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:New <a href="http://www.spc.noaa.gov/exper/sref/">SREF</a> Page has been implemented
+on March 27, 2012.  Go to <a href="http://www.spc.noaa.gov/exper/sref/index_old.html">
+www.spc.noaa.gov/exper/sref/index_old.html</a> to access the legacy version.
+end:
+
+loc:other
+upd:2012-03-26 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:The 2011 SPC Severe Weather Database files are now available for download at
+<a href="http://www.spc.noaa.gov/wcm/#data">http://www.spc.noaa.gov/wcm/#data</a>.
+end:
+
+loc:other
+upd:2012-03-08 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:Two new RSS feeds have been added:
+<li>For Particularly Dangerous Situation (PDS) tornado/severe thunderstorm watches only: <a href="http://www.spc.noaa.gov/products/spcpdswwrss.xml">http://www.spc.noaa.gov/products/spcpdswwrss.xml</a>.
+<li>For Public Severe Weather Outlook (PWO) experimental multimedia briefings: <a href="http://www.spc.noaa.gov/products/spcmbrss.xml">http://www.spc.noaa.gov/products/spcmbrss.xml</a>.
+end:
+
+loc:other
+upd:2013-03-13 12:00:00 UTC
+exp:2050-01-01 12:00:00 UTC
+imp:
+msg:<a href="http://www.spc.noaa.gov/products/topnews_archive.html"><i>Top News Archive</i></a>
+end:

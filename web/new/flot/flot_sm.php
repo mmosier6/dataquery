@@ -1,0 +1,96 @@
+<?php
+//set date variables
+
+$today = gmdate("Y-M-d H:i:s \U\T\C");
+$YYYY = gmdate("Y");
+$MM = gmdate("m");
+$DD = gmdate("d");
+$HH = gmdate("H");
+$mm = gmdate("i");
+$HHmm = $HH . $mm;
+
+$curday = strtotime("now");
+$tdy = date('m-d-Y', $curday);
+$yesterday = strtotime('-1 days');
+$ydy = date('m-d-Y', $yesterday);
+$tomorrow = strtotime('+1 days');
+$tmrw = date('m-d-Y', $tomorrow);
+
+if (($HHmm >= "1200") && ($HHmm <=2359)) {
+	$label = "Daily storm report trend for the period: " . $tdy . "/12z to " . $tmrw . "/12z";
+} else { $label = "Daily storm report trend for the period: " . $ydy . "/12z to " . $tdy . "/12z";
+}
+
+?>
+
+<!--[if lte IE 8]<script language="javascript" type="text/javascript" src="/new/js/excanvas.min.js"></script><![endif]-->
+
+<div id="reportWrapper" style="width:310px;height:200px; padding:0px;">
+<table border="0px" width="300px" cellpadding="0px" cellspacing="0px">
+<tr>
+<td width="15px" height="200px" valign="middle"><img src="./images/repCount_sm.png"></td>
+<td> <div id="placeholder" style="width:300px;height:200px; float: left;"></div></td>
+</tr>
+<tr><td colspan="2" align="middle" style="font-family:arial;font-size:1.0em;font-weight:bold;line-height:1.3em;">report time</td></tr>
+</table>
+</div>
+
+
+
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+
+$j(function () {
+
+var $j = jQuery.noConflict();
+
+var options =
+{
+        lines: { show: true  },
+	points: { show: true, radius: .1 },
+        xaxis: { "mode": "time", "timeformat": "%0d/%HZ" },
+        grid: { backgroundColor: { colors: ["#fff", "#ccc"] }},
+	legend: { position: "nw", backgroundOpacity: 1, labelBoxBorderColor: "#000" }
+   };
+
+var torn =
+{
+        label: "Tornado",
+        color: "#ff0000",
+        data:
+        [
+<?php
+$torn=file("./flot/torn.txt");
+foreach ($torn as $line) { print "$line\n"; }
+?>
+],};
+
+var wind =
+{
+        label: "Wind",
+        color: "#0000ff",
+        data:
+        [
+<?php
+$wind=file("./flot/wind.txt");
+foreach ($wind as $line) { print "$line\n"; }
+?>
+],};
+
+var hail =
+{
+        label: "Hail",
+        color: "#008000",
+        data:
+        [
+<?php
+$hail=file("./flot/hail.txt");
+foreach ($hail as $line) { print "$line\n"; }
+?>
+],};
+
+    $j.plot($j("#placeholder"), [torn,wind,hail], options);
+});
+</script>
+
+

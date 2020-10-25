@@ -1,0 +1,10 @@
+<img src="/new/images/feature_stories_bullet2.png">&nbsp;
+<strong><font color="#ff0000">New:&nbsp;</font></strong>
+Starting on September 24, 2013 at 1500 UTC, the SPC replaces the current SEE TEXT reference in its
+<a href="/products/fire_wx/fwdy1.html">Day 1</a> and <a
+href="/products/fire_wx/fwdy2.html">Day 2</a> Fire Weather Outlook products with graphical depictions of
+areas of Elevated Risk and areas of Isolated Dry Thunderstorms.
+(Updated: November 4 2013)<br />
+
+<br />
+<img src="/new/images/feature_stories_bullet2.png">&nbsp;Find more news bulletins in the <a href='/new/SPCNews/news.html'>SPC news archive</a>.

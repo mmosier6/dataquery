@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta name="DC.title" content="NOAA/NWS Storm Prediction Center" />
+    <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+    <meta name="language" content="EN-US" />
+    <link rel="alternate" type="application/rss+xml" title="SPC Forecast
+Products RSS" href="/products/spcrss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="SPC Tornado/Severe
+Thunderstorm Watches RSS" href="/products/spcwwrss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="SPC Mesoscale
+Discussions RSS" href="/products/spcmdrss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="SPC Convective
+Outlooks RSS" href="/products/spcacrss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="SPC Thunderstorm
+Outlooks RSS" href="/products/spctstmrss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="SPC Fire Weather
+Outlooks RSS" href="/products/spcfwrss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="SPC PDS Watches
+RSS" href="/products/spcpdswwrss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="SPC Multimedia
+Briefings RSS" href="/products/spcmbrss.xml" />
+
+    <title>|||TITLE||| - NOAA/NWS Storm Prediction Center</title>
+
+    <!-- Sitewide css -->
+    <link rel= "stylesheet" href = "/new/css/SPCmain.css" />
+
+    <style>
+    	#midBlock.affix{
+		position: fixed;
+		top: 0;
+		left: 50%;
+		width: 1000px;
+		margin-left: -500px;
+		z-index: 2000;
+	}
+	/*
+	#nav-wrapper.affix{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 2000;
+	}
+
+	#midBlock.affix{
+		margin-left: auto !important;
+		margin-right: auto !important;
+
+		width: 1000px;
+	}
+	*/
+
+	#nav-wrapper{
+		position: relative;
+		width: 100% !important;
+		left: -5px;
+	}
+
+	#SPCMain, .SPCMain2, .footer_container, #PageTop{
+		width: 1000px !important;
+	}
+
+	#banner{
+		margin-left: auto !important;
+		margin-right: auto !important;
+		float: right !important;
+
+	}
+	.footer_container{
+		margin: 0px !important;
+		border-left: none !important;
+		border-right: none !important;
+		border-top: solid 1px #cccccc !important;
+		border-bottom: solid 1px #cccccc !important;
+	}
+
+
+
+    </style>
+
+    <!--Conflict between prototype.js and jquery, so using jQuery.noConflict()-->
+    <script src="/cwi/cwi-all-min.js"></script>
+
+    <!--[if lt IE 9]>
+	<script src = "/exper/reports/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+    <script src="/cwi/affix.min.js"></script>
+    <script>
+
+   	jQuery(document).ready(function(){
+		//Affix header
+		jQuery("#midBlock").wrap("<div id ='nav-wrapper'></div>");
+		jQuery("#nav-wrapper").addClass("full_width");
+		jQuery("#nav-wrapper").height(jQuery("#midBlock").height());
+
+		//jQuery("#nav-wrapper").clone().attr("id", "nav-wrapper2").insertBefore("#mainReportsNav");
+
+		jQuery("#midBlock").affix({
+			offset: { top: jQuery("#midBlock").offset().top}
+		}).on("affix.bs.affix", function(){
+
+		});
+	});
+
+    </script>
+
+</head>
+
+<body>
+
+<div id="SPCWrapper">
+   <div id="SPCMain">
+      <div class="SPCMain2">
+         <!-- ##### SPC TOP MENU ##### -->
+         <?php
+include($_SERVER['DOCUMENT_ROOT']."/new/MainMenu/topMenu.html"); ?>

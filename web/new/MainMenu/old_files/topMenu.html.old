@@ -1,0 +1,78 @@
+	<div class="grid_16" id="banner">
+            <img src="images/SPC.png" usemap="#bannermap">
+            <map name="bannermap">
+                <area shape="rect" coords=" 0 , 0, 72,74" href="http://www.noaa.gov" alt="NOAA - National Oceanic and Atmospheric Administration">
+                <area shape="rect" coords=" 75, 0,150,74" href="http://www.weather.gov" alt="NWS - National Weather Service">
+                <area shape="rect" coords="917, 0,960,37" href="http://www.doc.gov" alt="DOC - Department of Commerce">
+            </map>
+         </div>
+         <div class="grid_16" id="midBlock">
+            <div class="grid_12 alpha" id="navigation">
+               <ul>
+                  <li class="mid_first"><a href="/./" title="SPC Home">Home</a></li>
+
+                  <li><a href="http://www.spc.noaa.gov/products/">Products and Reports</a>
+                     <ul class="products">
+                        <li><a href="http://www.spc.noaa.gov/products/" title="All Forecasts">All Forecasts</a></li>
+                        <li><a href="http://www.spc.noaa.gov/watch/" title="Current Watches">Current Watches</a></li>
+                        <li><a href="http://www.spc.noaa.gov/products/md/" title="Mesoscale Discussions">Mesoscale Discussions</a></li>
+                        <li><a href="http://www.spc.noaa.gov/products/outlook/" title="Convective Outlooks">Convective Outlooks</a></li>
+                        <li><a href="http://www.spc.noaa.gov/products/exper/enhtstm/" title="Enhanced Thunderstorm Outlook">Enhanced Thunderstorm Outlook</a></li>
+                        <li><a href="http://www.spc.noaa.gov/products/fire_wx/overview.html" title="Fire Weather Outlook">Fire Weather Outlooks</a></li>
+                        <li>&nbsp;</li>
+                        <li><a href="http://www.spc.noaa.gov/climo/online/" title="Storm Reports">Storm Reports</a></li>
+                        <li><a href="http://www.spc.noaa.gov/archive/" title="SPC Product Archive">SPC Product Archive</a></li>
+                        <li><a href="http://www.spc.noaa.gov/aboutrss.html" title="RSS Feeds">RSS Feeds</a></li>
+                        <li><a href="http://www.nws.noaa.gov/emailupdates" title="Email Alerts">Email Alerts</a></li>
+                     </ul>
+                  </li>
+
+                  <li><a href="http://www.spc.noaa.gov/exper/">Forecast Tools</a>
+                     <ul class="tools">
+                        <li><a href="http://www.spc.noaa.gov/exper/mesoanalysis/" title="Mesoanalysis">Mesoanalysis</a></li>
+                        <li><a href="http://www.spc.noaa.gov/exper/soundings/" title="Observed Sounding Analysis">Observed Sounding Analysis</a></li>
+                        <li><a href="http://www.spc.noaa.gov/obswx/maps/" title="Upper-Air Maps">Upper-Air Maps</a></li>
+                        <li><a href="http://www.spc.noaa.gov/exper/sref/index.php" title="SREF">SREF</a></li>
+                        <li><a href="http://www.spc.noaa.gov/exper/sseo/" title="SSEO">SSEO</a></li>
+                        <li><a href="http://www.spc.noaa.gov/exper/firecomp/" title="Fire Weather Composite Maps">Fire Weather Composite Maps</a></li>
+                        <li><a href="http://www.spc.noaa.gov/compmap/" title="Compmap">Compmap</a></li>
+                     </ul>
+                  </li>
+
+                  <li><a href="http://www.spc.noaa.gov/publications/">Research and Education</a>
+                     <ul class="research">
+                        <li><a href="http://www.spc.noaa.gov/publications/" title="Publications">Publications</a></li>
+                        <li><a href="http://www.spc.noaa.gov/exper/archive/events/" title="Severe Thunderstorm Event Archive">Severe Thunderstorm Event Archive</a></li>
+                        <li><a href="http://www.nssl.noaa.gov/research/forewarn/hwt.php" title="SPC-NSSL Hazardous Weather Testbed">SPC-NSSL Hazardous Weather Testbed</a></li>
+                        <li><a href="http://www.spc.noaa.gov/faq/tornado/" title="About Tornadoes">About Tornadoes</a></li>
+                        <li><a href="http://www.spc.noaa.gov/misc/AbtDerechos/derechofacts.htm" title="About Derechos">About Derechos</a></li>
+                        <li><a href="http://www.spc.noaa.gov/wcm/" title="WCM Page">WCM Page</a></li>
+                        <li><a href="http://www.spc.noaa.gov/aboutus.html" title="About the SPC">About the SPC</a></li>
+                        <li><a href="http://www.spc.noaa.gov/faq/" title="SPC FAQ">SPC FAQ</a></li>
+                        <li><a href="http://www.spc.noaa.gov/history/early.html" title="History of the SPC">History of the SPC</a></li>
+                        <li><a href="http://www.spc.noaa.gov/staff/" title="Staff Listing">Staff Listing</a></li>
+                        <li><a href="http://www.norman.noaa.gov/publicaffairs/" title="Public Affairs">Public Affairs</a></li>
+                        <li><a href="http://www.spc.noaa.gov/misc/links.html" title="Links">Links</a></li>
+                     </ul>
+                  </li>
+
+                  <li><a href="http://www.spc.noaa.gov/misc/feedback.html">Feedback</a></li>
+               </ul>
+            </div>
+
+            <div class="grid_4 omega" id="searchBox">
+               <a class="NESDIS_news_rss_small" href="http://www.nesdis.noaa.gov/NESDIS_news_rss.xml" title="NESDIS News RSS"></a>
+               <a class="NESDIS_twitter" href="https://twitter.com/#!/NOAASatellites"  title="NESDIS Twitter"></a>
+               <a class="NESDIS_facebook" href="https://www.facebook.com/NOAANESDIS"  title="NESDIS Facebook"></a>
+               <label style="display: none;" for="query-field">Search Criteria</label>
+               <form action="http://search.usa.gov/search" method="get" id="searchForm">
+               <fieldset id="searchFieldSet">
+                   <input name="utf8" type="hidden" value="&#x2713;" />
+                   <input type="hidden" value="firstgov" name="v:project"/>
+                   <input type="text" value="Search NOAA..." id="query-field" name="query"/>
+                   <input type="image" alt="Click to Search NOAA.gov" title="Click to Search NOAA.gov" id="searchsubmit" src="./images/search_submitA.png"/>
+               </fieldset>
+               </form>
+            </div>
+         </div>
+

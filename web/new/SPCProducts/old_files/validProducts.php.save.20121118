@@ -1,0 +1,206 @@
+
+<html>
+<head>
+  <meta charset=utf-8>
+  <title>jQuery Resize Plugin Demo</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="/new/js/jquery.ae.image.resize.min.js"></script>
+  <script>
+    $(function() {
+	$( ".ACbg" ).aeImageResize({ height: 85, width: 125 });
+        $( ".ACsm" ).aeImageResize({ height: 60, width: 88 });
+    });
+  </script>
+
+<style type ="text/css">
+
+.SPCProducts {
+	width: inherited;
+        margin-top: 5px;
+        position: relative;
+        overflow: auto;
+}
+.SPCProductsNew {
+	width: inherit;
+        list-style-type: none;
+        padding-left: 0px;
+        margin: 0px;
+        border: 1px solid #ff0000;
+        line-height: 1.2em;
+        background: #ffdfdf;
+}
+
+.SPCProductsOld {
+        width: inherit;
+        list-style-type: none;
+        padding-left: 0px;
+        margin: 0px;
+        border: 1px dotted #DDDDDD;
+	line-height: 1.2em;
+        background: #dfffff;
+}
+
+.SPCProductsOld td {
+	font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+	color: #000;
+}
+
+.SPCProductsNew td {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #000;
+}
+
+.SPCProductsNew a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+	text-decoration: underline;
+        color: #0062ae;
+}
+
+.SPCProductsOld a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-decoration: underline;
+        color: #0062ae;
+}
+
+
+</style>
+
+</head>
+<body>
+<div class='SPCProducts'>
+
+<?php
+
+
+$curEtime = `date -u +%s`;
+$curEpochTime = trim($curEtime);
+
+#first, read validProducts.txt into memory.
+
+$validProd = file('validProducts.txt');
+
+foreach($validProd as $line) {
+	$tline = trim($line);
+	$data = explode("|",$tline);
+	$prodType = $data[0];
+	$prodTime = $data[1];
+	$prodEpochTime  = $data[2];
+	$timeDiff = $curEpochTime - $prodEpochTime;
+	$hhDiff = gmdate("H", $timeDiff);
+	$mmDiff = gmdate("i", $timeDiff);
+	if ($hhDiff == "0") {
+		$issueLabel = "&ndash; Issued: $mmDiff Mins ago<br>";
+	} else {
+		$issueLabel = "&ndash; Issued: $hhDiff Hrs $mmDiff Mins ago<br>";                                                                                                                                                         
+	}
+
+	if (($prodType == "OTLK" ) && ($timeDiff <= "3600" )) { 
+		print "<ul class='SPCProductsNew'>\n";
+		print "<li><table><tr><td><a href='/products/outlook/day1otlk.html'><img class='ACbg' src='/products/outlook/day1otlk_sm.gif'></a></td>\n";
+		print "<td valign='top'><a href='/products/outlook/day1otlk.html'>Day 1 Convective Outlook</a><br>\n";
+		print "$issueLabel\n";
+		print "</td></tr></table></li></ul>\n";
+	}
+	if (($prodType == "OTLK" ) && ($timeDiff > "3600" )) {
+		print "<ul class='SPCProductsOld'>\n";
+                print "<li><table><tr><td><a href='/products/outlook/day1otlk.html'><img class='ACsm' src='/products/outlook/day1otlk_sm.gif'></a></td>\n";
+                print "<td valign='top'><a href='/products/outlook/day1otlk.html'>Day 1 Convective Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+	if (($prodType == "OTLK2" ) && ($timeDiff <= "3600" )) {
+                print "<ul class='SPCProductsNew'>\n";
+		print "<li><table><tr><td><a href='/products/outlook/day2otlk.html'><img class='ACbg' src='/products/outlook/day2otlk_sm.gif'></a></td>\n";
+                print "<td valign='top'><a href='/products/outlook/day2otlk.html'>Day 2 Convective Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+        if (($prodType == "OTLK2" ) && ($timeDiff > "3600" )) {
+		print "<ul class='SPCProductsOld'>\n";
+                print "<li><table><tr><td><a href='/products/outlook/day2otlk.html'><img class='ACsm' src='/products/outlook/day2otlk_sm.gif'></a></td>\n";
+                print "<td valign='top'><a href='/products/outlook/day2otlk.html'>Day 2 Convective Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+	if (($prodType == "OTLK3" ) && ($timeDiff <= "3600" )) {
+                print "<ul class='SPCProductsNew'>\n";
+		print "<li><table><tr><td><a href='/products/outlook/day3otlk.html'><img class='ACbg' src='/products/outlook/day3otlk_sm.gif'></a></td>\n";
+                print "<td valign='top'><a href='/products/outlook/day3otlk.html'>Day 3 Convective Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+        if (($prodType == "OTLK3" ) && ($timeDiff > "3600" )) {
+		print "<ul class='SPCProductsOld'>\n";
+		print "<li><table><tr><td><a href='/products/outlook/day3otlk.html'><img class='ACsm' src='/products/outlook/day3otlk_sm.gif'></a></td>\n";
+                print "<td valign='top'><a href='/products/outlook/day3otlk.html'>Day 3 Convective Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+	if (($prodType == "OTLK4" ) && ($timeDiff <= "3600" )) {
+                print "<ul class='SPCProductsNew'>\n";
+		print "<li><table><tr><td><a href='/products/exper/day4-8/'><img class='ACbg' src='/products/exper/day4-8/day48prob_small.gif'></a></td>\n";
+                print "<td valign='top'><a href='/products/exper/day4-8/'>Day 4-8 Convective Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+        if (($prodType == "OTLK4" ) && ($timeDiff > "3600" )) {
+		print "<ul class='SPCProductsOld'>\n";
+                print "<li><table><tr><td><a href='/products/exper/day4-8/'><img class='ACsm' src='/products/exper/day4-8/day48prob_small.gif'></a></td>\n";
+                print "<td valign='top'><a href='/products/exper/day4-8/'>Day 4-8 Convective Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+	if (($prodType == "FIRE" ) && ($timeDiff <= "3600" )) { 
+                print "<ul class='SPCProductsNew'>\n";
+		print "<li><table><tr><td><a href='/products/fire_wx/'><img class='ACbg' src='/products/fire_wx/day1fireotlk_sm.png'></a></td>\n";
+                print "<td valign='top'><a href='/products/fire_wx/'>Day 1 Fire Weather Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+        if (($prodType == "FIRE" ) && ($timeDiff > "3600" )) {
+		print "<ul class='SPCProductsOld'>\n";
+                print "<li><table><tr><td><a href='/products/fire_wx/'><img class='ACsm' src='/products/fire_wx/day1fireotlk_sm.png'></a></td>\n";
+                print "<td valign='top'><a href='/products/fire_wx/'>Day 1 Fire Weather Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+	if (($prodType == "FIRE2" ) && ($timeDiff <= "3600" )) {
+		print "<ul class='SPCProductsNew'>\n";
+                print "<li><table><tr><td><a href='/products/fire_wx/#Day2'><img class='ACbg' src='/products/fire_wx/day2fireotlk_sm.png'></a></td>\n";
+                print "<td valign='top'><a href='/products/fire_wx/#Day2'>Day 2 Fire Weather Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+        if (($prodType == "FIRE2" ) && ($timeDiff > "3600" )) {
+		print "<ul class='SPCProductsOld'>\n";
+                print "<li><table><tr><td><a href='/products/fire_wx/#Day2'><img class='ACsm' src='/products/fire_wx/day2fireotlk_sm.png'></a></td>\n";
+                print "<td valign='top'><a href='/products/fire_wx/#Day2'>Day 2 Fire Weather Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+	if (($prodType == "FIRE3" ) && ($timeDiff <= "3600" )) {
+		print "<ul class='SPCProductsNew'>\n";
+                print "<li><table><tr><td><a href='/products/exper/fire_wx/><img class='ACbg' src='/products/exper/fire_wx/day3-8fireotlk_sm.png'></a></td>\n";
+                print "<td valign='top'><a href='/products/exper/fire_wx/>Day 3-8 Fire Weather Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+        if (($prodType == "FIRE3" ) && ($timeDiff > "3600" )) {
+		print "<ul class='SPCProductsOld'>\n";
+                print "<li><table><tr><td><a href='/products/exper/fire_wx/'><img class='ACsm' src='/products/exper/fire_wx/day3-8fireotlk_sm.png'></a></td>\n";
+                print "<td valign='top'><a href='/products/exper/fire_wx/'>Day 3-8 Fire Weather Outlook</a><br>\n";
+		print "$issueLabel\n";
+                print "</td></tr></table></li></ul>\n";
+        }
+
+
+
+}
+
+?>
+</div>
+</body></html>

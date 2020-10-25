@@ -1,0 +1,4 @@
+HIGH,0,0,0.0,0.0,0.0
+MODERATE,0,0,0.0,0.0,0.0
+SLIGHT,225503,4658596,12.5,1.9,0.6
+SLIGHT,Omaha, NE,Des Moines, IA,Rochester, MN,Eau Claire, WI,La Crosse, WI,

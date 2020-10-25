@@ -1,0 +1,13 @@
+<div id="HighlightContainer">
+  <table>
+    <tr>
+      <td colspan="2" valign="top" width="66%" id="TopicContainer">
+        <?php include($_SERVER['DOCUMENT_ROOT']."/new/SocialMedia/facebook.html"); ?>
+      </td>
+      <td valign="top" width="33%" id="TopicContainer">  
+        <?php include($_SERVER['DOCUMENT_ROOT']."/new/SocialMedia/twitter.html"); ?>
+      </td>
+    </tr>
+  </table>
+</div><!--end HighlightContainer-->
+<!--End Socail Media -->
