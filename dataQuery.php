@@ -1,13 +1,18 @@
 <?php
 	date_default_timezone_set("Etc/UTC");
-		
-	$srcDir1 = "/vdevweb2/";
-	$srcDir2 = "/var/www/html/";
-	
-	$srcDir = $srcDir2."devweb/public_html2/data/scripts/dataquery/src";
-	
-	
-	//Get options for search from url -- this is tricky so all inputs that 
+
+	$docRoot = $_SERVER['DOCUMENT_ROOT'];
+
+	if($docRoot == ""){
+		$docRoot = getcwd();
+	}
+	//$srcDir1 = "/vdevweb2/";
+	//$srcDir2 = "/var/www/html/";
+
+	$srcDir = "$docRoot/src";
+
+
+	//Get options for search from url -- this is tricky so all inputs that
 	//aren't exact will be ignored and the script WILL NOT run
 	$longopts = array(
 		"dtype:",
@@ -74,7 +79,7 @@
 	}else{
 		handleError(2);
 	}
-	
+
 	//Data Type options
 	if(isset($options["dtype"])){
 		$dtype = $options["dtype"];
@@ -156,7 +161,7 @@
 	}else{
 		handleError(3);
 	}
-	
+
 	if($v){
 		print "<br>";
 		print "Start Date/Time: $start_date<br>";
@@ -169,7 +174,7 @@
 			print "Watch Type(s): ".join(", ", $types)."<br>";
 		}
 	}
-	
+
 	//Determine other filters
 	//State
 	if(isset($options["states"])){
@@ -220,7 +225,7 @@
 		}
 		print "<br>";
 	}
-	
+
 	$args = array();
 	array_push($args, escapeshellarg($start_date));
 	array_push($args, escapeshellarg($end_date));
@@ -234,7 +239,7 @@
 	if($fips){
 		array_push($args, escapeshellarg(strtoupper('FIPS='.join(",", ($fips)))));
 	}
-	
+
 	if($rtype){
 		//$command = './dataQuery reports '.$arg2.' '.$arg3.' '.$arg4.' CWA=OUN';
 		$command = './dataQuery reports '.join(" ", ($args));
@@ -243,20 +248,20 @@
 		$json = `$escaped_command`;
 	}else if($wtype){
 		echo "dataQuery script doesn't work for watches yet<br>";
-		exit(1); 
-	}	
-	if($v){	
+		exit(1);
+	}
+	if($v){
 		switch(json_last_error()){
 			case JSON_ERROR_NONE:
 				echo '- No errors parsing JSON<br>';
-			break;	
+			break;
 		}
-	}	
-	
+	}
+
 	print_r($json);
-	
+
 	if($v){echo "<br>";}
-	
+
 	function create_date($d){
 		if((strlen($d) == 8) || (strlen($d) == 10) || (strlen($d) == 12)){
 			if(strlen($d) == 8){
@@ -277,7 +282,7 @@
 			exit();
 		}
 	}
-	
+
 	function check_states($s){
 		$states = explode(",", $s);
 		//print_r($states);
@@ -318,16 +323,16 @@
 		#my @cwas;
 		#push @cwas, @sr_cwas, @cr_cwas, @wr_cwas, @er_cwas, "???";
 	}
-	
-	function check_fips($f){
-	
-		return true;
-		
-	}
-	
 
-	
-	
+	function check_fips($f){
+
+		return true;
+
+	}
+
+
+
+
 	function handleError($errorNum){
 		$valid_report_types = array("A", "T", "W", "G", "All", "AllWind");
 		$valid_watch_types = array("TOR", "SVR", "PDSTOR", "PDSSVR", "All");

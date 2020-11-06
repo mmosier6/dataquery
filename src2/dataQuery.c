@@ -8,6 +8,7 @@ float distance(float lat1, float lon1, float lat2, float lon2);
 void substring(char s[], char sub[], int p, int l);
 
 #include "parseReports.h"
+#include "parseWatches.h"
 
 int main(int argc, const char *argv[]) {
 	//char st[255], st2[255], *csv, *testchar, delim[2];
@@ -70,10 +71,31 @@ int main(int argc, const char *argv[]) {
 				//printf("%s found!\n", fname);
 				parseReportCSV(fname, sdt, edt, search1, search2, search3);
 			} else {
-				printf("ERROR: %s not found. Exiting...\n", fname);
+				printf("\tERROR: %s not found. Exiting...\n", fname);
 				return 0;
 			}
 		}
+	}else if(strcmp(dtype, "watches") == 0){
+		//Test for reports file
+		strcpy(fname, "./work/watch_collection_2020.csv");
+		if( access( fname, F_OK ) != -1 ) {
+    	// file exists
+			//printf("%s found!\n", fname);
+		}else {
+			strcpy(fname, "../work/watch_collection_2020.csv");
+			if( access( fname, F_OK ) != -1 ) {
+				// file exists
+				//printf("%s found!\n", fname);
+				parseWatchCSV(fname, sdt, edt, search1, search2, search3);
+			} else {
+				printf("\tERROR: %s not found. Exiting...\n", fname);
+				return 0;
+			}
+		}
+	}else if(strcmp(dtype, "outlook") == 0){
+
+	}else{
+		printf("\tERROR: Only data types accepted: reports, watches, outlooks\n\n");
 	}
 
 	return 1;
