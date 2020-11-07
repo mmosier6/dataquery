@@ -80,7 +80,7 @@ int main(int argc, const char *argv[]) {
 		strcpy(fname, "./work/watch_collection_2020.csv");
 		if( access( fname, F_OK ) != -1 ) {
     	// file exists
-			//printf("%s found!\n", fname);
+			parseWatchCSV(fname, sdt, edt, search1, search2, search3);
 		}else {
 			strcpy(fname, "../work/watch_collection_2020.csv");
 			if( access( fname, F_OK ) != -1 ) {
