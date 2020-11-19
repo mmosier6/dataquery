@@ -243,13 +243,13 @@
 	if($rtype){
 		//$command = './dataQuery reports '.$arg2.' '.$arg3.' '.$arg4.' CWA=OUN';
 		$command = './dataQuery reports '.join(" ", ($args));
-		$escaped_command = escapeshellcmd($command);
-		if($v){echo $escaped_command."<br>";}
-		$json = `$escaped_command`;
 	}else if($wtype){
-		echo "dataQuery script doesn't work for watches yet<br>";
-		exit(1);
+		$command = './dataQuery watches '.join(" ", ($args));
 	}
+	$escaped_command = escapeshellcmd($command);
+	if($v){echo $escaped_command."<br>";}
+	$json = `$escaped_command`;
+
 	if($v){
 		switch(json_last_error()){
 			case JSON_ERROR_NONE:

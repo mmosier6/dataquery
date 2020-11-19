@@ -17,9 +17,9 @@ void parseWatchCSV(char *fname,  char *sdt, char *edt, char *search1, char *sear
   char keys[NUMBER_OF_WATCH_KEYS][100], match[MAX_WATCH_LINE_LENGTH];
  	char *search, *m, search_cat[NUMBER_OF_SEARCH_CATS][100], search_criteria[NUMBER_OF_SEARCH_CATS][5*15];
  	char search_cat_copy[NUMBER_OF_SEARCH_CATS][100], search_criteria_copy[NUMBER_OF_SEARCH_CATS][5*15], *search_cat_ptr[NUMBER_OF_SEARCH_CATS], *search_criteria_ptr[NUMBER_OF_SEARCH_CATS];
- 	
+
  	if(DEBUG == 1){printf("Processing %s\n", fname);}
- 	
+
 	//Get search criteria
 	for(z = 1; z < NUMBER_OF_SEARCH_CATS + 1; z++){
 		if(z == 1){
@@ -45,13 +45,13 @@ void parseWatchCSV(char *fname,  char *sdt, char *edt, char *search1, char *sear
 				search = search3;
 			}
 		}
-	
+
 		//search_cat[z-1] = strtok(search, "=");
 		strcpy(search_cat[z-1], strtok(search, "="));
 		//search_criteria[z-1] = strtok(NULL, "=");
-		strcpy(search_criteria[z-1],strtok(NULL, "=")); 
+		strcpy(search_criteria[z-1],strtok(NULL, "="));
 	}
-	
+
 	for(i = 1; i < NUMBER_OF_SEARCH_CATS+1; i++){
 		if(DEBUG == 1){printf("Search %i: %s = %s\n", i, search_cat[i-1], search_criteria[i-1]);}
 	}
@@ -59,23 +59,23 @@ void parseWatchCSV(char *fname,  char *sdt, char *edt, char *search1, char *sear
 	if(DEBUG == 1){printf("End datetime: %s\n", edt);}
 
 	fp = fopen(fname, "rt");
- 	
+
  	while(!feof(fp)) {
 		//printf("Line Number: %i\n", l);
 		fgets(st, MAX_WATCH_LINE_LENGTH, fp);
 		stlen = strlen(st);
-		
+
 		//Remove newline
 		st[strlen(st)-1] = 0;
     if(DEBUG == 1){printf("Line (%i): %s\n", l, st);}
-    
-   	//Copy in search categories 
+
+   	//Copy in search categories
    	for(i = 0; i < NUMBER_OF_SEARCH_CATS; i++){
 			strcpy(search_cat_copy[i], search_cat[i]);
 			strcpy(search_criteria_copy[i], search_criteria[i]);
 			//strcpy(search_cat[i], search_cat_copy[i]);
 			//strcpy(search_criteria[i], search_criteria_copy[i]);
-		}	
+		}
 
 		if(st[0] == '\0'){
 			l++;
@@ -90,7 +90,7 @@ void parseWatchCSV(char *fname,  char *sdt, char *edt, char *search1, char *sear
 				if(DEBUG == 1){printf("Search Category: %s, criteria here: %s\n", search_cat_copy[i], search_criteria_copy[i]);}
 				search_cat_ptr[i] = search_cat_copy[i];
 				search_criteria_ptr[i] = search_criteria_copy[i];
-			}	
+			}
 			parseWatchLine(keys, st, sdt, edt, search_cat_ptr, search_criteria_ptr, match);
       if(DEBUG == 1){printf("Match: %s\n", match);}
 			if(strcmp(match, "") == 0){
@@ -123,7 +123,7 @@ void parseWatchCSV(char *fname,  char *sdt, char *edt, char *search1, char *sear
 				strcpy(keys[i], strtok(NULL, ","));
 			}
 		}
-		
+
 		l++;
 		st[0] = '\0';
 	}
@@ -133,39 +133,39 @@ void parseWatchCSV(char *fname,  char *sdt, char *edt, char *search1, char *sear
   }else{
     printf("]");
   }
- 
+
 }
 
 //void parseWatchLine(char keys[NUMBER_OF_WATCH_KEYS][100], char *st, char *sdt, char *edt, char *search1, char *search2, char *search3, char *match) {
 void parseWatchLine(char keys[NUMBER_OF_WATCH_KEYS][100], char *st, char *sdt, char *edt, char *search_cat[NUMBER_OF_SEARCH_CATS], char *search_criteria[NUMBER_OF_SEARCH_CATS], char *match){
   int i, ii, z, test[NUMBER_OF_WATCH_KEYS], cc;
-  char *s[NUMBER_OF_WATCH_KEYS]; 
+  char *s[NUMBER_OF_WATCH_KEYS];
   double wsdt, wedt, s_sdt, s_edt;
   char search[255], *testchar, delim;
  	char *search_criteria_list[15], *search_crit_orig;
  	char out[MAX_WATCH_LINE_LENGTH+100], out2[MAX_WATCH_LINE_LENGTH+100];
- 			
+
   // Split CSV into char arrayß
   //printf("\nLine: %s\n", st);
-	
+
 	s[0] = strtok(st, ",");
   //strcpy(csv[0], strtok(st, ","));
 	//printf("%s => %s\n", keys[0], s[0]);
 	test[0] = 1;
   for(i=1;i<NUMBER_OF_WATCH_KEYS;i++) {
    	s[i] = strtok(NULL, ",");
-   	test[i] = -1; 
-  }  
-  
+   	test[i] = -1;
+  }
+
   for(i=1;i<NUMBER_OF_WATCH_KEYS;i++) {
-  	if(DEBUG == 1){printf("Watch key: %s\n", keys[i]);}  	
+  	if(DEBUG == 1){printf("Watch key: %s\n", keys[i]);}
    	//Check times
    	//Start time
    	if(strcmp("SEL_ISSUE_DT", keys[i]) == 0){
    		test[i] = 0;
    		if(strcmp(sdt, "any") == 0){
    			test[i] = 1;
-   			continue;	
+   			continue;
    		}else{
 				wsdt = atof(s[i]);
 				s_sdt= atof(sdt);
@@ -174,13 +174,13 @@ void parseWatchLine(char keys[NUMBER_OF_WATCH_KEYS][100], char *st, char *sdt, c
 				continue;
    		}
    	}
-   	
+
    	//End time
    	if(strcmp("SEL_EXPIRE_DT", keys[i]) == 0){
    		test[i] = 0;
    		if(strcmp(edt, "any") == 0){
    			test[i] = 1;
-   			continue;	
+   			continue;
    		}else{
 				wedt = atof(s[i]);
 				s_edt= atof(edt);
@@ -189,11 +189,11 @@ void parseWatchLine(char keys[NUMBER_OF_WATCH_KEYS][100], char *st, char *sdt, c
 				continue;
    		}
    	}
- 
-   	
+
+
    	//Check all other search criteria
 		if(checkWatchSearchCategory(keys[i]) != 1){
-			test[i] = 1;	
+			test[i] = 1;
 			continue;
 		}
    	for(z = 0; z < NUMBER_OF_SEARCH_CATS; z++){
@@ -230,23 +230,23 @@ void parseWatchLine(char keys[NUMBER_OF_WATCH_KEYS][100], char *st, char *sdt, c
 					}else{
 						search_criteria_list[0] = search_criteria[z];
 					}
-					//At this point search_criteria_list should contain each search criteria for the 
+					//At this point search_criteria_list should contain each search criteria for the
 					//given category (i.e. if category is ST then it will have 0: TX, 1: OK, 2: KS)
-					//as listed by on the command line 
+					//as listed by on the command line
 					for(ii = 0; ii < cc+1; ii++){
-						if(DEBUG == 1){printf("\t\t\tSearching for %s\n", search_criteria_list[ii]);} 
+						if(DEBUG == 1){printf("\t\t\tSearching for %s\n", search_criteria_list[ii]);}
 						if(strstr(s[i], search_criteria_list[ii]) != NULL){
 							if(DEBUG == 1){printf("\t\t\t\t Match (%s) found!\n", strstr(s[i], search_criteria_list[ii]));}
 							test[i] = 1;
-						}	
+						}
 					}
    			}
    		}
    	}
-   	
+
    	if(test[i] == 0){break;}
-  }	
-  
+  }
+
   for(i=0;i<NUMBER_OF_WATCH_KEYS;i++) {
   	if(DEBUG == 1){printf("%s = %i\n", keys[i], test[i]);}
   	if(test[i] == 0){
@@ -261,11 +261,11 @@ void parseWatchLine(char keys[NUMBER_OF_WATCH_KEYS][100], char *st, char *sdt, c
 			}
   	}
   }
-  
+
 	sprintf(out2, "}");
 	strcat(out, out2);
 	strcpy(match, out);
-	
+
 	return;
 }
 

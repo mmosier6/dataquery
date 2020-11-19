@@ -88,9 +88,9 @@ void parseReportLine(char keys[10][100], char *st, char *sdt, char *edt, char *s
 	//char sy[4], sm[2], sd[2], sh[2], sn[2], ss[2];
 	char sy[5], sm[3], sd[3], sh[3], sn[3], ss[3];
 	char ey[4], em[2], ed[2], eh[2], en[2], es[2];
-	char tmpstr[4], search_cat[255], search_criteria[255],search_criteria_list[15][255], *testchar, delim, s[255], tok[5];
-	int ry, rm, rd, rh, rn, rs, aa, bb;
-	int keynum, rtype_match = 0, dt_match = 0, s1_match = 0, s2_match = 0, s3_match = 0, a_match = 0;
+	char tmpstr[4], search_cat[255], search_criteria[255],search_criteria_list[15][255], *testchar, delim, s[255];
+	int ry, rm, rd, rh, rn, rs;
+	int keynum, rtype_match = 0, dt_match = 0, s1_match = 0, s2_match = 0, s3_match = 0;
 	double rdt, s_sdt, s_edt;
 	size_t n;
 
@@ -171,28 +171,9 @@ void parseReportLine(char keys[10][100], char *st, char *sdt, char *edt, char *s
 			}
 
 			//Second: Check each 'search' criteria
-      //printf("%s\n", s);
-      if(strstr(s, ">=") != NULL){
-        //printf("GTE\n");
-        strcpy(tok, ">=");
-      }else if(strstr(s, ">") != NULL){
-        //printf("GT!\n");
-        strcpy(tok, ">");
-      }else if(strstr(s, "<=") != NULL){
-        strcpy(tok, "<=");
-      }else if(strstr(s, "<") != NULL){
-        //printf("LT!\n");
-        strcpy(tok, "<");
-      }else if(strstr(s, "!=") != NULL){
-        strcpy(tok, "!=");
-      }else if(strstr(s, "=") != NULL){
-        //printf("EQ!\n");
-        strcpy(tok, "=");
-      }
-      strcpy(search_cat, strtok(s, tok));
-      strcpy(search_criteria, strtok(NULL, tok));
-
-			if(checkSearchCategory("report", search_cat) != 0){
+			strcpy(search_cat, strtok(s, "="));
+			strcpy(search_criteria, strtok(NULL, "="));
+			if(checkSearchCategory("report", search_cat) == 1){
 				//Count commas to get all the search variables
 				delim =  ',';
 				cc = 0;
@@ -221,45 +202,22 @@ void parseReportLine(char keys[10][100], char *st, char *sdt, char *edt, char *s
 						keynum = i;
 					}
 				}
-	      if(checkSearchCategory("report", search_cat) == 2){
-          //printf("Keynum: %i\n", keynum);
-          //printf("Key: %s\n", keys[keynum]);
-          //printf("Value: %s\n", csv[keynum]);
-          aa = atoi(csv[keynum]);
-          bb = atoi(search_criteria_list[0]);
-          if(strcmp(tok,">=") == 0){
-            if(aa >= bb){a_match = 1;}
-          }else if(strcmp(tok,">") == 0){
-            if(aa > bb){a_match = 1;}
-          }else if(strcmp(tok,"<=") == 0){
-            if(aa <= bb){a_match = 1;}
-          }else if(strcmp(tok,"<") == 0){
-            if(aa < bb){a_match = 1;}
-          }else if(strcmp(tok, "!=") == 0){
-            if(aa != bb){a_match = 1;}
-          }else if(strcmp(tok,"=") == 0){
-            if(aa == bb){a_match = 1;}
-          }
-          if(a_match == 1){
-            if(z == 1){s1_match = 1;}
-            if(z == 2){s2_match = 1;}
-            if(z == 3){s3_match = 1;}
-          }
-        }else{
-  				//See if data matches any values in search criteria list
-  				for(i = 0; i < cc+1; i++){
-  					//printf("\tSearch criteria: %s\n", search_criteria_list[i]);
-  					if(strcmp("ALL",search_criteria_list[i]) == 0){
-  						if(z == 1){s1_match = 1;}
-  						if(z == 2){s2_match = 1;}
-  						if(z == 3){s3_match = 1;}
-  					}else if(strcmp(csv[keynum],search_criteria_list[i]) == 0){
-  						if(z == 1){s1_match = 1;}
-  						if(z == 2){s2_match = 1;}
-  						if(z == 3){s3_match = 1;}
-  					};
-  				}
-        }
+				//printf("Keynum: %i\n", keynum);
+				//printf("Key: %s\n", keys[keynum]);
+				//printf("Value: %s\n", csv[keynum]);
+				//See if data matches any values in search criteria list
+				for(i = 0; i < cc+1; i++){
+					//printf("\tSearch criteria: %s\n", search_criteria_list[i]);
+					if(strcmp("ALL",search_criteria_list[i]) == 0){
+						if(z == 1){s1_match = 1;}
+						if(z == 2){s2_match = 1;}
+						if(z == 3){s3_match = 1;}
+					}else if(strcmp(csv[keynum],search_criteria_list[i]) == 0){
+						if(z == 1){s1_match = 1;}
+						if(z == 2){s2_match = 1;}
+						if(z == 3){s3_match = 1;}
+					};
+				}
 			}else{
 				printf("\tInvalid 'search' category: %s. Exiting\n", search_cat);
 				strcpy(match, "-9999");
@@ -270,7 +228,6 @@ void parseReportLine(char keys[10][100], char *st, char *sdt, char *edt, char *s
 		//printf("dt_match: %i\ns1_match: %i\ns2_match: %i\ns3_match: %i\n", dt_match, s1_match, s2_match, s3_match) ;
 
 		if((dt_match == 1) && (s1_match == 1) && (s2_match == 1) && (s3_match == 1)){
-      //printf("match!!\n");
 			for(j = 0; j < 10; j++){
 				if(j == 0){
 					sprintf(out, "{\"%s\":\"%s\"", keys[j],csv[j]);
@@ -334,15 +291,6 @@ int checkSearchCategory(char *rt, char *cat){
 		strcpy(report_cats[9],"COUNTY");
 
 		for(i = 0; i < 10; i++){
-      //if(strcmp(cat, "MAGNITUDE") == 0){
-      //  return 2;
-      //}
-      if(strcmp(cat, "INJURY") == 0){
-        return 2;
-      }
-      if(strcmp(cat, "FATALITIES") == 0){
-        return 2;
-      }
 			if(strcmp(cat, report_cats[i]) == 0){
 				return 1;
 			}
