@@ -25,7 +25,7 @@ var nextDay = new Date();
 var consDays = 1;
 var consDaysEnd;
 
-jQuery.getJSON( "/bentley/dev/page/data/topojson/output.json", function( json ) {
+jQuery.getJSON( "/src/output.json", function( json ) {
 	mapJSON = json;
  });
 

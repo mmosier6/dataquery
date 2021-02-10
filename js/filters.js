@@ -228,7 +228,7 @@ function filterFIPSandZIP(page){
 	page.FIPS = new Array();
 	jQuery.ajax({
 		dataType: "json",
-		url: "/bentley/dev/page/dataquery/src/zip2fips.json"
+		url: "/src/zip2fips.json"
 	}).done(function(data){
 		for(var p in data){
 			if(data.hasOwnProperty(p)){

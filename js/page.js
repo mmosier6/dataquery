@@ -289,9 +289,9 @@ function buildPage(page){
 		var urlStr = '';
 		if (page.dataType ==="watch"){
 			if(typeof(page.data) === 'undefined'){
-				urlStr ="/bentley/dev/page/data/collections/combined_watch_collections_2017-2020.json";
+				urlStr ="/src/combined_watch_collections_2017-2020.json";
 			}else if(typeof(page.data['watch'])){
-				urlStr ="/bentley/dev/page/data/collections/combined_watch_collections_2017-2020.json";
+				urlStr ="/src/combined_watch_collections_2017-2020.json";
 			}else{
 				urlStr = "";
 			}
@@ -299,17 +299,17 @@ function buildPage(page){
 			console.log(page.reportSource)
 			if (page.reportSource ==="LSR") {
 				if(typeof(page.data) === 'undefined'){
-					urlStr ="/bentley/dev/page/data/collections/combined_report_collections_2017-2019-packed.json";
+					urlStr ="/src/combined_report_collections_2017-2019-packed.json";
 				}else if(typeof(page.data['report'])){
-					urlStr ="/bentley/dev/page/data/collections/combined_report_collections_2017-2019-packed.json";
+					urlStr ="/src/combined_report_collections_2017-2019-packed.json";
 				}else{
 					urlStr = "";
 				}
 			} else if (page.reportSource ==="stormData") {
 				if(typeof(page.data) === 'undefined'){
-					urlStr ="/bentley/dev/page/data/collections/combined_stormdata_collections_2017-2019-packed.json";
+					urlStr ="/src/combined_stormdata_collections_2017-2019-packed.json";
 				}else if(typeof(page.data['stormData'])){
-					urlStr ="/bentley/dev/page/data/collections/combined_stormdata_collections_2017-2019-packed.json";
+					urlStr ="/src/combined_stormdata_collections_2017-2019-packed.json";
 				}else{
 					urlStr = "";
 				}
