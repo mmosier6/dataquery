@@ -1,15 +1,6 @@
 <?php
 	date_default_timezone_set("Etc/UTC");
-<<<<<<< HEAD
-		
-	$srcDir1 = "/vdevweb2/";
-	$srcDir2 = "/var/www/html/";
-	
-	$srcDir = $srcDir2."devweb/public_html2/data/dataquery/src";
-	
-	
 	//Get options for search from url -- this is tricky so all inputs that 
-=======
 
 	$docRoot = $_SERVER['DOCUMENT_ROOT'];
 
@@ -23,7 +14,6 @@
 	echo "$srcDir<br>";
 
 	//Get options for search from url -- this is tricky so all inputs that
->>>>>>> backend
 	//aren't exact will be ignored and the script WILL NOT run
 	$longopts = array(
 		"dtype:",
