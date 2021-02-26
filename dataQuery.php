@@ -4,7 +4,7 @@
 	$srcDir1 = "/vdevweb2/";
 	$srcDir2 = "/var/www/html/";
 	
-	$srcDir = $srcDir2."devweb/public_html2/data/scripts/dataquery/src";
+	$srcDir = $srcDir2."devweb/public_html2/data/dataquery/src";
 	
 	
 	//Get options for search from url -- this is tricky so all inputs that 
@@ -332,22 +332,22 @@
 		$valid_report_types = array("A", "T", "W", "G", "All", "AllWind");
 		$valid_watch_types = array("TOR", "SVR", "PDSTOR", "PDSSVR", "All");
 		print "<br>";
-		if($errorNum == 1){print "<br>ERROR: A start and end date must be set if the range option is set<br>";}
-		if($errorNum == 2){print "<br>ERROR: 'date' or 'range' (with start and end dates) must be set <br>";}
-		if($errorNum == 3){	print "<br>ERROR: 'dtype' (data type) option must be set with either 'reports', 'watches', or 'outlooks'<br>";}
-		if($errorNum == 4){	print "<br>ERROR: 'source' (report source) option must be set with either 'lsr' or 'stormdata'<br>";}
-		if($errorNum == 5){	print "<br>ERROR: 'rtype' (report type) option must be set.'<br>";}
+		if($errorNum == 1){print "<br>ERROR 1: A start and end date must be set if the range option is set<br>";}
+		if($errorNum == 2){print "<br>ERROR 2: 'date' or 'range' (with start and end dates) must be set <br>";}
+		if($errorNum == 3){	print "<br>ERROR 3: 'dtype' (data type) option must be set with either 'reports', 'watches', or 'outlooks'<br>";}
+		if($errorNum == 4){	print "<br>ERROR 4: 'source' (report source) option must be set with either 'lsr' or 'stormdata'<br>";}
+		if($errorNum == 5){	print "<br>ERROR 5: 'rtype' (report type) option must be set.'<br>";}
 		if($errorNum == 6){
-			print "<br>ERROR: 'rtype' (report type) set to an invalid report type. '<br>";
+			print "<br>ERROR 6: 'rtype' (report type) set to an invalid report type. '<br>";
 			print "Valid report types are ".join(", ", $valid_report_types)."<br>";
 		}
-		if($errorNum == 7){print "<br>ERROR: 'wtype' (watch type) option must be set.'<br>";}
+		if($errorNum == 7){print "<br>ERROR 7: 'wtype' (watch type) option must be set.'<br>";}
 		if($errorNum == 8){
-			print "<br>ERROR: 'wtype' (watch type) set to an invalid report type. '<br>";
+			print "<br>ERROR 8: 'wtype' (watch type) set to an invalid report type. '<br>";
 			print "Valid report types are ".join(", ", $valid_watch_types)."<br>";
 		}
 		if($errorNum == 9){
-			print "<br>ERROR: 'states' (state filter) set to an invalid state. '<br>";
+			print "<br>ERROR 9: 'states' (state filter) set to an invalid state. '<br>";
 		}
 		print "<br><br>";
 		exit(1);
