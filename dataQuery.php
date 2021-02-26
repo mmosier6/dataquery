@@ -9,8 +9,8 @@
 	//$srcDir1 = "/vdevweb2/";
 	//$srcDir2 = "/var/www/html/";
 
-	$srcDir = "$docRoot/src";
-
+	$srcDir = "$docRoot/data/dataquery/src-vdevweb2";
+	echo "$srcDir<br>";
 
 	//Get options for search from url -- this is tricky so all inputs that
 	//aren't exact will be ignored and the script WILL NOT run
@@ -242,9 +242,9 @@
 
 	if($rtype){
 		//$command = './dataQuery reports '.$arg2.' '.$arg3.' '.$arg4.' CWA=OUN';
-		$command = './dataQuery reports '.join(" ", ($args));
+		$command = $srcDir .'/dataQuery reports '.join(" ", ($args));
 	}else if($wtype){
-		$command = './dataQuery watches '.join(" ", ($args));
+		$command = $srcDir .'/dataQuery watches '.join(" ", ($args));
 	}
 	$escaped_command = escapeshellcmd($command);
 	if($v){echo $escaped_command."<br>";}
