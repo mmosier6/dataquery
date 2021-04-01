@@ -420,6 +420,10 @@ function createFilteredData(page){
 	}else if (page.dataType ==="report") {
 	page.crossfilters['date'] 	= page.crossfilters['all'].dimension(function(d){ return moment.utc(d['DT'], "YYYYMMDDHHmmss")});
 	page.crossfilters['type'] 	= page.crossfilters['all'].dimension(function(d){ return d["TYPE"]});
+
+	console.log('Hopefully filtered data')
+	console.log(page.data)
+
 }
 
 	/*
@@ -456,6 +460,10 @@ function getFilteredData(page){
 		var sdm = moment.utc(page.filters['date'][0]+'0000', "YYYYMMDDHHmmss");
 		var edm = moment.utc(page.filters['date'][1]+'0000', "YYYYMMDDHHmmss");
 		page.crossfilters['date'].filter(function(d){
+			
+			// ** Think this could be ...
+			return ((d >= sdm) && (d <= edm))
+			
 			if((d >= sdm) && (d <= edm)){return d;}
 		});
 	}
@@ -539,6 +547,9 @@ function getFilteredData(page){
 	var d = page.crossfilters['fips'].top(Infinity);
 	console.log(d)
 	page.data['filtered'] = d;
+	console.log('**** Filtered Data ****')
+	console.log(page.data['filtered'])
+	console.log('**** End filtered data ****')
 	displayFilteredData(page);
 	makeChart(page);
 	jQuery( "#dialog" ).dialog( "close" );

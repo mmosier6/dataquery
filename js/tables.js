@@ -14,6 +14,8 @@ total['time']['month'] = {};
 total['time']['year'] = {};
 total['time']['consecutive'] = {};
 total['time']['drought'] = {};
+
+
 var totalTitle = Array();
 var magTitle;
 var timesort;
@@ -24,6 +26,8 @@ var prevDay = new Date();
 var nextDay = new Date();
 var consDays = 1;
 var consDaysEnd;
+
+let moDays = [0,31,60,91,121,152,182,213,244,274,305,335]
 
 jQuery.getJSON( "/src/output.json", function( json ) {
 	mapJSON = json;
@@ -283,7 +287,35 @@ function format ( c ) {
 		return comparison;
 	}
 	//after filter is run, use compare funtion to sort the data
-	page.data['filtered-sorted'] = page.data['filtered'].slice().sort(compare);		
+	page.data['filtered-sorted'] = page.data['filtered'].slice().sort(compare);	
+	
+	// Make stanford table data here
+	// Get start and end day of year 
+	let count = []
+	let days = []
+	let hours = []
+	for (i=0; i < 366; i++) {
+		let day = i+1
+		let count_arr = []
+		let day_arr = []
+		let hr_arr = []
+		for (j=0; j < 24; j++) {
+			count_arr.push(0)
+			day_arr.push(day)
+			hr_arr.push(j)
+		}
+		count.push(count_arr)
+		days.push(day_arr)
+		hours.push(hr_arr)
+	}
+
+	total['stanford'] = {
+		'days':days,
+		'hours':hours,
+		'count':count
+	}
+
+	total['stanford']['unformat'] = {}
 
 	//set total array equal to zero to start
 	total['type'] = [0,0,0,0,0,0];
@@ -352,6 +384,28 @@ function format ( c ) {
 		results['DT'] = d['DT'];
 		results['DT_min'] = fulldt.slice(4,12);
 		results['DT_dis'] =  "" + fulldt.slice(4,6) +"/"+ fulldt.slice(6,8) +"/"+ fulldt.slice(0,4) +" "+ fulldt.slice(8,12) + "";
+
+		let yr = Number(fulldt.slice(0,4))
+		let mo = Number(fulldt.slice(4,6))
+		let dy = Number(fulldt.slice(6,8))
+		let hr = Number(fulldt.slice(8,10))
+		let mi = Number(fulldt.slice(10,12))
+		
+		let doy = moDays[mo-1] + dy
+
+		// if statements to add our day/hr key/value pairs
+
+		if (total['stanford']['unformat'][doy-1] === undefined) {
+			total['stanford']['unformat'][doy-1] = {}
+			total['stanford']['unformat'][doy-1][hr] = 1
+		} else {
+			if (total['stanford']['unformat'][doy-1][hr] === undefined) {
+				total['stanford']['unformat'][doy-1][hr] = 1
+			} else {
+				total['stanford']['unformat'][doy-1][hr]++
+			}
+		}
+
 		if (page.reportType === "ALL") {
 		results['MAGNITUDE'] = d['TYPE'];
 			if (d['TYPE'] === "T") {
@@ -528,8 +582,8 @@ function format ( c ) {
 		var nextCompare = "" + ("0" + (nextDay.getMonth() + 1)).slice(-2) + "" + ("0" + (nextDay.getDate())).slice(-2) + "";
 		var prevCompare = "" + ("0" + (prevDay.getMonth() + 1)).slice(-2) + "" + ("0" + (prevDay.getDate())).slice(-2) + "";
 		var dateCompare = results['DT_min'].slice(0,4);
-		console.log(dateCompare)
-		console.log(nextCompare)
+		//onsole.log(dateCompare)
+		//console.log(nextCompare)
 		if (dateCompare === nextCompare) {
 			consDays = consDays +1;
 		} else if (dateCompare === prevCompare) {
